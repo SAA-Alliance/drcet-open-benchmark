@@ -34,6 +34,14 @@ python3 -m unittest discover -s tests -v
 
 Expected result: both fixture submissions validate. The WITHHELD fixture proves that suppressed metrics do not serialize numeric values.
 
+## Results Summaries
+
+Review-only internal replay evidence is summarized separately from the protocol surface:
+
+- [DRCET-2 / DRCET-3 10M CPU Results Summary](docs/results/DRCET_2_3_10M_CPU_20260714.md)
+
+These summaries are not external certification and are not production model approval. They are included to show how DRCET evidence should disclose scope, hashes, limits, and non-claims.
+
 ## Claim Boundary
 
 A DRCET packet must make its boundary explicit:
