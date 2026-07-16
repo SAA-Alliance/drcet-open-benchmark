@@ -1,0 +1,11 @@
+[project]
+name = "drcet-open-benchmark"
+version = "0.1.0"
+description = "Open protocol and validator for Deterministic Risk Calculation Equivalence Tests"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+authors = [{name = "Scientific Analytics Alliance Inc."}]
+
+[project.scripts]
+drcet-validate = "drcet_validator.validate:main"

@@ -1,0 +1,52 @@
+{
+  "schema_version": "drcet.submission.v1",
+  "submission_id": "DRCET-SYNTH-PASS-001",
+  "drcet_version": "DRCET-1",
+  "participant": {
+    "organization": "Synthetic Fixture"
+  },
+  "engine": {
+    "name": "synthetic-reference-engine",
+    "version": "0.1.0"
+  },
+  "evidence_tier": "SYNTHETIC_FIXTURE",
+  "claim_boundary": "Synthetic protocol fixture only; not a real benchmark submission.",
+  "non_claims": [
+    "not production approval",
+    "not execution authorization",
+    "not investment advice",
+    "not external certification",
+    "not model-risk signoff"
+  ],
+  "metrics": [
+    {
+      "metric_id": "var99_10d",
+      "family": "VAR",
+      "horizon": "10D",
+      "confidence": 0.99,
+      "status": "PUBLISHED",
+      "value": -0.1234,
+      "unit": "return_fraction",
+      "tolerance": 0.001,
+      "verdict": "PASS"
+    },
+    {
+      "metric_id": "cvar99_10d",
+      "family": "CVAR",
+      "horizon": "10D",
+      "confidence": 0.99,
+      "status": "PUBLISHED",
+      "value": -0.1734,
+      "unit": "return_fraction",
+      "tolerance": 0.0015,
+      "verdict": "PASS"
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "synthetic_input_manifest",
+      "uri": "artifact://synthetic/input_manifest.json",
+      "sha256": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ]
+}

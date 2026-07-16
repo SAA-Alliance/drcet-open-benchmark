@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://saa-alliance.com/schemas/drcet/submission_v1.json",
+  "title": "DRCET Submission v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "submission_id", "drcet_version", "evidence_tier", "claim_boundary", "non_claims", "metrics", "artifacts"],
+  "properties": {
+    "schema_version": {"const": "drcet.submission.v1"},
+    "submission_id": {"type": "string", "minLength": 1},
+    "drcet_version": {"type": "string", "pattern": "^DRCET-[123]$"},
+    "participant": {"type": "object"},
+    "engine": {"type": "object"},
+    "evidence_tier": {"enum": ["SYNTHETIC_FIXTURE", "INTERNAL_REPRODUCTION", "INDEPENDENT_REPRODUCTION", "EXTERNAL_CERTIFICATION"]},
+    "claim_boundary": {"type": "string", "minLength": 1},
+    "non_claims": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "metrics": {"type": "array", "items": {"$ref": "#/$defs/metric"}, "minItems": 1},
+    "artifacts": {"type": "array", "items": {"$ref": "#/$defs/artifact"}, "minItems": 1}
+  },
+  "$defs": {
+    "metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["metric_id", "family", "status", "verdict"],
+      "properties": {
+        "metric_id": {"type": "string"},
+        "family": {"enum": ["VAR", "ES", "CVAR", "DRAWDOWN", "RECOVERY", "TIME_UNDERWATER", "JUMP_COUNT", "ATTRIBUTION", "STRESS"]},
+        "horizon": {"type": "string"},
+        "confidence": {"type": "number"},
+        "status": {"enum": ["PUBLISHED", "WITHHELD", "DATA_SUSPECT", "NO_DATA", "FAILED"]},
+        "value": {"type": "number"},
+        "unit": {"type": "string"},
+        "tolerance": {"type": "number"},
+        "verdict": {"enum": ["PASS", "WATCH", "FAIL", "WITHHELD"]},
+        "failed_pillar": {"type": "string"},
+        "unlock_path": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "sha256"],
+      "properties": {
+        "name": {"type": "string"},
+        "uri": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"}
+      }
+    }
+  }
+}

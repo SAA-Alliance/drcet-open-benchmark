@@ -1,0 +1,5 @@
+DRCET Open Benchmark Protocol
+Copyright 2026 Scientific Analytics Alliance Inc.
+
+This repository publishes a protocol, schema, validator, and synthetic fixtures.
+It does not publish client data, private engine source, or external certification evidence.

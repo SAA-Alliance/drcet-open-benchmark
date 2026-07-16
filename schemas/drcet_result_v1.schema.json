@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://saa-alliance.com/schemas/drcet/result_v1.json",
+  "title": "DRCET Result v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "submission_id", "validator_version", "status", "checks"],
+  "properties": {
+    "schema_version": {"const": "drcet.result.v1"},
+    "submission_id": {"type": "string"},
+    "validator_version": {"type": "string"},
+    "status": {"enum": ["PASS", "WATCH", "FAIL"]},
+    "checks": {"type": "array", "items": {"type": "object"}},
+    "errors": {"type": "array", "items": {"type": "string"}}
+  }
+}

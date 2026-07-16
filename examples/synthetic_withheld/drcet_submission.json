@@ -1,0 +1,42 @@
+{
+  "schema_version": "drcet.submission.v1",
+  "submission_id": "DRCET-SYNTH-WITHHELD-001",
+  "drcet_version": "DRCET-2",
+  "participant": {
+    "organization": "Synthetic Fixture"
+  },
+  "engine": {
+    "name": "synthetic-reference-engine",
+    "version": "0.1.0"
+  },
+  "evidence_tier": "SYNTHETIC_FIXTURE",
+  "claim_boundary": "Synthetic WITHHELD fixture proving suppression inheritance.",
+  "non_claims": [
+    "not production approval",
+    "not execution authorization",
+    "not investment advice",
+    "not external certification",
+    "not model-risk signoff"
+  ],
+  "metrics": [
+    {
+      "metric_id": "max_drawdown_90d",
+      "family": "DRAWDOWN",
+      "horizon": "90D",
+      "status": "WITHHELD",
+      "verdict": "WITHHELD",
+      "failed_pillar": "insufficient_reference_paths",
+      "unlock_path": [
+        "attach reference path manifest",
+        "rerun equivalence validator"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "synthetic_withheld_manifest",
+      "uri": "artifact://synthetic/withheld_manifest.json",
+      "sha256": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  ]
+}

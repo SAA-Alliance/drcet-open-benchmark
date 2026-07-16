@@ -1,0 +1,20 @@
+name: DRCET CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate fixtures
+        run: |
+          python3 -m drcet_validator.validate examples/synthetic_pass/drcet_submission.json
+          python3 -m drcet_validator.validate examples/synthetic_withheld/drcet_submission.json
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
