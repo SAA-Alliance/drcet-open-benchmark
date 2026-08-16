@@ -1,6 +1,6 @@
 {
   "disclosure_boundary": "public_safe_synthetic_and_review_only_evidence_no_production_kernel_no_client_data",
-  "generated_at_utc": "2026-08-16T11:49:04Z",
+  "generated_at_utc": "2026-08-16T12:15:33Z",
   "must_not_claim": [
     "production ARIN22 kernel benchmarked",
     "external certification",
@@ -42,7 +42,7 @@
       "resolvent_order_release_gate_status": "PASS_NONCONVERGENT_ROWS_FAIL_CLOSED",
       "silent_release_nonconvergent_count": 0,
       "status": "VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING",
-      "status_sha256": "sha256:3bdfa91e0ca0cfdaee2dc6cba609b5c26b16b0110d3529cff601dc7343557744"
+      "status_sha256": "sha256:61d7266d4625cef0aa21bc270b1a58c382c4b820c346e30fa44d72b0b447182f"
     },
     "drcet4d_continuum_spatial_refinement": {
       "artifact_path": "docs/benchmarks/drcet4d_continuum_spatial_refinement_v1_20260816",

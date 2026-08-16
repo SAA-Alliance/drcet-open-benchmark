@@ -1,6 +1,6 @@
 {
   "file_count": 117,
-  "generated_at_utc": "2026-08-16T11:49:04Z",
+  "generated_at_utc": "2026-08-16T12:15:33Z",
   "included_dirs": [
     "docs/benchmarks/deep_tail_rare_event_challenge_v1_20260815",
     "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815",
@@ -16,11 +16,11 @@
     "scripts/check_drcet4c_chernoff_remizov_resolvent_v1.py",
     "scripts/check_drcet4d_continuum_spatial_refinement_v1.py"
   ],
-  "manifest_sha256": "sha256:3ca2b0e494a42dd3918fe0ee0dd4d696e67214eef3abca03122d8f7df75ff1b1",
+  "manifest_sha256": "sha256:2f8a0c5bb8eb0d208e46f3ed397d1aa22c77ce3c759fa77ef76bb84808d86636",
   "output_dir": "drcet_open_benchmark_public_safe_v1",
   "schema_id": "saa.benchmark.drcet.open_public_export_receipt.v1",
   "scrub_guard": {
-    "banned_pattern_count": 12,
+    "banned_pattern_count": 14,
     "findings_count": 0,
     "status": "PASS"
   },

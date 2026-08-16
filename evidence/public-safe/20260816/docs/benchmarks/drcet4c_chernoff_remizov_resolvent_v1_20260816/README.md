@@ -3,7 +3,7 @@
 Status: `VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING`
 
 This pack closes the DRCET-4B object mismatch by adding a resolvent lane. It is
-public-safe and review-only: it exercises a bounded synthetic five-factor
+public-safe and review-only: it exercises a bounded synthetic multi-factor
 palindromic Chernoff surrogate, not the protected production ARIN22 kernel and
 not protected production operator factors.
 

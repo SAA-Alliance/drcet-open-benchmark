@@ -38617,7 +38617,7 @@
   "composition_weights_hash": "sha256:97c03fffe9415f4f13fb8560eb7f3dc5915d2cb56ccd69371882ec5983a01f00",
   "contract_sha256": "sha256:a1d6a5d8be733889b0742d27396dc0bfa6735612d6747102074f36cdf722c1d0",
   "contract_version": "saa.benchmark.drcet4c.chernoff_remizov_resolvent.v1",
-  "generated_at_utc": "2026-08-16T11:46:10Z",
+  "generated_at_utc": "2026-08-16T12:14:43Z",
   "laguerre_nodes": [
     0.029811235829960096,
     0.15710799061787767,

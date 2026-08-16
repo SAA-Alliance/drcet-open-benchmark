@@ -22,7 +22,7 @@ corpora or commercial production datasets.
 
 - DRCET-4 status SHA: `sha256:298a49ff8071e54c90f52ca49d45b153f446644ee4a71fc92675a3e4f82e421d`
 - DRCET-4B status: `VALIDATED_PASS_REVIEW_ONLY_REMIZOV_CHERNOFF_CONVERGENCE_LANE`
-- DRCET-4C status SHA: `sha256:3bdfa91e0ca0cfdaee2dc6cba609b5c26b16b0110d3529cff601dc7343557744`
+- DRCET-4C status SHA: `sha256:61d7266d4625cef0aa21bc270b1a58c382c4b820c346e30fa44d72b0b447182f`
 - DRCET-4C released rows: `155`
 - DRCET-4C non-convergent fail-closed rows: `25`
 - DRCET-4C silent non-convergent releases: `0`

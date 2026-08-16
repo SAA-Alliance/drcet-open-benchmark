@@ -38,7 +38,7 @@
   },
   "contract_function_policy": {
     "disclosure_boundary": "generic factor matrices F1..F5 are synthetic public fixtures; protected production ARIN22 operator factors, weights, build context, and kernel source are not published",
-    "execution_object": "bounded five-factor palindromic Chernoff surrogate",
+    "execution_object": "bounded multi-factor palindromic Chernoff surrogate",
     "not_the_object": "I+tL Euler-Chernoff proxy from DRCET-4B",
     "policy_id": "drcet4c_public_safe_contract_surrogate_v1",
     "production_kernel_exercised": false
@@ -68,7 +68,7 @@
     "blockers": [
       "external_blind_replay_response_not_attached"
     ],
-    "request_sha256": "sha256:f0c4c166ea9053c493351aa122bf49575613b88b0523a2a0d49e03a01cc5ac13",
+    "request_sha256": "sha256:31b833b93de5abe785c44dc173744fad9c026678b63825306b437595da0180d7",
     "response_sha256": "",
     "schema_id": "saa.benchmark.drcet4c.external_blind_replay_receipt.v1",
     "status": "PENDING_EXTERNAL_BLIND_REPLAY"
@@ -78,7 +78,7 @@
   "fail_closed_outside_certified_resolvent_half_plane_rows": 120,
   "fail_closed_total_rows": 145,
   "fixture_count": 4,
-  "generated_at_utc": "2026-08-16T11:46:13Z",
+  "generated_at_utc": "2026-08-16T12:14:48Z",
   "lambda_grid_policy": {
     "counts_are_grid_coverage_not_frequency": true,
     "delta_scaled_values": [
@@ -215,9 +215,9 @@
     ],
     "case_count": 0,
     "expected_fixture_count": 4,
-    "input_sha256": "sha256:ca4efd17335ee5b4a8b0a79e1dbdd7397616c1faf953506d465c8ceb2c25834e",
+    "input_sha256": "sha256:400aaccec8e397cadc9a0a70dcc45d3fe2949a9cc2a65b319339a064d6cb5559",
     "network_mode": "not_proven",
-    "output_sha256": "sha256:64e6aaa29f60c6a54190fecfa61f57c65b809d19e9ce180d93f8a832a7a900d9",
+    "output_sha256": "sha256:8a94bcacbab8ef5d0ec6ac500ff320c344801de50f680a75ceca6c4478886526",
     "schema_id": "saa.benchmark.drcet4c.production_arin22_container_probe_receipt.v1",
     "status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED"
   },
@@ -231,9 +231,9 @@
       "policy_id": "drcet4c_container_delta_tolerance_predeclared_v1",
       "reason": "Independent Go no-egress runner evaluates the same synthetic symmetric product and Laguerre rule; tolerance is declared before output readback and covers cross-language matrix-exponential accumulation."
     },
-    "elapsed_ms": 1365.0480839423835,
+    "elapsed_ms": 3567.660083062947,
     "expected_case_count": 180,
-    "input_sha256": "sha256:eb623df0c6dd4c1a02226de1215d8a291e3c05df6af0dddb369db48bdf5721fe",
+    "input_sha256": "sha256:416896e734838847396595193296024ea31ac7941712ff7ee6a8bb9965f5392d",
     "max_abs_delta_row": {
       "case_id": "RC4C-ABC-01__lambda_1e-06__n_64",
       "delta": 3.655620346020376e-13,
@@ -249,7 +249,7 @@
       "delta_tolerance": 1.0298426630489549e-08
     },
     "network_mode": "none",
-    "output_sha256": "sha256:c1133e22f100e8ab1aad5f2d24c97694a765d282ff47ad9600d6960411bbf2aa",
+    "output_sha256": "sha256:03ab195b1094edd160eeeca67586f097cc20ca0456de9392359176420046f1b8",
     "probe_id": "drcet4c_remizov_resolvent_container_probe_v1",
     "runtime_identity": {
       "actual_G_implementation_sha256": "sha256:7a89f2e06ba3607e8f3011c21830557d8e125ea5657f50ece8d416e8da0d21cf",
@@ -262,7 +262,7 @@
     "runtime_identity_mismatches": [],
     "schema_id": "saa.benchmark.drcet4c.remizov_resolvent_container_probe_receipt.v1",
     "status": "PASS_REVIEW_ONLY_NO_EGRESS_CONTAINER_REMIZOV_RESOLVENT_LANE",
-    "stdout_tail": "{\"status\":\"PASS_REVIEW_ONLY_NO_EGRESS_CONTAINER_REMIZOV_RESOLVENT_LANE\",\"cases\":180,\"input_sha256\":\"sha256:eb623df0c6dd4c1a02226de1215d8a291e3c05df6af0dddb369db48bdf5721fe\",\"output\":\"/io/remizov_resolvent_protected_container_output.json\"}\n"
+    "stdout_tail": "{\"status\":\"PASS_REVIEW_ONLY_NO_EGRESS_CONTAINER_REMIZOV_RESOLVENT_LANE\",\"cases\":180,\"input_sha256\":\"sha256:416896e734838847396595193296024ea31ac7941712ff7ee6a8bb9965f5392d\",\"output\":\"/io/remizov_resolvent_protected_container_output.json\"}\n"
   },
   "released_rows": 155,
   "resolvent_convergence_rows": 36,
@@ -334,7 +334,7 @@
   "silent_release_nonconvergent_count": 0,
   "silent_release_outside_certified_half_plane_count": 0,
   "silent_release_outside_certified_resolvent_half_plane_count": 0,
-  "source_git_sha_at_generation": "7984863f02f7f731f5375b9cd1be9ee8977652d2",
+  "source_git_sha_at_generation": "4d4b5082bbbd879c302a5b89317515ffdababfcf",
   "status": "VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING",
   "step_counts": [
     4,
