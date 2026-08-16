@@ -3273,7 +3273,7 @@
       ],
       "lambda_real": 0.008149819348139653,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 4
     },
@@ -3429,7 +3429,7 @@
       ],
       "lambda_real": 0.008149819348139653,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 8
     },
@@ -3585,7 +3585,7 @@
       ],
       "lambda_real": 0.008149819348139653,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 16
     },
@@ -3741,7 +3741,7 @@
       ],
       "lambda_real": 0.008149819348139653,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 32
     },
@@ -3897,7 +3897,7 @@
       ],
       "lambda_real": 0.008149819348139653,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 64
     },
@@ -4053,7 +4053,7 @@
       ],
       "lambda_real": 0.0025959262728962283,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 4
     },
@@ -4209,7 +4209,7 @@
       ],
       "lambda_real": 0.0025959262728962283,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 8
     },
@@ -4365,7 +4365,7 @@
       ],
       "lambda_real": 0.0025959262728962283,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 16
     },
@@ -4521,7 +4521,7 @@
       ],
       "lambda_real": 0.0025959262728962283,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 32
     },
@@ -4677,7 +4677,7 @@
       ],
       "lambda_real": 0.0025959262728962283,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 64
     },
@@ -4833,7 +4833,7 @@
       ],
       "lambda_real": 0.0013463003309664577,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 4
     },
@@ -4989,7 +4989,7 @@
       ],
       "lambda_real": 0.0013463003309664577,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 8
     },
@@ -5145,7 +5145,7 @@
       ],
       "lambda_real": 0.0013463003309664577,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 16
     },
@@ -5301,7 +5301,7 @@
       ],
       "lambda_real": 0.0013463003309664577,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 32
     },
@@ -5457,7 +5457,7 @@
       ],
       "lambda_real": 0.0013463003309664577,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 64
     },
@@ -5613,7 +5613,7 @@
       ],
       "lambda_real": 0.0012088414773541829,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 4
     },
@@ -5769,7 +5769,7 @@
       ],
       "lambda_real": 0.0012088414773541829,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 8
     },
@@ -5925,7 +5925,7 @@
       ],
       "lambda_real": 0.0012088414773541829,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 16
     },
@@ -6081,7 +6081,7 @@
       ],
       "lambda_real": 0.0012088414773541829,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 32
     },
@@ -6237,7 +6237,7 @@
       ],
       "lambda_real": 0.0012088414773541829,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 64
     },
@@ -6393,7 +6393,7 @@
       ],
       "lambda_real": 0.001207454392558641,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 4
     },
@@ -6549,7 +6549,7 @@
       ],
       "lambda_real": 0.001207454392558641,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 8
     },
@@ -6705,7 +6705,7 @@
       ],
       "lambda_real": 0.001207454392558641,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 16
     },
@@ -6861,7 +6861,7 @@
       ],
       "lambda_real": 0.001207454392558641,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 32
     },
@@ -7017,7 +7017,7 @@
       ],
       "lambda_real": 0.001207454392558641,
       "omega_contract": 0.001207453004085372,
-      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
       "source_case_id": "RC4C-DISS-01",
       "step_count": 64
     },
@@ -38617,7 +38617,7 @@
   "composition_weights_hash": "sha256:97c03fffe9415f4f13fb8560eb7f3dc5915d2cb56ccd69371882ec5983a01f00",
   "contract_sha256": "sha256:a1d6a5d8be733889b0742d27396dc0bfa6735612d6747102074f36cdf722c1d0",
   "contract_version": "saa.benchmark.drcet4c.chernoff_remizov_resolvent.v1",
-  "generated_at_utc": "2026-08-16T11:05:35Z",
+  "generated_at_utc": "2026-08-16T11:46:10Z",
   "laguerre_nodes": [
     0.029811235829960096,
     0.15710799061787767,

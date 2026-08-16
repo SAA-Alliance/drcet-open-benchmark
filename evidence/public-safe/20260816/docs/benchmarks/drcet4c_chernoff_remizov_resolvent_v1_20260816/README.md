@@ -1,6 +1,6 @@
 # DRCET-4C Chernoff-Remizov Resolvent v1
 
-Status: `VALIDATED_PASS_WITH_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING`
+Status: `VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING`
 
 This pack closes the DRCET-4B object mismatch by adding a resolvent lane. It is
 public-safe and review-only: it exercises a bounded synthetic five-factor
@@ -13,13 +13,18 @@ not protected production operator factors.
 - Lambda sweep points per fixture: `15`.
 - Step counts: `4, 8, 16, 32, 64`.
 - Lambda sweep rows: `300`.
-- Status counts: `{'PASS_RECOMPRESSED_NEAR_BOUNDARY': 140, 'PASS_RESOLVENT_CONVERGENCE': 40, 'SAFE_FAIL_CLOSED_OUTSIDE_CERTIFIED_RESOLVENT_HALF_PLANE': 120}`.
+- Status counts: `{'PASS_RECOMPRESSED_NEAR_BOUNDARY': 115, 'PASS_RESOLVENT_CONVERGENCE': 40, 'SAFE_FAIL_CLOSED_NON_CONVERGENT': 25, 'SAFE_FAIL_CLOSED_OUTSIDE_CERTIFIED_RESOLVENT_HALF_PLANE': 120}`.
 - Count interpretation: `grid coverage, not empirical frequency`.
-- Released rows: `180`.
+- Released rows: `155`.
 - Fail-closed outside certified resolvent half-plane: `120`.
+- Fail-closed non-convergent rows: `25`.
+- Order-floor release gate: `inside-half-plane rows require observed_resolvent_order >= 1.5; otherwise status=SAFE_FAIL_CLOSED_NON_CONVERGENT`.
+- Order-floor transitions: `25` released rows moved to fail-closed.
+- Silent non-convergent releases: `0`.
 - Silent releases outside certified resolvent half-plane: `0`.
-- Max released E/B: `0.00029110261955219325`.
+- Max released E/B: `1.9310420813980992e-05`.
 - Certificate interpretation: `CONSERVATIVE_SAFETY_ENVELOPE_NOT_TIGHT_ERROR_ESTIMATE`.
+- Relative-error readback: lambda rows include `reference_resolvent_norm` and `E_over_reference_resolvent_norm`.
 - Tangency/product rows: `4`.
 - Resolvent convergence rows: `36`.
 - Resolvent order bootstrap CI: `1.9757862057800821` to `1.9923747660316546`.

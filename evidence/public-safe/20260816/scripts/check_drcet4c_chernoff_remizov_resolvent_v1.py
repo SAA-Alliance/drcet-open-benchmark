@@ -13,8 +13,9 @@ from typing import Any
 
 REPO = Path(__file__).resolve().parents[1]
 DEFAULT_PACK = REPO / "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816"
-EXPECTED_STATUS = "VALIDATED_PASS_WITH_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING"
+EXPECTED_STATUS = "VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING"
 SAFE_FAIL_CLOSED_OUTSIDE_RESOLVENT_HALF_PLANE = "SAFE_FAIL_CLOSED_OUTSIDE_CERTIFIED_RESOLVENT_HALF_PLANE"
+SAFE_FAIL_CLOSED_NON_CONVERGENT = "SAFE_FAIL_CLOSED_NON_CONVERGENT"
 LAMBDA_GATE_INSIDE = "INSIDE_CERTIFIED_RESOLVENT_HALF_PLANE"
 REQUIRED_FILES = {
     "DRCET4C_CHERNOFF_REMIZOV_RESOLVENT_STATUS.json",
@@ -138,6 +139,18 @@ def main() -> int:
         fail("median resolvent order below second-order evidence band")
     if fnum(status.get("max_released_E_over_B"), "max_released_E_over_B") >= 1.0:
         fail("released E/B exceeds declared bound")
+    order_gate = status.get("resolvent_order_release_gate", {})
+    if order_gate.get("status") != "PASS_NONCONVERGENT_ROWS_FAIL_CLOSED":
+        fail(f"order release gate did not pass: {order_gate.get('status')}")
+    if fnum(order_gate.get("order_floor"), "order gate floor") < 1.0:
+        fail("order gate floor must be explicit and nontrivial")
+    nonconvergent_fail_closed = int(status.get("fail_closed_nonconvergent_rows", -1))
+    if nonconvergent_fail_closed <= 0:
+        fail("nonconvergent rows must fail closed")
+    if nonconvergent_fail_closed != int(order_gate.get("transitioned_released_to_fail_closed_rows", -2)):
+        fail("nonconvergent fail-closed count must match order gate transitions")
+    if int(status.get("silent_release_nonconvergent_count", -1)) != 0:
+        fail("nonconvergent rows were silently released")
 
     if len(fixture_rows) != 4:
         fail(f"fixture rows must be 4, got {len(fixture_rows)}")
@@ -170,14 +183,25 @@ def main() -> int:
         released = row["released"].lower() == "true"
         delta_scaled = fnum(row["delta_scaled"], "delta_scaled")
         if inside:
-            if not released:
-                fail(f"inside half-plane row not released: {row['case_id']} n={row['step_count_n']}")
-            if not row["status"].startswith("PASS"):
-                fail(f"inside half-plane row status not PASS: {row['status']}")
             if row["certificate_E_le_B"].lower() != "true":
                 fail(f"inside half-plane E<=B failed: {row['case_id']} n={row['step_count_n']}")
             if fnum(row["bound_utilization_E_over_B"], "E/B") >= 1.0:
                 fail(f"inside half-plane E/B >= 1: {row['case_id']} n={row['step_count_n']}")
+            ref_norm = fnum(row.get("reference_resolvent_norm"), "reference_resolvent_norm")
+            rel_err = fnum(row.get("E_over_reference_resolvent_norm"), "E_over_reference_resolvent_norm")
+            if ref_norm <= 0 or rel_err < 0:
+                fail("relative error readback must be present for inside half-plane rows")
+            gate_status = row.get("convergence_release_gate_status")
+            if gate_status == SAFE_FAIL_CLOSED_NON_CONVERGENT:
+                if released:
+                    fail(f"nonconvergent inside half-plane row released: {row['case_id']} n={row['step_count_n']}")
+                if row["status"] != SAFE_FAIL_CLOSED_NON_CONVERGENT:
+                    fail(f"nonconvergent gate status mismatch: {row['status']}")
+            else:
+                if not released:
+                    fail(f"inside half-plane convergent row not released: {row['case_id']} n={row['step_count_n']}")
+                if not row["status"].startswith("PASS"):
+                    fail(f"inside half-plane convergent row status not PASS: {row['status']}")
             for field in ["B_product", "B_quadrature", "B_tail", "B_reference", "B_floating"]:
                 if fnum(row[field], field) < 0:
                     fail(f"{field} must be non-negative")
@@ -275,6 +299,8 @@ def main() -> int:
         "status_sha256": sha256_file(pack / "DRCET4C_CHERNOFF_REMIZOV_RESOLVENT_STATUS.json"),
         "artifact_manifest_sha256": sha256_file(pack / "artifact_manifest.json"),
         "lambda_status_counts": status.get("lambda_status_counts"),
+        "fail_closed_nonconvergent_rows": status.get("fail_closed_nonconvergent_rows"),
+        "released_rows": status.get("released_rows"),
         "container_status": probe.get("status"),
         "watch_items": status.get("watch_items"),
     }, indent=2, sort_keys=True))

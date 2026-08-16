@@ -5,9 +5,9 @@
   ],
   "case_count": 0,
   "expected_fixture_count": 4,
-  "input_sha256": "sha256:39ea5dda1412ba59af0a01c8af65b40c5bab25eb77a6ac7e662763ee9b358cdd",
+  "input_sha256": "sha256:ca4efd17335ee5b4a8b0a79e1dbdd7397616c1faf953506d465c8ceb2c25834e",
   "network_mode": "not_proven",
-  "output_sha256": "sha256:4976882d83592fbf0c332b826b989881ed39e8ab76e3d89b019feefa06be22e5",
+  "output_sha256": "sha256:64e6aaa29f60c6a54190fecfa61f57c65b809d19e9ce180d93f8a832a7a900d9",
   "schema_id": "saa.benchmark.drcet4c.production_arin22_container_probe_receipt.v1",
   "status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED"
 }

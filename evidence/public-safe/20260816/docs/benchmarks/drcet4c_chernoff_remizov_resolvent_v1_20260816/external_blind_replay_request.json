@@ -2,7 +2,7 @@
   "blind_replay_scope": "contract policy + fixture contract only; lambda result CSV/status JSON are excluded from replay input bundle",
   "claim_boundary": "external replay package excludes answer-key result rows and protected production kernel material",
   "expected_output_schema_id": "saa.benchmark.drcet4c.external_blind_replay_response.v1",
-  "generated_at_utc": "2026-08-16T11:05:38Z",
+  "generated_at_utc": "2026-08-16T11:46:13Z",
   "input_artifacts": [
     {
       "byte_length": 438,

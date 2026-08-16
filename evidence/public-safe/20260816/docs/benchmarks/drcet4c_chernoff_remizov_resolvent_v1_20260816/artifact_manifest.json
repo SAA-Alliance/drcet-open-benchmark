@@ -3,14 +3,14 @@
   "claim_boundary": "review_only_bounded_contract_surrogate_resolvent_validation_not_production_arin22_kernel_not_external_certification",
   "files": [
     {
-      "byte_length": 14090,
+      "byte_length": 15674,
       "path": "DRCET4C_CHERNOFF_REMIZOV_RESOLVENT_STATUS.json",
-      "sha256": "sha256:21561588424e48bffd008ac2d07ab654f53597682d0d2c1aefe38dee7a5646c8"
+      "sha256": "sha256:3bdfa91e0ca0cfdaee2dc6cba609b5c26b16b0110d3529cff601dc7343557744"
     },
     {
-      "byte_length": 2662,
+      "byte_length": 3127,
       "path": "README.md",
-      "sha256": "sha256:a684d79a79bfd8020152130d006984f023ed0352f4244cc8304eddd8f8469f9e"
+      "sha256": "sha256:373db0fe9bd35a1375629b9f3d015f0ad26fb3ba74e485aa259b11ddde51188e"
     },
     {
       "byte_length": 438,
@@ -20,32 +20,32 @@
     {
       "byte_length": 312,
       "path": "external_blind_replay_receipt.json",
-      "sha256": "sha256:5821babba282bff51c0fb39f4f56982e09c1b1a2b8b00ad1859d828d41bf6669"
+      "sha256": "sha256:941ee7661c78ad4c653aa82ae94d152a2dfadcae58101b2ac9fdc28f951d3d04"
     },
     {
       "byte_length": 1364,
       "path": "external_blind_replay_request.json",
-      "sha256": "sha256:200b820fda8125f9e9bb7d7c56a4d521e287a4a76ba4a486784fb38dc0c41fa9"
+      "sha256": "sha256:f0c4c166ea9053c493351aa122bf49575613b88b0523a2a0d49e03a01cc5ac13"
     },
     {
       "byte_length": 5626,
       "path": "production_arin22_resolvent_container_input.json",
-      "sha256": "sha256:39ea5dda1412ba59af0a01c8af65b40c5bab25eb77a6ac7e662763ee9b358cdd"
+      "sha256": "sha256:ca4efd17335ee5b4a8b0a79e1dbdd7397616c1faf953506d465c8ceb2c25834e"
     },
     {
       "byte_length": 327,
       "path": "production_arin22_resolvent_container_output.json",
-      "sha256": "sha256:4976882d83592fbf0c332b826b989881ed39e8ab76e3d89b019feefa06be22e5"
+      "sha256": "sha256:64e6aaa29f60c6a54190fecfa61f57c65b809d19e9ce180d93f8a832a7a900d9"
     },
     {
       "byte_length": 532,
       "path": "production_arin22_resolvent_container_probe.json",
-      "sha256": "sha256:8819d03b5bc3a86016ddec4810b266e353a8fd0f24e9fa66e5a1fc16f0308f6d"
+      "sha256": "sha256:97471584415940518223cf0ad3b029aee9c4caf28a36b68626c07719db9175f4"
     },
     {
       "byte_length": 4811,
       "path": "remizov_resolvent_convergence_summary.csv",
-      "sha256": "sha256:7db848176855bd14a9d0c71a65a91c8071c789e94bc242ed08f6f49115df7319"
+      "sha256": "sha256:f3019a9ab07333420df5fa83e6e28e9b1f1573e87f42904b5a6c87e99194b603"
     },
     {
       "byte_length": 2734,
@@ -53,29 +53,29 @@
       "sha256": "sha256:c27d6484423894f4aef7fc9593c5627bb2bab87cd1de982383f6453197c8568b"
     },
     {
-      "byte_length": 36245,
+      "byte_length": 38715,
       "path": "remizov_resolvent_lambda_gate_sweep.svg",
-      "sha256": "sha256:83b059f334810663cd008c8c85bd84aeb269d8fcb95ba533b00321f7ffb27aa5"
+      "sha256": "sha256:7e452bf3c0a75d31e133390d7d4932f822657423576bfffc5f6d97ec5cbdf8f6"
     },
     {
-      "byte_length": 166350,
+      "byte_length": 194496,
       "path": "remizov_resolvent_lambda_sweep_results.csv",
-      "sha256": "sha256:ba8812c0d88d8ce2e17f320dd488d08734561325f9d357e0253f2a517c49efa8"
+      "sha256": "sha256:179e5f1f88ae7adf899659e2c4f2e4664d73c240f95a34e158d831be95fe54c5"
     },
     {
       "byte_length": 103576,
       "path": "remizov_resolvent_loglog_convergence.svg",
-      "sha256": "sha256:a4b54b44091c24a4def27a505ff4c91b9c6e7006b9003edeef4e1b577b63fffe"
+      "sha256": "sha256:44f43515454f7334354d43f0e18f3b2cd182af950a8cfead8d15e5db5a95e3b6"
     },
     {
       "byte_length": 719729,
       "path": "remizov_resolvent_protected_container_input.json",
-      "sha256": "sha256:0343e1e1386e4fee4a3008b937ccbe909173633e98dc83fb64d64d4e3a4419a2"
+      "sha256": "sha256:eb623df0c6dd4c1a02226de1215d8a291e3c05df6af0dddb369db48bdf5721fe"
     },
     {
-      "byte_length": 113724,
+      "byte_length": 113715,
       "path": "remizov_resolvent_protected_container_output.json",
-      "sha256": "sha256:8abffc5c01b18327257f48283f7026a8263a25367377de755d97d102e7e2a949"
+      "sha256": "sha256:c1133e22f100e8ab1aad5f2d24c97694a765d282ff47ad9600d6960411bbf2aa"
     },
     {
       "byte_length": 703,
@@ -88,6 +88,6 @@
       "sha256": "sha256:f0c759dc1427aec63fd4d48517956d4597fee62422fe25cf132989fcd753c9b1"
     }
   ],
-  "generated_at_utc": "2026-08-16T11:05:38Z",
+  "generated_at_utc": "2026-08-16T11:46:13Z",
   "schema_id": "saa.artifact_manifest.v1"
 }

@@ -9,21 +9,21 @@
     "external_blind_replay_request_published_not_completed"
   ],
   "certificate_envelope_summary": {
-    "B_product_dominates_released_rows": 180,
+    "B_product_dominates_released_rows": 155,
     "B_product_dominates_released_share": 1.0,
     "all_released_E_le_B": true,
     "interpretation": "The a-priori bound is a conservative theorem-domain safety envelope. It certifies no released E>B breach in this bounded lane, but it is exponentially conservative near the boundary and must not be sold as a tight error estimate.",
-    "max_E_over_B": 0.00029110261955219325,
-    "max_actual_error_E": 3.67945534461313,
+    "max_E_over_B": 1.9310420813980992e-05,
+    "max_actual_error_E": 0.2259334189006217,
     "max_declared_bound_B_total": 2.1015687154893353e+18,
-    "median_B_floating": 2.7147595467025174e-09,
-    "median_B_product": 6600.113774872483,
-    "median_B_product_share_of_B_total": 0.9999999999972179,
-    "median_B_quadrature": 4.749179037388035e-12,
-    "median_E_over_B": 1.124069183959538e-06,
-    "median_actual_error_E": 0.0018962896535072997,
-    "median_declared_bound_B_total": 6600.113774880107,
-    "released_rows": 180,
+    "median_B_floating": 2.8833960164929422e-09,
+    "median_B_product": 4079.6093061108963,
+    "median_B_product_share_of_B_total": 0.9999999999983122,
+    "median_B_quadrature": 4.270526334949066e-12,
+    "median_E_over_B": 1.4237690739348717e-06,
+    "median_actual_error_E": 0.0010100518218649178,
+    "median_declared_bound_B_total": 4079.6093061130105,
+    "released_rows": 155,
     "schema_id": "saa.benchmark.drcet4c.certificate_envelope_summary.v1",
     "status": "CONSERVATIVE_SAFETY_ENVELOPE_NOT_TIGHT_ERROR_ESTIMATE"
   },
@@ -61,22 +61,24 @@
     "B_tail": "0 for Gauss-Laguerre infinite-interval quadrature; no arbitrary finite T truncation is used in this bounded v1 lane",
     "B_total": "B_product + B_quadrature + B_tail + B_reference + B_floating",
     "certificate_interpretation": "conservative safety envelope, not a tight error estimate",
-    "near_boundary_action": "recompress and widen bound near delta_scaled <= 0.02; fail closed when Re(lambda) <= omega_contract"
+    "near_boundary_action": "recompress and widen bound near delta_scaled <= 0.02; fail closed when Re(lambda) <= omega_contract or observed resolvent order is below the release floor"
   },
   "exact_resolvent_diagnostic_available_below_boundary_rows": 120,
   "external_blind_replay": {
     "blockers": [
       "external_blind_replay_response_not_attached"
     ],
-    "request_sha256": "sha256:200b820fda8125f9e9bb7d7c56a4d521e287a4a76ba4a486784fb38dc0c41fa9",
+    "request_sha256": "sha256:f0c4c166ea9053c493351aa122bf49575613b88b0523a2a0d49e03a01cc5ac13",
     "response_sha256": "",
     "schema_id": "saa.benchmark.drcet4c.external_blind_replay_receipt.v1",
     "status": "PENDING_EXTERNAL_BLIND_REPLAY"
   },
+  "fail_closed_nonconvergent_rows": 25,
   "fail_closed_outside_certified_half_plane_rows": 120,
   "fail_closed_outside_certified_resolvent_half_plane_rows": 120,
+  "fail_closed_total_rows": 145,
   "fixture_count": 4,
-  "generated_at_utc": "2026-08-16T11:05:38Z",
+  "generated_at_utc": "2026-08-16T11:46:13Z",
   "lambda_grid_policy": {
     "counts_are_grid_coverage_not_frequency": true,
     "delta_scaled_values": [
@@ -167,8 +169,9 @@
     }
   },
   "lambda_status_counts": {
-    "PASS_RECOMPRESSED_NEAR_BOUNDARY": 140,
+    "PASS_RECOMPRESSED_NEAR_BOUNDARY": 115,
     "PASS_RESOLVENT_CONVERGENCE": 40,
+    "SAFE_FAIL_CLOSED_NON_CONVERGENT": 25,
     "SAFE_FAIL_CLOSED_OUTSIDE_CERTIFIED_RESOLVENT_HALF_PLANE": 120
   },
   "lambda_sweep_deltas": [
@@ -189,7 +192,7 @@
     -0.005
   ],
   "lambda_sweep_rows": 300,
-  "max_released_E_over_B": 0.00029110261955219325,
+  "max_released_E_over_B": 1.9310420813980992e-05,
   "must_not_claim": [
     "production_ARIN22_kernel_validated_through_Remizov_route",
     "protected_operator_composition_published",
@@ -212,9 +215,9 @@
     ],
     "case_count": 0,
     "expected_fixture_count": 4,
-    "input_sha256": "sha256:39ea5dda1412ba59af0a01c8af65b40c5bab25eb77a6ac7e662763ee9b358cdd",
+    "input_sha256": "sha256:ca4efd17335ee5b4a8b0a79e1dbdd7397616c1faf953506d465c8ceb2c25834e",
     "network_mode": "not_proven",
-    "output_sha256": "sha256:4976882d83592fbf0c332b826b989881ed39e8ab76e3d89b019feefa06be22e5",
+    "output_sha256": "sha256:64e6aaa29f60c6a54190fecfa61f57c65b809d19e9ce180d93f8a832a7a900d9",
     "schema_id": "saa.benchmark.drcet4c.production_arin22_container_probe_receipt.v1",
     "status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED"
   },
@@ -228,9 +231,9 @@
       "policy_id": "drcet4c_container_delta_tolerance_predeclared_v1",
       "reason": "Independent Go no-egress runner evaluates the same synthetic symmetric product and Laguerre rule; tolerance is declared before output readback and covers cross-language matrix-exponential accumulation."
     },
-    "elapsed_ms": 1298.2966252602637,
+    "elapsed_ms": 1365.0480839423835,
     "expected_case_count": 180,
-    "input_sha256": "sha256:0343e1e1386e4fee4a3008b937ccbe909173633e98dc83fb64d64d4e3a4419a2",
+    "input_sha256": "sha256:eb623df0c6dd4c1a02226de1215d8a291e3c05df6af0dddb369db48bdf5721fe",
     "max_abs_delta_row": {
       "case_id": "RC4C-ABC-01__lambda_1e-06__n_64",
       "delta": 3.655620346020376e-13,
@@ -246,7 +249,7 @@
       "delta_tolerance": 1.0298426630489549e-08
     },
     "network_mode": "none",
-    "output_sha256": "sha256:8abffc5c01b18327257f48283f7026a8263a25367377de755d97d102e7e2a949",
+    "output_sha256": "sha256:c1133e22f100e8ab1aad5f2d24c97694a765d282ff47ad9600d6960411bbf2aa",
     "probe_id": "drcet4c_remizov_resolvent_container_probe_v1",
     "runtime_identity": {
       "actual_G_implementation_sha256": "sha256:7a89f2e06ba3607e8f3011c21830557d8e125ea5657f50ece8d416e8da0d21cf",
@@ -259,9 +262,9 @@
     "runtime_identity_mismatches": [],
     "schema_id": "saa.benchmark.drcet4c.remizov_resolvent_container_probe_receipt.v1",
     "status": "PASS_REVIEW_ONLY_NO_EGRESS_CONTAINER_REMIZOV_RESOLVENT_LANE",
-    "stdout_tail": "{\"status\":\"PASS_REVIEW_ONLY_NO_EGRESS_CONTAINER_REMIZOV_RESOLVENT_LANE\",\"cases\":180,\"input_sha256\":\"sha256:0343e1e1386e4fee4a3008b937ccbe909173633e98dc83fb64d64d4e3a4419a2\",\"output\":\"/io/remizov_resolvent_protected_container_output.json\"}\n"
+    "stdout_tail": "{\"status\":\"PASS_REVIEW_ONLY_NO_EGRESS_CONTAINER_REMIZOV_RESOLVENT_LANE\",\"cases\":180,\"input_sha256\":\"sha256:eb623df0c6dd4c1a02226de1215d8a291e3c05df6af0dddb369db48bdf5721fe\",\"output\":\"/io/remizov_resolvent_protected_container_output.json\"}\n"
   },
-  "released_rows": 180,
+  "released_rows": 155,
   "resolvent_convergence_rows": 36,
   "resolvent_convergence_status_counts": {
     "PASS_RESOLVENT_CONVERGENCE": 31,
@@ -287,11 +290,52 @@
     "seed": 2026081605,
     "status": "PASS_REPORTED_WITH_QUADRATURE_WATCH"
   },
+  "resolvent_order_release_gate": {
+    "affected_case_delta_count": 5,
+    "affected_case_deltas": [
+      {
+        "case_id": "RC4C-DISS-01",
+        "delta_scaled": 1e-09,
+        "observed_resolvent_order": -0.00012044167360438289
+      },
+      {
+        "case_id": "RC4C-DISS-01",
+        "delta_scaled": 1e-06,
+        "observed_resolvent_order": -0.00012021174608376739
+      },
+      {
+        "case_id": "RC4C-DISS-01",
+        "delta_scaled": 0.0001,
+        "observed_resolvent_order": -0.00011703130919928221
+      },
+      {
+        "case_id": "RC4C-DISS-01",
+        "delta_scaled": 0.001,
+        "observed_resolvent_order": -0.0012052657551198107
+      },
+      {
+        "case_id": "RC4C-DISS-01",
+        "delta_scaled": 0.005,
+        "observed_resolvent_order": -0.015737277410446886
+      }
+    ],
+    "order_floor": 1.5,
+    "policy_id": "drcet4c_observed_order_floor_release_gate_v1",
+    "rule": "inside-half-plane rows require observed_resolvent_order >= 1.5; otherwise status=SAFE_FAIL_CLOSED_NON_CONVERGENT",
+    "schema_id": "saa.benchmark.drcet4c.resolvent_order_release_gate.v1",
+    "source_convergence_status_counts": {
+      "PASS_RESOLVENT_CONVERGENCE": 31,
+      "WATCH_RESOLVENT_ORDER": 5
+    },
+    "status": "PASS_NONCONVERGENT_ROWS_FAIL_CLOSED",
+    "transitioned_released_to_fail_closed_rows": 25
+  },
   "schema_id": "saa.benchmark.drcet4c.chernoff_remizov_resolvent.v1",
+  "silent_release_nonconvergent_count": 0,
   "silent_release_outside_certified_half_plane_count": 0,
   "silent_release_outside_certified_resolvent_half_plane_count": 0,
-  "source_git_sha_at_generation": "75e23a8e90c861dcba907f6c205270b33cea6c12",
-  "status": "VALIDATED_PASS_WITH_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING",
+  "source_git_sha_at_generation": "7984863f02f7f731f5375b9cd1be9ee8977652d2",
+  "status": "VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING",
   "step_counts": [
     4,
     8,
