@@ -1,0 +1,22 @@
+{
+  "captured_at_utc": "2026-08-15T21:33:58Z",
+  "cpu_brand": "",
+  "cupy": {
+    "available": false,
+    "error": "",
+    "status": "WITHHELD_CUPY_NOT_AVAILABLE"
+  },
+  "host": "MacBook-Pro-ALEKSEJ.local",
+  "machine": "arm64",
+  "nvml": {
+    "available": false,
+    "reason": "nvidia-smi_not_found"
+  },
+  "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.3",
+  "rapl": {
+    "available": false,
+    "energy_uj_paths": [],
+    "status": "WITHHELD_RAPL_NOT_AVAILABLE"
+  }
+}

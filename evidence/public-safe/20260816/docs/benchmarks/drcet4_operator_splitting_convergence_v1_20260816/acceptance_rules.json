@@ -1,0 +1,25 @@
+{
+  "hard_fail": [
+    "released_result_above_declared_error_cap",
+    "broken_invariant_without_block",
+    "hash_mismatch",
+    "missing_result_declared_pass",
+    "post_hoc_reference_replacement",
+    "hidden_test_used_for_tuning",
+    "superseded_kernel_represented_as_frozen_kernel"
+  ],
+  "lie_order_band": [
+    0.8,
+    1.2
+  ],
+  "primary_slope_steps": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "strang_order_band": [
+    1.7,
+    2.3
+  ]
+}

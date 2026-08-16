@@ -1,0 +1,33 @@
+{
+  "artifact_id": "deep_tail_rare_event_challenge_v1_20260815",
+  "artifacts": [
+    {
+      "byte_length": 438652,
+      "media_type": "application/json",
+      "path": "DEEP_TAIL_RARE_EVENT_CHALLENGE_RESULT_V1.json",
+      "sha256": "sha256:f47a933c4321489f6e017fbd93ee18b556f26f428a92b5379255d2a7fb318833"
+    },
+    {
+      "byte_length": 2915,
+      "media_type": "application/json",
+      "path": "deep_tail_rare_event_summary.json",
+      "sha256": "sha256:cf792b6775e6b742c4e2c96e4d009877e75200fbd23f36d214c5582290413afe"
+    },
+    {
+      "byte_length": 30842,
+      "media_type": "text/csv",
+      "path": "deep_tail_rare_event_rows.csv",
+      "sha256": "sha256:a6344f419df7cde3ab2e21a0c414f4df5e586742dc30720066261a204bf0a5c5"
+    },
+    {
+      "byte_length": 415,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "sha256": "sha256:695c9fd81e0feab269f4c1d55b91b84e2d9d21e2a648599803752616e4547c0c"
+    }
+  ],
+  "claim_boundary": "Internal review-only pathological deep-tail challenge. Not external DRCET certification, not production model validation, not execution authorization.",
+  "generated_at_utc": "2026-08-15T20:40:46Z",
+  "manifest_sha256": "sha256:f0c86bf79fd58002ca969bd1c114ae4f5896834fba5a093505dead8bd5f2a029",
+  "schema_id": "saa.drcet.deep_tail_rare_event_manifest.v1"
+}

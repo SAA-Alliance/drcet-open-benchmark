@@ -1,0 +1,2 @@
+family,route_rows,released_rows,spectral_release_pass_rows,spectral_release_fail_rows,spectral_triggered_route_rows,spectral_triggered_recompressed_rows,safe_fail_closed_spectral_abscissa,median_spectral_bound_utilization,p95_spectral_bound_utilization,max_spectral_bound_utilization,release_rule,interpretation
+A6_near_critical,64,60,60,4,15,11,4,0.018074846670377502,1.43027035323935,7.09964489693636,"max(5e-9, 1e-4 * abs(exact_spectral_abscissa))",A6 route-proxy release requires terminal E/B and spectral-abscissa e_lambda/B_lambda to clear; terminal-only PASS is forbidden.

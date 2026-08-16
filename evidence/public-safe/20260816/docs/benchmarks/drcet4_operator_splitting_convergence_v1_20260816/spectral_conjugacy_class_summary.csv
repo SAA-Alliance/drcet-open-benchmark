@@ -1,0 +1,4 @@
+conjugacy_class,methods,diagnostic_rows,max_relative_conjugacy_residual,max_eigenvalue_abs_delta,status,e_lambda_method_ranking_allowed,interpretation
+AB_LIE_STRANG_SIMILAR_PROPAGATOR_CLASS,"LIE_AB,STRANG_ABA",384,1.4050119618243462e-13,1.2360967448777619e-13,PASS,False,"Methods in this class are spectrally indistinguishable by construction; e_lambda is a release gate, not a method ranking statistic."
+BA_LIE_STRANG_SIMILAR_PROPAGATOR_CLASS,"LIE_BA,STRANG_BAB",384,1.0910917291134551e-13,1.2279066652354231e-13,PASS,False,"Methods in this class are spectrally indistinguishable by construction; e_lambda is a release gate, not a method ranking statistic."
+YOSHIDA4_HIGHER_ORDER_NEGATIVE_SUBSTEP_CLASS,YOSHIDA4,0,,,NOT_COMPARABLE_TO_LIE_STRANG_CONJUGACY_CLASS,False,"Yoshida4 is outside the Lie/Strang spectral conjugacy class, but has a negative substep and is not admissible on irreversible semigroups."

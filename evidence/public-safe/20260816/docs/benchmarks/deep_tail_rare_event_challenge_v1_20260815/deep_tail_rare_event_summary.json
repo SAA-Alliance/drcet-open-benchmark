@@ -1,0 +1,99 @@
+{
+  "artifact_id": "deep_tail_rare_event_challenge_v1_20260815",
+  "claim_boundary": "Internal review-only pathological deep-tail challenge. Not external DRCET certification, not production model validation, not execution authorization.",
+  "confidence_levels": [
+    0.99,
+    0.995,
+    0.999,
+    0.9995,
+    0.9999
+  ],
+  "families": [
+    "Gaussian copula",
+    "Hawkes-style excitation",
+    "Merton jumps",
+    "Student-t",
+    "clustered jumps",
+    "common-factor collapse",
+    "default mixtures",
+    "discontinuous liquidity loss",
+    "mixture distributions",
+    "near-singular correlation matrices",
+    "regime switching",
+    "skewed-t",
+    "stochastic volatility",
+    "t-copula"
+  ],
+  "generated_at_utc": "2026-08-15T20:40:46Z",
+  "git_sha": "505503417e5e9c1662abd053738ad4afb99a4ef5",
+  "metrics": [
+    "VaR",
+    "ES"
+  ],
+  "must_not_claim": [
+    "No external DRCET certification",
+    "No production model validation PASS",
+    "No extreme path-count or massive-hardware claim",
+    "No PASS where references disagree"
+  ],
+  "pareto_surface_fields": [
+    "kernel_abs_error_vs_consensus_mid",
+    "consensus_interval",
+    "wall_ms",
+    "energy_wh_estimate",
+    "cost_usd_estimate",
+    "memory_mb_estimate",
+    "stability_over_seeds",
+    "routing_status"
+  ],
+  "reference_engines": [
+    "analytic_closed_form where available",
+    "importance_sampling_tail_bias where inverse-CDF likelihood-ratio reference is available",
+    "randomized_qmc_reference",
+    "massive_mc_confidence_bound",
+    "evt_gpd_tail_proxy"
+  ],
+  "reference_policy": {
+    "deep_tail_confidences": [
+      0.99,
+      0.995,
+      0.999,
+      0.9995,
+      0.9999
+    ],
+    "insufficient_reference_status": "REFERENCE_INSUFFICIENT_INCONCLUSIVE",
+    "pass_rule": "kernel value must fall inside the non-empty overlap of at least two usable reference-method uncertainty intervals",
+    "reference_disagreement_status": "REFERENCE_DISAGREEMENT_INCONCLUSIVE",
+    "usable_reference_statuses": [
+      "PASS",
+      "WATCH_SHAPE_NEAR_INFINITE_MEAN"
+    ]
+  },
+  "routing_counts": {
+    "DEEP_TAIL_CONSENSUS_PASS_REVIEW_ONLY": 72,
+    "FAIL_CLOSED_KERNEL_OUTSIDE_REFERENCE_CONSENSUS": 75,
+    "FAIL_CLOSED_REFERENCE_DISAGREEMENT": 9,
+    "FAIL_CLOSED_REFERENCE_INSUFFICIENT": 4
+  },
+  "rows": 160,
+  "run_contract": {
+    "cpu_cost_per_hour_assumed": 0.25,
+    "cpu_power_watts_assumed": 65.0,
+    "evt_threshold": 0.95,
+    "kernel_paths": 16384,
+    "mc_reference_paths": 65536,
+    "randomized_qmc_paths_per_scramble": 32768,
+    "randomized_qmc_scrambles": 3,
+    "seed": 20260815
+  },
+  "scenario_count": 16,
+  "schema_id": "saa.drcet.deep_tail_rare_event_challenge.v1",
+  "status": "REVIEW_ONLY_INTERNAL_CHALLENGE_COMPLETE",
+  "status_counts": {
+    "FAIL": 75,
+    "PASS": 72,
+    "REFERENCE_DISAGREEMENT_INCONCLUSIVE": 9,
+    "REFERENCE_INSUFFICIENT_INCONCLUSIVE": 4
+  },
+  "wall_seconds": 21.567388
+}

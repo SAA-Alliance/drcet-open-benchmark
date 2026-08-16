@@ -1,0 +1,38 @@
+# DRCET Open Benchmark
+
+Public-safe benchmark evidence package for the DRCET series.
+
+This repository intentionally publishes synthetic/review-only artifacts only.
+It does not publish production ARIN22 kernel source, protected container build
+contexts, credentials, client data, private data-room URLs, hidden adversarial
+corpora or commercial production datasets.
+
+## Current Public-Safe Status
+
+| Lane | Status | Boundary |
+| --- | --- | --- |
+| DRCET-1 tail metrics | PUBLISHED_METHOD_ATTACHED | Method citation/status only in this export. |
+| DRCET-2 path functionals | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
+| DRCET-3 attribution/stress | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
+| DRCET-4 operator splitting + 4B Chernoff convergence | PROTOCOL_FULL_LINEAR_EXACT_CONTAINER_AND_REMIZOV_CHERNOFF_LANE_VALIDATED_PRODUCTION_ARIN22_PENDING | Foundation/routing validated; production ARIN22 pending. |
+| DRCET-4C Chernoff-Remizov resolvent | VALIDATED_PASS_WITH_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING | Bounded contract-surrogate; production ARIN22 pending. |
+| DRCET-4D continuum spatial refinement | VALIDATED_PASS_PUBLIC_SAFE_CONTINUUM_SPATIAL_REFINEMENT_LANE_PRODUCTION_ARIN22_PENDING | Public-safe unbounded/continuum surrogate; production ARIN22 pending. |
+
+## Key Readbacks
+
+- DRCET-4 status SHA: `sha256:298a49ff8071e54c90f52ca49d45b153f446644ee4a71fc92675a3e4f82e421d`
+- DRCET-4B status: `VALIDATED_PASS_REVIEW_ONLY_REMIZOV_CHERNOFF_CONVERGENCE_LANE`
+- DRCET-4C status SHA: `sha256:21561588424e48bffd008ac2d07ab654f53597682d0d2c1aefe38dee7a5646c8`
+- DRCET-4D status SHA: `sha256:82f6b92871ad59bc2ec5bec803869068ac2fb49ee578f728c423505dcfd01af6`
+- DRCET-4D observed spatial order median: `2.0007826398221917`
+- DRCET-4D max E/B: `0.39999116019618314`
+- Production ARIN22 container status: `PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED`
+- External blind replay status: `PENDING_EXTERNAL_BLIND_REPLAY`
+
+## Public Wording
+
+Foundation and governed routing are validated on public-safe synthetic lanes.
+The production ARIN22 kernel remains pending until a protected production
+container is attached and replayed under the same lane contracts.
+
+See `PUBLIC_DISCLOSURE_BOUNDARY.md` before reusing any claim.

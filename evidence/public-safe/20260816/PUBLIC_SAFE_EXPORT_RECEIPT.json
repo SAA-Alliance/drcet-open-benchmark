@@ -1,0 +1,28 @@
+{
+  "file_count": 117,
+  "generated_at_utc": "2026-08-16T11:14:24Z",
+  "included_dirs": [
+    "docs/benchmarks/deep_tail_rare_event_challenge_v1_20260815",
+    "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815",
+    "docs/benchmarks/error_certificate_reliability_v1_20260815",
+    "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815",
+    "docs/benchmarks/drcet4_operator_splitting_convergence_v1_20260816",
+    "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816",
+    "docs/benchmarks/drcet4d_continuum_spatial_refinement_v1_20260816"
+  ],
+  "included_files": [
+    "docs/DRCET4_GITHUB_DISCLOSURE_BOUNDARY.md",
+    "scripts/check_drcet4_operator_splitting_convergence_v1.py",
+    "scripts/check_drcet4c_chernoff_remizov_resolvent_v1.py",
+    "scripts/check_drcet4d_continuum_spatial_refinement_v1.py"
+  ],
+  "manifest_sha256": "sha256:928d9e5438d02d22a43b0c512bb4af05b57876a09746de64e46e878c5db0098d",
+  "output_dir": "drcet_open_benchmark_public_safe_v1",
+  "schema_id": "saa.benchmark.drcet.open_public_export_receipt.v1",
+  "scrub_guard": {
+    "banned_pattern_count": 12,
+    "findings_count": 0,
+    "status": "PASS"
+  },
+  "status": "PASS_PUBLIC_SAFE_EXPORT_READY"
+}

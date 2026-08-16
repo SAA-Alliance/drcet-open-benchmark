@@ -1,0 +1,7 @@
+case_id,family,dimension,S0_identity_error,S0_identity_check_pass,tangent_error,tangent_check_pass,taylor_matching_error,declared_convergence_order,observed_convergence_rate,observed_rate_check_pass,stability_M,stability_omega,stability_bound,max_observed_power_norm,stability_check_pass,certificate_rows,certificate_failures,status
+RC-B1-DIAG-DISS-01,B1_diagonal_dissipative,4,0.0,True,6.546246906051254e-10,True,1.1102230246251565e-16,1,1.0083011937033262,True,4.0,0.05,4.2050843855040965,1.0,True,8,0,PASS
+RC-B2-NONNORMAL-01,B2_nonnormal_stable,4,0.0,True,6.055917048778555e-10,True,0.0,1,1.007697118260433,True,6.0,0.1,6.631025508453886,1.0,True,8,0,PASS
+RC-B3-METZLER-01,B3_metzler_positivity,5,0.0,True,1.906256285144523e-09,True,1.1102230246251565e-16,1,1.0014527946401173,True,4.0,0.05,4.2050843855040965,1.0,True,8,0,PASS
+RC-B4-VAR-ODE-01,B4_variable_coefficient_ode_proxy,6,0.0,True,1.209130994623706e-09,True,0.0,1,1.0042107301981726,True,4.0,0.05,4.2050843855040965,1.0,True,8,0,PASS
+RC-B5-LIQUIDITY-01,B5_liquidity_price_feedback,3,0.0,True,3.160161948602799e-10,True,0.0,1,1.001626344492121,True,4.0,0.08,4.3331482706998345,1.0,True,8,0,PASS
+RC-B6-SOVBANK-01,B6_sovereign_banking_feedback,5,0.0,True,3.4268878302429e-09,True,1.2412670766236366e-16,1,1.0051166349132,True,7.0,0.12,7.89247796105563,1.0105982956080086,True,8,0,PASS

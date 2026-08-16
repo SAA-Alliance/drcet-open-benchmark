@@ -1,0 +1,23 @@
+{
+  "artifact_id": "ERROR_CERTIFICATE_RELIABILITY_PACK_V1",
+  "claim_boundary": "Review-only RA/Fabric evidence producer. ARIN verifies the block and remains the authority gate.",
+  "files": [
+    {
+      "bytes": 11596,
+      "path": "ERROR_CERTIFICATE_RELIABILITY_RESULT_V1.json",
+      "sha256": "8e7c603d0834bdfd26dc2ad7a222a0611f1721fdad26af74a1677c3f6e5f25c8"
+    },
+    {
+      "bytes": 2267,
+      "path": "error_certificate_reliability_runs.csv",
+      "sha256": "f1d2dad0e8ed8b17bd56aef5fcea8be61f076e7b7b31f1b12ff956978f624a3e"
+    },
+    {
+      "bytes": 605,
+      "path": "README.md",
+      "sha256": "e604eaaed1d07bd9dc94c94884480a65ffcfa5e5d78dbcd1a3e7f9161dab6ae3"
+    }
+  ],
+  "generated_at_utc": "2026-08-15T20:10:00Z",
+  "schema_id": "saa.risk_analyzer.error_certificate_reliability_pack_manifest.v1"
+}

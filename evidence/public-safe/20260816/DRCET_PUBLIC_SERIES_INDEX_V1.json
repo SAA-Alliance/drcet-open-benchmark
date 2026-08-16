@@ -1,0 +1,53 @@
+{
+  "disclosure_boundary": "public_safe_synthetic_and_review_only_evidence_no_production_kernel_no_client_data",
+  "generated_at_utc": "2026-08-16T11:14:24Z",
+  "must_not_claim": [
+    "production ARIN22 kernel benchmarked",
+    "external certification",
+    "regulatory approval",
+    "client-data validation",
+    "hidden production factors disclosed"
+  ],
+  "schema_id": "saa.benchmark.drcet.open_public_series_index.v1",
+  "series": {
+    "drcet1_tail": {
+      "boundary": "published method disclosure; no production approval claim",
+      "public_export_mode": "citation_and_status_only",
+      "status": "PUBLISHED_METHOD_ATTACHED"
+    },
+    "drcet2_path_functionals": {
+      "boundary": "internal evidence only; not exported to avoid commercial/custody disclosure",
+      "public_export_mode": "withheld_from_open_repo",
+      "status": "INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD"
+    },
+    "drcet3_attribution_stress": {
+      "boundary": "internal evidence only; not exported to avoid commercial/custody disclosure",
+      "public_export_mode": "withheld_from_open_repo",
+      "status": "INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD"
+    },
+    "drcet4_operator_splitting": {
+      "artifact_path": "docs/benchmarks/drcet4_operator_splitting_convergence_v1_20260816",
+      "drcet4b_status": "VALIDATED_PASS_REVIEW_ONLY_REMIZOV_CHERNOFF_CONVERGENCE_LANE",
+      "external_blind_replay": "PENDING_EXTERNAL_BLIND_REPLAY",
+      "production_arin22_status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED",
+      "status": "PROTOCOL_FULL_LINEAR_EXACT_CONTAINER_AND_REMIZOV_CHERNOFF_LANE_VALIDATED_PRODUCTION_ARIN22_PENDING",
+      "status_sha256": "sha256:298a49ff8071e54c90f52ca49d45b153f446644ee4a71fc92675a3e4f82e421d"
+    },
+    "drcet4c_chernoff_remizov_resolvent": {
+      "artifact_path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816",
+      "external_blind_replay": "PENDING_EXTERNAL_BLIND_REPLAY",
+      "production_arin22_status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED",
+      "status": "VALIDATED_PASS_WITH_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING",
+      "status_sha256": "sha256:21561588424e48bffd008ac2d07ab654f53597682d0d2c1aefe38dee7a5646c8"
+    },
+    "drcet4d_continuum_spatial_refinement": {
+      "artifact_path": "docs/benchmarks/drcet4d_continuum_spatial_refinement_v1_20260816",
+      "external_blind_replay": "PENDING_EXTERNAL_BLIND_REPLAY",
+      "max_bound_utilization_E_over_B": 0.39999116019618314,
+      "observed_spatial_order_median": 2.0007826398221917,
+      "production_arin22_status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED",
+      "status": "VALIDATED_PASS_PUBLIC_SAFE_CONTINUUM_SPATIAL_REFINEMENT_LANE_PRODUCTION_ARIN22_PENDING",
+      "status_sha256": "sha256:82f6b92871ad59bc2ec5bec803869068ac2fb49ee578f728c423505dcfd01af6"
+    }
+  }
+}

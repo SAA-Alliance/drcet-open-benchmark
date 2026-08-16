@@ -1,0 +1,57 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815",
+  "files": [
+    {
+      "byte_length": 17753,
+      "path": "ACCURACY_COST_ENERGY_PARETO_V2_STATUS.json",
+      "sha256": "sha256:26a252801edc4c03a26366c74ca5e1a342164d06cf73d655919416720fb53902"
+    },
+    {
+      "byte_length": 2809,
+      "path": "README.md",
+      "sha256": "sha256:0532a919173eb8bb596bee8957bf796a64383e9e70f4d9dd00780b21101fb367"
+    },
+    {
+      "byte_length": 1982,
+      "path": "crossover_preregistration_hypothesis.json",
+      "sha256": "sha256:d2ba9180c8b712e0d5ffc72c165e52c95634548045d465c079782a0b10469ebb"
+    },
+    {
+      "byte_length": 493,
+      "path": "hardware_probe.json",
+      "sha256": "sha256:ebc544ecd44d535244068c8f996b046690eb8d62ed62c236b52938943fdd8022"
+    },
+    {
+      "byte_length": 269,
+      "path": "measured_results.csv",
+      "sha256": "sha256:a8877e773ddaa592ce698a6fb4a7eb0a079a3ce5db2d6d38552dccceaa7e5f31"
+    },
+    {
+      "byte_length": 1884,
+      "path": "method_contract.json",
+      "sha256": "sha256:4d02a2e76b7b4b8c561c0f06cc5e2eb31f9b30945527963dff8b4a57965ae4de"
+    },
+    {
+      "byte_length": 1581,
+      "path": "node_requirements.json",
+      "sha256": "sha256:17b384902a924657a09f287d95a0094a8469e39058f7c17ba4d452b8bd86b439"
+    },
+    {
+      "byte_length": 5240,
+      "path": "reference_oracle_contract.json",
+      "sha256": "sha256:ef885ffccea724b2c59e9bcaad279e6376819e200ee08bbd387d3318cd2c7694"
+    },
+    {
+      "byte_length": 65598,
+      "path": "target_contract.csv",
+      "sha256": "sha256:e44e969ea5c0791c4837ecde30e8821f184c28040c7104dcc53e32bbfe2bacd7"
+    },
+    {
+      "byte_length": 133434,
+      "path": "target_contract.json",
+      "sha256": "sha256:ee0aecaa469cfa01292f5e2fee6d99096f8860b3b3ba55d6ec4aa5ed2bdabe2e"
+    }
+  ],
+  "generated_at_utc": "2026-08-15T21:33:58Z",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_measured.v2.artifact_manifest"
+}

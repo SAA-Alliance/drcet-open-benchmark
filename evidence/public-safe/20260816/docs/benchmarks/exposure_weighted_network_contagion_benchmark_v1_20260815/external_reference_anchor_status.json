@@ -1,0 +1,7 @@
+{
+  "current_reference": "enumerative_default_set_linear_solver",
+  "current_reference_boundary": "independent code path inside this benchmark pack; not a third-party validation.",
+  "required_for_external_validation_claim": "Attach NetworkX-equivalent or other third-party/open-source Eisenberg-Noe clearing solver readback, or publish hand-derived small-network equations with independent review receipt.",
+  "schema_id": "saa.benchmark.exposure_weighted_network_contagion.v1.external_reference_anchor_status",
+  "status": "NOT_ATTACHED"
+}

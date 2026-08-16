@@ -1,0 +1,72 @@
+{
+  "claim_boundary": "production ARIN22 protected container hook; PASS requires real no-egress execution and output schema readback",
+  "expected_output_schema_id": "saa.benchmark.drcet4d.production_arin22_container_output.v1",
+  "fixtures": [
+    {
+      "case_id": "D4D-HEAT-MODE1-01",
+      "continuum_eigenvalue_lambda_k": -1.5004406601634037,
+      "declared_spatial_order": 2,
+      "description": "Low-mode heat/reaction lane with analytic continuum eigenfunction reference.",
+      "diffusion_a": 0.15,
+      "domain_D_L": "H^2(0,1) intersect H_0^1(0,1); discretized on public uniform interior grids",
+      "family": "D1_dirichlet_heat_low_mode",
+      "horizon_T": 0.5,
+      "mode_k": 1,
+      "operator_contract": "L=a*d2/dx2-c on (0,1), Dirichlet boundary, public eigenmode surrogate",
+      "reaction_c": 0.02,
+      "semigroup_reference": "S(T)sin(k*pi*x)=exp(lambda_k*T)sin(k*pi*x)"
+    },
+    {
+      "case_id": "D4D-HEAT-MODE3-01",
+      "continuum_eigenvalue_lambda_k": -4.451321980490211,
+      "declared_spatial_order": 2,
+      "description": "Mid-mode heat/reaction lane; higher spatial frequency increases finite-difference pressure.",
+      "diffusion_a": 0.05,
+      "domain_D_L": "H^2(0,1) intersect H_0^1(0,1); discretized on public uniform interior grids",
+      "family": "D2_dirichlet_heat_mid_mode",
+      "horizon_T": 0.25,
+      "mode_k": 3,
+      "operator_contract": "L=a*d2/dx2-c on (0,1), Dirichlet boundary, public eigenmode surrogate",
+      "reaction_c": 0.01,
+      "semigroup_reference": "S(T)sin(k*pi*x)=exp(lambda_k*T)sin(k*pi*x)"
+    },
+    {
+      "case_id": "D4D-REACT-MODE2-01",
+      "continuum_eigenvalue_lambda_k": -3.278273408348595,
+      "declared_spatial_order": 2,
+      "description": "Reaction-diffusion surrogate with an unbounded Laplacian contract and bounded reaction term.",
+      "diffusion_a": 0.08,
+      "domain_D_L": "H^2(0,1) intersect H_0^1(0,1); discretized on public uniform interior grids",
+      "family": "D3_reaction_diffusion",
+      "horizon_T": 0.75,
+      "mode_k": 2,
+      "operator_contract": "L=a*d2/dx2-c on (0,1), Dirichlet boundary, public eigenmode surrogate",
+      "reaction_c": 0.12,
+      "semigroup_reference": "S(T)sin(k*pi*x)=exp(lambda_k*T)sin(k*pi*x)"
+    },
+    {
+      "case_id": "D4D-STIFF-MODE4-01",
+      "continuum_eigenvalue_lambda_k": -31.632734083485946,
+      "declared_spatial_order": 2,
+      "description": "Higher-mode spatial-pressure lane; validates refinement trend without protected commercial factors.",
+      "diffusion_a": 0.2,
+      "domain_D_L": "H^2(0,1) intersect H_0^1(0,1); discretized on public uniform interior grids",
+      "family": "D4_stiff_spatial_pressure",
+      "horizon_T": 0.1,
+      "mode_k": 4,
+      "operator_contract": "L=a*d2/dx2-c on (0,1), Dirichlet boundary, public eigenmode surrogate",
+      "reaction_c": 0.05,
+      "semigroup_reference": "S(T)sin(k*pi*x)=exp(lambda_k*T)sin(k*pi*x)"
+    }
+  ],
+  "generated_at_utc": "2026-08-16T11:06:04Z",
+  "lane_id": "DRCET4D_CONTINUUM_SPATIAL_REFINEMENT_LANE",
+  "run_id": "drcet4d_production_arin22_spatial_refinement_probe_v1",
+  "runtime_requirements": [
+    "docker run",
+    "--network none",
+    "no production source disclosure",
+    "hash-bound output"
+  ],
+  "schema_id": "saa.benchmark.drcet4d.production_arin22_container_input.v1"
+}

@@ -1,0 +1,40 @@
+{
+  "cloud_cost": {
+    "dollars_formula": "published_rate_per_second * measured_device_seconds",
+    "published_on_demand_rate_date_required": true,
+    "region_required": true,
+    "sku_required": true
+  },
+  "cpu": {
+    "bare_metal_preferred": true,
+    "core_pinning_required": true,
+    "frequency_control_required": true,
+    "numa_policy_record_required": true,
+    "rapl_or_equivalent_required": true,
+    "required_paths_or_permissions": [
+      "/sys/class/powercap/intel-rapl*/energy_uj or platform-equivalent package-energy counter"
+    ],
+    "vm_warning": "ordinary cloud VMs often do not expose RAPL/MSR; CPU energy may require *.metal or provider telemetry API"
+  },
+  "gpu": {
+    "application_clocks_or_clock_policy_record_required": true,
+    "cupy_or_cuda_runner_required": true,
+    "driver_cuda_versions_record_required": true,
+    "ecc_state_record_required": true,
+    "h100_or_a100_class_preferred": true,
+    "nvidia_gpu_required": true,
+    "nvidia_smi_query_required": true,
+    "nvml_required": true,
+    "persistence_mode_record_required": true
+  },
+  "measurement": {
+    "idle_baseline_required": true,
+    "kernel_only_secondary": true,
+    "latency_scope": "end_to_end_including_transfer_for_headline",
+    "minimum_correctness_repeats": 3,
+    "minimum_energy_windows": 10,
+    "short_kernel_policy": "repeat workload inside timed telemetry window; record iterations_per_window"
+  },
+  "node_class": "bare_metal_or_telemetry_equivalent_cpu_plus_nvidia_gpu",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_measured.v2.node_requirements"
+}

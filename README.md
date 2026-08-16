@@ -17,6 +17,7 @@ This repository contains the public protocol surface only:
 | DRCET-1 | Tail metrics equivalence: VaR / ES / CVaR across horizons and confidence levels | Protocol surface |
 | DRCET-2 | Path-functional equivalence: terminal loss, max drawdown, time underwater, recovery horizon, jump count | Draft protocol surface |
 | DRCET-3 | Attribution/stress equivalence: factor/stress attribution, contribution concentration, replay/stochastic attribution consistency | Draft protocol surface |
+| DRCET-4 | Operator splitting, Chernoff foundation, resolvent and continuum spatial-refinement evidence | Public-safe synthetic evidence pack |
 
 ## What This Repo Is Not
 
@@ -39,6 +40,7 @@ Expected result: both fixture submissions validate. The WITHHELD fixture proves 
 Review-only internal replay evidence is summarized separately from the protocol surface:
 
 - [DRCET-2 / DRCET-3 10M CPU Results Summary](docs/results/DRCET_2_3_10M_CPU_20260714.md)
+- [DRCET-4 Public-Safe Evidence Pack](docs/DRCET-4.md) - current export: `evidence/public-safe/20260816/`
 
 These summaries are not external certification and are not production model approval. They are included to show how DRCET evidence should disclose scope, hashes, limits, and non-claims.
 

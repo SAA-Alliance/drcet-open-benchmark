@@ -1,0 +1,6 @@
+{
+  "R0": "analytic exact solution / matrix exponential",
+  "R1": "arbitrary-precision independent numerical reference",
+  "R2": "consensus high-accuracy independent solvers",
+  "R3": "reference disagreement -> INCONCLUSIVE"
+}
