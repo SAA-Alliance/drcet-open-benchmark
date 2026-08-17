@@ -111,6 +111,13 @@ def main() -> int:
         fail("energy_comparability_gate non_comparable_cells mismatch")
     if all_accepted and comp.get("status") != "PASS_MULTI_METHOD_CELL_COVERAGE":
         fail("all-accepted energy pack must pass multi-method cell comparability")
+    if int_field(comp, "device_compute_comparable_cells") != int_field(comp, "expected_cells"):
+        fail("device-compute energy comparability must cover every workload cell")
+    if int_field(comp, "min_device_compute_methods_per_cell") < min_methods_required:
+        fail("device-compute energy comparability below minimum method count")
+    excluded = set(comp.get("host_transfer_heavy_methods_excluded_from_cross_method_aggregates") or [])
+    if "gpu_randomized_qmc_cpu_sobol" not in excluded:
+        fail("QMC host/transfer-heavy method must be excluded from cross-method energy aggregates")
     for row in accepted:
         if int(float(row["nvml_sample_count"])) < min_required:
             fail("accepted row below sample threshold")
@@ -138,6 +145,30 @@ def main() -> int:
         fail("speedup claim must remain locked")
     if frontier.get("crossover_claim_allowed") is not False:
         fail("crossover claim must remain locked")
+    cross_lane = status.get("cross_lane_join_contract", {})
+    if cross_lane.get("status") != "CROSS_LANE_POWER_DERIVATION_FORBIDDEN":
+        fail("cross-lane power derivation must be forbidden")
+    if cross_lane.get("cross_lane_join_prohibited") is not True:
+        fail("cross_lane_join_prohibited must be true")
+    aggregate_policy = status.get("cross_method_energy_aggregate_policy", {})
+    if aggregate_policy.get("status") != "QMC_HOST_TRANSFER_HEAVY_DISCLOSED_EXCLUDED_FROM_DEVICE_COMPUTE_AGGREGATES":
+        fail("QMC aggregate exclusion policy missing")
+    qmc = status.get("by_method", {}).get("gpu_randomized_qmc_cpu_sobol", {})
+    if qmc.get("energy_measures_host_and_transfer") is not True:
+        fail("QMC method must be marked host/transfer-heavy")
+    if qmc.get("excluded_from_cross_method_energy_aggregates") is not True:
+        fail("QMC method must be excluded from cross-method energy aggregates")
+    saturation = status.get("h100_power_saturation_evidence", {})
+    if saturation.get("status") != "GPU_POWER_UNDERSATURATED_REVIEW_ONLY":
+        fail("H100 power saturation evidence must be present")
+    if saturation.get("device_saturated") is not False:
+        fail("H100 must remain marked unsaturated")
+    if float(saturation.get("power_limit_watts") or 0.0) <= 0.0:
+        fail("H100 power limit missing")
+    if float(saturation.get("all_methods_max_dimension_median_power_fraction_of_tdp") or 1.0) >= 0.5:
+        fail("H100 all-method power fraction unexpectedly saturated")
+    if float(saturation.get("device_compute_max_dimension_median_power_fraction_of_tdp") or 1.0) >= 0.5:
+        fail("H100 device-compute power fraction unexpectedly saturated")
 
     mf = {f["path"]: f for f in manifest.get("files", [])}
     for name in required:
@@ -160,6 +191,8 @@ def main() -> int:
         "withheld_energy_workload_rows": len(withheld),
         "sample_count_min": gate.get("sample_count_min"),
         "sample_count_median": gate.get("sample_count_median"),
+        "all_methods_max_dimension_power_pct_of_tdp": saturation.get("all_methods_max_dimension_median_power_pct_of_tdp"),
+        "device_compute_max_dimension_power_pct_of_tdp": saturation.get("device_compute_max_dimension_median_power_pct_of_tdp"),
         "speedup_claim_allowed": frontier["speedup_claim_allowed"],
         "crossover_claim_allowed": frontier["crossover_claim_allowed"],
     }, indent=2, sort_keys=True))

@@ -2,9 +2,9 @@
   "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817",
   "files": [
     {
-      "byte_length": 12736,
+      "byte_length": 20593,
       "path": "ACCURACY_COST_ENERGY_PARETO_V2_CPU_GPU_RECONCILIATION_STATUS.json",
-      "sha256": "sha256:c9f472793627f018e96aaa4cb7249937e6d6a7977a23f1c3de3ecdedac6dd1ca"
+      "sha256": "sha256:92ffc4bd5732d148a0ed85896a29967abc428dc5be63881c6d5dbca3ef13b6e6"
     },
     {
       "byte_length": 721,
@@ -57,6 +57,6 @@
       "sha256": "sha256:0b9c58d715f40565f33e7ce16e0b998ecbab5ca1949a270a335a5e06292b753a"
     }
   ],
-  "generated_at_utc": "2026-08-17T20:26:16Z",
+  "generated_at_utc": "2026-08-17T20:52:24Z",
   "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_gpu_reconciliation.v2.artifact_manifest"
 }

@@ -1,5 +1,5 @@
-method_id,workload_rows,accepted_energy_workload_rows,median_iterations_completed,median_wall_seconds_total_window,median_gpu_energy_joules_per_iter,median_nvml_sample_count,peak_gpu_memory_mib
-gpu_raw_mc,480,480,4812.5,2.026217730001008,0.044920918300881796,49.0,1212.0
-gpu_antithetic_mc,480,480,3692.5,2.022535162001077,0.05969156652658425,48.0,1464.0
-gpu_randomized_qmc_cpu_sobol,480,480,79.0,2.0563106575000347,3.6258659883866997,49.0,1212.0
-gpu_importance_sampling,480,480,4365.5,2.025184571499267,0.0509659864517083,49.0,1214.0
+method_id,workload_rows,accepted_energy_workload_rows,median_iterations_completed,median_wall_seconds_total_window,median_wall_ms_per_iter_energy_window,median_gpu_energy_joules_per_iter,median_gpu_power_draw_w_mean,median_nvml_sample_count,peak_gpu_memory_mib,energy_measures_host_and_transfer,excluded_from_cross_method_energy_aggregates,aggregate_exclusion_reason
+gpu_raw_mc,480,480,4812.5,2.026217730001008,0.42176345197080817,0.044920918300881796,109.6890625,49.0,1212.0,False,False,
+gpu_antithetic_mc,480,480,3692.5,2.022535162001077,0.5479157255579927,0.05969156652658425,112.09785714285715,48.0,1464.0,False,False,
+gpu_randomized_qmc_cpu_sobol,480,480,79.0,2.0563106575000347,36.248608268870505,3.6258659883866997,99.1085875,49.0,1212.0,True,True,"Sobol generation is CPU-side and PCIe transfer-heavy in this harness; keep as a disclosed row, exclude from device-compute cross-method aggregates."
+gpu_importance_sampling,480,480,4365.5,2.025184571499267,0.464288328201823,0.0509659864517083,113.20570000000001,49.0,1214.0,False,False,

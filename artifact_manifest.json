@@ -5,7 +5,7 @@
     {
       "byte_length": 4433,
       "path": "DRCET_PUBLIC_SERIES_INDEX_V1.json",
-      "sha256": "sha256:208ff22e49d8cd5ee227a1594228011057532690bdb7f83a57b163f9d95a6653"
+      "sha256": "sha256:963549dc9500bd9075523449e31099b56568a105c8c56e511f5d65d96191c877"
     },
     {
       "byte_length": 533,
@@ -15,7 +15,7 @@
     {
       "byte_length": 3307,
       "path": "README.md",
-      "sha256": "sha256:5762c474abbaec09b00fa38942ea60981f0c92238d8dfe1188419ebc294c2971"
+      "sha256": "sha256:88e24f6b29ee792d431ac39468a3f662214bd31b3adf510c1769271f1e0679f3"
     },
     {
       "byte_length": 1562,
@@ -168,9 +168,9 @@
       "sha256": "sha256:d91b6bcfa671094e88bda48cd11e3cea1d56d908b9c64dcb908a04dc8477bfac"
     },
     {
-      "byte_length": 12736,
+      "byte_length": 20593,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/ACCURACY_COST_ENERGY_PARETO_V2_CPU_GPU_RECONCILIATION_STATUS.json",
-      "sha256": "sha256:c9f472793627f018e96aaa4cb7249937e6d6a7977a23f1c3de3ecdedac6dd1ca"
+      "sha256": "sha256:92ffc4bd5732d148a0ed85896a29967abc428dc5be63881c6d5dbca3ef13b6e6"
     },
     {
       "byte_length": 721,
@@ -180,7 +180,7 @@
     {
       "byte_length": 2329,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/artifact_manifest.json",
-      "sha256": "sha256:c514fd20981b97431fb8dee170bb8f891019ac201cf8169cfb8b543e93d34019"
+      "sha256": "sha256:ded5d3e3e045aca07afa70696bcc9990d584404bf13db7b21f1f739ef5ccc733"
     },
     {
       "byte_length": 330,
@@ -283,24 +283,24 @@
       "sha256": "sha256:ee0aecaa469cfa01292f5e2fee6d99096f8860b3b3ba55d6ec4aa5ed2bdabe2e"
     },
     {
-      "byte_length": 8248,
+      "byte_length": 20769,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/ACCURACY_COST_ENERGY_PARETO_V2_GPU_H100_ENERGY_LONG_WINDOW_STATUS.json",
-      "sha256": "sha256:00c88ca93043d2a8b874b18f48bd5b6882f47f04656cb88bdb832f06bd0b4e01"
+      "sha256": "sha256:6556e23c242c056f24f55f9b0a2f89b429eaecc7184f13679edec877f1440fa6"
     },
     {
-      "byte_length": 689,
+      "byte_length": 1060,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/README.md",
-      "sha256": "sha256:1d804f4e6c0884c28ee0fa48351fcb92e6b36b08dfa765dec23858cee3fc2f5e"
+      "sha256": "sha256:ecb2946fb5d77a0d5fbe8bc412e635008d26dd0bcbcb5cc3ff08aa72b8ae5465"
     },
     {
-      "byte_length": 1733,
+      "byte_length": 1736,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/artifact_manifest.json",
-      "sha256": "sha256:e9928613c16d3e3a9e97a8b7b58c5c952dc446c87de7f4e1d3ea8f6dfa24fb30"
+      "sha256": "sha256:0a4facd7a334d105152d4953cd47606a845b177aff846d337fe75270488d272f"
     },
     {
-      "byte_length": 470,
+      "byte_length": 787,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/gpu_h100_long_window_energy_by_dimension.csv",
-      "sha256": "sha256:e785fdb9cce0ffeb06237b859549680d6d9d7016116d35b0dc43a7a4e170354b"
+      "sha256": "sha256:bf94b07b40ac1e45e863ea5ad3703b25cd38593c848d871c620a9256dfafb829"
     },
     {
       "byte_length": 1440,
@@ -308,9 +308,9 @@
       "sha256": "sha256:33d2788b5b41e2c61d18f0f33cad5986e493e36814b3986275c71b3b5f4073b0"
     },
     {
-      "byte_length": 534,
+      "byte_length": 1043,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/gpu_h100_long_window_energy_by_method.csv",
-      "sha256": "sha256:8e69b6eb4a37c1b8ed4137507201dfff8594d76fb4438f52ddb759f74a861dd3"
+      "sha256": "sha256:bf6f4bb2dd3c3b370ddcfd4bd4a7b97f44cf1ecff36950297b6d6656f38fcfe2"
     },
     {
       "byte_length": 1229230,
@@ -928,9 +928,9 @@
       "sha256": "sha256:5c21c911409ef0aff42da9556630cdd84c88edc722cf67314adc43091a87efbd"
     },
     {
-      "byte_length": 7831,
+      "byte_length": 10386,
       "path": "scripts/check_accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window.py",
-      "sha256": "sha256:b064b12176ef05819494931dffdff9fc6fb93b299ad0c58ad09b7540a378d78c"
+      "sha256": "sha256:df2f59241d49cff1803e08b5480510c210834175ff6cf34fe1bd022d7a241d05"
     },
     {
       "byte_length": 5941,
@@ -955,10 +955,10 @@
     {
       "byte_length": 31588,
       "path": "SHA256SUMS",
-      "sha256": "sha256:b2d3ffffde26b5b2175b6f28c9f34255a36442c163aaadd3fc383e092b5eb66d"
+      "sha256": "sha256:90d0fe2f14a5b849ac9f0cd43bf11756d54fb0f2ecd3cc5813f96b2c2504d61f"
     }
   ],
-  "generated_at_utc": "2026-08-17T20:27:16Z",
+  "generated_at_utc": "2026-08-17T20:56:22Z",
   "schema_id": "saa.benchmark.drcet.open_public_export_manifest.v1",
   "source_root": "saa-risk-analyzer"
 }
