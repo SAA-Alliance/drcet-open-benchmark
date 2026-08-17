@@ -1,6 +1,6 @@
 {
   "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817",
-  "generated_at_utc": "2026-08-17T16:05:46Z",
+  "generated_at_utc": "2026-08-17T19:43:47Z",
   "measured": [
     "cpu_wall_time_fixed_iteration",
     "cpu_process_time_fixed_iteration",

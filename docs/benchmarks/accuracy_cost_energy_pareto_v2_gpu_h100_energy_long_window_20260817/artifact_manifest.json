@@ -2,9 +2,9 @@
   "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817",
   "files": [
     {
-      "byte_length": 6712,
+      "byte_length": 8174,
       "path": "ACCURACY_COST_ENERGY_PARETO_V2_GPU_H100_ENERGY_LONG_WINDOW_STATUS.json",
-      "sha256": "sha256:3fd7c4c3212f8c769a053f25f640e3252e8b5414e9eb5a170452b834aa3637f6"
+      "sha256": "sha256:2aea3f4e0aca2b37ed3d7e2107cfdb437da2dec7230b8e26ef34f01c7e47eca7"
     },
     {
       "byte_length": 688,
@@ -14,34 +14,34 @@
     {
       "byte_length": 470,
       "path": "gpu_h100_long_window_energy_by_dimension.csv",
-      "sha256": "sha256:e4e028dad7471a6bfc7beb8fa2366b3a7abca1abccce3f5f8363ad39627b6119"
+      "sha256": "sha256:e785fdb9cce0ffeb06237b859549680d6d9d7016116d35b0dc43a7a4e170354b"
     },
     {
       "byte_length": 1440,
       "path": "gpu_h100_long_window_energy_by_dimension.svg",
-      "sha256": "sha256:e193c7b05cebdf9ac1b218a53e550f550529d754bac9cf5d5a1c3b62b76857b1"
+      "sha256": "sha256:33d2788b5b41e2c61d18f0f33cad5986e493e36814b3986275c71b3b5f4073b0"
     },
     {
-      "byte_length": 530,
+      "byte_length": 534,
       "path": "gpu_h100_long_window_energy_by_method.csv",
-      "sha256": "sha256:c2223bb55c7214305b4fbe8ca1a0d34217104b7aab95bba84ffd1258e1c2a3b7"
+      "sha256": "sha256:8e69b6eb4a37c1b8ed4137507201dfff8594d76fb4438f52ddb759f74a861dd3"
     },
     {
-      "byte_length": 491421,
+      "byte_length": 1229230,
       "path": "gpu_h100_long_window_energy_results.csv",
-      "sha256": "sha256:35f2848db7ed67178492dfc8b8b61a4a31827d4950a6a8a6efddb4d9fce271c1"
+      "sha256": "sha256:a26177e12aa09e952c2e39e3b7c8e5d74c1b500e931e8c1c6c697e1642264538"
     },
     {
-      "byte_length": 1085,
+      "byte_length": 1087,
       "path": "hardware_probe.json",
-      "sha256": "sha256:04b9224d7050beb26855a1d7739c1b84d436d44c69ce9ba38daa4b14016a0cf7"
+      "sha256": "sha256:301d0bcc340dd1dd8c4dccce01eabcfb5a21a0369ae5b3845c82c891b3bf1bf4"
     },
     {
       "byte_length": 780,
       "path": "telemetry_gap_report.json",
-      "sha256": "sha256:13aabe5a67445f14755bfd1925b7ff76fa3a516342bb7d90830da1b395c1d659"
+      "sha256": "sha256:1bde5c8b26e209f305b9be1647ea3e8ba345046523c625a26c233128ccb75657"
     }
   ],
-  "generated_at_utc": "2026-08-17T17:49:51Z",
+  "generated_at_utc": "2026-08-17T19:41:04Z",
   "schema_id": "saa.drcet.accuracy_cost_energy_pareto_gpu_h100_energy_long_window.v2.artifact_manifest"
 }

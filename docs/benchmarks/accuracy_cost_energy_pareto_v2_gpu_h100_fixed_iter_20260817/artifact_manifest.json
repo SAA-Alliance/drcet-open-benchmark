@@ -2,36 +2,36 @@
   "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817",
   "files": [
     {
-      "byte_length": 9041,
+      "byte_length": 6930,
       "path": "ACCURACY_COST_ENERGY_PARETO_V2_GPU_H100_FIXED_ITER_STATUS.json",
-      "sha256": "sha256:457f008ca5a300b22834484de4d895062666293b432c8d7758601f1059b20d5e"
+      "sha256": "sha256:87e1082aa6cdfd911cf7bf6e41b05f085a342648afd6700bf32cd1b72ea14858"
     },
     {
-      "byte_length": 781,
+      "byte_length": 430,
       "path": "README.md",
-      "sha256": "sha256:4169ac75f212239152507487f3d4f68a4270e01c8f7c3d0f5689fed0e69d8ac3"
+      "sha256": "sha256:9b77a3eb3485f26eaed979f69ccf024db584f687ff2aa8c269a8b4ba6d18995c"
     },
     {
-      "byte_length": 61671,
+      "byte_length": 47362,
       "path": "gpu_fixed_iter_internal_frontier.csv",
-      "sha256": "sha256:0f868ac5532004ba775b56be78a5ac72d9a79665d8918280f349347305a0e4ac"
+      "sha256": "sha256:3e3983bf1bbe886128007ad561b9febc4e1c04acb1be9570d6c21a9a31b36e1a"
     },
     {
       "byte_length": 1085,
       "path": "hardware_probe.json",
-      "sha256": "sha256:1d07b9f06c07930bebd3d58b835f190cae5f123edc4af34149012a22039b9faf"
+      "sha256": "sha256:706e1821f33e7c18c11db346a1f25b88cbfaee93ae4e04272e7c355a45b39a1b"
     },
     {
-      "byte_length": 5474467,
+      "byte_length": 13716446,
       "path": "measured_results_gpu_h100_fixed_iter.csv",
-      "sha256": "sha256:6634eedc88888950591954bc68d5515c0c3dab1628ee9c951517dfcc8eae7508"
+      "sha256": "sha256:e4d7b5e0d8b73dc7d66082ca8876f3c0cce47b0a101ebb1f04bf58e085a10f9c"
     },
     {
-      "byte_length": 1297,
+      "byte_length": 789,
       "path": "telemetry_gap_report.json",
-      "sha256": "sha256:68f5a96e4f1ed9de725be91b4c9aa8bc9430d99de7074b49a872534b832f134d"
+      "sha256": "sha256:b758912ef0beef103dc4beff29e8d2ff8ff300a29b0f5ff17461466051b5381f"
     }
   ],
-  "generated_at_utc": "2026-08-17T16:40:22Z",
+  "generated_at_utc": "2026-08-17T18:32:45Z",
   "schema_id": "saa.drcet.accuracy_cost_energy_pareto_gpu_h100_fixed_iter.v2.artifact_manifest"
 }

@@ -1,6 +1,6 @@
 {
   "disclosure_boundary": "public_safe_synthetic_and_review_only_evidence_no_production_kernel_no_client_data",
-  "generated_at_utc": "2026-08-17T17:56:05Z",
+  "generated_at_utc": "2026-08-17T20:21:29Z",
   "must_not_claim": [
     "production ARIN22 kernel benchmarked",
     "external certification",
@@ -11,25 +11,25 @@
   "schema_id": "saa.benchmark.drcet.open_public_series_index.v1",
   "series": {
     "drcet10_accuracy_cost_energy_pareto_v2": {
-      "accuracy_invariant_status": "PASS_FIXED_ITERATION_REPRODUCES_SINGLE_SHOT_ACCURACY",
+      "accuracy_invariant_status": "PASS_FIXED_ITERATION_REPRODUCES_SINGLE_SHOT_ACCURACY_ON_COMMON_BUDGETS",
       "amortization_matched": true,
       "artifact_path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817",
       "boundary": "review-only fixed-iteration CPU/H100 timing telemetry; H100 long-window joules may be attached, but no public speedup, crossover, cloud-cost, perf-per-watt or production ARIN22 claim",
       "cloud_cost_profile_status": "PARTIAL_H100_RATE_BOUND_CPU_RATE_WITHHELD_DOLLAR_FRONTIER_LOCKED",
-      "common_rows": 7680,
+      "common_rows": 19200,
       "crossover_claim_allowed": false,
       "fixed_iterations_cpu": 16,
       "fixed_iterations_h100": 16,
-      "gpu_energy_accepted_rows": 7680,
+      "gpu_energy_accepted_rows": 19200,
       "gpu_energy_join_contract": "ATTACHED_WORKLOAD_LEVEL_LONG_WINDOW_ENERGY",
       "gpu_energy_quality_gate": "PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY",
       "gpu_energy_source": "H100_LONG_WINDOW_ENERGY_PACK",
       "gpu_energy_withheld_rows": 0,
       "h100_device_saturated": false,
-      "iso_accuracy_common_rows": 3042,
+      "iso_accuracy_common_rows": 8781,
       "speedup_claim_allowed": false,
-      "status": "CPU_H100_FIXED_ITERATION_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
-      "status_sha256": "sha256:58a8d9491a159914ea8df2c919b07a3f6a309f7034ce07133ae4b2de9ea07966"
+      "status": "CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
+      "status_sha256": "sha256:1c21c52439e83279e9e1357446b719fd7ea85c77639e72db570cd839beed8cbe"
     },
     "drcet1_tail": {
       "boundary": "published method disclosure; no production approval claim",

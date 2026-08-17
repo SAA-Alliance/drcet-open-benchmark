@@ -1,26 +1,16 @@
 {
   "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817",
-  "generated_at_utc": "2026-08-17T16:40:22Z",
+  "generated_at_utc": "2026-08-17T18:32:45Z",
   "measured": [
     "gpu_wall_time_fixed_iteration",
     "gpu_peak_memory_mib"
   ],
-  "nvml_energy_quality_gate": {
-    "accepted_energy_rows": 720,
-    "minimum_sample_count_required": 20,
-    "rule": "Fixed-iteration timing windows are not automatically valid energy windows; GPU joules require enough NVML samples or a separate long-window energy lane.",
-    "sample_count_max": 42,
-    "sample_count_median": 2.0,
-    "sample_count_min": 2,
-    "status": "WITHHELD_INSUFFICIENT_NVML_SAMPLE_COUNT_FIXED_ITERATION",
-    "withheld_energy_rows": 6960
-  },
   "partial": [],
   "schema_id": "saa.drcet.accuracy_cost_energy_pareto_gpu_h100_fixed_iter.v2.telemetry_gap_report",
   "withheld": [
     {
       "field": "gpu_energy_joules",
-      "reason": "WITHHELD_UNLESS_NVML_SAMPLE_COUNT_GE_20_FIXED_ITERATION_OR_SEPARATE_LONG_WINDOW_ENERGY_LANE"
+      "reason": "WITHHELD_UNLESS_NVML_SAMPLE_COUNT_GE_20_FIXED_ITERATION"
     },
     {
       "field": "cloud_dollars",

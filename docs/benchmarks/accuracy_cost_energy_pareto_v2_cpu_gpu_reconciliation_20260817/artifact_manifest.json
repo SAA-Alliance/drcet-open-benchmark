@@ -2,9 +2,9 @@
   "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817",
   "files": [
     {
-      "byte_length": 10846,
+      "byte_length": 12736,
       "path": "ACCURACY_COST_ENERGY_PARETO_V2_CPU_GPU_RECONCILIATION_STATUS.json",
-      "sha256": "sha256:58a8d9491a159914ea8df2c919b07a3f6a309f7034ce07133ae4b2de9ea07966"
+      "sha256": "sha256:1c21c52439e83279e9e1357446b719fd7ea85c77639e72db570cd839beed8cbe"
     },
     {
       "byte_length": 721,
@@ -22,24 +22,24 @@
       "sha256": "sha256:ddc6e50b699ed5e4e5063d65068a5be62bbf2374e36e1a68952ec8466a21d18f"
     },
     {
-      "byte_length": 4061072,
+      "byte_length": 10166398,
       "path": "cpu_gpu_unit_matched_common_rows.csv",
-      "sha256": "sha256:40c7d9692e78d2af8aee5efdd8642b2a2edcda797828000bb8955078f6145b43"
+      "sha256": "sha256:5582825ed1e616d7e90b6c7330c655860e8cb8e82fa210eec989b1ded16779cf"
     },
     {
-      "byte_length": 1078,
+      "byte_length": 1116,
       "path": "cpu_gpu_unit_matched_iso_accuracy_by_dimension.csv",
-      "sha256": "sha256:55f04d3b1f4289a7b52942d6eb7689999b82c6055378a3727d701d32f26dd922"
+      "sha256": "sha256:c1db10dcd6965f9940cebefa05643a56925c74616640c0cf77b48e9124def688"
     },
     {
-      "byte_length": 1110,
+      "byte_length": 1116,
       "path": "cpu_gpu_unit_matched_iso_accuracy_by_method.csv",
-      "sha256": "sha256:cdf457ec6792a778be4a2faf47dcc9c89430610b52423d42ca31b4f6711704a2"
+      "sha256": "sha256:d3fcea77ecb381031cc84e98b99f5aa229a5e8f9e0ab58caec0fd9db3ca3cd49"
     },
     {
-      "byte_length": 1430,
+      "byte_length": 1431,
       "path": "cpu_h100_unit_matched_iso_speedup_by_dimension.svg",
-      "sha256": "sha256:8206c6a441a03f859cbcc6be956145d4fa41715d414ce56bd11455f8f35a832b"
+      "sha256": "sha256:123a5521a04ff71ea8f9cb62d2701acc4c3fdb1db18c8e4314d140f5a0ca54e1"
     },
     {
       "byte_length": 640,
@@ -57,6 +57,6 @@
       "sha256": "sha256:0b9c58d715f40565f33e7ce16e0b998ecbab5ca1949a270a335a5e06292b753a"
     }
   ],
-  "generated_at_utc": "2026-08-17T17:52:26Z",
+  "generated_at_utc": "2026-08-17T20:18:25Z",
   "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_gpu_reconciliation.v2.artifact_manifest"
 }

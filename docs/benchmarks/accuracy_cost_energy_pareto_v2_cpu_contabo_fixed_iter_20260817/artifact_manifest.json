@@ -2,9 +2,9 @@
   "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817",
   "files": [
     {
-      "byte_length": 5591,
+      "byte_length": 5606,
       "path": "ACCURACY_COST_ENERGY_PARETO_V2_CPU_CONTABO_FIXED_ITER_STATUS.json",
-      "sha256": "sha256:570f2a5c62850a463cbddd2b99b54b95919acf76609f9bb858c646669827fa93"
+      "sha256": "sha256:64df41805c26058065739c72aa52a756c5284888f4afcb77d9a963696275bf6a"
     },
     {
       "byte_length": 427,
@@ -12,19 +12,19 @@
       "sha256": "sha256:e6e833d9a077373eb37e9db5c204bd093451eba7c8d276f3a15a594ed38530e3"
     },
     {
-      "byte_length": 52684,
+      "byte_length": 52482,
       "path": "cpu_fixed_iter_internal_frontier.csv",
-      "sha256": "sha256:284314e065b484da07fe6546e372562bd71e4efeadf725bd1a55cd45d256af9d"
+      "sha256": "sha256:d87a6dbff9aa2ce20d84153cfb8e9888752af010cdd853e136ba48cae4e28635"
     },
     {
       "byte_length": 2691,
       "path": "hardware_probe.json",
-      "sha256": "sha256:2aca9090c84064eb2096d5cf09fe065cab843c751f5f8e35653652267ee79291"
+      "sha256": "sha256:2452c19069c05aa1d903634a5f1aaa402a7868e7f52a75e9f98391109f78debb"
     },
     {
-      "byte_length": 5018096,
+      "byte_length": 12563223,
       "path": "measured_results_cpu_fixed_iter.csv",
-      "sha256": "sha256:c5f39d3da3fa3ceb5cd23cb89643471c6a5d3c82f2b7b868537e9fcfa41b4126"
+      "sha256": "sha256:b52c20b158a5b910cb9c14448a89319a8bfa03176ceb556dbc382609d4c1f810"
     },
     {
       "byte_length": 51131,
@@ -34,9 +34,9 @@
     {
       "byte_length": 706,
       "path": "telemetry_gap_report.json",
-      "sha256": "sha256:370e549c477040b551a6887cfc149c578af13650e58e34c263c3e22aaf8401a8"
+      "sha256": "sha256:62b3e8764eac22898e0e7b710a14a29ec3801db0f4e79fedba94af1bd4633292"
     }
   ],
-  "generated_at_utc": "2026-08-17T16:05:46Z",
+  "generated_at_utc": "2026-08-17T19:43:47Z",
   "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_contabo_fixed_iter.v2.artifact_manifest"
 }

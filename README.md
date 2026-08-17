@@ -14,7 +14,7 @@ corpora or commercial production datasets.
 | DRCET-1 tail metrics | PUBLISHED_METHOD_ATTACHED | Method citation/status only in this export. |
 | DRCET-2 path functionals | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
 | DRCET-3 attribution/stress | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
-| DRCET-10 Accuracy-Cost-Energy Pareto V2 | CPU_H100_FIXED_ITERATION_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED | Fixed-iteration CPU/H100 telemetry attached; speedup/crossover claim locked. |
+| DRCET-10 Accuracy-Cost-Energy Pareto V2 | CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED | Fixed-iteration CPU/H100 telemetry attached; speedup/crossover claim locked. |
 | DRCET-4 operator splitting + 4B Chernoff convergence | PROTOCOL_FULL_LINEAR_EXACT_CONTAINER_AND_REMIZOV_CHERNOFF_LANE_VALIDATED_PRODUCTION_ARIN22_PENDING | Foundation/routing validated; production ARIN22 pending. |
 | DRCET-4C Chernoff-Remizov resolvent | VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING | Bounded contract-surrogate; production ARIN22 pending. |
 | DRCET-4D continuum spatial refinement | VALIDATED_PASS_PUBLIC_SAFE_CONTINUUM_SPATIAL_REFINEMENT_LANE_PRODUCTION_ARIN22_PENDING | Public-safe unbounded/continuum surrogate; production ARIN22 pending. |
@@ -22,8 +22,8 @@ corpora or commercial production datasets.
 ## Key Readbacks
 
 - DRCET-4 status SHA: `sha256:298a49ff8071e54c90f52ca49d45b153f446644ee4a71fc92675a3e4f82e421d`
-- DRCET-10 Pareto V2 status SHA: `sha256:58a8d9491a159914ea8df2c919b07a3f6a309f7034ce07133ae4b2de9ea07966`
-- DRCET-10 common rows / iso rows: `7680` / `3042`
+- DRCET-10 Pareto V2 status SHA: `sha256:1c21c52439e83279e9e1357446b719fd7ea85c77639e72db570cd839beed8cbe`
+- DRCET-10 common rows / iso rows: `19200` / `8781`
 - DRCET-10 amortization matched: `True`
 - DRCET-10 GPU energy source: `H100_LONG_WINDOW_ENERGY_PACK`
 - DRCET-10 GPU energy gate: `PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY`

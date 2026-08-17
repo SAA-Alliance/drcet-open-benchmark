@@ -68,13 +68,20 @@ def main() -> int:
         fail(f"unexpected status {status.get('status')}")
     if int_field(status, "workload_count") != len(rows):
         fail("workload_count mismatch")
-    if int_field(status, "workload_count") != 768:
-        fail("expected 768 workload rows")
+    expected_workloads = (
+        len({r["regime"] for r in rows})
+        * len({int(float(r["dimension"])) for r in rows})
+        * len({r["method_id"] for r in rows})
+        * len({int(float(r["path_budget"])) for r in rows})
+        * len({int(float(r["repeat_id"])) for r in rows})
+    )
+    if int_field(status, "workload_count") != expected_workloads:
+        fail(f"expected {expected_workloads} workload rows")
     represented = sum(int(float(r["fixed_iter_metric_rows_represented"])) for r in rows)
     if int_field(status, "metric_rows_represented") != represented:
         fail("metric_rows_represented mismatch")
-    if represented != 7680:
-        fail("expected 7680 represented metric rows")
+    if represented != len(rows) * 10:
+        fail("expected metric rows represented to equal workload_rows x 10")
     if len(dims) != 4:
         fail("expected 4 dimension rows")
     if len(methods) != 4:
@@ -83,11 +90,27 @@ def main() -> int:
     min_required = int(status.get("energy_window_protocol", {}).get("minimum_nvml_sample_count_required") or -1)
     accepted = [r for r in rows if r["energy_status"] == "PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY"]
     withheld = [r for r in rows if r["energy_status"] != "PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY"]
+    all_accepted = len(accepted) == len(rows)
     gate = status.get("nvml_energy_quality_gate", {})
     if int_field(gate, "accepted_energy_workload_rows") != len(accepted):
         fail("accepted_energy_workload_rows mismatch")
     if int_field(gate, "withheld_energy_workload_rows") != len(withheld):
         fail("withheld_energy_workload_rows mismatch")
+    comp = status.get("energy_comparability_gate", {})
+    cell_methods = {}
+    for row in accepted:
+        key = (row["regime"], int(float(row["dimension"])), int(float(row["path_budget"])), int(float(row["repeat_id"])))
+        cell_methods.setdefault(key, set()).add(row["method_id"])
+    min_methods_required = int(comp.get("minimum_release_quality_methods_per_cell_required") or -1)
+    comparable_cells = sum(1 for methods_for_cell in cell_methods.values() if len(methods_for_cell) >= min_methods_required)
+    if int_field(comp, "expected_cells") != expected_workloads // max(1, len({r["method_id"] for r in rows})):
+        fail("energy_comparability_gate expected_cells mismatch")
+    if int_field(comp, "comparable_cells") != comparable_cells:
+        fail("energy_comparability_gate comparable_cells mismatch")
+    if int_field(comp, "non_comparable_cells") != int_field(comp, "expected_cells") - comparable_cells:
+        fail("energy_comparability_gate non_comparable_cells mismatch")
+    if all_accepted and comp.get("status") != "PASS_MULTI_METHOD_CELL_COVERAGE":
+        fail("all-accepted energy pack must pass multi-method cell comparability")
     for row in accepted:
         if int(float(row["nvml_sample_count"])) < min_required:
             fail("accepted row below sample threshold")
@@ -99,12 +122,13 @@ def main() -> int:
 
     telemetry = status.get("telemetry_status", {})
     frontier = status.get("frontier_acceptance_gate", {})
-    all_accepted = len(accepted) == len(rows)
     if all_accepted:
         if telemetry.get("gpu_joules") != "MEASURED_NVML_LONG_WINDOW_POWER_INTEGRATED_PER_ITER":
             fail("telemetry must publish long-window GPU joules when all rows pass")
         if frontier.get("gpu_energy_measured") is not True:
             fail("frontier gate must mark gpu_energy_measured=true when all rows pass")
+        if frontier.get("gpu_energy_comparable_across_methods") is not True:
+            fail("frontier gate must mark GPU energy comparable when all cells pass comparability")
     else:
         if telemetry.get("gpu_joules") != "WITHHELD_INSUFFICIENT_NVML_SAMPLE_COUNT_LONG_WINDOW":
             fail("partial pack must withhold GPU joules")
@@ -129,6 +153,9 @@ def main() -> int:
         "manifest_sha256": sha256_file(root / "artifact_manifest.json"),
         "workload_rows": len(rows),
         "metric_rows_represented": represented,
+        "energy_comparability_gate": comp.get("status"),
+        "comparable_cells": comp.get("comparable_cells"),
+        "expected_cells": comp.get("expected_cells"),
         "accepted_energy_workload_rows": len(accepted),
         "withheld_energy_workload_rows": len(withheld),
         "sample_count_min": gate.get("sample_count_min"),

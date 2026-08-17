@@ -13,6 +13,7 @@ VALID_STATUSES = {
     "CPU_H100_UNIT_MATCHED_ISO_ACCURACY_REVIEW_ONLY_DEVICE_UNSATURATED",
     "CPU_H100_FIXED_ITERATION_ISO_ACCURACY_REVIEW_ONLY_DEVICE_UNSATURATED",
     "CPU_H100_FIXED_ITERATION_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
+    "CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
 }
 
 
@@ -73,6 +74,7 @@ def main() -> int:
         if status.get("status") in {
             "CPU_H100_FIXED_ITERATION_ISO_ACCURACY_REVIEW_ONLY_DEVICE_UNSATURATED",
             "CPU_H100_FIXED_ITERATION_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
+            "CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
         }:
             amort = status.get("amortization_contract", {})
             if timing.get("amortization_matched") is not True or amort.get("amortization_matched") is not True:
@@ -100,12 +102,23 @@ def main() -> int:
             if status.get("telemetry_matrix", {}).get("gpu_joules") != "WITHHELD_INSUFFICIENT_NVML_SAMPLE_COUNT_FIXED_ITERATION":
                 fail("telemetry matrix must withhold GPU joules when NVML sample-count gate fails")
         if status.get("status") == "CPU_H100_FIXED_ITERATION_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED":
+            long_window_status = True
+        elif status.get("status") == "CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED":
+            long_window_status = True
+        else:
+            long_window_status = False
+        if long_window_status:
             if status.get("gpu_energy_long_window_attached") is not True:
                 fail("long-window status must declare gpu_energy_long_window_attached=true")
             if energy_gate.get("status") != "PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY":
                 fail("long-window status requires release-quality NVML gate")
+            comp_gate = status.get("gpu_energy_comparability_gate", {})
+            if comp_gate.get("status") != "PASS_MULTI_METHOD_CELL_COVERAGE":
+                fail("long-window status requires multi-method energy comparability")
             if gate.get("gpu_energy_measured") is not True:
                 fail("long-window status must mark GPU energy measured")
+            if gate.get("gpu_energy_comparable_across_methods") is not True:
+                fail("frontier gate must mark GPU energy comparable across methods")
             if status.get("telemetry_matrix", {}).get("gpu_joules") != "MEASURED_NVML_LONG_WINDOW_POWER_INTEGRATED_PER_ITER":
                 fail("telemetry matrix must cite long-window GPU joules")
             if status.get("telemetry_matrix", {}).get("gpu_joules_source") != "H100_LONG_WINDOW_ENERGY_PACK":
@@ -113,12 +126,20 @@ def main() -> int:
             join = status.get("gpu_energy_join_contract", {})
             if join.get("status") != "ATTACHED_WORKLOAD_LEVEL_LONG_WINDOW_ENERGY":
                 fail("long-window energy join contract missing")
-            if int(join.get("energy_workload_rows") or -1) != 768:
-                fail("expected 768 energy workload rows")
-            if int(join.get("metric_rows_represented") or -1) != 7680:
-                fail("expected 7680 metric rows represented by long-window energy")
+            if int(join.get("energy_workload_rows") or -1) <= 0:
+                fail("expected positive energy workload rows")
+            if int(join.get("metric_rows_represented") or -1) != int(join.get("energy_workload_rows") or 0) * 10:
+                fail("expected metric rows represented by long-window energy to equal workload rows x 10")
             if gate.get("speedup_claim_allowed") is not False or gate.get("crossover_claim_allowed") is not False:
                 fail("long-window energy must not unlock speedup/crossover")
+        sweep = status.get("path_budget_sweep_contract", {})
+        if status.get("status") == "CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED":
+            if sweep.get("status") != "PASS_MINIMUM_5_BUDGET_SWEEP":
+                fail("5-budget status requires PASS_MINIMUM_5_BUDGET_SWEEP")
+            if int(sweep.get("path_budget_count") or -1) < int(sweep.get("minimum_path_budget_levels_required") or 999):
+                fail("5-budget status has insufficient path-budget count")
+            if gate.get("path_budget_sweep_complete") is not True:
+                fail("frontier gate must mark path_budget_sweep_complete=true")
         dims = load_csv(root / "cpu_gpu_unit_matched_iso_accuracy_by_dimension.csv")
         methods = load_csv(root / "cpu_gpu_unit_matched_iso_accuracy_by_method.csv")
         common = load_csv(root / "cpu_gpu_unit_matched_common_rows.csv")
@@ -138,6 +159,7 @@ def main() -> int:
             if status.get("status") in {
                 "CPU_H100_FIXED_ITERATION_ISO_ACCURACY_REVIEW_ONLY_DEVICE_UNSATURATED",
                 "CPU_H100_FIXED_ITERATION_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
+                "CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
             }:
                 if int(float(row["cpu_iterations_per_window"])) != int(float(row["h100_iterations_per_window"])):
                     fail("fixed-iteration common row has unmatched iterations")

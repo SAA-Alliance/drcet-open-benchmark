@@ -1,6 +1,6 @@
 {
   "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817",
-  "generated_at_utc": "2026-08-17T17:49:51Z",
+  "generated_at_utc": "2026-08-17T19:41:04Z",
   "measured": [
     "gpu_joules_long_window",
     "gpu_power_samples",

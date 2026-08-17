@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-08-17T15:58:06Z",
+  "captured_at_utc": "2026-08-17T18:12:12Z",
   "cost_profile": {
     "reason": "No dated Contabo SKU price/rate was supplied for this run; dollars are not inferred from wall time.",
     "status": "WITHHELD_CLOUD_RATE_NOT_BOUND"

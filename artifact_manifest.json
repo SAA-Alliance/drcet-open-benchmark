@@ -3,9 +3,9 @@
   "file_count": 191,
   "files": [
     {
-      "byte_length": 4404,
+      "byte_length": 4433,
       "path": "DRCET_PUBLIC_SERIES_INDEX_V1.json",
-      "sha256": "sha256:3493fec8be7dfba0f760889f2f8c1753190ef93beb09614f3d22d175fae939fe"
+      "sha256": "sha256:64db108c282d1c75d1050ad9b1338f04f43334c9bc9c7cdc432f4d80666ae0e0"
     },
     {
       "byte_length": 533,
@@ -13,9 +13,9 @@
       "sha256": "sha256:02332a6324acbd4a2a315c9180190b0debbdcd83c52827159234bd124885c346"
     },
     {
-      "byte_length": 3297,
+      "byte_length": 3307,
       "path": "README.md",
-      "sha256": "sha256:b167103d29c7adc90cae0d6778046a9d62d988335b49f7a6fe5fbecc65960369"
+      "sha256": "sha256:d1c3a0a3289c27520e39b3d287e2e89c5a39aa0d0424ed1ad5ec145f1b87748a"
     },
     {
       "byte_length": 1562,
@@ -38,9 +38,9 @@
       "sha256": "sha256:605c3c8d9891518cdedfd59c0671105ab443e9bd509849f3591da0c2861b9850"
     },
     {
-      "byte_length": 5591,
+      "byte_length": 5606,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/ACCURACY_COST_ENERGY_PARETO_V2_CPU_CONTABO_FIXED_ITER_STATUS.json",
-      "sha256": "sha256:570f2a5c62850a463cbddd2b99b54b95919acf76609f9bb858c646669827fa93"
+      "sha256": "sha256:64df41805c26058065739c72aa52a756c5284888f4afcb77d9a963696275bf6a"
     },
     {
       "byte_length": 427,
@@ -48,24 +48,24 @@
       "sha256": "sha256:e6e833d9a077373eb37e9db5c204bd093451eba7c8d276f3a15a594ed38530e3"
     },
     {
-      "byte_length": 1502,
+      "byte_length": 1503,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/artifact_manifest.json",
-      "sha256": "sha256:2e64f6814d7698697e031211a68b10ea6538877940a705bc82a4f3846244e3a3"
+      "sha256": "sha256:a905c55eb145e64c503448b65f492486cb43753403a54a2ba5796189c155a222"
     },
     {
-      "byte_length": 52684,
+      "byte_length": 52482,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/cpu_fixed_iter_internal_frontier.csv",
-      "sha256": "sha256:284314e065b484da07fe6546e372562bd71e4efeadf725bd1a55cd45d256af9d"
+      "sha256": "sha256:d87a6dbff9aa2ce20d84153cfb8e9888752af010cdd853e136ba48cae4e28635"
     },
     {
       "byte_length": 2691,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/hardware_probe.json",
-      "sha256": "sha256:2aca9090c84064eb2096d5cf09fe065cab843c751f5f8e35653652267ee79291"
+      "sha256": "sha256:2452c19069c05aa1d903634a5f1aaa402a7868e7f52a75e9f98391109f78debb"
     },
     {
-      "byte_length": 5018096,
+      "byte_length": 12563223,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/measured_results_cpu_fixed_iter.csv",
-      "sha256": "sha256:c5f39d3da3fa3ceb5cd23cb89643471c6a5d3c82f2b7b868537e9fcfa41b4126"
+      "sha256": "sha256:b52c20b158a5b910cb9c14448a89319a8bfa03176ceb556dbc382609d4c1f810"
     },
     {
       "byte_length": 51131,
@@ -75,7 +75,7 @@
     {
       "byte_length": 706,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/telemetry_gap_report.json",
-      "sha256": "sha256:370e549c477040b551a6887cfc149c578af13650e58e34c263c3e22aaf8401a8"
+      "sha256": "sha256:62b3e8764eac22898e0e7b710a14a29ec3801db0f4e79fedba94af1bd4633292"
     },
     {
       "byte_length": 4803,
@@ -168,9 +168,9 @@
       "sha256": "sha256:d91b6bcfa671094e88bda48cd11e3cea1d56d908b9c64dcb908a04dc8477bfac"
     },
     {
-      "byte_length": 10846,
+      "byte_length": 12736,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/ACCURACY_COST_ENERGY_PARETO_V2_CPU_GPU_RECONCILIATION_STATUS.json",
-      "sha256": "sha256:58a8d9491a159914ea8df2c919b07a3f6a309f7034ce07133ae4b2de9ea07966"
+      "sha256": "sha256:1c21c52439e83279e9e1357446b719fd7ea85c77639e72db570cd839beed8cbe"
     },
     {
       "byte_length": 721,
@@ -178,9 +178,9 @@
       "sha256": "sha256:39c93c4cd25fe53de305d87148c5a59d1a7f47247c7a5cccbcdfa4514351ffec"
     },
     {
-      "byte_length": 2328,
+      "byte_length": 2329,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/artifact_manifest.json",
-      "sha256": "sha256:a7b39df3d282580d989b2959c2a4fcd132ff562c22e19ace7651b38af7b60e3e"
+      "sha256": "sha256:55089204464782eb0eaffb3fff314517612aee92102cbc8de4cd7db197874c01"
     },
     {
       "byte_length": 330,
@@ -193,24 +193,24 @@
       "sha256": "sha256:ddc6e50b699ed5e4e5063d65068a5be62bbf2374e36e1a68952ec8466a21d18f"
     },
     {
-      "byte_length": 4061072,
+      "byte_length": 10166398,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_gpu_unit_matched_common_rows.csv",
-      "sha256": "sha256:40c7d9692e78d2af8aee5efdd8642b2a2edcda797828000bb8955078f6145b43"
+      "sha256": "sha256:5582825ed1e616d7e90b6c7330c655860e8cb8e82fa210eec989b1ded16779cf"
     },
     {
-      "byte_length": 1078,
+      "byte_length": 1116,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_gpu_unit_matched_iso_accuracy_by_dimension.csv",
-      "sha256": "sha256:55f04d3b1f4289a7b52942d6eb7689999b82c6055378a3727d701d32f26dd922"
+      "sha256": "sha256:c1db10dcd6965f9940cebefa05643a56925c74616640c0cf77b48e9124def688"
     },
     {
-      "byte_length": 1110,
+      "byte_length": 1116,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_gpu_unit_matched_iso_accuracy_by_method.csv",
-      "sha256": "sha256:cdf457ec6792a778be4a2faf47dcc9c89430610b52423d42ca31b4f6711704a2"
+      "sha256": "sha256:d3fcea77ecb381031cc84e98b99f5aa229a5e8f9e0ab58caec0fd9db3ca3cd49"
     },
     {
-      "byte_length": 1430,
+      "byte_length": 1431,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_h100_unit_matched_iso_speedup_by_dimension.svg",
-      "sha256": "sha256:8206c6a441a03f859cbcc6be956145d4fa41715d414ce56bd11455f8f35a832b"
+      "sha256": "sha256:123a5521a04ff71ea8f9cb62d2701acc4c3fdb1db18c8e4314d140f5a0ca54e1"
     },
     {
       "byte_length": 640,
@@ -283,9 +283,9 @@
       "sha256": "sha256:ee0aecaa469cfa01292f5e2fee6d99096f8860b3b3ba55d6ec4aa5ed2bdabe2e"
     },
     {
-      "byte_length": 6712,
+      "byte_length": 8174,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/ACCURACY_COST_ENERGY_PARETO_V2_GPU_H100_ENERGY_LONG_WINDOW_STATUS.json",
-      "sha256": "sha256:3fd7c4c3212f8c769a053f25f640e3252e8b5414e9eb5a170452b834aa3637f6"
+      "sha256": "sha256:2aea3f4e0aca2b37ed3d7e2107cfdb437da2dec7230b8e26ef34f01c7e47eca7"
     },
     {
       "byte_length": 688,
@@ -293,74 +293,74 @@
       "sha256": "sha256:549f03dc0c2f70c541acb9022fa7db290f518337a3522aed1ac1121bdc301577"
     },
     {
-      "byte_length": 1732,
+      "byte_length": 1733,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/artifact_manifest.json",
-      "sha256": "sha256:3bc5f2fdea1b26e4b7d825860ec66c86d42418e2d8c895e9b8f854e06d1d4122"
+      "sha256": "sha256:ebb29be3cb779111f1fad40a89c31480edb57bba6acd607fb4747f05c93e375c"
     },
     {
       "byte_length": 470,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/gpu_h100_long_window_energy_by_dimension.csv",
-      "sha256": "sha256:e4e028dad7471a6bfc7beb8fa2366b3a7abca1abccce3f5f8363ad39627b6119"
+      "sha256": "sha256:e785fdb9cce0ffeb06237b859549680d6d9d7016116d35b0dc43a7a4e170354b"
     },
     {
       "byte_length": 1440,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/gpu_h100_long_window_energy_by_dimension.svg",
-      "sha256": "sha256:e193c7b05cebdf9ac1b218a53e550f550529d754bac9cf5d5a1c3b62b76857b1"
+      "sha256": "sha256:33d2788b5b41e2c61d18f0f33cad5986e493e36814b3986275c71b3b5f4073b0"
     },
     {
-      "byte_length": 530,
+      "byte_length": 534,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/gpu_h100_long_window_energy_by_method.csv",
-      "sha256": "sha256:c2223bb55c7214305b4fbe8ca1a0d34217104b7aab95bba84ffd1258e1c2a3b7"
+      "sha256": "sha256:8e69b6eb4a37c1b8ed4137507201dfff8594d76fb4438f52ddb759f74a861dd3"
     },
     {
-      "byte_length": 491421,
+      "byte_length": 1229230,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/gpu_h100_long_window_energy_results.csv",
-      "sha256": "sha256:35f2848db7ed67178492dfc8b8b61a4a31827d4950a6a8a6efddb4d9fce271c1"
+      "sha256": "sha256:a26177e12aa09e952c2e39e3b7c8e5d74c1b500e931e8c1c6c697e1642264538"
     },
     {
-      "byte_length": 1085,
+      "byte_length": 1087,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/hardware_probe.json",
-      "sha256": "sha256:04b9224d7050beb26855a1d7739c1b84d436d44c69ce9ba38daa4b14016a0cf7"
+      "sha256": "sha256:301d0bcc340dd1dd8c4dccce01eabcfb5a21a0369ae5b3845c82c891b3bf1bf4"
     },
     {
       "byte_length": 780,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/telemetry_gap_report.json",
-      "sha256": "sha256:13aabe5a67445f14755bfd1925b7ff76fa3a516342bb7d90830da1b395c1d659"
+      "sha256": "sha256:1bde5c8b26e209f305b9be1647ea3e8ba345046523c625a26c233128ccb75657"
     },
     {
-      "byte_length": 9041,
+      "byte_length": 6930,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/ACCURACY_COST_ENERGY_PARETO_V2_GPU_H100_FIXED_ITER_STATUS.json",
-      "sha256": "sha256:457f008ca5a300b22834484de4d895062666293b432c8d7758601f1059b20d5e"
+      "sha256": "sha256:87e1082aa6cdfd911cf7bf6e41b05f085a342648afd6700bf32cd1b72ea14858"
     },
     {
-      "byte_length": 781,
+      "byte_length": 430,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/README.md",
-      "sha256": "sha256:4169ac75f212239152507487f3d4f68a4270e01c8f7c3d0f5689fed0e69d8ac3"
+      "sha256": "sha256:9b77a3eb3485f26eaed979f69ccf024db584f687ff2aa8c269a8b4ba6d18995c"
     },
     {
       "byte_length": 1325,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/artifact_manifest.json",
-      "sha256": "sha256:7ac3e4cd6c28c19396fe3959d91368acaab3e29888590f47346b4fff27320fdf"
+      "sha256": "sha256:a455448c38b872f89a9a212970c71f092fe999e3d99f57d3ce942d725b967e77"
     },
     {
-      "byte_length": 61671,
+      "byte_length": 47362,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/gpu_fixed_iter_internal_frontier.csv",
-      "sha256": "sha256:0f868ac5532004ba775b56be78a5ac72d9a79665d8918280f349347305a0e4ac"
+      "sha256": "sha256:3e3983bf1bbe886128007ad561b9febc4e1c04acb1be9570d6c21a9a31b36e1a"
     },
     {
       "byte_length": 1085,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/hardware_probe.json",
-      "sha256": "sha256:1d07b9f06c07930bebd3d58b835f190cae5f123edc4af34149012a22039b9faf"
+      "sha256": "sha256:706e1821f33e7c18c11db346a1f25b88cbfaee93ae4e04272e7c355a45b39a1b"
     },
     {
-      "byte_length": 5474467,
+      "byte_length": 13716446,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/measured_results_gpu_h100_fixed_iter.csv",
-      "sha256": "sha256:6634eedc88888950591954bc68d5515c0c3dab1628ee9c951517dfcc8eae7508"
+      "sha256": "sha256:e4d7b5e0d8b73dc7d66082ca8876f3c0cce47b0a101ebb1f04bf58e085a10f9c"
     },
     {
-      "byte_length": 1297,
+      "byte_length": 789,
       "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/telemetry_gap_report.json",
-      "sha256": "sha256:68f5a96e4f1ed9de725be91b4c9aa8bc9430d99de7074b49a872534b832f134d"
+      "sha256": "sha256:b758912ef0beef103dc4beff29e8d2ff8ff300a29b0f5ff17461466051b5381f"
     },
     {
       "byte_length": 5154,
@@ -918,9 +918,9 @@
       "sha256": "sha256:15217ba1db4b63a48e11fd4f8642670f3193c9c8c8559a3a9ff5480cef2738d5"
     },
     {
-      "byte_length": 10851,
+      "byte_length": 12586,
       "path": "scripts/check_accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation.py",
-      "sha256": "sha256:33d7d26ae0ad179754c132cf2e6498cb601ba63878fab3850ebd065592cf2bce"
+      "sha256": "sha256:318d09d2904d2c3817858d5315bd2a93d109a11e90d993e6df160cee71b12296"
     },
     {
       "byte_length": 3757,
@@ -928,9 +928,9 @@
       "sha256": "sha256:5c21c911409ef0aff42da9556630cdd84c88edc722cf67314adc43091a87efbd"
     },
     {
-      "byte_length": 5959,
+      "byte_length": 7831,
       "path": "scripts/check_accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window.py",
-      "sha256": "sha256:968a344dfb673f2d77769f2cd155ebed4174085ea0d1de4e1b0b71f99d1b34fd"
+      "sha256": "sha256:b064b12176ef05819494931dffdff9fc6fb93b299ad0c58ad09b7540a378d78c"
     },
     {
       "byte_length": 5941,
@@ -955,10 +955,10 @@
     {
       "byte_length": 31588,
       "path": "SHA256SUMS",
-      "sha256": "sha256:c840a8a791ac500c6c514662f2b5c2b0c630e2a015ed55123684843cbfb3de7d"
+      "sha256": "sha256:b9ffe37ec8ee9fed779193861bd0a3a225ff1ae89ed74281fa1a4fa127ba7314"
     }
   ],
-  "generated_at_utc": "2026-08-17T17:56:05Z",
+  "generated_at_utc": "2026-08-17T20:21:29Z",
   "schema_id": "saa.benchmark.drcet.open_public_export_manifest.v1",
   "source_root": "saa-risk-analyzer"
 }

@@ -1,6 +1,6 @@
 {
   "file_count": 192,
-  "generated_at_utc": "2026-08-17T17:56:05Z",
+  "generated_at_utc": "2026-08-17T20:21:29Z",
   "included_dirs": [
     "docs/benchmarks/deep_tail_rare_event_challenge_v1_20260815",
     "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815",
@@ -33,7 +33,7 @@
     "scripts/check_accuracy_cost_energy_pareto_v2_cloud_cost_profile.py",
     "scripts/check_accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation.py"
   ],
-  "manifest_sha256": "sha256:54a0502384fbed0e962e8d6355c49041dee82cd3709d1d9c33125261feb94cc3",
+  "manifest_sha256": "sha256:95b06dc952c6eeb64bf1371f11c702d8e420f89ca6fd9342dc0b6bc0c6a66729",
   "output_dir": "drcet_open_benchmark_public_safe_v1",
   "schema_id": "saa.benchmark.drcet.open_public_export_receipt.v1",
   "scrub_guard": {
