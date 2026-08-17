@@ -22,7 +22,7 @@ corpora or commercial production datasets.
 ## Key Readbacks
 
 - DRCET-4 status SHA: `sha256:298a49ff8071e54c90f52ca49d45b153f446644ee4a71fc92675a3e4f82e421d`
-- DRCET-10 Pareto V2 status SHA: `sha256:1c21c52439e83279e9e1357446b719fd7ea85c77639e72db570cd839beed8cbe`
+- DRCET-10 Pareto V2 status SHA: `sha256:c9f472793627f018e96aaa4cb7249937e6d6a7977a23f1c3de3ecdedac6dd1ca`
 - DRCET-10 common rows / iso rows: `19200` / `8781`
 - DRCET-10 amortization matched: `True`
 - DRCET-10 GPU energy source: `H100_LONG_WINDOW_ENERGY_PACK`

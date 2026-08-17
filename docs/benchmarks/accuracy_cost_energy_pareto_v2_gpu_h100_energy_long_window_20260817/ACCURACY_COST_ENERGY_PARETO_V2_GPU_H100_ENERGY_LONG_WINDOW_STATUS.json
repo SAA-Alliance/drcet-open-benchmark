@@ -166,6 +166,13 @@
     "withheld_energy_workload_rows": 0,
     "withheld_metric_rows_represented": 0
   },
+  "path_budgets": [
+    128,
+    512,
+    2048,
+    8192,
+    32768
+  ],
   "repeats": 3,
   "schema_id": "saa.drcet.accuracy_cost_energy_pareto_gpu_h100_energy_long_window.v2.status",
   "status": "GPU_H100_LONG_WINDOW_ENERGY_MEASURED_RELEASE_QUALITY_REVIEW_ONLY",
@@ -180,5 +187,5 @@
     "gpu_wall_time_energy_window": "MEASURED_LONG_WINDOW_DIAGNOSTIC_NOT_SPEEDUP_SOURCE"
   },
   "workload_count": 1920,
-  "workload_count_formula": "4 dimensions x 8 regimes x 4 H100 methods x 2 path budgets x 3 repeats = 768 workload windows"
+  "workload_count_formula": "4 dimensions x 8 regimes x 4 H100 methods x 5 path budgets x 3 repeats = 1920 workload windows"
 }

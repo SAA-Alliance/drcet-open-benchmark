@@ -1,6 +1,6 @@
 {
   "disclosure_boundary": "public_safe_synthetic_and_review_only_evidence_no_production_kernel_no_client_data",
-  "generated_at_utc": "2026-08-17T20:21:29Z",
+  "generated_at_utc": "2026-08-17T20:27:16Z",
   "must_not_claim": [
     "production ARIN22 kernel benchmarked",
     "external certification",
@@ -29,7 +29,7 @@
       "iso_accuracy_common_rows": 8781,
       "speedup_claim_allowed": false,
       "status": "CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
-      "status_sha256": "sha256:1c21c52439e83279e9e1357446b719fd7ea85c77639e72db570cd839beed8cbe"
+      "status_sha256": "sha256:c9f472793627f018e96aaa4cb7249937e6d6a7977a23f1c3de3ecdedac6dd1ca"
     },
     "drcet1_tail": {
       "boundary": "published method disclosure; no production approval claim",

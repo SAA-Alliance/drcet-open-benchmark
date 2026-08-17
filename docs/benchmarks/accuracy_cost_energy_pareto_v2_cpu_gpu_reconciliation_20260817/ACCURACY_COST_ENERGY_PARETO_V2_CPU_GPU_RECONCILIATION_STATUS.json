@@ -96,7 +96,7 @@
     "speedup_claim_allowed": false,
     "unit_matched_timing_available": true
   },
-  "generated_at_utc": "2026-08-17T20:18:24Z",
+  "generated_at_utc": "2026-08-17T20:26:16Z",
   "gpu_energy_comparability_gate": {
     "cell_key_fields": [
       "regime",
@@ -134,9 +134,9 @@
     "status": "ATTACHED_WORKLOAD_LEVEL_LONG_WINDOW_ENERGY"
   },
   "gpu_energy_long_window_attached": true,
-  "gpu_energy_manifest_sha256": "sha256:ebb29be3cb779111f1fad40a89c31480edb57bba6acd607fb4747f05c93e375c",
+  "gpu_energy_manifest_sha256": "sha256:e9928613c16d3e3a9e97a8b7b58c5c952dc446c87de7f4e1d3ea8f6dfa24fb30",
   "gpu_energy_pack_path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817",
-  "gpu_energy_pack_status_sha256": "sha256:2aea3f4e0aca2b37ed3d7e2107cfdb437da2dec7230b8e26ef34f01c7e47eca7",
+  "gpu_energy_pack_status_sha256": "sha256:00c88ca93043d2a8b874b18f48bd5b6882f47f04656cb88bdb832f06bd0b4e01",
   "gpu_energy_quality_gate": {
     "accepted_energy_workload_rows": 1920,
     "accepted_metric_rows_represented": 19200,
