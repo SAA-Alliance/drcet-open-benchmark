@@ -60,6 +60,7 @@ def main() -> int:
 
     status = json.loads((root / required[0]).read_text(encoding="utf-8"))
     manifest = json.loads((root / "artifact_manifest.json").read_text(encoding="utf-8"))
+    hardware = json.loads((root / "hardware_probe.json").read_text(encoding="utf-8"))
     rows = load_csv(root / "gpu_h100_long_window_energy_results.csv")
     dims = load_csv(root / "gpu_h100_long_window_energy_by_dimension.csv")
     methods = load_csv(root / "gpu_h100_long_window_energy_by_method.csv")
@@ -161,6 +162,17 @@ def main() -> int:
     saturation = status.get("h100_power_saturation_evidence", {})
     if saturation.get("status") != "GPU_POWER_UNDERSATURATED_REVIEW_ONLY":
         fail("H100 power saturation evidence must be present")
+    if saturation.get("power_limit_source") != "NVML_READBACK_POWER_LIMIT_NOT_DATASHEET":
+        fail("H100 power limit must come from NVML readback, not datasheet assumption")
+    readback = saturation.get("power_limit_readback", {})
+    if readback.get("status") != "PASS_NVML_POWER_LIMIT_READBACK":
+        fail("H100 power-limit readback must pass")
+    if float(readback.get("configured_power_limit_watts") or 0.0) <= 0.0:
+        fail("configured power limit missing from readback")
+    if "nvidia_smi_power_limit_query" not in hardware:
+        fail("hardware_probe missing nvidia_smi_power_limit_query")
+    if float(saturation.get("power_limit_watts") or 0.0) != float(readback.get("configured_power_limit_watts") or -1.0):
+        fail("saturation power_limit_watts must equal configured NVML readback")
     if saturation.get("device_saturated") is not False:
         fail("H100 must remain marked unsaturated")
     if float(saturation.get("power_limit_watts") or 0.0) <= 0.0:
@@ -169,6 +181,20 @@ def main() -> int:
         fail("H100 all-method power fraction unexpectedly saturated")
     if float(saturation.get("device_compute_max_dimension_median_power_fraction_of_tdp") or 1.0) >= 0.5:
         fail("H100 device-compute power fraction unexpectedly saturated")
+    if float(saturation.get("all_methods_max_dimension_peak_power_watts") or 0.0) <= 0.0:
+        fail("H100 peak power must be published")
+    if float(saturation.get("all_methods_max_dimension_peak_power_pct_of_configured_limit") or 0.0) < 70.0:
+        fail("H100 peak-power percentage should expose kernel burst load")
+    if float(saturation.get("all_methods_overall_p95_peak_power_watts") or 0.0) <= 0.0:
+        fail("H100 p95 peak-power statistic must be published")
+    if not saturation.get("duty_cycle_proxy_definition"):
+        fail("H100 duty-cycle proxy definition missing")
+    if float(saturation.get("all_methods_duty_cycle_proxy_mean_over_peak_power") or 1.0) >= 0.75:
+        fail("H100 duty-cycle proxy should show mean materially below peak")
+    if "Low duty cycle" not in str(saturation.get("reason", "")):
+        fail("H100 saturation reason must frame low duty cycle explicitly")
+    if saturation.get("peak_power_quantile_method") != "linear_interpolated_index_n_minus_1":
+        fail("H100 p95 peak-power quantile method missing or unexpected")
 
     mf = {f["path"]: f for f in manifest.get("files", [])}
     for name in required:
@@ -192,6 +218,10 @@ def main() -> int:
         "sample_count_min": gate.get("sample_count_min"),
         "sample_count_median": gate.get("sample_count_median"),
         "all_methods_max_dimension_power_pct_of_tdp": saturation.get("all_methods_max_dimension_median_power_pct_of_tdp"),
+        "all_methods_max_dimension_peak_power_watts": saturation.get("all_methods_max_dimension_peak_power_watts"),
+        "all_methods_max_dimension_peak_power_pct_of_configured_limit": saturation.get("all_methods_max_dimension_peak_power_pct_of_configured_limit"),
+        "all_methods_overall_p95_peak_power_watts": saturation.get("all_methods_overall_p95_peak_power_watts"),
+        "power_limit_readback": readback.get("status"),
         "device_compute_max_dimension_power_pct_of_tdp": saturation.get("device_compute_max_dimension_median_power_pct_of_tdp"),
         "speedup_claim_allowed": frontier["speedup_claim_allowed"],
         "crossover_claim_allowed": frontier["crossover_claim_allowed"],

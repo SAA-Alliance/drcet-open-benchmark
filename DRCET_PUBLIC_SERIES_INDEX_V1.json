@@ -1,6 +1,6 @@
 {
   "disclosure_boundary": "public_safe_synthetic_and_review_only_evidence_no_production_kernel_no_client_data",
-  "generated_at_utc": "2026-08-17T20:56:22Z",
+  "generated_at_utc": "2026-08-17T21:15:08Z",
   "must_not_claim": [
     "production ARIN22 kernel benchmarked",
     "external certification",
@@ -25,11 +25,23 @@
       "gpu_energy_quality_gate": "PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY",
       "gpu_energy_source": "H100_LONG_WINDOW_ENERGY_PACK",
       "gpu_energy_withheld_rows": 0,
+      "h100_all_methods_d1000_mean_power_watts": 114.19077083333332,
+      "h100_all_methods_d1000_peak_power_pct_of_configured_limit": 77.54857142857144,
+      "h100_all_methods_d1000_peak_power_watts": 271.42,
+      "h100_all_methods_overall_p95_peak_power_pct_of_configured_limit": 55.507142857142846,
+      "h100_all_methods_overall_p95_peak_power_watts": 194.27499999999998,
+      "h100_configured_power_limit_watts": 350.0,
+      "h100_default_power_limit_watts": 310.0,
       "h100_device_saturated": false,
+      "h100_low_duty_cycle_finding": "window mean power is materially below peak power; host/orchestration/launch/transfer wait dominates the measured window",
+      "h100_low_duty_cycle_proxy_mean_over_peak_power": 0.42071612568467065,
+      "h100_max_power_limit_watts": 350.0,
+      "h100_power_limit_readback_status": "PASS_NVML_POWER_LIMIT_READBACK",
+      "h100_power_limit_source": "NVML_READBACK_POWER_LIMIT_NOT_DATASHEET",
       "iso_accuracy_common_rows": 8781,
       "speedup_claim_allowed": false,
       "status": "CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
-      "status_sha256": "sha256:92ffc4bd5732d148a0ed85896a29967abc428dc5be63881c6d5dbca3ef13b6e6"
+      "status_sha256": "sha256:69081cb4badd4b0cedb2e42969f90cb7d865a67b649b7e0be4ece13885ff2316"
     },
     "drcet1_tail": {
       "boundary": "published method disclosure; no production approval claim",

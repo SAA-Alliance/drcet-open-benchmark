@@ -22,11 +22,13 @@ corpora or commercial production datasets.
 ## Key Readbacks
 
 - DRCET-4 status SHA: `sha256:298a49ff8071e54c90f52ca49d45b153f446644ee4a71fc92675a3e4f82e421d`
-- DRCET-10 Pareto V2 status SHA: `sha256:92ffc4bd5732d148a0ed85896a29967abc428dc5be63881c6d5dbca3ef13b6e6`
+- DRCET-10 Pareto V2 status SHA: `sha256:69081cb4badd4b0cedb2e42969f90cb7d865a67b649b7e0be4ece13885ff2316`
 - DRCET-10 common rows / iso rows: `19200` / `8781`
 - DRCET-10 amortization matched: `True`
 - DRCET-10 GPU energy source: `H100_LONG_WINDOW_ENERGY_PACK`
 - DRCET-10 GPU energy gate: `PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY`
+- DRCET-10 H100 power limit readback: `PASS_NVML_POWER_LIMIT_READBACK`; configured/default/max W `350.0` / `310.0` / `350.0`
+- DRCET-10 low-duty-cycle readback: mean D=1000 `114.19077083333332` W, peak `271.42` W (`77.54857142857144`% of configured limit), overall p95 peak `194.27499999999998` W
 - DRCET-10 cloud-cost profile: `PARTIAL_H100_RATE_BOUND_CPU_RATE_WITHHELD_DOLLAR_FRONTIER_LOCKED`
 - DRCET-10 speedup/crossover claim allowed: `False` / `False`
 - DRCET-4B status: `VALIDATED_PASS_REVIEW_ONLY_REMIZOV_CHERNOFF_CONVERGENCE_LANE`

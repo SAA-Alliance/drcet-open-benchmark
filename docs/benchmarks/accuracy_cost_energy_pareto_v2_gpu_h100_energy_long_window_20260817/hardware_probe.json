@@ -7,6 +7,16 @@
   "host": "shadecloud",
   "machine": "x86_64",
   "numpy_version": "2.5.2",
+  "nvidia_smi_power_limit_query": {
+    "cmd": [
+      "nvidia-smi",
+      "--query-gpu=power.limit,power.default_limit,power.max_limit",
+      "--format=csv"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "power.limit [W], power.default_limit [W], power.max_limit [W]\n350.00 W, 310.00 W, 350.00 W\n"
+  },
   "nvidia_smi_query": {
     "cmd": [
       "nvidia-smi",

@@ -184,6 +184,28 @@ def main() -> int:
             fail("current H100 diagnostic should remain unsaturated/claim-locked")
         if sat.get("extrapolation_allowed") is not False:
             fail("extrapolation must be prohibited while unsaturated")
+        if long_window_status:
+            if sat.get("power_limit_source") != "NVML_READBACK_POWER_LIMIT_NOT_DATASHEET":
+                fail("long-window saturation must use NVML power-limit readback")
+            readback = sat.get("power_limit_readback", {})
+            if readback.get("status") != "PASS_NVML_POWER_LIMIT_READBACK":
+                fail("long-window saturation missing PASS power-limit readback")
+            if float(readback.get("configured_power_limit_watts") or 0.0) <= 0.0:
+                fail("configured power limit missing from long-window saturation")
+            if float(sat.get("power_limit_watts") or 0.0) != float(readback.get("configured_power_limit_watts") or -1.0):
+                fail("long-window power limit does not match readback")
+            if float(sat.get("all_methods_max_dimension_peak_power_watts") or 0.0) <= 0.0:
+                fail("long-window saturation must publish peak power")
+            if float(sat.get("all_methods_max_dimension_peak_power_pct_of_configured_limit") or 0.0) < 70.0:
+                fail("long-window saturation must expose peak power as material fraction of configured limit")
+            if float(sat.get("all_methods_overall_p95_peak_power_watts") or 0.0) <= 0.0:
+                fail("long-window saturation must publish p95 peak power")
+            if not sat.get("duty_cycle_proxy_definition"):
+                fail("long-window saturation must publish duty-cycle proxy definition")
+            if float(sat.get("all_methods_duty_cycle_proxy_mean_over_peak_power") or 1.0) >= 0.75:
+                fail("long-window saturation duty-cycle proxy must show low duty cycle")
+            if "Low duty cycle" not in str(sat.get("reason", "")):
+                fail("long-window saturation reason must explicitly frame low duty cycle")
         acc = status.get("accuracy_invariant", {})
         if acc.get("fixed_iteration_within_envelope_rows") is None:
             fail("accuracy invariant must publish fixed_iteration_within_envelope_rows")
