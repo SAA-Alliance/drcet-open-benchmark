@@ -1,0 +1,2 @@
+status,replacement_table,invalidated_table,reason
+SUPERSEDED_INVALID_UNITS_WITHHELD,cpu_gpu_unit_matched_iso_accuracy_by_method.csv,invalidated_prior_speedups_by_method.csv,Prior table name carried mixed-unit speedups from CPU single-shot wall_ms divided by H100 fixed-window wall_ms_per_iter. Speedup claim remains locked.

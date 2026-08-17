@@ -1,0 +1,36 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_cloud_cost_profile_20260817",
+  "claim_state": "DOLLAR_AXIS_LOCKED_UNTIL_BOTH_DEVICE_RATES_AND_MEASURED_DEVICE_SECONDS_ARE_BOUND",
+  "contabo_cpu_rate": {
+    "host_role": "production CPU lane host",
+    "hourly_usd": null,
+    "provider": "Contabo",
+    "rate_status": "WITHHELD_CONTABO_CPU_RATE_NOT_BOUND",
+    "source": ""
+  },
+  "currency": "USD",
+  "frontier_acceptance_gate": {
+    "cloud_cost_profile_bound": false,
+    "contabo_cpu_rate_bound": false,
+    "dollar_frontier_claim_allowed": false,
+    "h100_rate_bound": true,
+    "reason": "H100 hourly rate is bound from user-provided Brev UI readback, but Contabo CPU hourly rate is not bound; comparative dollars remain withheld."
+  },
+  "generated_at_utc": "2026-08-17T17:20:14Z",
+  "h100_gpu_rate": {
+    "hardware": "NVIDIA H100 PCIe 80GB, 24 vCPU, 240GB RAM, 1TB SSD",
+    "hourly_usd": 3.96,
+    "instance_name": "arin22",
+    "provider": "Brev/NVIDIA via Scaleway",
+    "rate_status": "BOUND_USER_PROVIDED_BREV_UI_READBACK",
+    "source": "user-provided Brev/NVIDIA UI readback in Codex thread, 2026-08-17"
+  },
+  "must_not_claim": [
+    "Do not publish CPU/H100 dollar frontier while Contabo CPU hourly rate is withheld.",
+    "Do not treat dollars as measured energy; dollars are dated provider/user rates multiplied by measured device-seconds.",
+    "Do not cite H100 rate without the rate_date_utc and source field."
+  ],
+  "rate_date_utc": "2026-08-17",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cloud_cost_profile.v1",
+  "status": "PARTIAL_H100_RATE_BOUND_CPU_RATE_WITHHELD_DOLLAR_FRONTIER_LOCKED"
+}

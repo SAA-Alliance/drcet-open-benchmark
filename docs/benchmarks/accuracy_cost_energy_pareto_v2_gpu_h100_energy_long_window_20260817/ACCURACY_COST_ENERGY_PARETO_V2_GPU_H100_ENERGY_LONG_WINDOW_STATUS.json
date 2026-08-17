@@ -1,0 +1,155 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817",
+  "budgets_paths": [
+    512,
+    2048
+  ],
+  "by_dimension": {
+    "100": {
+      "accepted_energy_workload_rows": 192,
+      "median_gpu_energy_joules_per_iter": 0.04856606059736998,
+      "median_iterations_completed": 4300.0,
+      "median_nvml_sample_count": 49.0,
+      "median_wall_seconds_total_window": 2.0254834839997784,
+      "peak_gpu_memory_mib": 468.0,
+      "workload_rows": 192
+    },
+    "1000": {
+      "accepted_energy_workload_rows": 192,
+      "median_gpu_energy_joules_per_iter": 0.05414188634660372,
+      "median_iterations_completed": 4163.0,
+      "median_nvml_sample_count": 49.0,
+      "median_wall_seconds_total_window": 2.0327169965003122,
+      "peak_gpu_memory_mib": 526.0,
+      "workload_rows": 192
+    },
+    "250": {
+      "accepted_energy_workload_rows": 192,
+      "median_gpu_energy_joules_per_iter": 0.04945619958084481,
+      "median_iterations_completed": 4315.5,
+      "median_nvml_sample_count": 49.0,
+      "median_wall_seconds_total_window": 2.024107470500894,
+      "peak_gpu_memory_mib": 478.0,
+      "workload_rows": 192
+    },
+    "500": {
+      "accepted_energy_workload_rows": 192,
+      "median_gpu_energy_joules_per_iter": 0.051122819596191846,
+      "median_iterations_completed": 4304.0,
+      "median_nvml_sample_count": 49.0,
+      "median_wall_seconds_total_window": 2.027062696500252,
+      "peak_gpu_memory_mib": 494.0,
+      "workload_rows": 192
+    }
+  },
+  "by_method": {
+    "gpu_antithetic_mc": {
+      "accepted_energy_workload_rows": 192,
+      "median_gpu_energy_joules_per_iter": 0.055083119596095444,
+      "median_iterations_completed": 3866.5,
+      "median_nvml_sample_count": 49.0,
+      "median_wall_seconds_total_window": 2.021832412000549,
+      "peak_gpu_memory_mib": 526.0,
+      "workload_rows": 192
+    },
+    "gpu_importance_sampling": {
+      "accepted_energy_workload_rows": 192,
+      "median_gpu_energy_joules_per_iter": 0.04634331910892238,
+      "median_iterations_completed": 4605.5,
+      "median_nvml_sample_count": 50.0,
+      "median_wall_seconds_total_window": 2.02569498199955,
+      "peak_gpu_memory_mib": 510.0,
+      "workload_rows": 192
+    },
+    "gpu_randomized_qmc_cpu_sobol": {
+      "accepted_energy_workload_rows": 192,
+      "median_gpu_energy_joules_per_iter": 2.8700510917028943,
+      "median_iterations_completed": 69.5,
+      "median_nvml_sample_count": 48.0,
+      "median_wall_seconds_total_window": 2.0397960004993365,
+      "peak_gpu_memory_mib": 510.0,
+      "workload_rows": 192
+    },
+    "gpu_raw_mc": {
+      "accepted_energy_workload_rows": 192,
+      "median_gpu_energy_joules_per_iter": 0.04170575831638829,
+      "median_iterations_completed": 5126.5,
+      "median_nvml_sample_count": 49.0,
+      "median_wall_seconds_total_window": 2.022147241001221,
+      "peak_gpu_memory_mib": 510.0,
+      "workload_rows": 192
+    }
+  },
+  "claim_state": "GPU_JOULES_LONG_WINDOW_ATTACHED_PUBLIC_PARETO_STILL_LOCKED",
+  "energy_window_protocol": {
+    "idle_baseline_policy": "total_device_energy_no_idle_subtraction",
+    "maximum_wall_seconds": 8.0,
+    "measurement_boundary": "repeated generation_to_loss_materialization window; VaR/ES reduction outside energy loop",
+    "minimum_nvml_sample_count_required": 40,
+    "minimum_wall_seconds": 2.0,
+    "nvml_interval_seconds_requested": 0.02,
+    "timing_source": "fixed-iteration pack; this long-window lane is not used for CPU/H100 speedup timing",
+    "warmup_iterations_excluded": 2
+  },
+  "fixed_iter_csv_sha256": "sha256:6634eedc88888950591954bc68d5515c0c3dab1628ee9c951517dfcc8eae7508",
+  "fixed_iter_pack_path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817",
+  "fixed_iter_status_sha256": "sha256:457f008ca5a300b22834484de4d895062666293b432c8d7758601f1059b20d5e",
+  "frontier_acceptance_gate": {
+    "cloud_cost_profile_bound": false,
+    "cpu_energy_measured": false,
+    "crossover_claim_allowed": false,
+    "gpu_energy_measured": true,
+    "gpu_energy_release_quality_sufficient": true,
+    "gpu_energy_workload_rows_present": true,
+    "independent_or_multi_engine_reference_attached": false,
+    "reason": "H100 long-window NVML energy is attached for workloads, but public Pareto/crossover remains locked by CPU RAPL absence, incomplete cloud-cost profile, internal reference tier, non-saturation, and no production ARIN22 lane.",
+    "speedup_claim_allowed": false
+  },
+  "generated_at_utc": "2026-08-17T17:49:51Z",
+  "hardware_probe_status": {
+    "cloud_cost": "WITHHELD_CLOUD_RATE_NOT_BOUND",
+    "gpu_device_count": 1,
+    "gpu_device_name": "NVIDIA H100 PCIe",
+    "host": "shadecloud",
+    "nvml_power": "MEASURED_NVML_POWER_INTEGRATION_AVAILABLE"
+  },
+  "methods": [
+    "gpu_raw_mc",
+    "gpu_antithetic_mc",
+    "gpu_randomized_qmc_cpu_sobol",
+    "gpu_importance_sampling"
+  ],
+  "metric_rows_represented": 7680,
+  "must_not_claim": [
+    "Do not use this long-window energy timing for CPU/H100 speedup; speedup timing source is the fixed-iteration pack.",
+    "No CPU/GPU perf-per-watt comparison until CPU joules are measured or formally withheld with a non-comparative H100-only claim.",
+    "No cloud-dollar frontier until H100 and CPU hourly rates are both bound to dated provider/user readback.",
+    "No production ARIN22 performance claim; this measures H100 sampling baselines."
+  ],
+  "nvml_energy_quality_gate": {
+    "accepted_energy_workload_rows": 768,
+    "accepted_metric_rows_represented": 7680,
+    "minimum_sample_count_required": 40,
+    "sample_count_max": 51,
+    "sample_count_median": 49.0,
+    "sample_count_min": 41,
+    "status": "PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY",
+    "withheld_energy_workload_rows": 0,
+    "withheld_metric_rows_represented": 0
+  },
+  "repeats": 3,
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_gpu_h100_energy_long_window.v2.status",
+  "status": "GPU_H100_LONG_WINDOW_ENERGY_MEASURED_RELEASE_QUALITY_REVIEW_ONLY",
+  "target_count": 320,
+  "target_count_formula": "4 dimensions x 5 confidence levels x 8 regimes x 2 metrics = 320 target rows",
+  "telemetry_status": {
+    "cloud_dollars": "WITHHELD_CPU_RATE_NOT_BOUND",
+    "cpu_joules": "FROM_CPU_PACK_WITHHELD_RAPL_NOT_AVAILABLE",
+    "gpu_joules": "MEASURED_NVML_LONG_WINDOW_POWER_INTEGRATED_PER_ITER",
+    "gpu_memory": "MEASURED_NVML_MEMORY_HIGH_WATER",
+    "gpu_power_samples": "MEASURED_NVML_SAMPLE_COUNT_RELEASE_QUALITY",
+    "gpu_wall_time_energy_window": "MEASURED_LONG_WINDOW_DIAGNOSTIC_NOT_SPEEDUP_SOURCE"
+  },
+  "workload_count": 768,
+  "workload_count_formula": "4 dimensions x 8 regimes x 4 H100 methods x 2 path budgets x 3 repeats = 768 workload windows"
+}

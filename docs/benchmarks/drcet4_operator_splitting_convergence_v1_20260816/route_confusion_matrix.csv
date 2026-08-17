@@ -1,0 +1,5 @@
+route_status,count,released,interpretation
+PASS_DETERMINISTIC,314,True,released inside declared cap
+PASS_RECOMPRESSED,36,True,step recompressed before release
+SAFE_FAIL_CLOSED,30,False,not released; challenge/block route used
+SAFE_FAIL_CLOSED_SPECTRAL_ABSCISSA,4,False,not released; A6 spectral-abscissa release criterion failed after recompression ladder

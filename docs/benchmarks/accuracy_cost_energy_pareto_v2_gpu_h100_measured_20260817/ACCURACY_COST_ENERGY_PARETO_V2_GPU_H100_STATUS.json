@@ -1,0 +1,128 @@
+{
+  "acceptance_equation": "abs(gpu_estimate - cpu_reference_estimate) <= predeclared_tolerance + reference_ci_half_width",
+  "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817",
+  "budgets_paths": [
+    512,
+    2048
+  ],
+  "by_dimension": {
+    "100": {
+      "median_gpu_energy_joules_per_iter": 0.04702862981681542,
+      "median_wall_ms_per_iter": 0.5261742035713723,
+      "p95_wall_ms_per_iter": 9.137708560001556,
+      "peak_gpu_memory_mib": 474.0,
+      "rows": 1920
+    },
+    "1000": {
+      "median_gpu_energy_joules_per_iter": 0.04883778867686274,
+      "median_wall_ms_per_iter": 0.5403323799020441,
+      "p95_wall_ms_per_iter": 89.97480766667347,
+      "peak_gpu_memory_mib": 532.0,
+      "rows": 1920
+    },
+    "250": {
+      "median_gpu_energy_joules_per_iter": 0.047281131702232554,
+      "median_wall_ms_per_iter": 0.5258693774118133,
+      "p95_wall_ms_per_iter": 21.531782454551582,
+      "peak_gpu_memory_mib": 484.0,
+      "rows": 1920
+    },
+    "500": {
+      "median_gpu_energy_joules_per_iter": 0.04767547095243621,
+      "median_wall_ms_per_iter": 0.525629563496774,
+      "p95_wall_ms_per_iter": 42.94507649998044,
+      "peak_gpu_memory_mib": 500.0,
+      "rows": 1920
+    }
+  },
+  "by_method": {
+    "gpu_antithetic_mc": {
+      "median_error_over_reference": 0.12481644867247413,
+      "median_gpu_energy_joules_per_iter": 0.05151285890565152,
+      "median_wall_ms_per_iter": 0.5770213942558771,
+      "p95_wall_ms_per_iter": 0.6422682840583667,
+      "peak_gpu_memory_mib": 532.0,
+      "rows": 1920,
+      "within_envelope_rows": 993
+    },
+    "gpu_importance_sampling": {
+      "median_error_over_reference": 0.11799433652649158,
+      "median_gpu_energy_joules_per_iter": 0.0408738123983355,
+      "median_wall_ms_per_iter": 0.489791038802738,
+      "p95_wall_ms_per_iter": 0.5441980344827252,
+      "peak_gpu_memory_mib": 516.0,
+      "rows": 1920,
+      "within_envelope_rows": 1057
+    },
+    "gpu_randomized_qmc_cpu_sobol": {
+      "median_error_over_reference": 0.11287493830538371,
+      "median_gpu_energy_joules_per_iter": 1.8680995102323772,
+      "median_wall_ms_per_iter": 21.08173354546042,
+      "p95_wall_ms_per_iter": 89.97480766667347,
+      "peak_gpu_memory_mib": 516.0,
+      "rows": 1920,
+      "within_envelope_rows": 1096
+    },
+    "gpu_raw_mc": {
+      "median_error_over_reference": 0.11793106179760754,
+      "median_gpu_energy_joules_per_iter": 0.03837113904555312,
+      "median_wall_ms_per_iter": 0.43973354715607615,
+      "p95_wall_ms_per_iter": 0.4971371734233946,
+      "peak_gpu_memory_mib": 516.0,
+      "rows": 1920,
+      "within_envelope_rows": 1046
+    }
+  },
+  "claim_state": "GPU_TELEMETRY_MEASURED_CROSSOVER_LOCKED_UNTIL_CPU_GPU_RECONCILIATION_AND_EXTERNAL_REFERENCE",
+  "frontier_acceptance_gate": {
+    "cpu_energy_measured": false,
+    "cpu_rows_present": true,
+    "crossover_claim_allowed": false,
+    "gpu_energy_measured": true,
+    "gpu_rows_present": true,
+    "independent_reference_required_for_public_claim": true,
+    "internal_reference_only": true,
+    "reason": "GPU H100 rows and NVML energy are measured, but CPU RAPL joules, dated cloud cost profile, and external/multi-engine reference remain missing.",
+    "same_reference_surface": true
+  },
+  "generated_at_utc": "2026-08-17T14:59:21Z",
+  "hardware_probe_status": {
+    "cloud_cost": "WITHHELD_CLOUD_RATE_NOT_BOUND",
+    "gpu_device_count": 1,
+    "gpu_device_name": "NVIDIA H100 PCIe",
+    "host": "shadecloud",
+    "nvml_power": "MEASURED_NVML_POWER_INTEGRATION_AVAILABLE"
+  },
+  "measured_gpu_rows": 7680,
+  "methods": [
+    "gpu_raw_mc",
+    "gpu_antithetic_mc",
+    "gpu_randomized_qmc_cpu_sobol",
+    "gpu_importance_sampling"
+  ],
+  "minimum_nvml_window_seconds": 0.2,
+  "must_not_claim": [
+    "No public CPU/GPU Pareto frontier until CPU and GPU rows are reconciled under an external or multi-engine reference gate.",
+    "No measured CPU joules claim because Contabo CPU RAPL was unavailable.",
+    "No cloud-dollar claim without dated SKU rate for both Contabo CPU and H100 node.",
+    "No production ARIN22 performance claim; this pack measures GPU sampling baselines only."
+  ],
+  "outside_internal_envelope_rows": 3488,
+  "predeclared_tolerance_fraction": 0.05,
+  "reference_csv_sha256": "sha256:98d8e77321f7ab56f1bbee5ffb4bd6bbd707e323fa194f45dcdc4bb4d40ced47",
+  "reference_tier": "R1_INTERNAL_CPU_REFERENCE_FROM_CONTABO_PACK",
+  "repeats": 3,
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_gpu_h100_measured.v2.status",
+  "status": "GPU_H100_MEASURED_CPU_REFERENCE_ATTACHED_CROSSOVER_REVIEW_ONLY",
+  "target_count": 320,
+  "target_count_formula": "4 dimensions x 5 confidence levels x 8 regimes x 2 metrics = 320 target rows",
+  "telemetry_status": {
+    "cloud_dollars": "WITHHELD_CLOUD_RATE_NOT_BOUND",
+    "cpu_joules": "FROM_CPU_PACK_WITHHELD_RAPL_NOT_AVAILABLE",
+    "gpu_joules": "MEASURED_NVML_POWER_INTEGRATED_PER_ITER",
+    "gpu_memory": "MEASURED_NVML_MEMORY_HIGH_WATER",
+    "gpu_process_time": "MEASURED_HOST_PROCESS_TIME_SECONDARY",
+    "gpu_wall_time": "MEASURED_END_TO_END_WINDOW_PER_ITER"
+  },
+  "within_internal_envelope_rows": 4192
+}

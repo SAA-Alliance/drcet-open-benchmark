@@ -1,0 +1,98 @@
+{
+  "blockers": [],
+  "case_count": 96,
+  "claim_boundary": "review-only DRCET-4 protected-container probe; PASS requires actual no-egress container execution; no production ARIN22 approval claim",
+  "command_template_sha256": "sha256:d03c3589d45777b63bf0a424e00e6899bb8f112c0ca44d48f2124c211f7919d6",
+  "container_runtime": "docker",
+  "coverage_fraction": 1.0,
+  "covered_fixture_count": 48,
+  "delta_tolerance_policy": {
+    "floor": 1e-10,
+    "formula": "max(floor, 4096 * eps64 * dimension^2 * (step_count + 1) * (1 + log10(max(stiffness_ratio, 1))))",
+    "policy_id": "drcet4_container_delta_tolerance_predeclared_v1",
+    "reason": "Independent Go scaling/squaring Pade matrix exponential is compared to Python/SciPy; tolerance is declared before container output readback and scales with dimension, composition count, and stiffness."
+  },
+  "family_fixture_coverage": {
+    "A1_commuting_control": {
+      "case_count": 8,
+      "covered_fixtures": 4,
+      "total_fixtures": 4
+    },
+    "A2_rotation_shear": {
+      "case_count": 16,
+      "covered_fixtures": 8,
+      "total_fixtures": 8
+    },
+    "A3_random_stable": {
+      "case_count": 24,
+      "covered_fixtures": 12,
+      "total_fixtures": 12
+    },
+    "A4_stiff_stable": {
+      "case_count": 16,
+      "covered_fixtures": 8,
+      "total_fixtures": 8
+    },
+    "A5_positivity_preserving": {
+      "case_count": 16,
+      "covered_fixtures": 8,
+      "total_fixtures": 8
+    },
+    "A6_near_critical": {
+      "case_count": 16,
+      "covered_fixtures": 8,
+      "total_fixtures": 8
+    }
+  },
+  "generated_at_utc": "2026-08-16T11:02:57Z",
+  "input_byte_length": 587546,
+  "input_sha256": "sha256:c4a0aa79d3c0d8fb2b0549b0e2592737aace464e0389150a8736a95379ed6e0d",
+  "max_abs_delta_row": {
+    "case_id": "A6-CRIT-07",
+    "delta": 6.816769371198461e-14,
+    "delta_to_tolerance_ratio": 9.0488695498555e-07,
+    "delta_tolerance": 7.533282841178009e-08,
+    "dimension": 16,
+    "family": "A6_near_critical",
+    "row_delta_tolerance_policy_id": "drcet4_container_delta_tolerance_predeclared_v1",
+    "solver": "STRANG_ABA",
+    "step_count": 64
+  },
+  "max_abs_delta_vs_python_linear_core": 6.816769371198461e-14,
+  "max_delta_and_ratio_same_row": false,
+  "max_delta_ratio_case_relation": "different_rows",
+  "max_delta_to_tolerance_ratio": 8.216271033653847e-05,
+  "max_delta_to_tolerance_ratio_interpretation": "row-wise max(delta / row_delta_tolerance); it is not max_abs_delta divided by a global tolerance",
+  "max_delta_to_tolerance_ratio_row": {
+    "case_id": "A1-COMM-01",
+    "delta": 1.942890293094024e-14,
+    "delta_to_tolerance_ratio": 8.216271033653847e-05,
+    "delta_tolerance": 2.3646862246096134e-10,
+    "dimension": 2,
+    "family": "A1_commuting_control",
+    "row_delta_tolerance_policy_id": "drcet4_container_delta_tolerance_predeclared_v1",
+    "solver": "STRANG_ABA",
+    "step_count": 64
+  },
+  "max_row_delta_tolerance": 8.324607107485575e-08,
+  "network_mode": "none",
+  "non_claims": [
+    "not production ARIN22 container approval",
+    "not external certification",
+    "not Decision Grade authority",
+    "not solver superiority claim"
+  ],
+  "output_byte_length": 45807,
+  "output_sha256": "sha256:2766539bcdac4d513b89456b777eeeb849ace4f0dd2a0456e240ec9fad01b125",
+  "probe_id": "drcet4_linear_exact_core_container_probe_v1",
+  "schema_id": "saa.benchmark.drcet4.protected_container_probe_receipt.v1",
+  "solver_coverage": [
+    "LINEAR_EXACT_REFERENCE",
+    "STRANG_ABA"
+  ],
+  "status": "PASS_REVIEW_ONLY_NO_EGRESS_CONTAINER_LINEAR_EXACT_CORE",
+  "stderr_tail": "",
+  "stdout_tail": "{\"status\":\"PASS_REVIEW_ONLY_NO_EGRESS_CONTAINER_LINEAR_EXACT_CORE\",\"cases\":96,\"input_sha256\":\"sha256:c4a0aa79d3c0d8fb2b0549b0e2592737aace464e0389150a8736a95379ed6e0d\",\"output\":\"/io/protected_container_linear_exact_output.json\"}\n",
+  "total_fixture_count": 48,
+  "wall_ms": 2318.24775
+}

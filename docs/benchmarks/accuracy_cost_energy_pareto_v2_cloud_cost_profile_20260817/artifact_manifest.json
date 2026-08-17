@@ -1,0 +1,17 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_cloud_cost_profile_20260817",
+  "files": [
+    {
+      "byte_length": 1635,
+      "path": "CLOUD_COST_PROFILE_STATUS.json",
+      "sha256": "sha256:cfa8172dd81cc96ee169c6955b0e37c6be81fb75d572f4a029c6cea4e478bd1f"
+    },
+    {
+      "byte_length": 403,
+      "path": "README.md",
+      "sha256": "sha256:79768ea31fbee6e1a17a42d0da4f42b7713ea1808a522765ba74bdb835b6916b"
+    }
+  ],
+  "generated_at_utc": "2026-08-17T17:20:14Z",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cloud_cost_profile.v1.artifact_manifest"
+}

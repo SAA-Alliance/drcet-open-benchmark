@@ -1,0 +1,13 @@
+{
+  "blockers": [
+    "production_arin22_container_command_missing",
+    "production_arin22_container_not_attached"
+  ],
+  "case_count": 0,
+  "expected_fixture_count": 6,
+  "input_sha256": "sha256:0409e71f37da3a6f464a9517d743b3a67b48162b7dee5fbd657e6df251160b56",
+  "network_mode": "not_proven",
+  "output_sha256": "sha256:1512710cced33e1d7a291c475eba41ad69884bd000002f86297941e366f7eaa1",
+  "schema_id": "saa.benchmark.drcet4b.production_arin22_container_probe_receipt.v1",
+  "status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED"
+}

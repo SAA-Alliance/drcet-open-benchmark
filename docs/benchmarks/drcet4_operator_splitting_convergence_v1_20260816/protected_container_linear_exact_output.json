@@ -1,0 +1,1804 @@
+{
+  "schema_id": "saa.benchmark.drcet4.linear_exact_container_output.v1",
+  "runner_id": "drcet4_linear_exact_core_container_review_only_v1",
+  "run_id": "drcet4_linear_exact_core_container_probe_v1",
+  "input_sha256": "sha256:c4a0aa79d3c0d8fb2b0549b0e2592737aace464e0389150a8736a95379ed6e0d",
+  "generated_at_utc": "2026-08-16T11:02:59Z",
+  "case_count": 96,
+  "status": "PASS_REVIEW_ONLY_NO_EGRESS_CONTAINER_LINEAR_EXACT_CORE",
+  "claim_boundary": "review-only protected/no-egress container probe for DRCET-4 linear exact core; independent Go matrix-exponential path; not production ARIN22 approval, not external certification, not Decision Grade authority",
+  "cases": [
+    {
+      "case_id": "A1-COMM-01",
+      "family": "A1_commuting_control",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.9323938199059483,
+        0.17973158564688863
+      ],
+      "runtime_ms": 0.007625,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A1-COMM-01",
+      "family": "A1_commuting_control",
+      "solver": "STRANG_ABA",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.9323938199059585,
+        0.1797315856468915
+      ],
+      "runtime_ms": 0.010792,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A1-COMM-02",
+      "family": "A1_commuting_control",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.9323938199059483,
+        0.5291534123908034,
+        0.2815367496815977,
+        0.13314843347923186
+      ],
+      "runtime_ms": 0.010916,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A1-COMM-02",
+      "family": "A1_commuting_control",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.9323938199059585,
+        0.5291534123908049,
+        0.28153674968160114,
+        0.13314843347923275
+      ],
+      "runtime_ms": 0.021708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A1-COMM-03",
+      "family": "A1_commuting_control",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.9323938199059483,
+        0.7049614498775463,
+        0.5283204684866122,
+        0.39170294357483615,
+        0.28654667386843763,
+        0.2060542515274733,
+        0.14483867858023103,
+        0.09863878557664263
+      ],
+      "runtime_ms": 0.016042,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A1-COMM-03",
+      "family": "A1_commuting_control",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.9323938199059585,
+        0.7049614498775599,
+        0.5283204684866144,
+        0.3917029435748375,
+        0.28654667386843663,
+        0.20605425152747148,
+        0.1448386785802333,
+        0.09863878557664116
+      ],
+      "runtime_ms": 0.51875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A1-COMM-04",
+      "family": "A1_commuting_control",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.9323938199059483,
+        0.8029292619062308,
+        0.6902406719551526,
+        0.5922458924249001,
+        0.5071136930865566,
+        0.43323417182050633,
+        0.36919259047095254,
+        0.3137462522464557,
+        0.26580407170381587,
+        0.22440852796908345,
+        0.1887197270072928,
+        0.1580013299498827,
+        0.13160813216849976,
+        0.10897510233964897,
+        0.08960771252630644,
+        0.07307340962109388
+      ],
+      "runtime_ms": 0.034167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A1-COMM-04",
+      "family": "A1_commuting_control",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.9323938199059585,
+        0.8029292619062183,
+        0.6902406719551423,
+        0.5922458924249075,
+        0.5071136930865614,
+        0.4332341718204984,
+        0.3691925904709502,
+        0.31374625224645314,
+        0.26580407170381887,
+        0.2244085279690837,
+        0.1887197270072922,
+        0.158001329949882,
+        0.13160813216850087,
+        0.1089751023396481,
+        0.08960771252630571,
+        0.07307340962109515
+      ],
+      "runtime_ms": 0.229417,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-01",
+      "family": "A2_rotation_shear",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.8380525644421238,
+        -0.04876201481712297
+      ],
+      "runtime_ms": 0.004708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-01",
+      "family": "A2_rotation_shear",
+      "solver": "STRANG_ABA",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.8380528373486295,
+        -0.04876163737165682
+      ],
+      "runtime_ms": 0.01025,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-02",
+      "family": "A2_rotation_shear",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.6968333850130504,
+        -0.06535687521703543
+      ],
+      "runtime_ms": 0.003125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-02",
+      "family": "A2_rotation_shear",
+      "solver": "STRANG_ABA",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.6968365514543616,
+        -0.06535560147357505
+      ],
+      "runtime_ms": 0.009375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-03",
+      "family": "A2_rotation_shear",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.8736175387078342,
+        0.3086334643335267
+      ],
+      "runtime_ms": 0.00275,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-03",
+      "family": "A2_rotation_shear",
+      "solver": "STRANG_ABA",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.8736172667437452,
+        0.30863668711761916
+      ],
+      "runtime_ms": 0.0095,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-04",
+      "family": "A2_rotation_shear",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.9102047368604829,
+        0.29406026975069693
+      ],
+      "runtime_ms": 0.00275,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-04",
+      "family": "A2_rotation_shear",
+      "solver": "STRANG_ABA",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.9102079438968355,
+        0.29407125795905104
+      ],
+      "runtime_ms": 0.009125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-05",
+      "family": "A2_rotation_shear",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.8780954309205614,
+        0.658571573190421
+      ],
+      "runtime_ms": 0.002958,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-05",
+      "family": "A2_rotation_shear",
+      "solver": "STRANG_ABA",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.8780909646780671,
+        0.6585886937404598
+      ],
+      "runtime_ms": 0.008958,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-06",
+      "family": "A2_rotation_shear",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        1.2052101309180545,
+        0.7088798487910497
+      ],
+      "runtime_ms": 0.003,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-06",
+      "family": "A2_rotation_shear",
+      "solver": "STRANG_ABA",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        1.2052040376312718,
+        0.7089327048226571
+      ],
+      "runtime_ms": 0.009167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-07",
+      "family": "A2_rotation_shear",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.5543458657818358,
+        1.1997697549093254
+      ],
+      "runtime_ms": 0.002667,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-07",
+      "family": "A2_rotation_shear",
+      "solver": "STRANG_ABA",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.5543142315209886,
+        1.1998136061055906
+      ],
+      "runtime_ms": 0.009125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-08",
+      "family": "A2_rotation_shear",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.5636869691821118,
+        1.6637434428360132
+      ],
+      "runtime_ms": 0.002708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A2-ROTSH-08",
+      "family": "A2_rotation_shear",
+      "solver": "STRANG_ABA",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.5635354063343367,
+        1.6638121002085788
+      ],
+      "runtime_ms": 0.009167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-01-005",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.14409134548773353,
+        -0.30684820472447716,
+        -0.23977396327291453,
+        -0.7686157593173634
+      ],
+      "runtime_ms": 0.028791,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-01-005",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.14409129639226687,
+        -0.3068481717409827,
+        -0.2397740550029906,
+        -0.7686154842947801
+      ],
+      "runtime_ms": 0.02225,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-01-035",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.07097451672279617,
+        -0.4501766738323825,
+        0.3296029254995685,
+        0.3365489758405714
+      ],
+      "runtime_ms": 0.005708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-01-035",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.07097492194363277,
+        -0.45017508011645213,
+        0.32960242528793643,
+        0.33654844566215353
+      ],
+      "runtime_ms": 0.020333,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-01-085",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.5063892739034664,
+        0.6848844745888322,
+        1.009290138058605,
+        0.7542702146473456
+      ],
+      "runtime_ms": 0.005625,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-01-085",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.5063909483299666,
+        0.6848832304683984,
+        1.0092892697406297,
+        0.7542698708581637
+      ],
+      "runtime_ms": 0.023958,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-01-135",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.0029237476443313357,
+        0.062158413367524985,
+        0.07806927758064361,
+        0.5461533481893057
+      ],
+      "runtime_ms": 0.005375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-01-135",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.0029248812999370798,
+        0.06215754901811471,
+        0.0780690344572432,
+        0.5461540932104729
+      ],
+      "runtime_ms": 0.0225,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-02-005",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.0511028513982617,
+        -0.8839568768219964,
+        0.22161277355167008,
+        -0.4870638299944226,
+        1.1133166026600505,
+        -0.43993713579595933,
+        0.2789715396957208,
+        0.09402089325949117
+      ],
+      "runtime_ms": 0.017666,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-02-005",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.05110288334510404,
+        -0.8839569045790879,
+        0.22161280681694437,
+        -0.4870638501600087,
+        1.1133165888569347,
+        -0.4399371301709059,
+        0.278971519059497,
+        0.09402088607571414
+      ],
+      "runtime_ms": 0.062416,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-02-035",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.7238809970227852,
+        -0.4015688728427225,
+        0.384597527961245,
+        -0.34278057179562815,
+        0.2060155300937835,
+        -0.0770747001840529,
+        0.7468982321553512,
+        0.5299640037781957
+      ],
+      "runtime_ms": 0.0145,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-02-035",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.7238812200427049,
+        -0.40156869975846815,
+        0.3845975655222633,
+        -0.34278017544106976,
+        0.20601497875685698,
+        -0.07707465126893631,
+        0.7468981785671277,
+        0.5299637926824862
+      ],
+      "runtime_ms": 0.059958,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-02-085",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.04101796311747028,
+        -0.6107753937294554,
+        0.030692249683799654,
+        -0.3619312906260692,
+        0.19739084978484367,
+        -0.10419622592319999,
+        -0.6517891817682848,
+        0.5117407011443127
+      ],
+      "runtime_ms": 0.014875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-02-085",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.04101826737023794,
+        -0.6107769585852045,
+        0.030692782614437083,
+        -0.36193117384016726,
+        0.197390566464244,
+        -0.1041963995434057,
+        -0.6517900987696187,
+        0.5117401960836545
+      ],
+      "runtime_ms": 0.062084,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-02-135",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.3212042819776207,
+        0.22133618651230563,
+        0.44618316709540673,
+        -0.2593442780565011,
+        0.18479718953695431,
+        0.06119982323985487,
+        -0.3633587982968723,
+        -0.3018755619663447
+      ],
+      "runtime_ms": 0.014417,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-02-135",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.3212037302982279,
+        0.22133608421734627,
+        0.4461831820769347,
+        -0.25934435470679285,
+        0.18479686174955492,
+        0.061199893361174824,
+        -0.3633584707304649,
+        -0.3018753381399083
+      ],
+      "runtime_ms": 0.059667,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-03-005",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.43791393161028586,
+        0.3147219738040903,
+        0.5972403560599427,
+        0.3132953795328206,
+        0.33684630404178445,
+        -0.9550418775736428,
+        -0.6796340774241295,
+        0.7907386509119001,
+        0.7203047512829425,
+        0.22054845318323102,
+        0.8210698590046067,
+        -0.5859692168069255,
+        0.2850180911393836,
+        -0.6328722473178741,
+        0.1329273620653829,
+        -0.1624121658455866
+      ],
+      "runtime_ms": 0.056458,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-03-005",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.4379139446857133,
+        0.314721976438887,
+        0.597240320467701,
+        0.31329538669932966,
+        0.33684631182288965,
+        -0.9550418522318284,
+        -0.6796340975821801,
+        0.7907386571245527,
+        0.7203047643032133,
+        0.2205484517383648,
+        0.8210698701072773,
+        -0.5859692249919043,
+        0.28501806008728203,
+        -0.6328722490750058,
+        0.13292734360232186,
+        -0.16241212579515246
+      ],
+      "runtime_ms": 0.330291,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-03-035",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.8375678043327128,
+        -0.48076013297787673,
+        0.5414768178310023,
+        0.4450421897792212,
+        1.1060659774414763,
+        0.3648511599791979,
+        -0.6084162991359265,
+        -0.6124428325355525,
+        -0.48550876860992076,
+        0.36615586473774886,
+        0.5040038360985235,
+        0.8921890364252739,
+        0.10229083944934461,
+        -0.6753350887196286,
+        -0.008427957799620418,
+        -0.735659604410025
+      ],
+      "runtime_ms": 0.055417,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-03-035",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.8375676475664074,
+        -0.48076014573533127,
+        0.5414768328622134,
+        0.44504145512523136,
+        1.1060661990869878,
+        0.36485209830366117,
+        -0.6084166372570996,
+        -0.6124427577632946,
+        -0.4855085181037773,
+        0.3661559821992046,
+        0.5040039733839841,
+        0.8921897777505479,
+        0.1022904516359083,
+        -0.6753357165041145,
+        -0.008428472307811097,
+        -0.7356596569302718
+      ],
+      "runtime_ms": 0.723042,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-03-085",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        -0.48776353755795765,
+        1.2056950908219561,
+        0.8972281684045486,
+        -0.3554663803402605,
+        0.08975073766911873,
+        -0.7038653416150463,
+        0.9723066250838974,
+        -0.6218159306145071,
+        0.8450300448037649,
+        -0.45767526506059414,
+        -0.883922723731021,
+        0.005532462134938323,
+        -0.35728886211705685,
+        0.5368274333553968,
+        0.10921572247056459,
+        1.0505896844102682
+      ],
+      "runtime_ms": 0.089,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-03-085",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        -0.4877631713624679,
+        1.2056951720951006,
+        0.8972292159702769,
+        -0.3554664492331834,
+        0.08975153845404138,
+        -0.7038646811861422,
+        0.9723060947649254,
+        -0.6218162410137859,
+        0.8450304705116363,
+        -0.45767526764077876,
+        -0.8839232106731217,
+        0.005532027805222661,
+        -0.3572888752266544,
+        0.5368266190184181,
+        0.1092145993561096,
+        1.0505901740558854
+      ],
+      "runtime_ms": 0.286,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-03-135",
+      "family": "A3_random_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.4325838817939145,
+        0.40243512786384494,
+        -0.16953701061818408,
+        -0.2410923069939312,
+        -0.503192096580095,
+        0.5339173440502225,
+        0.4856109544621747,
+        -0.20742554206639127,
+        0.2584875437895621,
+        -0.6320891953006308,
+        0.6302222008123276,
+        1.241856646546186,
+        0.8683801601461439,
+        -0.0040187131577346,
+        -0.3436856250420153,
+        -0.004094776751979287
+      ],
+      "runtime_ms": 0.073625,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A3-RAND-03-135",
+      "family": "A3_random_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.43258372509432863,
+        0.4024342645260414,
+        -0.16953725466066089,
+        -0.241092541824732,
+        -0.5031914532587997,
+        0.5339171374309509,
+        0.48561142052172596,
+        -0.20742585295783408,
+        0.25848740305350953,
+        -0.6320893248760053,
+        0.6302216957070583,
+        1.2418568755306814,
+        0.8683795514826492,
+        -0.004018784585425506,
+        -0.34368568368626995,
+        -0.004095504863241036
+      ],
+      "runtime_ms": 0.279542,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-01",
+      "family": "A4_stiff_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.6645841227910476,
+        1.0399889778442308,
+        -0.7004349100488935,
+        0.23312749568859564
+      ],
+      "runtime_ms": 0.009167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-01",
+      "family": "A4_stiff_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.6645841198515983,
+        1.0399889645176104,
+        -0.700434900215026,
+        0.23312750926966846
+      ],
+      "runtime_ms": 0.0355,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-02",
+      "family": "A4_stiff_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.4214407786048263,
+        -0.0159680154683528,
+        -0.26346537811515086,
+        -0.7812873382228426
+      ],
+      "runtime_ms": 0.006291,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-02",
+      "family": "A4_stiff_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.4214408832896007,
+        -0.015967838997378515,
+        -0.263465480423251,
+        -0.7812872972084927
+      ],
+      "runtime_ms": 0.022875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-03",
+      "family": "A4_stiff_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.022706119931778745,
+        0.10387860087750996,
+        0.41566768184213865,
+        -0.05182164947880815
+      ],
+      "runtime_ms": 0.007708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-03",
+      "family": "A4_stiff_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.022696172998722626,
+        0.10392923913563036,
+        0.41566866110335304,
+        -0.051862486238322555
+      ],
+      "runtime_ms": 0.021708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-04",
+      "family": "A4_stiff_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.06814874249580292,
+        0.04472364680220837,
+        0.053861478328871726,
+        -0.2715768168619727
+      ],
+      "runtime_ms": 0.007334,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-04",
+      "family": "A4_stiff_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.0681897618331664,
+        0.04493004216360256,
+        0.05383055450992457,
+        -0.2716956719172738
+      ],
+      "runtime_ms": 0.022333,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-05",
+      "family": "A4_stiff_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.9834352263970689,
+        0.9632254351112923,
+        0.11987763309472363,
+        -0.6143675739419507,
+        1.4733992866957293,
+        0.11585329309918162,
+        0.7277588222954752,
+        -0.3999883181323629
+      ],
+      "runtime_ms": 0.028667,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-05",
+      "family": "A4_stiff_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.9834352225793993,
+        0.9632254263746384,
+        0.1198776326029233,
+        -0.6143675642862008,
+        1.4733992808830045,
+        0.11585329130252935,
+        0.7277588274559157,
+        -0.399988313995687
+      ],
+      "runtime_ms": 0.081667,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-06",
+      "family": "A4_stiff_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.07297351109591521,
+        0.9505215368355675,
+        0.3876799900735429,
+        0.5872371866897004,
+        1.179163390544342,
+        -0.14906159863383053,
+        -0.9318329846733157,
+        0.1675265100698272
+      ],
+      "runtime_ms": 0.015958,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-06",
+      "family": "A4_stiff_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.07297307900457042,
+        0.9505211299373522,
+        0.38768002463639584,
+        0.5872373933044657,
+        1.1791637501092624,
+        -0.1490614374209888,
+        -0.9318330505645586,
+        0.16752652414201927
+      ],
+      "runtime_ms": 0.062583,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-07",
+      "family": "A4_stiff_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.8348044826552127,
+        -0.5383242208925952,
+        0.17222523266316211,
+        -0.20857765349103358,
+        -0.019187028269774302,
+        0.01504051051530681,
+        0.005080459006200855,
+        -0.054054963732112396
+      ],
+      "runtime_ms": 0.018542,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-07",
+      "family": "A4_stiff_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.8347985472972447,
+        -0.5383116311232863,
+        0.17220428499316837,
+        -0.20857744280072887,
+        -0.0192177691746652,
+        0.015055295791999372,
+        0.005044958345539459,
+        -0.054054237724784376
+      ],
+      "runtime_ms": 0.062875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-08",
+      "family": "A4_stiff_stable",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.08977526901473742,
+        0.5097757735015817,
+        -0.11095732742470836,
+        0.14164586734165047,
+        -0.11043359381562697,
+        -0.4893046365560002,
+        -0.21718474022815618,
+        -0.03208784815078435
+      ],
+      "runtime_ms": 0.019625,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A4-STIFF-08",
+      "family": "A4_stiff_stable",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.08978314266087835,
+        0.5099144320584417,
+        -0.11082019651676271,
+        0.14190256895213674,
+        -0.11074126870284055,
+        -0.48962889211263294,
+        -0.21724797261745474,
+        -0.0322128267369432
+      ],
+      "runtime_ms": 0.063291,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-01",
+      "family": "A5_positivity_preserving",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.743390818287982,
+        0.6682032477376408,
+        0.17849739045842763,
+        0.583149258983853
+      ],
+      "runtime_ms": 0.006416,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-01",
+      "family": "A5_positivity_preserving",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.7433908184204374,
+        0.6682032478619381,
+        0.17849739058468264,
+        0.5831492591172762
+      ],
+      "runtime_ms": 0.021833,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-02",
+      "family": "A5_positivity_preserving",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.38178038816621823,
+        0.697329978777815,
+        0.5476982896410427,
+        0.39711303503956363
+      ],
+      "runtime_ms": 0.006084,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-02",
+      "family": "A5_positivity_preserving",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.38178038761689315,
+        0.6973299826969523,
+        0.5476982926687036,
+        0.3971130380119575
+      ],
+      "runtime_ms": 0.021583,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-03",
+      "family": "A5_positivity_preserving",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.5228778009775941,
+        0.7517137206433505,
+        0.5479860801148285,
+        0.9040039081221468,
+        0.6637247158834263,
+        0.6310809989631666,
+        0.8876077352661998,
+        0.42561766001937906
+      ],
+      "runtime_ms": 0.015542,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-03",
+      "family": "A5_positivity_preserving",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.5228777994343058,
+        0.7517137191307895,
+        0.5479860785929423,
+        0.9040039066352911,
+        0.6637247144110325,
+        0.6310809975355947,
+        0.8876077337548418,
+        0.4256176584751291
+      ],
+      "runtime_ms": 0.063042,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-04",
+      "family": "A5_positivity_preserving",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.41053604334995375,
+        0.49195102908191785,
+        0.736982905548678,
+        0.3627258284262268,
+        0.5644911768995974,
+        0.5384464583295597,
+        0.657038330992799,
+        0.5766171563141674
+      ],
+      "runtime_ms": 0.015334,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-04",
+      "family": "A5_positivity_preserving",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.4105360699590087,
+        0.4919510600831545,
+        0.7369829315654357,
+        0.3627258575546223,
+        0.5644912080683194,
+        0.5384464829799771,
+        0.6570383578839462,
+        0.5766171835068125
+      ],
+      "runtime_ms": 0.06175,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-05",
+      "family": "A5_positivity_preserving",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.7046014775415179,
+        0.8347129996075481,
+        0.6568257170293155,
+        0.675891184054593,
+        0.721685680306558,
+        0.7976332018699565,
+        0.6193047640028705,
+        0.7942643948190669,
+        0.39240474068911546,
+        0.40642751573946584,
+        0.8166331926467998,
+        0.36086111269777815,
+        0.7951761408610907,
+        0.35264013822915186,
+        0.6650912870429492,
+        0.34502059917035593
+      ],
+      "runtime_ms": 0.068959,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-05",
+      "family": "A5_positivity_preserving",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.7046014759299675,
+        0.8347129980095073,
+        0.6568257154373859,
+        0.6758911824380694,
+        0.7216856787106106,
+        0.7976332002794606,
+        0.6193047623880267,
+        0.7942643932165863,
+        0.392404739093082,
+        0.40642751413430717,
+        0.8166331910439877,
+        0.36086111110815866,
+        0.7951761392720739,
+        0.3526401366186706,
+        0.6650912854602334,
+        0.3450205975767214
+      ],
+      "runtime_ms": 0.267792,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-06",
+      "family": "A5_positivity_preserving",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.769855658620599,
+        0.6809404917897319,
+        0.4998768468873025,
+        0.5361184581055258,
+        0.7454591180712359,
+        0.35810089780916554,
+        0.5467168826644936,
+        0.6031985334956971,
+        0.47960644417528453,
+        0.4295219083934558,
+        0.6000550269140319,
+        0.44042145897862484,
+        0.6556086148415229,
+        0.672776261319884,
+        0.6629014802636475,
+        0.6992881910496966
+      ],
+      "runtime_ms": 0.072167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-06",
+      "family": "A5_positivity_preserving",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.7698556683434472,
+        0.6809405011358657,
+        0.4998768564873551,
+        0.5361184675831568,
+        0.7454591274822763,
+        0.3581009075987547,
+        0.5467168915758693,
+        0.6031985427159643,
+        0.47960645355920467,
+        0.429521917730893,
+        0.6000550360737176,
+        0.4404214682395434,
+        0.6556086242717203,
+        0.672776270924334,
+        0.6629014892693301,
+        0.6992882001518962
+      ],
+      "runtime_ms": 0.283042,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-07",
+      "family": "A5_positivity_preserving",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.5023144405742609,
+        0.5161518558149335,
+        0.4949065470649863,
+        0.44474049273980665,
+        0.4554439155367413,
+        0.5064785227939538,
+        0.4995481037027889,
+        0.5207282992411224,
+        0.5612841656391138,
+        0.4820019789197237,
+        0.5536575206914117,
+        0.4520334083306818,
+        0.4352752700094847,
+        0.4436743461044272,
+        0.5047557871590133,
+        0.6226728258660845
+      ],
+      "runtime_ms": 0.066125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-07",
+      "family": "A5_positivity_preserving",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.5023143788887637,
+        0.5161517906624788,
+        0.4949064778013099,
+        0.4447404270567123,
+        0.4554438588920266,
+        0.5064784609663503,
+        0.4995480441686551,
+        0.520728238124336,
+        0.5612841014700702,
+        0.48200191973849454,
+        0.5536574565305178,
+        0.452033348941853,
+        0.43527520933130265,
+        0.44367428063600794,
+        0.5047557245812898,
+        0.6226727632377775
+      ],
+      "runtime_ms": 0.465667,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-08",
+      "family": "A5_positivity_preserving",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.5147400873228621,
+        0.6353222768978749,
+        0.577691198210528,
+        0.5270989097536579,
+        0.5561810203429395,
+        0.5508213633241862,
+        0.6103594347681853,
+        0.5887666681030136,
+        0.5946254117849759,
+        0.6227969556621206,
+        0.6515406430251391,
+        0.5992494804956167,
+        0.5456027333239725,
+        0.506916527015408,
+        0.5796121925729367,
+        0.588815980243634
+      ],
+      "runtime_ms": 0.080167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A5-POS-08",
+      "family": "A5_positivity_preserving",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.5147403381240291,
+        0.6353225221785752,
+        0.5776914479328167,
+        0.5270991547077972,
+        0.5561812661938631,
+        0.5508216114878958,
+        0.6103596875611358,
+        0.5887669180152667,
+        0.5946256563943103,
+        0.6227972047674424,
+        0.6515408885510121,
+        0.5992497321439108,
+        0.5456029864318355,
+        0.5069167706158166,
+        0.5796124383848087,
+        0.588816223125884
+      ],
+      "runtime_ms": 0.537208,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-01",
+      "family": "A6_near_critical",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.3104642767163781,
+        0.7504387355398879
+      ],
+      "runtime_ms": 0.005958,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-01",
+      "family": "A6_near_critical",
+      "solver": "STRANG_ABA",
+      "dimension": 2,
+      "step_count": 64,
+      "result_vector": [
+        0.31046427631110696,
+        0.7504387357413622
+      ],
+      "runtime_ms": 0.017334,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-02",
+      "family": "A6_near_critical",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.7268393208638109,
+        0.47133439143735684,
+        0.7528046271714767,
+        -0.9688944479889356
+      ],
+      "runtime_ms": 0.012625,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-02",
+      "family": "A6_near_critical",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        -0.7268393280552057,
+        0.4713343888221076,
+        0.7528046217537709,
+        -0.9688944458362438
+      ],
+      "runtime_ms": 0.028709,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-03",
+      "family": "A6_near_critical",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.3700332769487733,
+        1.1038942314479878,
+        -0.8322964395221104,
+        1.1687163921840635
+      ],
+      "runtime_ms": 0.007208,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-03",
+      "family": "A6_near_critical",
+      "solver": "STRANG_ABA",
+      "dimension": 4,
+      "step_count": 64,
+      "result_vector": [
+        0.3700332913861723,
+        1.1038942408379395,
+        -0.8322964311346476,
+        1.1687163845827961
+      ],
+      "runtime_ms": 0.024834,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-04",
+      "family": "A6_near_critical",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.17602169460582734,
+        0.6847082644567966,
+        1.2846377365019794,
+        0.8782490393308305,
+        -0.017624304823108963,
+        0.9235216719478236,
+        0.45529326069336745,
+        0.7273600936172725
+      ],
+      "runtime_ms": 0.020583,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-04",
+      "family": "A6_near_critical",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        0.17602169826326186,
+        0.6847082638480484,
+        1.284637733995349,
+        0.878249026679919,
+        -0.01762430377296715,
+        0.9235216802026405,
+        0.4552932625391712,
+        0.727360100306335
+      ],
+      "runtime_ms": 0.074167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-05",
+      "family": "A6_near_critical",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.2028390392166363,
+        -0.4408874008154798,
+        0.10292409917354442,
+        -0.2455882190550895,
+        0.9199200066130478,
+        -0.10123273371767245,
+        0.04835991940537304,
+        0.20302609272841673
+      ],
+      "runtime_ms": 0.01675,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-05",
+      "family": "A6_near_critical",
+      "solver": "STRANG_ABA",
+      "dimension": 8,
+      "step_count": 64,
+      "result_vector": [
+        -0.20283902720423727,
+        -0.44088740257394426,
+        0.10292409188657138,
+        -0.24558821785231635,
+        0.9199200113932264,
+        -0.10123273263309923,
+        0.048359924284692136,
+        0.20302608475894596
+      ],
+      "runtime_ms": 0.064042,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-06",
+      "family": "A6_near_critical",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        -0.14005120562512818,
+        0.3732745247118174,
+        0.926551891036411,
+        -0.0634372216890106,
+        -1.4280280964257126,
+        0.3648892130478049,
+        -0.14064153417648828,
+        1.368869334204633,
+        0.4586826911839029,
+        -0.5751091672347245,
+        0.6469461521670256,
+        -1.3206440663961563,
+        -0.6751350864220292,
+        1.2659088134374186,
+        0.39258130342271136,
+        0.5831553928352413
+      ],
+      "runtime_ms": 0.086834,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-06",
+      "family": "A6_near_critical",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        -0.14005119277343192,
+        0.3732745223556369,
+        0.9265518390538778,
+        -0.06343727547143618,
+        -1.4280281116586275,
+        0.36488915927045884,
+        -0.14064153317047143,
+        1.368869433718262,
+        0.45868259197236494,
+        -0.5751091909387874,
+        0.6469461024885735,
+        -1.320644042540178,
+        -0.6751351989451014,
+        1.2659088581464257,
+        0.3925814367589299,
+        0.5831553331071166
+      ],
+      "runtime_ms": 0.320125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-07",
+      "family": "A6_near_critical",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.3450840577563795,
+        0.8755296685735671,
+        1.3957747000105782,
+        -0.5783427589637947,
+        -0.8234629424745425,
+        -0.4144788706937843,
+        0.17019235430425744,
+        0.17796504539342378,
+        -1.3447687352959046,
+        0.023264830259037247,
+        0.025594353540837035,
+        -0.6569108624826608,
+        -0.5234463540813482,
+        0.01181025244318944,
+        0.13760640133768076,
+        -0.25299623420270734
+      ],
+      "runtime_ms": 0.088542,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-07",
+      "family": "A6_near_critical",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.3450841635942826,
+        0.875529630163341,
+        1.3957746353762364,
+        -0.5783427983382945,
+        -0.8234630505880475,
+        -0.4144788538556948,
+        0.1701923352173545,
+        0.17796505457923192,
+        -1.3447687240250172,
+        0.023264823422505215,
+        0.025594397339088602,
+        -0.6569108833853468,
+        -0.5234463856133325,
+        0.011810294514756592,
+        0.1376063626921825,
+        -0.25299622339219724
+      ],
+      "runtime_ms": 0.287792,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-08",
+      "family": "A6_near_critical",
+      "solver": "LINEAR_EXACT_REFERENCE",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.717313271111085,
+        -0.8226170468622429,
+        -0.19865374115590245,
+        0.18058088697146857,
+        -0.07462658427290096,
+        -0.3262649094787428,
+        -0.2300016970400675,
+        0.9956630952565472,
+        -0.08406202479137936,
+        0.024822061672225136,
+        -1.2159577766744551,
+        -0.5592495279925433,
+        0.38612545932621384,
+        0.0021837717065434662,
+        -0.02787248689883329,
+        -0.6094464442188431
+      ],
+      "runtime_ms": 0.068416,
+      "status": "PASS"
+    },
+    {
+      "case_id": "A6-CRIT-08",
+      "family": "A6_near_critical",
+      "solver": "STRANG_ABA",
+      "dimension": 16,
+      "step_count": 64,
+      "result_vector": [
+        0.7173132896657244,
+        -0.8226169365465832,
+        -0.19865371584549452,
+        0.18058093372107267,
+        -0.07462665632380266,
+        -0.32626499037634255,
+        -0.2300016316317846,
+        0.9956631538168264,
+        -0.08406198089430518,
+        0.024822031777018208,
+        -1.215957869738695,
+        -0.5592495066467834,
+        0.3861254432399519,
+        0.00218376881166272,
+        -0.02787255433314385,
+        -0.6094464204894208
+      ],
+      "runtime_ms": 0.315833,
+      "status": "PASS"
+    }
+  ]
+}

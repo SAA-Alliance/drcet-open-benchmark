@@ -1,0 +1,9 @@
+{
+  "H1": "Smooth non-stiff lane preserves declared order.",
+  "H2": "Released proxy rows remain inside declared error bound.",
+  "H3": "Commutator pressure increases error or changes route.",
+  "H4": "Stiffness/discontinuities must not create silent numerical breakdown.",
+  "H5": "No released result exceeds cap without challenge/fail-closed.",
+  "H6": "Invariants remain inside tolerance or route blocks release.",
+  "H7": "Accuracy-cost frontier is comparative and blocked until N>=3 measured runs."
+}

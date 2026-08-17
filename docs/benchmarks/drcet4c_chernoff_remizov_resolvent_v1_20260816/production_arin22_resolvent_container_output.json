@@ -1,0 +1,7 @@
+{
+  "case_count": 0,
+  "input_sha256": "sha256:400aaccec8e397cadc9a0a70dcc45d3fe2949a9cc2a65b319339a064d6cb5559",
+  "reason": "DRCET4C_PRODUCTION_ARIN22_CONTAINER_CMD/--production-arin22-container-command not provided",
+  "schema_id": "saa.benchmark.drcet4c.production_arin22_container_output.v1",
+  "status": "NOT_EXECUTED"
+}

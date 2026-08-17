@@ -1,0 +1,34 @@
+{
+  "blind_replay_scope": "contract policy + fixture contract only; lambda result CSV/status JSON are excluded from replay input bundle",
+  "claim_boundary": "external replay package excludes answer-key result rows and protected production kernel material",
+  "expected_output_schema_id": "saa.benchmark.drcet4c.external_blind_replay_response.v1",
+  "generated_at_utc": "2026-08-16T12:14:48Z",
+  "input_artifacts": [
+    {
+      "byte_length": 439,
+      "path": "contract_function_policy.json",
+      "sha256": "sha256:3f450c2aa1eb7847e130b41f682ed6e131b1614abe214db940dadb32954d1f9c"
+    },
+    {
+      "byte_length": 372,
+      "path": "resolvent_half_plane_policy.json",
+      "sha256": "sha256:f0c759dc1427aec63fd4d48517956d4597fee62422fe25cf132989fcd753c9b1"
+    },
+    {
+      "byte_length": 2734,
+      "path": "remizov_resolvent_fixture_contract.csv",
+      "sha256": "sha256:c27d6484423894f4aef7fc9593c5627bb2bab87cd1de982383f6453197c8568b"
+    }
+  ],
+  "request_id": "drcet4c_external_blind_replay_request_v1",
+  "required_response_fields": [
+    "replayer_id",
+    "fixture_contract_sha256",
+    "lambda_sweep_rows",
+    "released_rows",
+    "fail_closed_outside_certified_half_plane_rows",
+    "observed_resolvent_order_by_case",
+    "no_access_to_answer_key_attestation"
+  ],
+  "schema_id": "saa.benchmark.drcet4c.external_blind_replay_request.v1"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817",
+  "files": [
+    {
+      "byte_length": 5591,
+      "path": "ACCURACY_COST_ENERGY_PARETO_V2_CPU_CONTABO_FIXED_ITER_STATUS.json",
+      "sha256": "sha256:570f2a5c62850a463cbddd2b99b54b95919acf76609f9bb858c646669827fa93"
+    },
+    {
+      "byte_length": 427,
+      "path": "README.md",
+      "sha256": "sha256:e6e833d9a077373eb37e9db5c204bd093451eba7c8d276f3a15a594ed38530e3"
+    },
+    {
+      "byte_length": 52684,
+      "path": "cpu_fixed_iter_internal_frontier.csv",
+      "sha256": "sha256:284314e065b484da07fe6546e372562bd71e4efeadf725bd1a55cd45d256af9d"
+    },
+    {
+      "byte_length": 2691,
+      "path": "hardware_probe.json",
+      "sha256": "sha256:2aca9090c84064eb2096d5cf09fe065cab843c751f5f8e35653652267ee79291"
+    },
+    {
+      "byte_length": 5018096,
+      "path": "measured_results_cpu_fixed_iter.csv",
+      "sha256": "sha256:c5f39d3da3fa3ceb5cd23cb89643471c6a5d3c82f2b7b868537e9fcfa41b4126"
+    },
+    {
+      "byte_length": 51131,
+      "path": "reference_results_cpu.csv",
+      "sha256": "sha256:7cb6b28048e2e354be8b99eab536cd4e20c4d26de2311f0577f8b9c15dffea60"
+    },
+    {
+      "byte_length": 706,
+      "path": "telemetry_gap_report.json",
+      "sha256": "sha256:370e549c477040b551a6887cfc149c578af13650e58e34c263c3e22aaf8401a8"
+    }
+  ],
+  "generated_at_utc": "2026-08-17T16:05:46Z",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_contabo_fixed_iter.v2.artifact_manifest"
+}

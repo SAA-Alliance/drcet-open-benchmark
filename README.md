@@ -1,69 +1,50 @@
-# DRCET Open Benchmark Protocol
+# DRCET Open Benchmark
 
-DRCET is an open protocol for **Deterministic Risk Calculation Equivalence Tests**: a way to publish, validate, and compare deterministic risk engines against reference or challenger evidence without hiding the claim boundary.
+Public-safe benchmark evidence package for the DRCET series.
 
-This repository contains the public protocol surface only:
+This repository intentionally publishes synthetic/review-only artifacts only.
+It does not publish production ARIN22 kernel source, protected container build
+contexts, credentials, client data, private data-room URLs, hidden adversarial
+corpora or commercial production datasets.
 
-- protocol documents for DRCET-1, DRCET-2, and DRCET-3;
-- machine-readable JSON schemas;
-- a dependency-light validator;
-- synthetic fixtures for PASS and WITHHELD paths;
-- CI checks that prove the fixtures and validator run cleanly.
+## Current Public-Safe Status
 
-## What DRCET Covers
+| Lane | Status | Boundary |
+| --- | --- | --- |
+| DRCET-1 tail metrics | PUBLISHED_METHOD_ATTACHED | Method citation/status only in this export. |
+| DRCET-2 path functionals | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
+| DRCET-3 attribution/stress | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
+| DRCET-10 Accuracy-Cost-Energy Pareto V2 | CPU_H100_FIXED_ITERATION_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED | Fixed-iteration CPU/H100 telemetry attached; speedup/crossover claim locked. |
+| DRCET-4 operator splitting + 4B Chernoff convergence | PROTOCOL_FULL_LINEAR_EXACT_CONTAINER_AND_REMIZOV_CHERNOFF_LANE_VALIDATED_PRODUCTION_ARIN22_PENDING | Foundation/routing validated; production ARIN22 pending. |
+| DRCET-4C Chernoff-Remizov resolvent | VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING | Bounded contract-surrogate; production ARIN22 pending. |
+| DRCET-4D continuum spatial refinement | VALIDATED_PASS_PUBLIC_SAFE_CONTINUUM_SPATIAL_REFINEMENT_LANE_PRODUCTION_ARIN22_PENDING | Public-safe unbounded/continuum surrogate; production ARIN22 pending. |
 
-| Track | Scope | Publication state in this repo |
-|---|---|---|
-| DRCET-1 | Tail metrics equivalence: VaR / ES / CVaR across horizons and confidence levels | Protocol surface |
-| DRCET-2 | Path-functional equivalence: terminal loss, max drawdown, time underwater, recovery horizon, jump count | Draft protocol surface |
-| DRCET-3 | Attribution/stress equivalence: factor/stress attribution, contribution concentration, replay/stochastic attribution consistency | Draft protocol surface |
+## Key Readbacks
 
-## What This Repo Is Not
+- DRCET-4 status SHA: `sha256:298a49ff8071e54c90f52ca49d45b153f446644ee4a71fc92675a3e4f82e421d`
+- DRCET-10 Pareto V2 status SHA: `sha256:58a8d9491a159914ea8df2c919b07a3f6a309f7034ce07133ae4b2de9ea07966`
+- DRCET-10 common rows / iso rows: `7680` / `3042`
+- DRCET-10 amortization matched: `True`
+- DRCET-10 GPU energy source: `H100_LONG_WINDOW_ENERGY_PACK`
+- DRCET-10 GPU energy gate: `PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY`
+- DRCET-10 cloud-cost profile: `PARTIAL_H100_RATE_BOUND_CPU_RATE_WITHHELD_DOLLAR_FRONTIER_LOCKED`
+- DRCET-10 speedup/crossover claim allowed: `False` / `False`
+- DRCET-4B status: `VALIDATED_PASS_REVIEW_ONLY_REMIZOV_CHERNOFF_CONVERGENCE_LANE`
+- DRCET-4C status SHA: `sha256:61d7266d4625cef0aa21bc270b1a58c382c4b820c346e30fa44d72b0b447182f`
+- DRCET-4C released rows: `155`
+- DRCET-4C non-convergent fail-closed rows: `25`
+- DRCET-4C silent non-convergent releases: `0`
+- DRCET-4C order-floor gate: `PASS_NONCONVERGENT_ROWS_FAIL_CLOSED`
+- DRCET-4D status SHA: `sha256:82f6b92871ad59bc2ec5bec803869068ac2fb49ee578f728c423505dcfd01af6`
+- DRCET-4D observed spatial order median: `2.0007826398221917`
+- DRCET-4D max E/B: `0.39999116019618314`
+- Production ARIN22 container status: `PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED`
+- External blind replay status: `PENDING_EXTERNAL_BLIND_REPLAY`
 
-This repository is **not** external certification, not investment advice, not a production model approval, not a claim that any submitted engine is decision-grade, and not a replacement for independent model-risk review.
+## Public Wording
 
-The included examples are synthetic fixtures. They are designed to validate the protocol and tooling, not to prove performance of any private engine.
+Foundation and governed routing are validated on public-safe synthetic lanes.
+The production ARIN22 kernel remains pending until a protected production
+container is attached and replayed under the same lane contracts.
 
-## Quick Start
-
-```bash
-python3 -m drcet_validator.validate examples/synthetic_pass/drcet_submission.json
-python3 -m drcet_validator.validate examples/synthetic_withheld/drcet_submission.json
-python3 -m unittest discover -s tests -v
-```
-
-Expected result: both fixture submissions validate. The WITHHELD fixture proves that suppressed metrics do not serialize numeric values.
-
-## Results Summaries
-
-Review-only internal replay evidence is summarized separately from the protocol surface:
-
-- [DRCET-2 / DRCET-3 10M CPU Results Summary](docs/results/DRCET_2_3_10M_CPU_20260714.md)
-
-These summaries are not external certification and are not production model approval. They are included to show how DRCET evidence should disclose scope, hashes, limits, and non-claims.
-
-## Claim Boundary
-
-A DRCET packet must make its boundary explicit:
-
-- `claim_boundary` tells readers what the packet may and may not be used for.
-- `non_claims` prevents marketing language from silently becoming a model-risk claim.
-- `evidence_tier` separates synthetic fixtures, internal evidence, independent reproduction, and external certification.
-- `metric.status = WITHHELD` forbids `value` serialization.
-
-See [docs/CLAIM_BOUNDARY.md](docs/CLAIM_BOUNDARY.md).
-
-## Repository Layout
-
-```text
-docs/                       Human-readable protocol docs
-schemas/                    JSON schemas for submissions and results
-drcet_validator/            Python validator, stdlib only
-examples/                   Synthetic protocol fixtures
-tests/                      Unit tests for validator behavior
-.github/workflows/ci.yml    GitHub Actions validation
-```
-
-## License
-
-Apache-2.0. See [LICENSE](LICENSE).
+See `PUBLIC_DISCLOSURE_BOUNDARY.md` before reusing any claim.

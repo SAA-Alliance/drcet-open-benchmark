@@ -1,0 +1,146 @@
+{
+  "acceptance_equation": "abs(method_estimate - reference_estimate) <= predeclared_tolerance + reference_ci_half_width",
+  "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817",
+  "budgets_paths": [
+    512,
+    2048
+  ],
+  "by_dimension": {
+    "100": {
+      "fixed_iterations": 16,
+      "median_wall_ms_per_iter": 5.405391312478969,
+      "p95_wall_ms_per_iter": 26.182298062451537,
+      "peak_rss_mb": 236.88671875,
+      "rows": 1920,
+      "warmup_iterations_excluded": 2,
+      "within_envelope_rows": 1118
+    },
+    "1000": {
+      "fixed_iterations": 16,
+      "median_wall_ms_per_iter": 38.504488812492355,
+      "p95_wall_ms_per_iter": 248.03666456244855,
+      "peak_rss_mb": 237.22265625,
+      "rows": 1920,
+      "warmup_iterations_excluded": 2,
+      "within_envelope_rows": 1157
+    },
+    "250": {
+      "fixed_iterations": 16,
+      "median_wall_ms_per_iter": 9.866916437488271,
+      "p95_wall_ms_per_iter": 95.26984643747483,
+      "peak_rss_mb": 236.88671875,
+      "rows": 1920,
+      "warmup_iterations_excluded": 2,
+      "within_envelope_rows": 1042
+    },
+    "500": {
+      "fixed_iterations": 16,
+      "median_wall_ms_per_iter": 19.983734031256972,
+      "p95_wall_ms_per_iter": 139.42005868750584,
+      "peak_rss_mb": 236.88671875,
+      "rows": 1920,
+      "warmup_iterations_excluded": 2,
+      "within_envelope_rows": 1087
+    }
+  },
+  "by_method": {
+    "antithetic_mc": {
+      "fixed_iterations": 16,
+      "median_wall_ms_per_iter": 6.717536531255064,
+      "p95_wall_ms_per_iter": 41.58825800004706,
+      "peak_rss_mb": 236.88671875,
+      "rows": 1920,
+      "warmup_iterations_excluded": 2,
+      "within_envelope_rows": 1025
+    },
+    "importance_sampling": {
+      "fixed_iterations": 16,
+      "median_wall_ms_per_iter": 9.865514406243392,
+      "p95_wall_ms_per_iter": 44.32041243751428,
+      "peak_rss_mb": 237.22265625,
+      "rows": 1920,
+      "warmup_iterations_excluded": 2,
+      "within_envelope_rows": 1116
+    },
+    "randomized_qmc": {
+      "fixed_iterations": 16,
+      "median_wall_ms_per_iter": 80.45817459372984,
+      "p95_wall_ms_per_iter": 248.03666456244855,
+      "peak_rss_mb": 237.22265625,
+      "rows": 1920,
+      "warmup_iterations_excluded": 2,
+      "within_envelope_rows": 1256
+    },
+    "raw_mc": {
+      "fixed_iterations": 16,
+      "median_wall_ms_per_iter": 10.056200437503549,
+      "p95_wall_ms_per_iter": 41.8752686250059,
+      "peak_rss_mb": 236.88671875,
+      "rows": 1920,
+      "warmup_iterations_excluded": 2,
+      "within_envelope_rows": 1007
+    }
+  },
+  "claim_state": "CPU_FIXED_ITERATION_PER_ITER_ATTACHED_FOR_AMORTIZATION_MATCHED_RECONCILIATION_ONLY",
+  "fixed_iterations": 16,
+  "frontier_acceptance_gate": {
+    "cloud_cost_profile_bound": false,
+    "cpu_energy_measured": false,
+    "cpu_fixed_iteration_units_present": true,
+    "cpu_rows_present": true,
+    "crossover_claim_allowed": false,
+    "gpu_rows_present": false,
+    "reason": "CPU fixed-iteration rows are measured for amortization-matched GPU reconciliation, but this pack by itself carries no CPU/GPU crossover claim.",
+    "same_error_envelope": true
+  },
+  "generated_at_utc": "2026-08-17T16:05:45Z",
+  "hardware_probe_status": {
+    "cost_profile": "WITHHELD_CLOUD_RATE_NOT_BOUND",
+    "cpu_count_logical": 18,
+    "cpu_model": "AMD EPYC Processor (with IBPB)",
+    "host": "vmi2969381",
+    "rapl": "WITHHELD_RAPL_NOT_AVAILABLE"
+  },
+  "measured_cpu_rows": 7680,
+  "measurement_boundary": "warmup excluded; fixed measured iteration count; generation_to_loss_materialization; VaR/ES reduction outside timer",
+  "measurement_units": {
+    "iterations_per_window": "fixed_iterations, identical to the H100 fixed-iteration lane",
+    "process_cpu_seconds_per_iter": "process_cpu_seconds_total_window / fixed_iterations",
+    "wall_ms_per_iter": "wall_ms_total_window / fixed_iterations",
+    "wall_ms_total_window": "measured wall time for exactly fixed_iterations"
+  },
+  "methods": [
+    "raw_mc",
+    "antithetic_mc",
+    "randomized_qmc",
+    "importance_sampling"
+  ],
+  "must_not_claim": [
+    "No public CPU/GPU speedup claim from the CPU fixed-iteration pack alone.",
+    "No measured CPU joules claim when RAPL is unavailable.",
+    "No cloud-dollar claim without dated SKU rate.",
+    "No production ARIN22 performance claim; this pack measures CPU sampling baselines only."
+  ],
+  "outside_internal_envelope_rows": 3276,
+  "predeclared_tolerance_fraction": 0.05,
+  "reference_csv_sha256": "sha256:98d8e77321f7ab56f1bbee5ffb4bd6bbd707e323fa194f45dcdc4bb4d40ced47",
+  "reference_rows": 320,
+  "reference_tier": "R1_INTERNAL_CPU_REFERENCE_WITH_SHARD_CI_LOW_POWER_DEEP_TAILS",
+  "repeats": 3,
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_contabo_fixed_iter.v2.status",
+  "status": "CPU_CONTABO_FIXED_ITERATION_MEASURED_GPU_COMPARABLE_UNITS",
+  "target_count": 320,
+  "target_count_formula": "4 dimensions x 5 confidence levels x 8 regimes x 2 metrics = 320 target rows",
+  "telemetry_status": {
+    "cloud_dollars": "WITHHELD_CLOUD_RATE_NOT_BOUND",
+    "cpu_joules": "WITHHELD_RAPL_NOT_AVAILABLE",
+    "cpu_peak_rss": "MEASURED",
+    "cpu_process_time": "MEASURED_FIXED_ITERATION_PROCESS_TIME_PER_ITER",
+    "cpu_wall_time": "MEASURED_FIXED_ITERATION_PER_ITER_WARMUP_EXCLUDED",
+    "gpu_joules": "PENDING_RECONCILIATION_WITH_GPU_FIXED_ITER_PACK",
+    "gpu_memory": "PENDING_RECONCILIATION_WITH_GPU_FIXED_ITER_PACK",
+    "gpu_wall_time": "PENDING_RECONCILIATION_WITH_GPU_FIXED_ITER_PACK"
+  },
+  "warmup_iterations_excluded": 2,
+  "within_internal_envelope_rows": 4404
+}

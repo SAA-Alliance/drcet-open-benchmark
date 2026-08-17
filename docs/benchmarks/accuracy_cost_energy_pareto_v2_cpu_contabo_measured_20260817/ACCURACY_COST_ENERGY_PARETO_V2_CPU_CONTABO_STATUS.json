@@ -1,0 +1,130 @@
+{
+  "acceptance_equation": "abs(method_estimate - reference_estimate) <= predeclared_tolerance + reference_ci_half_width",
+  "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817",
+  "budgets_paths": [
+    512,
+    2048
+  ],
+  "by_dimension": {
+    "100": {
+      "median_wall_ms": 4.860775500219461,
+      "p95_wall_ms": 26.938265999888245,
+      "peak_rss_mb": 235.41015625,
+      "rows": 1920
+    },
+    "1000": {
+      "median_wall_ms": 35.01937900000485,
+      "p95_wall_ms": 247.70573600017087,
+      "peak_rss_mb": 239.7265625,
+      "rows": 1920
+    },
+    "250": {
+      "median_wall_ms": 9.465450000107012,
+      "p95_wall_ms": 83.64251900002273,
+      "peak_rss_mb": 235.41015625,
+      "rows": 1920
+    },
+    "500": {
+      "median_wall_ms": 17.522049500030334,
+      "p95_wall_ms": 134.42667699973754,
+      "peak_rss_mb": 235.41015625,
+      "rows": 1920
+    }
+  },
+  "by_method": {
+    "antithetic_mc": {
+      "median_abs_error": 0.7108398372875013,
+      "median_error_over_reference": 0.12322221744898885,
+      "median_wall_ms": 5.974229999992531,
+      "p95_wall_ms": 33.98481799968067,
+      "peak_rss_mb": 235.41015625,
+      "rows": 1920,
+      "within_envelope_rows": 1025
+    },
+    "importance_sampling": {
+      "median_abs_error": 0.661375773331482,
+      "median_error_over_reference": 0.10124381614860499,
+      "median_wall_ms": 9.189380500174593,
+      "p95_wall_ms": 47.601387000213435,
+      "peak_rss_mb": 239.7265625,
+      "rows": 1920,
+      "within_envelope_rows": 1116
+    },
+    "randomized_qmc": {
+      "median_abs_error": 0.5498579188985238,
+      "median_error_over_reference": 0.09158429135802805,
+      "median_wall_ms": 70.61335000003055,
+      "p95_wall_ms": 247.70573600017087,
+      "peak_rss_mb": 239.7265625,
+      "rows": 1920,
+      "within_envelope_rows": 1256
+    },
+    "raw_mc": {
+      "median_abs_error": 0.7370044570708809,
+      "median_error_over_reference": 0.12185737445776221,
+      "median_wall_ms": 9.081551999997828,
+      "p95_wall_ms": 43.68233800005328,
+      "peak_rss_mb": 235.41015625,
+      "rows": 1920,
+      "within_envelope_rows": 1007
+    }
+  },
+  "claim_state": "CPU_TELEMETRY_MEASURED_NO_GPU_OR_CROSSOVER_CLAIM",
+  "frontier_acceptance_gate": {
+    "cpu_energy_measured": false,
+    "cpu_rows_present": true,
+    "crossover_claim_allowed": false,
+    "gpu_energy_measured": false,
+    "gpu_rows_present": false,
+    "independent_reference_required_for_public_claim": true,
+    "internal_reference_only": true,
+    "reason": "CPU Contabo lane is measured, but GPU/NVML rows, independent reference oracle, and dated cloud cost profile are still missing.",
+    "same_error_envelope": true
+  },
+  "generated_at_utc": "2026-08-17T14:28:33Z",
+  "hardware_probe_status": {
+    "cost_profile": "WITHHELD_CLOUD_RATE_NOT_BOUND",
+    "cpu_count_logical": 18,
+    "cpu_model": "AMD EPYC Processor (with IBPB)",
+    "host": "vmi2969381",
+    "nvml": "GPU_PENDING_NVIDIA_NODE_NOT_ATTACHED",
+    "rapl": "WITHHELD_RAPL_NOT_AVAILABLE"
+  },
+  "low_tail_power_rows": 4608,
+  "measured_cpu_rows": 7680,
+  "methods": [
+    "raw_mc",
+    "antithetic_mc",
+    "randomized_qmc",
+    "importance_sampling"
+  ],
+  "must_not_claim": [
+    "No NVIDIA-grade CPU/GPU crossover claim from this CPU-only pack.",
+    "No measured CPU joules claim when RAPL is unavailable.",
+    "No cloud-dollar claim without dated Contabo SKU rate.",
+    "No production ARIN22 performance claim; this pack measures CPU sampling baselines only.",
+    "No public accuracy ranking against internal CPU reference as if it were external truth."
+  ],
+  "outside_internal_envelope_rows": 3276,
+  "predeclared_tolerance_fraction": 0.05,
+  "reference_rows": 320,
+  "reference_tier": "R1_INTERNAL_CPU_REFERENCE_WITH_SHARD_CI_LOW_POWER_DEEP_TAILS",
+  "reference_warning": "Reference is an internal CPU reference, not an external oracle. Public Pareto/crossover claims remain locked until GPU rows and independent reference gate are attached.",
+  "repeat_policy": "single_process_repeat_indexed; N=3 fresh-process telemetry certification remains pending for public performance claims",
+  "repeats": 3,
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_contabo_measured.v2.status",
+  "status": "CPU_ONLY_MEASURED_GPU_PENDING",
+  "target_count": 320,
+  "target_count_formula": "4 dimensions x 5 confidence levels x 8 regimes x 2 metrics = 320 target rows",
+  "telemetry_status": {
+    "cloud_dollars": "WITHHELD_CLOUD_RATE_NOT_BOUND",
+    "cpu_joules": "WITHHELD_RAPL_NOT_AVAILABLE",
+    "cpu_peak_rss": "MEASURED",
+    "cpu_process_time": "MEASURED",
+    "cpu_wall_time": "MEASURED",
+    "gpu_joules": "PENDING_GPU_NODE",
+    "gpu_memory": "PENDING_GPU_NODE",
+    "gpu_wall_time": "PENDING_GPU_NODE"
+  },
+  "within_internal_envelope_rows": 4404
+}

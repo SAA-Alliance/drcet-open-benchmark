@@ -1,0 +1,45 @@
+{
+  "file_count": 192,
+  "generated_at_utc": "2026-08-17T17:56:05Z",
+  "included_dirs": [
+    "docs/benchmarks/deep_tail_rare_event_challenge_v1_20260815",
+    "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815",
+    "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817",
+    "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_windowed_20260817",
+    "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817",
+    "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817",
+    "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817",
+    "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817",
+    "docs/benchmarks/accuracy_cost_energy_pareto_v2_cloud_cost_profile_20260817",
+    "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817",
+    "docs/benchmarks/error_certificate_reliability_v1_20260815",
+    "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815",
+    "docs/benchmarks/drcet4_operator_splitting_convergence_v1_20260816",
+    "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816",
+    "docs/benchmarks/drcet4d_continuum_spatial_refinement_v1_20260816"
+  ],
+  "included_files": [
+    "docs/DRCET4_GITHUB_DISCLOSURE_BOUNDARY.md",
+    "scripts/check_drcet4_operator_splitting_convergence_v1.py",
+    "scripts/check_drcet4c_chernoff_remizov_resolvent_v1.py",
+    "scripts/check_drcet4d_continuum_spatial_refinement_v1.py",
+    "scripts/check_accuracy_cost_energy_pareto_v2_cpu_contabo.py",
+    "scripts/check_accuracy_cost_energy_pareto_v2_cpu_contabo_windowed.py",
+    "scripts/check_accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter.py",
+    "scripts/check_accuracy_cost_energy_pareto_v2_gpu_h100.py",
+    "scripts/apply_accuracy_cost_energy_pareto_v2_gpu_energy_gate.py",
+    "scripts/check_accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter.py",
+    "scripts/check_accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window.py",
+    "scripts/check_accuracy_cost_energy_pareto_v2_cloud_cost_profile.py",
+    "scripts/check_accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation.py"
+  ],
+  "manifest_sha256": "sha256:54a0502384fbed0e962e8d6355c49041dee82cd3709d1d9c33125261feb94cc3",
+  "output_dir": "drcet_open_benchmark_public_safe_v1",
+  "schema_id": "saa.benchmark.drcet.open_public_export_receipt.v1",
+  "scrub_guard": {
+    "banned_pattern_count": 14,
+    "findings_count": 0,
+    "status": "PASS"
+  },
+  "status": "PASS_PUBLIC_SAFE_EXPORT_READY"
+}

@@ -1,0 +1,28 @@
+{
+  "captured_at_utc": "2026-08-17T15:59:47Z",
+  "cpu_count_logical": 24,
+  "cupy_version": "14.1.1",
+  "gpu_device_count": 1,
+  "gpu_device_name": "NVIDIA H100 PCIe",
+  "host": "shadecloud",
+  "machine": "x86_64",
+  "numpy_version": "2.5.2",
+  "nvidia_smi_query": {
+    "cmd": [
+      "nvidia-smi",
+      "--query-gpu=name,uuid,power.draw,power.limit,memory.total,memory.used,clocks.sm,clocks.mem,driver_version",
+      "--format=csv"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "name, uuid, power.draw [W], power.limit [W], memory.total [MiB], memory.used [MiB], clocks.current.sm [MHz], clocks.current.memory [MHz], driver_version\nNVIDIA H100 PCIe, GPU-8b0a5cc2-087b-2d23-4e26-f9186a8f03e9, 53.96 W, 350.00 W, 81559 MiB, 1 MiB, 345 MHz, 1593 MHz, 570.124.06"
+  },
+  "platform": "Linux-6.8.0-57-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "scipy_version": "1.18.0",
+  "telemetry": {
+    "cloud_cost": "WITHHELD_CLOUD_RATE_NOT_BOUND",
+    "gpu_memory": "MEASURED_NVML_MEMORY_AVAILABLE",
+    "nvml_power": "MEASURED_NVML_POWER_INTEGRATION_AVAILABLE"
+  }
+}
