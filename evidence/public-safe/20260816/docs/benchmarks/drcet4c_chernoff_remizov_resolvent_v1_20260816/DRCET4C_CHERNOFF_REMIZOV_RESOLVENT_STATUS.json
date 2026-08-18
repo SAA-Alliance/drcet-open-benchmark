@@ -37,7 +37,7 @@
     "schema_id": "saa.benchmark.drcet4c.container_cross_quadrature_rule_readback.v1"
   },
   "contract_function_policy": {
-    "disclosure_boundary": "generic factor matrices F1..F5 are synthetic public fixtures; protected production ARIN22 operator factors, weights, build context, and kernel source are not published",
+    "disclosure_boundary": "generic synthetic factor matrices are public fixtures; protected production ARIN22 operator factors, weights, build context, and kernel source are not published",
     "execution_object": "bounded multi-factor palindromic Chernoff surrogate",
     "not_the_object": "I+tL Euler-Chernoff proxy from DRCET-4B",
     "policy_id": "drcet4c_public_safe_contract_surrogate_v1",
@@ -68,7 +68,7 @@
     "blockers": [
       "external_blind_replay_response_not_attached"
     ],
-    "request_sha256": "sha256:31b833b93de5abe785c44dc173744fad9c026678b63825306b437595da0180d7",
+    "request_sha256": "sha256:2b2ade17931074c636828e293c309020f83ec8e8cd0999fec515a4cb7c03006e",
     "response_sha256": "",
     "schema_id": "saa.benchmark.drcet4c.external_blind_replay_receipt.v1",
     "status": "PENDING_EXTERNAL_BLIND_REPLAY"
@@ -215,9 +215,9 @@
     ],
     "case_count": 0,
     "expected_fixture_count": 4,
-    "input_sha256": "sha256:400aaccec8e397cadc9a0a70dcc45d3fe2949a9cc2a65b319339a064d6cb5559",
+    "input_sha256": "sha256:953fe45bd6a801cc7f09f77be1fbfe6d7b5f67cb0167133c228242289303cd0e",
     "network_mode": "not_proven",
-    "output_sha256": "sha256:8a94bcacbab8ef5d0ec6ac500ff320c344801de50f680a75ceca6c4478886526",
+    "output_sha256": "sha256:6bb9df0e1534b069a6df7ea4c04dbcf04c8a5ba8f9555db5524c71cf88b59c66",
     "schema_id": "saa.benchmark.drcet4c.production_arin22_container_probe_receipt.v1",
     "status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED"
   },

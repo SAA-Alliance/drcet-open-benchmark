@@ -5,7 +5,7 @@
     {
       "byte_length": 3060,
       "path": "DRCET_PUBLIC_SERIES_INDEX_V1.json",
-      "sha256": "sha256:c62de9d0020cca674452f02249c4620e02a36051743e03effc12ff40a1262d8e"
+      "sha256": "sha256:40ebb864f1f4398b99022f8d1bf368efcc0379774ac1d937ebdaf10217643f0e"
     },
     {
       "byte_length": 533,
@@ -15,7 +15,7 @@
     {
       "byte_length": 2593,
       "path": "README.md",
-      "sha256": "sha256:e56c09fdae69532f2f6c58d5d6e49ad1e2744b4ea9624b9cd9869a7b38f5b3a8"
+      "sha256": "sha256:aba91ad406b59325fa8baf685235fd32dd0bbcd6470787e114e64bb7d900c29f"
     },
     {
       "byte_length": 1562,
@@ -328,9 +328,9 @@
       "sha256": "sha256:ee517bea4c5dcb6ce6cfaf78594c6ebcc329a27d3866f39209f54d3f131a44ee"
     },
     {
-      "byte_length": 15674,
+      "byte_length": 15667,
       "path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816/DRCET4C_CHERNOFF_REMIZOV_RESOLVENT_STATUS.json",
-      "sha256": "sha256:61d7266d4625cef0aa21bc270b1a58c382c4b820c346e30fa44d72b0b447182f"
+      "sha256": "sha256:6def0a9b088683a446b8ecb99a2f1952c89b18b9eb27ecee58c05675137281ce"
     },
     {
       "byte_length": 3128,
@@ -340,37 +340,37 @@
     {
       "byte_length": 3498,
       "path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816/artifact_manifest.json",
-      "sha256": "sha256:8ddcc9d25bc6dd06edcdb9c55c160ae5a7e32ed1ca07e6e029efc1d889958de9"
+      "sha256": "sha256:186d07e1c1f7ba905793399b98e4f9565fcf9d5418c20a87985a14dd86830421"
     },
     {
-      "byte_length": 439,
+      "byte_length": 432,
       "path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816/contract_function_policy.json",
-      "sha256": "sha256:3f450c2aa1eb7847e130b41f682ed6e131b1614abe214db940dadb32954d1f9c"
+      "sha256": "sha256:760fa268b8f84069560e1f34e53cb789085a8f18091f929c6cd4d14455242fe2"
     },
     {
       "byte_length": 312,
       "path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816/external_blind_replay_receipt.json",
-      "sha256": "sha256:9f4aafea5cbb3f2afa69f54861dffbe5b58836491db50856e7267a148da5e776"
+      "sha256": "sha256:47c9d994f867e4c43523f4f9c0728404da6ce616f09805a26bdf6d39d96a46a6"
     },
     {
       "byte_length": 1364,
       "path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816/external_blind_replay_request.json",
-      "sha256": "sha256:31b833b93de5abe785c44dc173744fad9c026678b63825306b437595da0180d7"
+      "sha256": "sha256:2b2ade17931074c636828e293c309020f83ec8e8cd0999fec515a4cb7c03006e"
     },
     {
-      "byte_length": 5626,
+      "byte_length": 5638,
       "path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816/production_arin22_resolvent_container_input.json",
-      "sha256": "sha256:400aaccec8e397cadc9a0a70dcc45d3fe2949a9cc2a65b319339a064d6cb5559"
+      "sha256": "sha256:953fe45bd6a801cc7f09f77be1fbfe6d7b5f67cb0167133c228242289303cd0e"
     },
     {
       "byte_length": 327,
       "path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816/production_arin22_resolvent_container_output.json",
-      "sha256": "sha256:8a94bcacbab8ef5d0ec6ac500ff320c344801de50f680a75ceca6c4478886526"
+      "sha256": "sha256:6bb9df0e1534b069a6df7ea4c04dbcf04c8a5ba8f9555db5524c71cf88b59c66"
     },
     {
       "byte_length": 532,
       "path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816/production_arin22_resolvent_container_probe.json",
-      "sha256": "sha256:c5d5ae693a6b77f2b73269e38a13c5d09cd2b411b7c142294230185bcff42e08"
+      "sha256": "sha256:daf5e85aaaa99f95eeb93aa1ccb06370b7409408ac520a81bd2baba1bc592a14"
     },
     {
       "byte_length": 4811,
@@ -378,9 +378,9 @@
       "sha256": "sha256:f3019a9ab07333420df5fa83e6e28e9b1f1573e87f42904b5a6c87e99194b603"
     },
     {
-      "byte_length": 2734,
+      "byte_length": 2741,
       "path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816/remizov_resolvent_fixture_contract.csv",
-      "sha256": "sha256:c27d6484423894f4aef7fc9593c5627bb2bab87cd1de982383f6453197c8568b"
+      "sha256": "sha256:401f328d801bdebfd7e47b2690bcaf77eb19721883c4238f65b2b9a19a8f90ca"
     },
     {
       "byte_length": 38715,
@@ -580,7 +580,7 @@
     {
       "byte_length": 18792,
       "path": "SHA256SUMS",
-      "sha256": "sha256:f1e09737d25f529745baa4d0872f906ba25879fc7be7c8ae3dedd5b658addda6"
+      "sha256": "sha256:5820ed54ab1ddf2714828afd3f2fa1d6f36d7e549ea3fc26c423cca5807148a3"
     }
   ],
   "generated_at_utc": "2026-08-16T12:15:33Z",

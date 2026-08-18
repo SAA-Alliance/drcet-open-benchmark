@@ -5,9 +5,9 @@
   "generated_at_utc": "2026-08-16T12:14:48Z",
   "input_artifacts": [
     {
-      "byte_length": 439,
+      "byte_length": 432,
       "path": "contract_function_policy.json",
-      "sha256": "sha256:3f450c2aa1eb7847e130b41f682ed6e131b1614abe214db940dadb32954d1f9c"
+      "sha256": "sha256:760fa268b8f84069560e1f34e53cb789085a8f18091f929c6cd4d14455242fe2"
     },
     {
       "byte_length": 372,
@@ -15,9 +15,9 @@
       "sha256": "sha256:f0c759dc1427aec63fd4d48517956d4597fee62422fe25cf132989fcd753c9b1"
     },
     {
-      "byte_length": 2734,
+      "byte_length": 2741,
       "path": "remizov_resolvent_fixture_contract.csv",
-      "sha256": "sha256:c27d6484423894f4aef7fc9593c5627bb2bab87cd1de982383f6453197c8568b"
+      "sha256": "sha256:401f328d801bdebfd7e47b2690bcaf77eb19721883c4238f65b2b9a19a8f90ca"
     }
   ],
   "request_id": "drcet4c_external_blind_replay_request_v1",

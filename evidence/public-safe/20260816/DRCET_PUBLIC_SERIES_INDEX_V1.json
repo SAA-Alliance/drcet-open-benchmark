@@ -42,7 +42,7 @@
       "resolvent_order_release_gate_status": "PASS_NONCONVERGENT_ROWS_FAIL_CLOSED",
       "silent_release_nonconvergent_count": 0,
       "status": "VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING",
-      "status_sha256": "sha256:61d7266d4625cef0aa21bc270b1a58c382c4b820c346e30fa44d72b0b447182f"
+      "status_sha256": "sha256:6def0a9b088683a446b8ecb99a2f1952c89b18b9eb27ecee58c05675137281ce"
     },
     "drcet4d_continuum_spatial_refinement": {
       "artifact_path": "docs/benchmarks/drcet4d_continuum_spatial_refinement_v1_20260816",
