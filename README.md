@@ -17,7 +17,7 @@ This repository contains the public protocol surface only:
 | DRCET-1 | Tail metrics equivalence: VaR / ES / CVaR across horizons and confidence levels | Protocol surface |
 | DRCET-2 | Path-functional equivalence: terminal loss, max drawdown, time underwater, recovery horizon, jump count | Draft protocol surface |
 | DRCET-3 | Attribution/stress equivalence: factor/stress attribution, contribution concentration, replay/stochastic attribution consistency | Draft protocol surface |
-| DRCET-4 | Operator splitting, Chernoff foundation, resolvent and continuum spatial-refinement evidence | Public-safe synthetic evidence pack |
+| DRCET-4 | Numerical release control, contract-product foundation, boundary_transform and continuum spatial-refinement evidence | Public-safe synthetic evidence pack |
 
 ## What This Repo Is Not
 

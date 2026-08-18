@@ -13,11 +13,11 @@ This repository must not publish:
 - hidden adversarial corpora or private truth anchors;
 - internal deployment secrets, S3 credentials or RabbitMQ credentials.
 
-The DRCET-4B Remizov-Chernoff lane is a review-only bounded-linear convergence
+The DRCET-4B foundation lane is a review-only bounded-linear convergence
 lane. It validates `G(0)=I`, tangency, stability, declared first-order bound,
 observed rate, `E_n <= B_n`, and docker/no-egress replay on synthetic fixtures.
 
-The DRCET-4C Chernoff-Remizov resolvent lane is a review-only bounded contract
+The DRCET-4C boundary release gate lane is a review-only bounded contract
 surrogate. It validates the theorem-supported half-plane release gate, reports
 the conservative a-priori certificate as a safety envelope rather than a tight
 error estimate, and keeps production ARIN22 pending.

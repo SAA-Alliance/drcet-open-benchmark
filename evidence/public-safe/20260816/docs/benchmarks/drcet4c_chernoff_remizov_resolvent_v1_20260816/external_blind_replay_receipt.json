@@ -1,9 +1,0 @@
-{
-  "blockers": [
-    "external_blind_replay_response_not_attached"
-  ],
-  "request_sha256": "sha256:2b2ade17931074c636828e293c309020f83ec8e8cd0999fec515a4cb7c03006e",
-  "response_sha256": "",
-  "schema_id": "saa.benchmark.drcet4c.external_blind_replay_receipt.v1",
-  "status": "PENDING_EXTERNAL_BLIND_REPLAY"
-}

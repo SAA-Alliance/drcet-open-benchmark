@@ -6,17 +6,17 @@
     "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815",
     "docs/benchmarks/error_certificate_reliability_v1_20260815",
     "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815",
-    "docs/benchmarks/drcet4_operator_splitting_convergence_v1_20260816",
-    "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816",
+    "docs/benchmarks/drcet4_numerical_release_control_v1_20260816",
+    "docs/benchmarks/drcet4c_boundary_release_gate_v1_20260816",
     "docs/benchmarks/drcet4d_continuum_spatial_refinement_v1_20260816"
   ],
   "included_files": [
     "docs/DRCET4_GITHUB_DISCLOSURE_BOUNDARY.md",
-    "scripts/check_drcet4_operator_splitting_convergence_v1.py",
-    "scripts/check_drcet4c_chernoff_remizov_resolvent_v1.py",
+    "scripts/check_drcet4_numerical_release_control_v1.py",
+    "scripts/check_drcet4c_boundary_release_gate_v1.py",
     "scripts/check_drcet4d_continuum_spatial_refinement_v1.py"
   ],
-  "manifest_sha256": "sha256:d35f9af048cb2ddd14a2f81bc3e3cac94a02f1bddfd3b1ae9477764f4740444d",
+  "manifest_sha256": "sha256:19bb4489be01b214254f332c85153e732f7603adf5f5cb47483f900ce5ba078e",
   "output_dir": "drcet_open_benchmark_public_safe_v1",
   "schema_id": "saa.benchmark.drcet.open_public_export_receipt.v1",
   "scrub_guard": {

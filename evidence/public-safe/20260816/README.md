@@ -14,15 +14,15 @@ corpora or commercial production datasets.
 | DRCET-1 tail metrics | PUBLISHED_METHOD_ATTACHED | Method citation/status only in this export. |
 | DRCET-2 path functionals | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
 | DRCET-3 attribution/stress | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
-| DRCET-4 operator splitting + 4B Chernoff convergence | PROTOCOL_FULL_LINEAR_EXACT_CONTAINER_AND_REMIZOV_CHERNOFF_LANE_VALIDATED_PRODUCTION_ARIN22_PENDING | Foundation/routing validated; production ARIN22 pending. |
-| DRCET-4C Chernoff-Remizov resolvent | VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING | Bounded contract-surrogate; production ARIN22 pending. |
+| DRCET-4 composition + 4B contract-product convergence | PROTOCOL_FULL_LINEAR_EXACT_CONTAINER_AND_FOUNDATION_LANE_VALIDATED_PRODUCTION_ARIN22_PENDING | Foundation/routing validated; production ARIN22 pending. |
+| DRCET-4C boundary release gate | VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_BOUNDARY_RELEASE_LANE_PRODUCTION_ARIN22_PENDING | Bounded contract-surrogate; production ARIN22 pending. |
 | DRCET-4D continuum spatial refinement | VALIDATED_PASS_PUBLIC_SAFE_CONTINUUM_SPATIAL_REFINEMENT_LANE_PRODUCTION_ARIN22_PENDING | Public-safe unbounded/continuum surrogate; production ARIN22 pending. |
 
 ## Key Readbacks
 
-- DRCET-4 status SHA: `sha256:298a49ff8071e54c90f52ca49d45b153f446644ee4a71fc92675a3e4f82e421d`
-- DRCET-4B status: `VALIDATED_PASS_REVIEW_ONLY_REMIZOV_CHERNOFF_CONVERGENCE_LANE`
-- DRCET-4C status SHA: `sha256:6def0a9b088683a446b8ecb99a2f1952c89b18b9eb27ecee58c05675137281ce`
+- DRCET-4 status SHA: `sha256:73ffdcf72e4f48cb28958e59a98481abc515c7412047b207f460f057252b822b`
+- DRCET-4B status: `VALIDATED_PASS_REVIEW_ONLY_FOUNDATION_CONVERGENCE_LANE`
+- DRCET-4C status SHA: `sha256:e7c70eea4b8cc6d20cca85b2f74be39ecbdb35e0992dc8f01ecd4bbcf4092159`
 - DRCET-4C released rows: `155`
 - DRCET-4C non-convergent fail-closed rows: `25`
 - DRCET-4C silent non-convergent releases: `0`

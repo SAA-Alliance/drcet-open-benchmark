@@ -1,0 +1,3619 @@
+{
+  "schema_id": "saa.benchmark.drcet4c.boundary_transform_container_output.v1",
+  "runner_id": "drcet4c_foundation_boundary_transform_container_review_only_v1",
+  "run_id": "drcet4c_foundation_boundary_transform_container_probe_v1",
+  "input_sha256": "sha256:a91e52e528adb0f2ee45a93dc696c604baa8409fb257f46ea9fca410a47b685b",
+  "generated_at_utc": "2026-08-16T12:14:46Z",
+  "lane_id": "DRCET4C_BOUNDARY_RELEASE_BOUNDARY_TRANSFORM_LANE",
+  "contract_version": "saa.benchmark.drcet4c.boundary_release_gate.v1",
+  "contract_sha256": "sha256:a1d6a5d8be733889b0742d27396dc0bfa6735612d6747102074f36cdf722c1d0",
+  "actual_G_implementation_sha256": "sha256:7a89f2e06ba3607e8f3011c21830557d8e125ea5657f50ece8d416e8da0d21cf",
+  "composition_trace_sha256": "sha256:a1d6a5d8be733889b0742d27396dc0bfa6735612d6747102074f36cdf722c1d0",
+  "composition_weights_hash": "sha256:97c03fffe9415f4f13fb8560eb7f3dc5915d2cb56ccd69371882ec5983a01f00",
+  "laguerre_order": 48,
+  "case_count": 180,
+  "status": "PASS_REVIEW_ONLY_NO_EGRESS_CONTAINER_FOUNDATION_BOUNDARY_TRANSFORM_LANE",
+  "claim_boundary": "review-only protected/no-egress container probe for DRCET-4C public-safe boundary release gate lane; not production ARIN22 approval, not external certification, not Decision Grade authority",
+  "cases": [
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.5__n_4",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.6954440874095136,
+      "step_count": 4,
+      "declared_bound_B_total": 6.011997250907538,
+      "boundary_transform_approx_vector": [
+        1.1334196071164384,
+        0.5755322575332005,
+        -0.07644129453625655,
+        0.7531379970244236
+      ],
+      "runtime_ms": 5.987125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.5__n_8",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.6954440874095136,
+      "step_count": 8,
+      "declared_bound_B_total": 1.5029993143957128,
+      "boundary_transform_approx_vector": [
+        1.133425007792214,
+        0.5755191112015102,
+        -0.076432452113596,
+        0.7531343500548245
+      ],
+      "runtime_ms": 5.910792,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.5__n_16",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.6954440874095136,
+      "step_count": 16,
+      "declared_bound_B_total": 0.37574983048003147,
+      "boundary_transform_approx_vector": [
+        1.1334263621625917,
+        0.5755158175619436,
+        -0.07643023384455382,
+        0.7531334342201123
+      ],
+      "runtime_ms": 6.209875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.5__n_32",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.6954440874095136,
+      "step_count": 32,
+      "declared_bound_B_total": 0.09393745992565886,
+      "boundary_transform_approx_vector": [
+        1.1334267010197285,
+        0.5755149937073876,
+        -0.07642967879434753,
+        0.7531332050031092
+      ],
+      "runtime_ms": 6.106083,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.5__n_64",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.6954440874095136,
+      "step_count": 64,
+      "declared_bound_B_total": 0.023484368136168884,
+      "boundary_transform_approx_vector": [
+        1.1334267857505735,
+        0.5755147877158995,
+        -0.07642954000154449,
+        0.7531331476826686
+      ],
+      "runtime_ms": 3.866542,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.1__n_4",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.140054779885171,
+      "step_count": 4,
+      "declared_bound_B_total": 150.29993122262113,
+      "boundary_transform_approx_vector": [
+        3.2347510817951206,
+        2.3329801586992627,
+        0.680323265734645,
+        2.1502027080829924
+      ],
+      "runtime_ms": 4.66875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.1__n_8",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.140054779885171,
+      "step_count": 8,
+      "declared_bound_B_total": 37.57498280688201,
+      "boundary_transform_approx_vector": [
+        3.23514515236231,
+        2.3322431333717732,
+        0.6806851618662411,
+        2.1497028431493472
+      ],
+      "runtime_ms": 3.781792,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.1__n_16",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.140054779885171,
+      "step_count": 16,
+      "declared_bound_B_total": 9.393745703102917,
+      "boundary_transform_approx_vector": [
+        3.235247029042569,
+        2.3320539965641367,
+        0.6807807706133105,
+        2.1495747275266956
+      ],
+      "runtime_ms": 4.501791,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.1__n_32",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.140054779885171,
+      "step_count": 32,
+      "declared_bound_B_total": 2.3484364274695495,
+      "boundary_transform_approx_vector": [
+        3.235272725618728,
+        2.3320063764403933,
+        0.6808050266082888,
+        2.149542479755445
+      ],
+      "runtime_ms": 4.2515,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.1__n_64",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.140054779885171,
+      "step_count": 64,
+      "declared_bound_B_total": 0.5871091091840689,
+      "boundary_transform_approx_vector": [
+        3.2352791642949823,
+        2.3319944498370955,
+        0.6808111133304444,
+        2.1495344037174346
+      ],
+      "runtime_ms": 3.627125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.02__n_4",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0289769183803025,
+      "step_count": 4,
+      "declared_bound_B_total": 3757.498280621419,
+      "boundary_transform_approx_vector": [
+        5.578924822621393,
+        5.277508867711742,
+        2.9520471834747695,
+        4.136940239820345
+      ],
+      "runtime_ms": 3.678667,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.02__n_8",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0289769183803025,
+      "step_count": 8,
+      "declared_bound_B_total": 939.3745702381885,
+      "boundary_transform_approx_vector": [
+        5.5830593720119825,
+        5.2718213513684224,
+        2.9541593430537327,
+        4.129974002698766
+      ],
+      "runtime_ms": 3.782375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.02__n_16",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0289769183803025,
+      "step_count": 16,
+      "declared_bound_B_total": 234.84364264269493,
+      "boundary_transform_approx_vector": [
+        5.584225130760576,
+        5.2702283930076135,
+        2.9548632855478187,
+        4.128115322470241
+      ],
+      "runtime_ms": 3.824667,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.02__n_32",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0289769183803025,
+      "step_count": 32,
+      "declared_bound_B_total": 58.710910744121016,
+      "boundary_transform_approx_vector": [
+        5.584527351551762,
+        5.269815145764396,
+        2.9550546831971545,
+        4.127640313588927
+      ],
+      "runtime_ms": 3.776917,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.02__n_64",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0289769183803025,
+      "step_count": 64,
+      "declared_bound_B_total": 14.677727770055723,
+      "boundary_transform_approx_vector": [
+        5.5846036445700715,
+        5.269710777676903,
+        2.955103613767248,
+        4.127520830188778
+      ],
+      "runtime_ms": 3.796625,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.01__n_4",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.015092185692193935,
+      "step_count": 4,
+      "declared_bound_B_total": 15029.993526868,
+      "boundary_transform_approx_vector": [
+        6.2182172345982885,
+        6.223064533698507,
+        3.795672810387036,
+        4.7822514759814965
+      ],
+      "runtime_ms": 4.734166,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.01__n_8",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.015092185692193935,
+      "step_count": 8,
+      "declared_bound_B_total": 3757.498690459177,
+      "boundary_transform_approx_vector": [
+        6.224779383469031,
+        6.214741991206352,
+        3.798635594009475,
+        4.7708112095762
+      ],
+      "runtime_ms": 3.057625,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.01__n_16",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.015092185692193935,
+      "step_count": 16,
+      "declared_bound_B_total": 939.3749813581128,
+      "boundary_transform_approx_vector": [
+        6.2266888937397304,
+        6.212325312159864,
+        3.799721669072635,
+        4.767718111800738
+      ],
+      "runtime_ms": 3.453583,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.01__n_32",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.015092185692193935,
+      "step_count": 32,
+      "declared_bound_B_total": 234.8440540831964,
+      "boundary_transform_approx_vector": [
+        6.227189616932591,
+        6.211689128170161,
+        3.800025955463136,
+        4.7669226237502675
+      ],
+      "runtime_ms": 3.046625,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.01__n_64",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.015092185692193935,
+      "step_count": 64,
+      "declared_bound_B_total": 58.71132226504325,
+      "boundary_transform_approx_vector": [
+        6.227316439943654,
+        6.211527741241689,
+        3.800104408490172,
+        4.766722119831571
+      ],
+      "runtime_ms": 3.864,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.005__n_4",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.008149819348139653,
+      "step_count": 4,
+      "declared_bound_B_total": 60120.02025308916,
+      "boundary_transform_approx_vector": [
+        6.5595033299514185,
+        6.8573463907313235,
+        4.422383449478577,
+        5.0990868462079995
+      ],
+      "runtime_ms": 3.365375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.005__n_8",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.008149819348139653,
+      "step_count": 8,
+      "declared_bound_B_total": 15030.040853956343,
+      "boundary_transform_approx_vector": [
+        6.567988095264961,
+        6.847165662419348,
+        4.42588258902895,
+        5.084016985271883
+      ],
+      "runtime_ms": 3.090375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.005__n_16",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.008149819348139653,
+      "step_count": 16,
+      "declared_bound_B_total": 3757.546004231649,
+      "boundary_transform_approx_vector": [
+        6.570508952316238,
+        6.844132745691155,
+        4.427259477582903,
+        5.079908420084621
+      ],
+      "runtime_ms": 3.769083,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.005__n_32",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.008149819348139653,
+      "step_count": 32,
+      "declared_bound_B_total": 939.422291803655,
+      "boundary_transform_approx_vector": [
+        6.571175217205785,
+        6.8433255748717325,
+        4.42765374555446,
+        5.078847191959108
+      ],
+      "runtime_ms": 3.01225,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.005__n_64",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.008149819348139653,
+      "step_count": 64,
+      "declared_bound_B_total": 234.89136369740808,
+      "boundary_transform_approx_vector": [
+        6.571344366466049,
+        6.843120109467537,
+        4.427756036495408,
+        5.078579315782765
+      ],
+      "runtime_ms": 4.431708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.001__n_4",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0025959262728962283,
+      "step_count": 4,
+      "declared_bound_B_total": 1503000.531979652,
+      "boundary_transform_approx_vector": [
+        5.334137532770067,
+        7.708918717359884,
+        6.417414965620358,
+        4.494733135452572
+      ],
+      "runtime_ms": 3.557,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.001__n_8",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0025959262728962283,
+      "step_count": 8,
+      "declared_bound_B_total": 375751.0477261735,
+      "boundary_transform_approx_vector": [
+        5.343782829652615,
+        7.697725239680458,
+        6.421874609358954,
+        4.478387424148868
+      ],
+      "runtime_ms": 3.454666,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.001__n_16",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0025959262728962283,
+      "step_count": 16,
+      "declared_bound_B_total": 93938.67668889505,
+      "boundary_transform_approx_vector": [
+        5.346803210710537,
+        7.694195457940515,
+        6.423737615560747,
+        4.473786224690977
+      ],
+      "runtime_ms": 4.018916,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.001__n_32",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0025959262728962283,
+      "step_count": 32,
+      "declared_bound_B_total": 23485.583930333964,
+      "boundary_transform_approx_vector": [
+        5.347614505066379,
+        7.693237049363064,
+        6.424280915485048,
+        4.472582700823941
+      ],
+      "runtime_ms": 3.653583,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.001__n_64",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0025959262728962283,
+      "step_count": 64,
+      "declared_bound_B_total": 5872.310740714412,
+      "boundary_transform_approx_vector": [
+        5.347821369843152,
+        7.692991719759913,
+        6.424422537987751,
+        4.472277793693418
+      ],
+      "runtime_ms": 3.794959,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.0001__n_4",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0013463003309664577,
+      "step_count": 4,
+      "declared_bound_B_total": 150299932.5843816,
+      "boundary_transform_approx_vector": [
+        3.7055847559117123,
+        6.710385212511955,
+        6.784936559625731,
+        4.533158639648605
+      ],
+      "runtime_ms": 3.734792,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.0001__n_8",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0013463003309664577,
+      "step_count": 8,
+      "declared_bound_B_total": 37574984.169890694,
+      "boundary_transform_approx_vector": [
+        3.7180626667195953,
+        6.693138600411695,
+        6.791225137774509,
+        4.512036265326324
+      ],
+      "runtime_ms": 4.019167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.0001__n_16",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0013463003309664577,
+      "step_count": 16,
+      "declared_bound_B_total": 9393747.066218546,
+      "boundary_transform_approx_vector": [
+        3.721543967969704,
+        6.688432434330857,
+        6.7932251253222455,
+        4.506469306647046
+      ],
+      "runtime_ms": 3.8705,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.0001__n_32",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0013463003309664577,
+      "step_count": 32,
+      "declared_bound_B_total": 2348437.7902971306,
+      "boundary_transform_approx_vector": [
+        3.7224529587256083,
+        6.687206211607023,
+        6.793776394870317,
+        4.505042921948306
+      ],
+      "runtime_ms": 3.662125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_0.0001__n_64",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0013463003309664577,
+      "step_count": 64,
+      "declared_bound_B_total": 587110.4713166704,
+      "boundary_transform_approx_vector": [
+        3.7226832807224146,
+        6.686895311034683,
+        6.793918571500801,
+        4.50468328259752
+      ],
+      "runtime_ms": 4.555042,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_1e-06__n_4",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0012088414773541829,
+      "step_count": 4,
+      "declared_bound_B_total": 1502999312212.5686,
+      "boundary_transform_approx_vector": [
+        3.4060446893721963,
+        6.304990256802244,
+        6.510117829641206,
+        4.398362075850859
+      ],
+      "runtime_ms": 4.753833,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_1e-06__n_8",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0012088414773541829,
+      "step_count": 8,
+      "declared_bound_B_total": 375749828054.2191,
+      "boundary_transform_approx_vector": [
+        3.420133467090663,
+        6.285863408705455,
+        6.5165869778797205,
+        4.373655069216437
+      ],
+      "runtime_ms": 4.202959,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_1e-06__n_16",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0012088414773541829,
+      "step_count": 16,
+      "declared_bound_B_total": 93937457014.63171,
+      "boundary_transform_approx_vector": [
+        3.4240148972588793,
+        6.280661887405124,
+        6.518660761262497,
+        4.367179044330985
+      ],
+      "runtime_ms": 4.084376,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_1e-06__n_32",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0012088414773541829,
+      "step_count": 32,
+      "declared_bound_B_total": 23484364254.734863,
+      "boundary_transform_approx_vector": [
+        3.4250200210319988,
+        6.279316631987632,
+        6.5192260955102395,
+        4.365528894095685
+      ],
+      "runtime_ms": 4.874334,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_1e-06__n_64",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.0012088414773541829,
+      "step_count": 64,
+      "declared_bound_B_total": 5871091064.760651,
+      "boundary_transform_approx_vector": [
+        3.4252740219522604,
+        6.278976483398324,
+        6.5193713052902496,
+        4.365113684081953
+      ],
+      "runtime_ms": 4.085,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_1e-09__n_4",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.001207454392558641,
+      "step_count": 4,
+      "declared_bound_B_total": 1502999312086729500,
+      "boundary_transform_approx_vector": [
+        3.402776655481368,
+        6.300273662053317,
+        6.506567800825853,
+        4.396510121978836
+      ],
+      "runtime_ms": 4.772334,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_1e-09__n_8",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.001207454392558641,
+      "step_count": 8,
+      "declared_bound_B_total": 375749828021682370,
+      "boundary_transform_approx_vector": [
+        3.416883711173784,
+        6.281127348210801,
+        6.513038339779186,
+        4.37176194328242
+      ],
+      "runtime_ms": 5.235459,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_1e-09__n_16",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.001207454392558641,
+      "step_count": 16,
+      "declared_bound_B_total": 93937457005420590,
+      "boundary_transform_approx_vector": [
+        3.420769912962979,
+        6.275920372225731,
+        6.515113080353402,
+        4.365275276774794
+      ],
+      "runtime_ms": 4.749333,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_1e-09__n_32",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.001207454392558641,
+      "step_count": 32,
+      "declared_bound_B_total": 23484364251355148,
+      "boundary_transform_approx_vector": [
+        3.421776204210229,
+        6.274573779451008,
+        6.51567863192826,
+        4.363622486253714
+      ],
+      "runtime_ms": 4.248125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-DISS-01__lambda_1e-09__n_64",
+      "source_case_id": "RC4C-DISS-01",
+      "family": "C1_dissipative_negative_c",
+      "dimension": 4,
+      "route_status": "SAFE_FAIL_CLOSED_NON_CONVERGENT",
+      "omega_contract": 0.001207453004085372,
+      "lambda_real": 0.001207454392558641,
+      "step_count": 64,
+      "declared_bound_B_total": 5871091062838788,
+      "boundary_transform_approx_vector": [
+        3.42203049407996,
+        6.274233300703884,
+        6.515823892209067,
+        4.363206619249177
+      ],
+      "runtime_ms": 4.557875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.5__n_4",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.6733730381801936,
+      "step_count": 4,
+      "declared_bound_B_total": 6.98965812420234,
+      "boundary_transform_approx_vector": [
+        1.2333833459246035,
+        0.9079291341345471,
+        -0.7844030445438058,
+        -1.6512882100125397,
+        0.2874091653630414
+      ],
+      "runtime_ms": 5.568875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.5__n_8",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.6733730381801936,
+      "step_count": 8,
+      "declared_bound_B_total": 1.7474145335101756,
+      "boundary_transform_approx_vector": [
+        1.2333781095913143,
+        0.907918874951151,
+        -0.7844127808204044,
+        -1.6512944948243593,
+        0.2874028257394813
+      ],
+      "runtime_ms": 5.532584,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.5__n_16",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.6733730381801936,
+      "step_count": 16,
+      "declared_bound_B_total": 0.4368536361500368,
+      "boundary_transform_approx_vector": [
+        1.2333767980744486,
+        0.9079163038678877,
+        -0.7844152179076027,
+        -1.6512960717467158,
+        0.2874012396163253
+      ],
+      "runtime_ms": 5.195584,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.5__n_32",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.6733730381801936,
+      "step_count": 32,
+      "declared_bound_B_total": 0.10921341243582647,
+      "boundary_transform_approx_vector": [
+        1.233376470042482,
+        0.9079156607019774,
+        -0.7844158273686074,
+        -1.6512964663365108,
+        0.28740084300929547
+      ],
+      "runtime_ms": 5.942916,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.5__n_64",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.6733730381801936,
+      "step_count": 64,
+      "declared_bound_B_total": 0.02730335775894189,
+      "boundary_transform_approx_vector": [
+        1.2333763880249398,
+        0.907915499885774,
+        -0.7844159797456928,
+        -1.6512965650064344,
+        0.2874007438527692
+      ],
+      "runtime_ms": 5.586,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.1__n_4",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.15632973944947998,
+      "step_count": 4,
+      "declared_bound_B_total": 174.74145303127793,
+      "boundary_transform_approx_vector": [
+        3.35730726360182,
+        2.1669020693141112,
+        -2.623359552192032,
+        -4.306568218893803,
+        0.4293810040435077
+      ],
+      "runtime_ms": 5.9155,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.1__n_8",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.15632973944947998,
+      "step_count": 8,
+      "declared_bound_B_total": 43.685363259635345,
+      "boundary_transform_approx_vector": [
+        3.3567821765023904,
+        2.166049186289832,
+        -2.6240335241326744,
+        -4.307102198166391,
+        0.4290351681043235
+      ],
+      "runtime_ms": 6.142,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.1__n_16",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.15632973944947998,
+      "step_count": 16,
+      "declared_bound_B_total": 10.921340816955286,
+      "boundary_transform_approx_vector": [
+        3.3566489084105386,
+        2.1658318383703707,
+        -2.624203890453226,
+        -4.3072388817477245,
+        0.42894814736794207
+      ],
+      "runtime_ms": 5.429875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.1__n_32",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.15632973944947998,
+      "step_count": 32,
+      "declared_bound_B_total": 2.730335206746535,
+      "boundary_transform_approx_vector": [
+        3.356615461996763,
+        2.1657772309344683,
+        -2.6242466022371387,
+        -4.307273261131042,
+        0.42892635662722783
+      ],
+      "runtime_ms": 6.051834,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.1__n_64",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.15632973944947998,
+      "step_count": 64,
+      "declared_bound_B_total": 0.6825838051168296,
+      "boundary_transform_approx_vector": [
+        3.3566070922301225,
+        2.165763561958933,
+        -2.6242572877461576,
+        -4.307281869163251,
+        0.42892090671321564
+      ],
+      "runtime_ms": 4.711042,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.02__n_4",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.05292107970333726,
+      "step_count": 4,
+      "declared_bound_B_total": 4368.536325727912,
+      "boundary_transform_approx_vector": [
+        4.9227878050188805,
+        2.6741153526596206,
+        -4.748480529094912,
+        -6.607129648062337,
+        0.19957727608302359
+      ],
+      "runtime_ms": 6.202125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.02__n_8",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.05292107970333726,
+      "step_count": 8,
+      "declared_bound_B_total": 1092.1340814336759,
+      "boundary_transform_approx_vector": [
+        4.9178612110253175,
+        2.6664310798856867,
+        -4.754092554075953,
+        -6.6117024580959916,
+        0.19732253188607438
+      ],
+      "runtime_ms": 6.03625,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.02__n_16",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.05292107970333726,
+      "step_count": 16,
+      "declared_bound_B_total": 273.0335203603308,
+      "boundary_transform_approx_vector": [
+        4.916573755494316,
+        2.66440491581631,
+        -4.755542114164802,
+        -6.61291997007343,
+        0.1967476152546944
+      ],
+      "runtime_ms": 6.107208,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.02__n_32",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.05292107970333726,
+      "step_count": 32,
+      "declared_bound_B_total": 68.25838009242284,
+      "boundary_transform_approx_vector": [
+        4.916248020713702,
+        2.6638908397913568,
+        -4.755907627693175,
+        -6.613229690552187,
+        0.1966031754346288
+      ],
+      "runtime_ms": 6.160959,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.02__n_64",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.05292107970333726,
+      "step_count": 64,
+      "declared_bound_B_total": 17.064595026302353,
+      "boundary_transform_approx_vector": [
+        4.916166338140191,
+        2.6637618305220303,
+        -4.755999204712331,
+        -6.613307468536353,
+        0.19656702119538508
+      ],
+      "runtime_ms": 7.01275,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.01__n_4",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.03999499723506943,
+      "step_count": 4,
+      "declared_bound_B_total": 17474.145302905323,
+      "boundary_transform_approx_vector": [
+        5.190677692389173,
+        2.6768352647002582,
+        -5.283360516652869,
+        -7.117867991823619,
+        0.10391946485859259
+      ],
+      "runtime_ms": 6.846417,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.01__n_8",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.03999499723506943,
+      "step_count": 8,
+      "declared_bound_B_total": 4368.536325728018,
+      "boundary_transform_approx_vector": [
+        5.18332090331083,
+        2.6654106396585204,
+        -5.291628960996131,
+        -7.1245660639100326,
+        0.10076700831241762
+      ],
+      "runtime_ms": 5.293166,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.01__n_16",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.03999499723506943,
+      "step_count": 16,
+      "declared_bound_B_total": 1092.1340814339035,
+      "boundary_transform_approx_vector": [
+        5.181380069256907,
+        2.6623661028227796,
+        -5.293779498212036,
+        -7.126371968745404,
+        0.09995950041244926
+      ],
+      "runtime_ms": 6.532916,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.01__n_32",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.03999499723506943,
+      "step_count": 32,
+      "declared_bound_B_total": 273.0335203607992,
+      "boundary_transform_approx_vector": [
+        5.180887661992647,
+        2.6615910869495765,
+        -5.294322799083534,
+        -7.126833181795293,
+        0.0997564031816582
+      ],
+      "runtime_ms": 7.066,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.01__n_64",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.03999499723506943,
+      "step_count": 64,
+      "declared_bound_B_total": 68.25838009337166,
+      "boundary_transform_approx_vector": [
+        5.180764094501182,
+        2.66139642121225,
+        -5.294458985497553,
+        -7.126949125642074,
+        0.09970555331240771
+      ],
+      "runtime_ms": 5.981708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.005__n_4",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.0335319560009355,
+      "step_count": 4,
+      "declared_bound_B_total": 69896.58121161522,
+      "boundary_transform_approx_vector": [
+        5.327879460639556,
+        2.657948965112183,
+        -5.600050538971814,
+        -7.410725346183887,
+        0.04199963615969751
+      ],
+      "runtime_ms": 5.303875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.005__n_8",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.0335319560009355,
+      "step_count": 8,
+      "declared_bound_B_total": 17474.1453029056,
+      "boundary_transform_approx_vector": [
+        5.31872985900189,
+        2.643770944103961,
+        -5.610270118446438,
+        -7.418964700085747,
+        0.03821499747591589
+      ],
+      "runtime_ms": 5.076792,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.005__n_16",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.0335319560009355,
+      "step_count": 16,
+      "declared_bound_B_total": 4368.5363257284025,
+      "boundary_transform_approx_vector": [
+        5.316301640761565,
+        2.6399676966728878,
+        -5.612939685549821,
+        -7.421203713591398,
+        0.03724268413936583
+      ],
+      "runtime_ms": 4.829584,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.005__n_32",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.0335319560009355,
+      "step_count": 32,
+      "declared_bound_B_total": 1092.1340814345256,
+      "boundary_transform_approx_vector": [
+        5.3156844828496554,
+        2.6389974955454214,
+        -5.61361492259532,
+        -7.421776997317222,
+        0.03699796814025341
+      ],
+      "runtime_ms": 6.227875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.005__n_64",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.0335319560009355,
+      "step_count": 64,
+      "declared_bound_B_total": 273.03352036190046,
+      "boundary_transform_approx_vector": [
+        5.315529537308778,
+        2.638753664086032,
+        -5.613784232478157,
+        -7.421921214356065,
+        0.03693668827295855
+      ],
+      "runtime_ms": 6.159167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.001__n_4",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02836152301362837,
+      "step_count": 4,
+      "declared_bound_B_total": 1747414.5302903308,
+      "boundary_transform_approx_vector": [
+        5.437673645354745,
+        2.628864384455589,
+        -5.883177331509118,
+        -7.667096068342861,
+        -0.016354578768915818
+      ],
+      "runtime_ms": 5.592916,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.001__n_8",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02836152301362837,
+      "step_count": 8,
+      "declared_bound_B_total": 436853.6325725901,
+      "boundary_transform_approx_vector": [
+        5.426671943885481,
+        2.6118458979637924,
+        -5.8954084429489395,
+        -7.676908909798674,
+        -0.02077322368268208
+      ],
+      "runtime_ms": 6.612625,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.001__n_16",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02836152301362837,
+      "step_count": 16,
+      "declared_bound_B_total": 109213.40814315515,
+      "boundary_transform_approx_vector": [
+        5.42373602821389,
+        2.6072529629246026,
+        -5.898616335693066,
+        -7.679595016409383,
+        -0.021911599220486855
+      ],
+      "runtime_ms": 5.584083,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.001__n_32",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02836152301362837,
+      "step_count": 32,
+      "declared_bound_B_total": 27303.352035796826,
+      "boundary_transform_approx_vector": [
+        5.422988582791623,
+        2.6060789870886487,
+        -5.899428644449697,
+        -7.680284436192079,
+        -0.022198293030199184
+      ],
+      "runtime_ms": 6.386708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.001__n_64",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02836152301362837,
+      "step_count": 64,
+      "declared_bound_B_total": 6825.838008958087,
+      "boundary_transform_approx_vector": [
+        5.422800843914861,
+        2.6057837826303913,
+        -5.899632381671936,
+        -7.680457983651214,
+        -0.022270095042826923
+      ],
+      "runtime_ms": 7.590667,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.0001__n_4",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.027198175591484262,
+      "step_count": 4,
+      "declared_bound_B_total": 174741453.0290312,
+      "boundary_transform_approx_vector": [
+        5.462233686195468,
+        2.6202402551746395,
+        -5.95103261659567,
+        -7.7278153732364485,
+        -0.030735630714259887
+      ],
+      "runtime_ms": 6.5895,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.0001__n_8",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.027198175591484262,
+      "step_count": 8,
+      "declared_bound_B_total": 43685363.257257804,
+      "boundary_transform_approx_vector": [
+        5.450750946836101,
+        2.6024845893084354,
+        -5.963785727427174,
+        -7.738034155851824,
+        -0.03531633320226101
+      ],
+      "runtime_ms": 5.195708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.0001__n_16",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.027198175591484262,
+      "step_count": 16,
+      "declared_bound_B_total": 10921340.814314468,
+      "boundary_transform_approx_vector": [
+        5.447682521570633,
+        2.597685638053723,
+        -5.967133814324397,
+        -7.74083636461507,
+        -0.03649727621971087
+      ],
+      "runtime_ms": 5.742584,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.0001__n_32",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.027198175591484262,
+      "step_count": 32,
+      "declared_bound_B_total": 2730335.203578633,
+      "boundary_transform_approx_vector": [
+        5.4469010182446596,
+        2.5964584041540544,
+        -5.967981855679161,
+        -7.7415560127623815,
+        -0.03679473662925686
+      ],
+      "runtime_ms": 5.827375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_0.0001__n_64",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.027198175591484262,
+      "step_count": 64,
+      "declared_bound_B_total": 682583.8008946748,
+      "boundary_transform_approx_vector": [
+        5.446704703456655,
+        2.596149766119608,
+        -5.968194569837337,
+        -7.741737199448052,
+        -0.036869237703979804
+      ],
+      "runtime_ms": 6.480292,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_1e-06__n_4",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02707020737504841,
+      "step_count": 4,
+      "declared_bound_B_total": 1747414530287.4036,
+      "boundary_transform_approx_vector": [
+        5.464930002476053,
+        2.619240063505197,
+        -5.9585963584640025,
+        -7.734566823981981,
+        -0.03234784625221492
+      ],
+      "runtime_ms": 6.281083,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_1e-06__n_8",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02707020737504841,
+      "step_count": 8,
+      "declared_bound_B_total": 436853632571.8509,
+      "boundary_transform_approx_vector": [
+        5.45339272425619,
+        2.6014008314362513,
+        -5.971408643440182,
+        -7.7448315648145805,
+        -0.036946861206974664
+      ],
+      "runtime_ms": 6.78275,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_1e-06__n_16",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02707020737504841,
+      "step_count": 16,
+      "declared_bound_B_total": 109213408142.96272,
+      "boundary_transform_approx_vector": [
+        5.450309259176229,
+        2.5965784996116312,
+        -5.974772635243405,
+        -7.747646936878359,
+        -0.03813261735868769
+      ],
+      "runtime_ms": 5.364083,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_1e-06__n_32",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02707020737504841,
+      "step_count": 32,
+      "declared_bound_B_total": 27303352035.74068,
+      "boundary_transform_approx_vector": [
+        5.449523888956588,
+        2.5953452190770845,
+        -5.975624731318737,
+        -7.748370013985687,
+        -0.03843129530861466
+      ],
+      "runtime_ms": 6.445834,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_1e-06__n_64",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02707020737504841,
+      "step_count": 64,
+      "declared_bound_B_total": 6825838008.93517,
+      "boundary_transform_approx_vector": [
+        5.449326600380524,
+        2.5950350556934323,
+        -5.975838464181135,
+        -7.748552067354412,
+        -0.038506101613964124
+      ],
+      "runtime_ms": 6.992291,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_1e-09__n_4",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02706891605940983,
+      "step_count": 4,
+      "declared_bound_B_total": 1747414532163474700,
+      "boundary_transform_approx_vector": [
+        5.464957204951212,
+        2.619229917533987,
+        -5.958672785584687,
+        -7.734635026228063,
+        -0.03236414606543754
+      ],
+      "runtime_ms": 6.275,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_1e-09__n_8",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02706891605940983,
+      "step_count": 8,
+      "declared_bound_B_total": 436853633040868700,
+      "boundary_transform_approx_vector": [
+        5.453419374702625,
+        2.60138983964241,
+        -5.971485669498195,
+        -7.744900232170152,
+        -0.036963346312078336
+      ],
+      "runtime_ms": 6.230375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_1e-09__n_16",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02706891605940983,
+      "step_count": 16,
+      "declared_bound_B_total": 109213408260217170,
+      "boundary_transform_approx_vector": [
+        5.45033575737667,
+        2.5965672711417644,
+        -5.974849822297392,
+        -7.747715737469603,
+        -0.038149151167873235
+      ],
+      "runtime_ms": 6.484916,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_1e-09__n_32",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02706891605940983,
+      "step_count": 32,
+      "declared_bound_B_total": 27303352065054292,
+      "boundary_transform_approx_vector": [
+        5.449550348011652,
+        2.5953339293961206,
+        -5.975701959417172,
+        -7.748438849285822,
+        -0.03844784143827031
+      ],
+      "runtime_ms": 5.924375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-MIXED-01__lambda_1e-09__n_64",
+      "source_case_id": "RC4C-MIXED-01",
+      "family": "C2_mixed_sign_c",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.027068914766801584,
+      "lambda_real": 0.02706891605940983,
+      "step_count": 64,
+      "declared_bound_B_total": 6825838016263573,
+      "boundary_transform_approx_vector": [
+        5.449353049577484,
+        2.595023750570779,
+        -5.975915702591374,
+        -7.748620911427312,
+        -0.03852265083226567
+      ],
+      "runtime_ms": 5.9515,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.5__n_4",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.7325758069148748,
+      "step_count": 4,
+      "declared_bound_B_total": 8.406274906044235,
+      "boundary_transform_approx_vector": [
+        0.26891441337637806,
+        0.4857115317391702,
+        0.7199785657784273,
+        0.9631133683941411,
+        1.2006484563956685,
+        1.2759293075963936
+      ],
+      "runtime_ms": 8.537125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.5__n_8",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.7325758069148748,
+      "step_count": 8,
+      "declared_bound_B_total": 2.1015687302498924,
+      "boundary_transform_approx_vector": [
+        0.2689110873802515,
+        0.4857160093759158,
+        0.7199788734127957,
+        0.9631168974544151,
+        1.200658302862425,
+        1.2759003412072896
+      ],
+      "runtime_ms": 6.875291,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.5__n_16",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.7325758069148748,
+      "step_count": 16,
+      "declared_bound_B_total": 0.5253921867770581,
+      "boundary_transform_approx_vector": [
+        0.2689102527179767,
+        0.48571713230002017,
+        0.7199789482041047,
+        0.9631177802787432,
+        1.200660774901357,
+        1.27589308894802
+      ],
+      "runtime_ms": 7.26875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.5__n_32",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.7325758069148748,
+      "step_count": 32,
+      "declared_bound_B_total": 0.1313480518603551,
+      "boundary_transform_approx_vector": [
+        0.2689100438531048,
+        0.48571741325279383,
+        0.719978966768611,
+        0.9631180010192063,
+        1.200661393568656,
+        1.2758912752118658
+      ],
+      "runtime_ms": 8.716875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.5__n_64",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.7325758069148748,
+      "step_count": 64,
+      "declared_bound_B_total": 0.03283702003417847,
+      "boundary_transform_approx_vector": [
+        0.2689099916244054,
+        0.48571748350488264,
+        0.7199789714013854,
+        0.9631180562064623,
+        1.2006615482766672,
+        1.2758908217357863
+      ],
+      "runtime_ms": 8.186208,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.1__n_4",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.19530024247198377,
+      "step_count": 4,
+      "declared_bound_B_total": 210.15687253896678,
+      "boundary_transform_approx_vector": [
+        0.9823847564437164,
+        1.8147088425660998,
+        2.829862197104959,
+        3.925201376813199,
+        4.813885712406365,
+        4.424928909377791
+      ],
+      "runtime_ms": 9.254708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.1__n_8",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.19530024247198377,
+      "step_count": 8,
+      "declared_bound_B_total": 52.53921813751342,
+      "boundary_transform_approx_vector": [
+        0.9821450788646557,
+        1.815215898570688,
+        2.830143127064487,
+        3.925634812461006,
+        4.814191903421368,
+        4.422064083179538
+      ],
+      "runtime_ms": 7.238333,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.1__n_16",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.19530024247198377,
+      "step_count": 16,
+      "declared_bound_B_total": 13.134804537502694,
+      "boundary_transform_approx_vector": [
+        0.9820822585625972,
+        1.8153465072919732,
+        2.830212080248783,
+        3.9257448893865137,
+        4.814277519754914,
+        4.421337880870706
+      ],
+      "runtime_ms": 7.815666,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.1__n_32",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.19530024247198377,
+      "step_count": 32,
+      "declared_bound_B_total": 3.283701138205216,
+      "boundary_transform_approx_vector": [
+        0.9820663540255067,
+        1.8153794270546788,
+        2.8302292284556367,
+        3.9257725157497196,
+        4.81429956123519,
+        4.421155648772357
+      ],
+      "runtime_ms": 7.152333,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.1__n_64",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.19530024247198377,
+      "step_count": 64,
+      "declared_bound_B_total": 0.8209252897912901,
+      "boundary_transform_approx_vector": [
+        0.9820623650857487,
+        1.815387674233232,
+        2.830233509700554,
+        3.9257794290071466,
+        4.814305112797489,
+        4.421110047084387
+      ],
+      "runtime_ms": 6.937125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.02__n_4",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.08784512958340555,
+      "step_count": 4,
+      "declared_bound_B_total": 5253.921813391685,
+      "boundary_transform_approx_vector": [
+        2.1961103890210265,
+        4.176808026662779,
+        6.825250681722692,
+        9.689069368022372,
+        11.5875327114727,
+        9.714709202075644
+      ],
+      "runtime_ms": 6.926542,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.02__n_8",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.08784512958340555,
+      "step_count": 8,
+      "declared_bound_B_total": 1313.4804533505007,
+      "boundary_transform_approx_vector": [
+        2.193882278000777,
+        4.18452923437954,
+        6.830824569728149,
+        9.69344470243306,
+        11.583828984629912,
+        9.671067965208696
+      ],
+      "runtime_ms": 7.211042,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.02__n_16",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.08784512958340555,
+      "step_count": 16,
+      "declared_bound_B_total": 328.37011334053255,
+      "boundary_transform_approx_vector": [
+        2.193188336178345,
+        4.18667636887549,
+        6.8321967649710595,
+        9.694692794310251,
+        11.583359246091772,
+        9.659668949453286
+      ],
+      "runtime_ms": 6.765,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.02__n_32",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.08784512958340555,
+      "step_count": 32,
+      "declared_bound_B_total": 82.09252833869647,
+      "boundary_transform_approx_vector": [
+        2.1930026091243984,
+        4.187233030807442,
+        6.832536855100316,
+        9.69501639064413,
+        11.583285654890094,
+        9.656777051775732
+      ],
+      "runtime_ms": 9.32825,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.02__n_64",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.08784512958340555,
+      "step_count": 64,
+      "declared_bound_B_total": 20.523132089549396,
+      "boundary_transform_approx_vector": [
+        2.1929553062561555,
+        4.187373625147339,
+        6.832621652054872,
+        9.695098046875525,
+        11.583270464225098,
+        9.656051109928361
+      ],
+      "runtime_ms": 8.47425,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.01__n_4",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.07441324047233328,
+      "step_count": 4,
+      "declared_bound_B_total": 21015.687253557157,
+      "boundary_transform_approx_vector": [
+        2.619839720334201,
+        5.014135020400443,
+        8.276505128098316,
+        11.79787365310059,
+        14.033476895220831,
+        11.583522993434528
+      ],
+      "runtime_ms": 6.508916,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.01__n_8",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.07441324047233328,
+      "step_count": 8,
+      "declared_bound_B_total": 5253.921813391844,
+      "boundary_transform_approx_vector": [
+        2.616353879646215,
+        5.027321753506803,
+        8.286175630010186,
+        11.803766916096311,
+        14.022929012674851,
+        11.505334465211224
+      ],
+      "runtime_ms": 7.088459,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.01__n_16",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.07441324047233328,
+      "step_count": 16,
+      "declared_bound_B_total": 1313.4804533508418,
+      "boundary_transform_approx_vector": [
+        2.6151887611324414,
+        5.031103236862579,
+        8.288579615282469,
+        11.805628604722491,
+        14.02129943625676,
+        11.484742450093947
+      ],
+      "runtime_ms": 9.12525,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.01__n_32",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.07441324047233328,
+      "step_count": 32,
+      "declared_bound_B_total": 328.3701133412407,
+      "boundary_transform_approx_vector": [
+        2.6148686527599425,
+        5.032097556897719,
+        8.289175747503439,
+        11.806125845372247,
+        14.02099983914188,
+        11.479496098223539
+      ],
+      "runtime_ms": 6.825375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.01__n_64",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.07441324047233328,
+      "step_count": 64,
+      "declared_bound_B_total": 82.0925283401401,
+      "boundary_transform_approx_vector": [
+        2.614786476740125,
+        5.032349833256785,
+        8.289324360467463,
+        11.806252308290537,
+        14.020933257964055,
+        11.478177273768308
+      ],
+      "runtime_ms": 8.172875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.005__n_4",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06769729591679714,
+      "step_count": 4,
+      "declared_bound_B_total": 84062.74901421904,
+      "boundary_transform_approx_vector": [
+        2.9041410110669337,
+        5.577104280242067,
+        9.258482989081726,
+        13.227713717931273,
+        15.68846358346904,
+        12.847398189090866
+      ],
+      "runtime_ms": 7.182875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.005__n_8",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06769729591679714,
+      "step_count": 8,
+      "declared_bound_B_total": 21015.687253557302,
+      "boundary_transform_approx_vector": [
+        2.8996189244640562,
+        5.594857323231038,
+        9.2715057208581,
+        13.234037937906008,
+        15.670223818655804,
+        12.73766815589822
+      ],
+      "runtime_ms": 8.813917,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.005__n_16",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06769729591679714,
+      "step_count": 16,
+      "declared_bound_B_total": 5253.921813392193,
+      "boundary_transform_approx_vector": [
+        2.8980382326689273,
+        5.600058271478107,
+        9.274775099961522,
+        13.236275316556553,
+        15.667242860144475,
+        12.708647155118745
+      ],
+      "runtime_ms": 7.329209,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.005__n_32",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06769729591679714,
+      "step_count": 32,
+      "declared_bound_B_total": 1313.4804533515623,
+      "boundary_transform_approx_vector": [
+        2.897596129945167,
+        5.601440422652727,
+        9.27558695189411,
+        13.23689172535523,
+        15.666678370780607,
+        12.70123326853316
+      ],
+      "runtime_ms": 7.333875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.005__n_64",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06769729591679714,
+      "step_count": 64,
+      "declared_bound_B_total": 328.37011334269806,
+      "boundary_transform_approx_vector": [
+        2.8974819907416194,
+        5.60179236342758,
+        9.275789367793715,
+        13.237049787778714,
+        15.666551714302912,
+        12.699367748193474
+      ],
+      "runtime_ms": 7.920334,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.001__n_4",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06232454027236823,
+      "step_count": 4,
+      "declared_bound_B_total": 2101568.725355405,
+      "boundary_transform_approx_vector": [
+        3.183397529690688,
+        6.130409336754953,
+        10.227684857125439,
+        14.641216787679255,
+        17.323353590689738,
+        14.097917831903544
+      ],
+      "runtime_ms": 7.631416,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.001__n_8",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06232454027236823,
+      "step_count": 8,
+      "declared_bound_B_total": 525392.1813388537,
+      "boundary_transform_approx_vector": [
+        3.177681194118149,
+        6.153296970665166,
+        10.24435102903644,
+        14.647090596153014,
+        17.29433847164895,
+        13.949570788480855
+      ],
+      "runtime_ms": 7.674875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.001__n_16",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06232454027236823,
+      "step_count": 16,
+      "declared_bound_B_total": 131348.04533471627,
+      "boundary_transform_approx_vector": [
+        3.1756015145427123,
+        6.160148852803045,
+        10.248588522902377,
+        14.64959701661573,
+        17.28942360437313,
+        13.91022074958635
+      ],
+      "runtime_ms": 7.293917,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.001__n_32",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06232454027236823,
+      "step_count": 32,
+      "declared_bound_B_total": 32837.011333682574,
+      "boundary_transform_approx_vector": [
+        3.1750098157779014,
+        6.161990422196467,
+        10.249643322533437,
+        14.650319182590165,
+        17.28847972700437,
+        13.900143407604656
+      ],
+      "runtime_ms": 7.424583,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.001__n_64",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06232454027236823,
+      "step_count": 64,
+      "declared_bound_B_total": 8209.252833425431,
+      "boundary_transform_approx_vector": [
+        3.1748561823442305,
+        6.162461219537869,
+        10.249906414468779,
+        14.650506533646254,
+        17.288267382181406,
+        13.897605250566055
+      ],
+      "runtime_ms": 7.197959,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.0001__n_4",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.061115670252371725,
+      "step_count": 4,
+      "declared_bound_B_total": 210156872.5355445,
+      "boundary_transform_approx_vector": [
+        3.254244577645346,
+        6.270787402782517,
+        10.474161939456629,
+        15.00104910016283,
+        17.73948556623815,
+        14.41673318842139
+      ],
+      "runtime_ms": 7.016583,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.0001__n_8",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.061115670252371725,
+      "step_count": 8,
+      "declared_bound_B_total": 52539218.13388613,
+      "boundary_transform_approx_vector": [
+        3.2481937987499307,
+        6.2950713108254135,
+        10.491790134594662,
+        15.006620668964988,
+        17.707138937894545,
+        14.257266357927136
+      ],
+      "runtime_ms": 7.337333,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.0001__n_16",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.061115670252371725,
+      "step_count": 16,
+      "declared_bound_B_total": 13134804.533471536,
+      "boundary_transform_approx_vector": [
+        3.245971760244395,
+        6.302382069391492,
+        10.496289067808302,
+        15.009170631768775,
+        17.7016197620974,
+        14.214943643703656
+      ],
+      "runtime_ms": 8.056416,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.0001__n_32",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.061115670252371725,
+      "step_count": 32,
+      "declared_bound_B_total": 3283701.133367887,
+      "boundary_transform_approx_vector": [
+        3.245336886028087,
+        6.304352878044808,
+        10.49740985252279,
+        15.009916174058374,
+        17.70055735591359,
+        14.20409868454081
+      ],
+      "runtime_ms": 8.631791,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_0.0001__n_64",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.061115670252371725,
+      "step_count": 64,
+      "declared_bound_B_total": 820925.2833419767,
+      "boundary_transform_approx_vector": [
+        3.24517180308365,
+        6.304857262337848,
+        10.497689445210675,
+        15.010110312325564,
+        17.70031831568169,
+        14.201366526511627
+      ],
+      "runtime_ms": 7.943167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_1e-06__n_4",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06098269455017211,
+      "step_count": 4,
+      "declared_bound_B_total": 2101568725347.194,
+      "boundary_transform_approx_vector": [
+        3.2622414394907495,
+        6.2866321440859965,
+        10.50199635514009,
+        15.041694086344485,
+        17.78649010308071,
+        14.452761046275858
+      ],
+      "runtime_ms": 8.792167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_1e-06__n_8",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06098269455017211,
+      "step_count": 8,
+      "declared_bound_B_total": 525392181336.7985,
+      "boundary_transform_approx_vector": [
+        3.256152047783475,
+        6.311075884088206,
+        10.519733796840145,
+        15.047225965892881,
+        17.753750849207897,
+        14.292003648284922
+      ],
+      "runtime_ms": 6.646416,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_1e-06__n_16",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06098269455017211,
+      "step_count": 16,
+      "declared_bound_B_total": 131348045334.19963,
+      "boundary_transform_approx_vector": [
+        3.2539135175440315,
+        6.318439442849753,
+        10.524262593273015,
+        15.049780071847987,
+        17.74816029488283,
+        14.249336015575633
+      ],
+      "runtime_ms": 6.462666,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_1e-06__n_32",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06098269455017211,
+      "step_count": 32,
+      "declared_bound_B_total": 32837011333.549908,
+      "boundary_transform_approx_vector": [
+        3.253273629189304,
+        6.32042516489433,
+        10.525390926934508,
+        15.05052813809935,
+        17.747083889921313,
+        14.238401964557234
+      ],
+      "runtime_ms": 7.58075,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_1e-06__n_64",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06098269455017211,
+      "step_count": 64,
+      "declared_bound_B_total": 8209252833.387477,
+      "boundary_transform_approx_vector": [
+        3.2531072152373786,
+        6.320933429136643,
+        10.52567240805188,
+        15.050723020252425,
+        17.74684169900882,
+        14.235647286468355
+      ],
+      "runtime_ms": 8.313458,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_1e-09__n_4",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06098135270444992,
+      "step_count": 4,
+      "declared_bound_B_total": 2101568715489335300,
+      "boundary_transform_approx_vector": [
+        3.262322346330649,
+        6.286792449891807,
+        10.502277978367582,
+        15.042105334316135,
+        17.786965697875726,
+        14.45312559530793
+      ],
+      "runtime_ms": 8.319375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_1e-09__n_8",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06098135270444992,
+      "step_count": 8,
+      "declared_bound_B_total": 525392178872333800,
+      "boundary_transform_approx_vector": [
+        3.2562325630553044,
+        6.311237809236183,
+        10.520016525958043,
+        15.04763680634634,
+        17.754222454167746,
+        14.29235510308875
+      ],
+      "runtime_ms": 8.898125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_1e-09__n_16",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06098135270444992,
+      "step_count": 16,
+      "declared_bound_B_total": 131348044718083460,
+      "boundary_transform_approx_vector": [
+        3.25399386551998,
+        6.318601903231697,
+        10.524545624880554,
+        15.050190953384426,
+        17.748631174334303,
+        14.249683970909237
+      ],
+      "runtime_ms": 7.467125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_1e-09__n_32",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06098135270444992,
+      "step_count": 32,
+      "declared_bound_B_total": 32837011179520864,
+      "boundary_transform_approx_vector": [
+        3.2533539262879176,
+        6.320587776497809,
+        10.525674035019303,
+        15.050939045046352,
+        17.747554627087585,
+        14.238749015957856
+      ],
+      "runtime_ms": 6.725584,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-ABC-01__lambda_1e-09__n_64",
+      "source_case_id": "RC4C-ABC-01",
+      "family": "C3_variable_coefficient_abc",
+      "dimension": 6,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.060981351361261,
+      "lambda_real": 0.06098135270444992,
+      "step_count": 64,
+      "declared_bound_B_total": 8209252794880216,
+      "boundary_transform_approx_vector": [
+        3.2531874988290927,
+        6.321096080087111,
+        10.525955535268706,
+        15.05113393470071,
+        17.747312404153085,
+        14.23599410937429
+      ],
+      "runtime_ms": 8.112333,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.5__n_4",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.7067201272102082,
+      "step_count": 4,
+      "declared_bound_B_total": 6.527374892637398,
+      "boundary_transform_approx_vector": [
+        -0.6315067543789354,
+        -0.9112815548074765,
+        -0.05013525363115538,
+        1.5568344499891875,
+        1.219291239103241
+      ],
+      "runtime_ms": 6.455542,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.5__n_8",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.7067201272102082,
+      "step_count": 8,
+      "declared_bound_B_total": 1.6318437254724838,
+      "boundary_transform_approx_vector": [
+        -0.631506702405184,
+        -0.9112915537979478,
+        -0.05009622689335001,
+        1.5568110737719787,
+        1.219296990919246
+      ],
+      "runtime_ms": 5.687083,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.5__n_16",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.7067201272102082,
+      "step_count": 16,
+      "declared_bound_B_total": 0.40796093397554956,
+      "boundary_transform_approx_vector": [
+        -0.6315066837279568,
+        -0.911294060328707,
+        -0.05008646257755905,
+        1.5568052264925294,
+        1.2192984378005167
+      ],
+      "runtime_ms": 6.127375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.5__n_32",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.7067201272102082,
+      "step_count": 32,
+      "declared_bound_B_total": 0.10199023668989753,
+      "boundary_transform_approx_vector": [
+        -0.6315066787026082,
+        -0.911294687385835,
+        -0.05008402101958336,
+        1.556803764471788,
+        1.2192988000803697
+      ],
+      "runtime_ms": 5.474417,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.5__n_64",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.7067201272102082,
+      "step_count": 64,
+      "declared_bound_B_total": 0.02549756354565167,
+      "boundary_transform_approx_vector": [
+        -0.6315066774240093,
+        -0.9112948441766336,
+        -0.05008341060011835,
+        1.5568033989540437,
+        1.2192988906853308
+      ],
+      "runtime_ms": 6.631125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.1__n_4",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.2498024322044941,
+      "step_count": 4,
+      "declared_bound_B_total": 163.18437224659027,
+      "boundary_transform_approx_vector": [
+        -1.888246380972952,
+        -2.6047823843029367,
+        -0.9867881016306799,
+        4.496801178561188,
+        4.0311432554132045
+      ],
+      "runtime_ms": 5.686458,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.1__n_8",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.2498024322044941,
+      "step_count": 8,
+      "declared_bound_B_total": 40.796093063389925,
+      "boundary_transform_approx_vector": [
+        -1.8881827905014106,
+        -2.605382402119952,
+        -0.9846620375975618,
+        4.4961409361634805,
+        4.031429107144719
+      ],
+      "runtime_ms": 5.553875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.1__n_16",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.2498024322044941,
+      "step_count": 16,
+      "declared_bound_B_total": 10.199023267811398,
+      "boundary_transform_approx_vector": [
+        -1.8881651694352881,
+        -2.6055337778680037,
+        -0.9841282441903323,
+        4.495977408957207,
+        4.031504332056525
+      ],
+      "runtime_ms": 6.18025,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.1__n_32",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.2498024322044941,
+      "step_count": 32,
+      "declared_bound_B_total": 2.549755819359924,
+      "boundary_transform_approx_vector": [
+        -1.888160655763319,
+        -2.6055717062549357,
+        -0.9839946487132514,
+        4.495936630420823,
+        4.03152337993521
+      ],
+      "runtime_ms": 5.206959,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.1__n_64",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_BOUNDARY_TRANSFORM_CONVERGENCE",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.2498024322044941,
+      "step_count": 64,
+      "declared_bound_B_total": 0.6374389581333155,
+      "boundary_transform_approx_vector": [
+        -1.8881595205604924,
+        -2.6055811936065356,
+        -0.983961240572066,
+        4.495926442365983,
+        4.031528157118227
+      ],
+      "runtime_ms": 6.440291,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.02__n_4",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.1584188932033513,
+      "step_count": 4,
+      "declared_bound_B_total": 4079.6093061129104,
+      "boundary_transform_approx_vector": [
+        -3.2670790325616696,
+        -4.163703486255439,
+        -2.718027850184913,
+        6.990427756616669,
+        7.010181750189124
+      ],
+      "runtime_ms": 6.18525,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.02__n_8",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.1584188932033513,
+      "step_count": 8,
+      "declared_bound_B_total": 1019.9023265298567,
+      "boundary_transform_approx_vector": [
+        -3.266182877967403,
+        -4.166848531688663,
+        -2.708388933920773,
+        6.989685827477862,
+        7.012993462853996
+      ],
+      "runtime_ms": 6.122667,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.02__n_16",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.1584188932033513,
+      "step_count": 16,
+      "declared_bound_B_total": 254.9755816343003,
+      "boundary_transform_approx_vector": [
+        -3.2659409987251946,
+        -4.167637780049181,
+        -2.7059600007700477,
+        6.98956214733683,
+        7.0137512152892345
+      ],
+      "runtime_ms": 5.202167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.02__n_32",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.1584188932033513,
+      "step_count": 32,
+      "declared_bound_B_total": 63.7438954108252,
+      "boundary_transform_approx_vector": [
+        -3.265879496010566,
+        -4.167835111641718,
+        -2.705351539836416,
+        6.989535569817723,
+        7.013944316877828
+      ],
+      "runtime_ms": 5.914,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.02__n_64",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.1584188932033513,
+      "step_count": 64,
+      "declared_bound_B_total": 15.93597385578451,
+      "boundary_transform_approx_vector": [
+        -3.265864057608836,
+        -4.167884442404863,
+        -2.7051993478962593,
+        6.989529205800983,
+        7.013992825596372
+      ],
+      "runtime_ms": 6.881166,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.01__n_4",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.14699595082820846,
+      "step_count": 4,
+      "declared_bound_B_total": 16318.437224445583,
+      "boundary_transform_approx_vector": [
+        -3.604305158795916,
+        -4.510030220595561,
+        -3.190597217590215,
+        7.475605425066478,
+        7.672178936909846
+      ],
+      "runtime_ms": 5.396875,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.01__n_8",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.14699595082820846,
+      "step_count": 8,
+      "declared_bound_B_total": 4079.6093061130105,
+      "boundary_transform_approx_vector": [
+        -3.602949047681741,
+        -4.514019151209101,
+        -3.1788422147675814,
+        7.47538643583707,
+        7.676398359942092
+      ],
+      "runtime_ms": 6.885333,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.01__n_16",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.14699595082820846,
+      "step_count": 16,
+      "declared_bound_B_total": 1019.902326530073,
+      "boundary_transform_approx_vector": [
+        -3.602584578989801,
+        -4.515015494654268,
+        -3.1758801043842086,
+        7.47544143035106,
+        7.677537263793642
+      ],
+      "runtime_ms": 7.317208,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.01__n_32",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.14699595082820846,
+      "step_count": 32,
+      "declared_bound_B_total": 254.9755816347489,
+      "boundary_transform_approx_vector": [
+        -3.6024920782208634,
+        -4.5152641677463095,
+        -3.175138160466165,
+        7.475462985046739,
+        7.67782763260026
+      ],
+      "runtime_ms": 6.086583,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.01__n_64",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.14699595082820846,
+      "step_count": 64,
+      "declared_bound_B_total": 63.74389541173879,
+      "boundary_transform_approx_vector": [
+        -3.6024688712342288,
+        -4.515326302834489,
+        -3.174952588119503,
+        7.4754688797004265,
+        7.677900584636429
+      ],
+      "runtime_ms": 6.079167,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.005__n_4",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.14128447964063703,
+      "step_count": 4,
+      "declared_bound_B_total": 65273.748897776335,
+      "boundary_transform_approx_vector": [
+        -3.8012314422769173,
+        -4.707871769204027,
+        -3.4711786337089263,
+        7.737583657899859,
+        8.044367878871105
+      ],
+      "runtime_ms": 5.228542,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.005__n_8",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.14128447964063703,
+      "step_count": 8,
+      "declared_bound_B_total": 16318.43722444569,
+      "boundary_transform_approx_vector": [
+        -3.79954398253537,
+        -4.712361055537003,
+        -3.4582713830258127,
+        7.7378091545141015,
+        8.049607072265275
+      ],
+      "runtime_ms": 5.811959,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.005__n_16",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.14128447964063703,
+      "step_count": 16,
+      "declared_bound_B_total": 4079.6093061132347,
+      "boundary_transform_approx_vector": [
+        -3.7990916039197584,
+        -4.713478305529193,
+        -3.4550201937471647,
+        7.738013914135334,
+        8.051021706215742
+      ],
+      "runtime_ms": 6.084958,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.005__n_32",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.14128447964063703,
+      "step_count": 32,
+      "declared_bound_B_total": 1019.9023265305298,
+      "boundary_transform_approx_vector": [
+        -3.7989769337075976,
+        -4.713756768488204,
+        -3.454206014919901,
+        7.738075731518799,
+        8.051382406529054
+      ],
+      "runtime_ms": 6.879417,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.005__n_64",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.14128447964063703,
+      "step_count": 64,
+      "declared_bound_B_total": 254.97558163567044,
+      "boundary_transform_approx_vector": [
+        -3.7989481752961236,
+        -4.713826319915152,
+        -3.4540023887898568,
+        7.7380918762788795,
+        8.051473030590007
+      ],
+      "runtime_ms": 6.3545,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.001__n_4",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13671530269057988,
+      "step_count": 4,
+      "declared_bound_B_total": 1631843.7224443923,
+      "boundary_transform_approx_vector": [
+        -3.97533936685283,
+        -4.880478327004064,
+        -3.721414640241509,
+        7.956449631758653,
+        8.364330183808166
+      ],
+      "runtime_ms": 5.9545,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.001__n_8",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13671530269057988,
+      "step_count": 8,
+      "declared_bound_B_total": 407960.9306110997,
+      "boundary_transform_approx_vector": [
+        -3.9733165699794024,
+        -4.88540486267395,
+        -3.707576153038569,
+        7.9571587559802355,
+        8.370603495312242
+      ],
+      "runtime_ms": 5.467834,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.001__n_16",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13671530269057988,
+      "step_count": 16,
+      "declared_bound_B_total": 101990.23265277673,
+      "boundary_transform_approx_vector": [
+        -3.9727755254334762,
+        -4.886626191016151,
+        -3.704092700305322,
+        7.957526382979005,
+        8.3722972607087
+      ],
+      "runtime_ms": 6.515541,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.001__n_32",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13671530269057988,
+      "step_count": 32,
+      "declared_bound_B_total": 25497.558163196394,
+      "boundary_transform_approx_vector": [
+        -3.9726385436526197,
+        -4.886930138221264,
+        -3.703220632600838,
+        7.9576320015426525,
+        8.372729115335122
+      ],
+      "runtime_ms": 6.043583,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.001__n_64",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13671530269057988,
+      "step_count": 64,
+      "declared_bound_B_total": 6374.389540802126,
+      "boundary_transform_approx_vector": [
+        -3.9726042020290024,
+        -4.887006022607574,
+        -3.7030025492859524,
+        7.957659298680867,
+        8.372837614935667
+      ],
+      "runtime_ms": 6.570833,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.0001__n_4",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13568723787681702,
+      "step_count": 4,
+      "declared_bound_B_total": 163184372.24447075,
+      "boundary_transform_approx_vector": [
+        -4.016776002885594,
+        -4.921267758562544,
+        -3.7812210788826794,
+        8.006802790770763,
+        8.439204359705538
+      ],
+      "runtime_ms": 5.262125,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.0001__n_8",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13568723787681702,
+      "step_count": 8,
+      "declared_bound_B_total": 40796093.06111769,
+      "boundary_transform_approx_vector": [
+        -4.014667217184996,
+        -4.926296810904307,
+        -3.7671760836382164,
+        8.007639845284146,
+        8.445742951185794
+      ],
+      "runtime_ms": 5.078542,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.0001__n_16",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13568723787681702,
+      "step_count": 16,
+      "declared_bound_B_total": 10199023.265279423,
+      "boundary_transform_approx_vector": [
+        -4.014103481921181,
+        -4.92754227905861,
+        -3.763641388400535,
+        8.008050623628385,
+        8.447508232356324
+      ],
+      "runtime_ms": 6.368042,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.0001__n_32",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13568723787681702,
+      "step_count": 32,
+      "declared_bound_B_total": 2549755.816319858,
+      "boundary_transform_approx_vector": [
+        -4.013960797992256,
+        -4.927852109961993,
+        -3.7627565780004746,
+        8.008167853916103,
+        8.447958308630678
+      ],
+      "runtime_ms": 6.069292,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_0.0001__n_64",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13568723787681702,
+      "step_count": 64,
+      "declared_bound_B_total": 637438.9540799676,
+      "boundary_transform_approx_vector": [
+        -4.013925030079313,
+        -4.9279294545068115,
+        -3.7625353144767733,
+        8.008198108030683,
+        8.448071385280944
+      ],
+      "runtime_ms": 6.584667,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_1e-06__n_4",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.1355741507473031,
+      "step_count": 4,
+      "declared_bound_B_total": 1631843722470.877,
+      "boundary_transform_approx_vector": [
+        -4.021387705579659,
+        -4.925800899611285,
+        -3.7878826743718887,
+        8.012365943398262,
+        8.447507002847615
+      ],
+      "runtime_ms": 5.236666,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_1e-06__n_8",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.1355741507473031,
+      "step_count": 8,
+      "declared_bound_B_total": 407960930617.71924,
+      "boundary_transform_approx_vector": [
+        -4.019269198603396,
+        -4.930841313872274,
+        -3.7738150942822224,
+        8.01321754392532,
+        8.454075584847565
+      ],
+      "runtime_ms": 6.040708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_1e-06__n_16",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.1355741507473031,
+      "step_count": 16,
+      "declared_bound_B_total": 101990232654.42981,
+      "boundary_transform_approx_vector": [
+        -4.018702899211625,
+        -4.93208945054002,
+        -3.770274802436822,
+        8.01363323126921,
+        8.455848948608507
+      ],
+      "runtime_ms": 6.001708,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_1e-06__n_32",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.1355741507473031,
+      "step_count": 32,
+      "declared_bound_B_total": 25497558163.607452,
+      "boundary_transform_approx_vector": [
+        -4.018559571114652,
+        -4.932399931127766,
+        -3.7693886011373547,
+        8.013751782744233,
+        8.456301084021257
+      ],
+      "runtime_ms": 5.093583,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_1e-06__n_64",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.1355741507473031,
+      "step_count": 64,
+      "declared_bound_B_total": 6374389540.901863,
+      "boundary_transform_approx_vector": [
+        -4.018523642090132,
+        -4.93247743685196,
+        -3.769166990547734,
+        8.013782373319426,
+        8.456414677883735
+      ],
+      "runtime_ms": 5.522291,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_1e-09__n_4",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13557300959535984,
+      "step_count": 4,
+      "declared_bound_B_total": 1631843739837882000,
+      "boundary_transform_approx_vector": [
+        -4.021434296693381,
+        -4.925846690433711,
+        -3.787949980566641,
+        8.01242210507777,
+        8.447590851588396
+      ],
+      "runtime_ms": 5.177083,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_1e-09__n_8",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13557300959535984,
+      "step_count": 8,
+      "declared_bound_B_total": 407960934959470500,
+      "boundary_transform_approx_vector": [
+        -4.019315691349655,
+        -4.9308872194307565,
+        -3.7738821727224976,
+        8.013273852875585,
+        8.454159737055173
+      ],
+      "runtime_ms": 4.7615,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_1e-09__n_16",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13557300959535984,
+      "step_count": 16,
+      "declared_bound_B_total": 101990233739867630,
+      "boundary_transform_approx_vector": [
+        -4.018749366013182,
+        -4.932135383038768,
+        -3.7703418244467324,
+        8.013689589923391,
+        8.4559331825993
+      ],
+      "runtime_ms": 5.198,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_1e-09__n_32",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13557300959535984,
+      "step_count": 32,
+      "declared_bound_B_total": 25497558434966908,
+      "boundary_transform_approx_vector": [
+        -4.01860603139847,
+        -4.93244587018469,
+        -3.7694556091237716,
+        8.013808154775727,
+        8.45638533884711
+      ],
+      "runtime_ms": 4.948375,
+      "status": "PASS"
+    },
+    {
+      "case_id": "RC4C-BOUNDARY-01__lambda_1e-09__n_64",
+      "source_case_id": "RC4C-BOUNDARY-01",
+      "family": "C4_near_certified_half_plane",
+      "dimension": 5,
+      "route_status": "PASS_RECOMPRESSED_NEAR_BOUNDARY",
+      "omega_contract": 0.1355730084530656,
+      "lambda_real": 0.13557300959535984,
+      "step_count": 64,
+      "declared_bound_B_total": 6374389608741727,
+      "boundary_transform_approx_vector": [
+        -4.018570100743887,
+        -4.932523377535754,
+        -3.7692339950349356,
+        8.013838748757733,
+        8.456498937942799
+      ],
+      "runtime_ms": 5.758583,
+      "status": "PASS"
+    }
+  ]
+}

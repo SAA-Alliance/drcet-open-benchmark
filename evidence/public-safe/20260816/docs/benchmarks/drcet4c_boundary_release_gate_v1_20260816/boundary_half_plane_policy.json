@@ -1,0 +1,5 @@
+{
+  "interpretation": "Conservative theorem-domain release policy; it does not assert that the exact finite-dimensional boundary_transform is mathematically absent outside this certified half-plane.",
+  "policy_id": "drcet4c_boundary_transform_half_plane_release_v1",
+  "rule": "if Re(lambda) <= omega_contract then SAFE_FAIL_CLOSED_OUTSIDE_CERTIFIED_BOUNDARY_TRANSFORM_HALF_PLANE before release"
+}

@@ -1,0 +1,93 @@
+{
+  "artifact_id": "DRCET4C_BOUNDARY_RELEASE_BOUNDARY_TRANSFORM_V1",
+  "claim_boundary": "review_only_bounded_contract_surrogate_boundary_transform_validation_not_production_arin22_kernel_not_external_certification",
+  "files": [
+    {
+      "byte_length": 16140,
+      "path": "DRCET4C_BOUNDARY_RELEASE_GATE_STATUS.json",
+      "sha256": "sha256:e7c70eea4b8cc6d20cca85b2f74be39ecbdb35e0992dc8f01ecd4bbcf4092159"
+    },
+    {
+      "byte_length": 3241,
+      "path": "README.md",
+      "sha256": "sha256:929680362a31ee007e2cf51af4b7d94b131b2e218e6d9afab1787fb71391f69b"
+    },
+    {
+      "byte_length": 445,
+      "path": "contract_function_policy.json",
+      "sha256": "sha256:dd4a0fb2409f0800ca2f179e7436fed7aa4b50154793e5b4ab1984c830d94e21"
+    },
+    {
+      "byte_length": 312,
+      "path": "external_blind_replay_receipt.json",
+      "sha256": "sha256:5ca5d706ee948a9596f1fa373b70d78a4b950a95acc6b76565dc9c06b5fde107"
+    },
+    {
+      "byte_length": 1373,
+      "path": "external_blind_replay_request.json",
+      "sha256": "sha256:ee9a5708f54778898cdfbc826555e63fbb9dc928e46740fdbef342eee3d103e1"
+    },
+    {
+      "byte_length": 5708,
+      "path": "production_arin22_boundary_transform_container_input.json",
+      "sha256": "sha256:0288a8ef0ec594e778284410b51d0114cda7d430b26467c962cd69a8973a4c89"
+    },
+    {
+      "byte_length": 327,
+      "path": "production_arin22_boundary_transform_container_output.json",
+      "sha256": "sha256:0776432e3f6f98b4ab152895132821c5914601ae35d94d21ee7d9e3c5c38ad43"
+    },
+    {
+      "byte_length": 532,
+      "path": "production_arin22_boundary_transform_container_probe.json",
+      "sha256": "sha256:5940cbeee19d6f56302a5a6186fec5a77447ad8898a3041e9ec6e19eb27bb1e8"
+    },
+    {
+      "byte_length": 5431,
+      "path": "boundary_transform_convergence_summary.csv",
+      "sha256": "sha256:1a075f35a13354730bbc4157456ef2447f6af55e1ea68800de20675ddf1902e2"
+    },
+    {
+      "byte_length": 2754,
+      "path": "boundary_transform_fixture_contract.csv",
+      "sha256": "sha256:ae1e03da4317d080aa6d61bbc461ae3e857d27ccefe5c2162e5639b67dc1e244"
+    },
+    {
+      "byte_length": 38733,
+      "path": "boundary_transform_lambda_gate_sweep.svg",
+      "sha256": "sha256:4fcae71ab11a539ffa996824b0611f3f2fa967b16b19b71998d183ecd77c38f0"
+    },
+    {
+      "byte_length": 207245,
+      "path": "boundary_transform_lambda_sweep_results.csv",
+      "sha256": "sha256:921cadb2780130f68e5f95cc24f633f573532dd48c9f4b31b4339f5821846a9a"
+    },
+    {
+      "byte_length": 103585,
+      "path": "boundary_transform_loglog_convergence.svg",
+      "sha256": "sha256:eca7a3cde102017d466eeacf8ecd694cef499f776860ca074791c6d2c8d0c3e3"
+    },
+    {
+      "byte_length": 720106,
+      "path": "boundary_transform_protected_container_input.json",
+      "sha256": "sha256:a91e52e528adb0f2ee45a93dc696c604baa8409fb257f46ea9fca410a47b685b"
+    },
+    {
+      "byte_length": 115726,
+      "path": "boundary_transform_protected_container_output.json",
+      "sha256": "sha256:af41702ca4c7c0094b8652593ac487db16e3cc21f7dc6194a32351fb061a4566"
+    },
+    {
+      "byte_length": 703,
+      "path": "boundary_transform_tangency_product_summary.csv",
+      "sha256": "sha256:a2cdda476b971ad452f15db64e091cab9bfe6a456996cb492ee596a1d4e253f4"
+    },
+    {
+      "byte_length": 399,
+      "path": "boundary_half_plane_policy.json",
+      "sha256": "sha256:dcb5a7793a214400d7cc987ca1de87697ad454c560298757e706392a3ef56d9b"
+    }
+  ],
+  "generated_at_utc": "2026-08-16T12:14:48Z",
+  "schema_id": "saa.artifact_manifest.v1"
+}
