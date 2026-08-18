@@ -1,0 +1,9 @@
+solver,layer_tested,engine_construction_exercised,admissibility_limit_present,admissible_on_irreversible,method_c_admissibility_limit_coefficient_w0,total_rows,not_applicable_admissibility_limits_on_positivity_lane,interpretation
+METHOD_A_1,public_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
+METHOD_A_2,public_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
+METHOD_B_1,public_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
+METHOD_B_2,public_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
+METHOD_C,public_comparator,True,True,False,-1.7024143839193153,384,64,inadmissible public-safe method condition obstruction on irreversible/positivity-preserving lanes
+DOP853,adaptive_monolithic_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
+BDF,adaptive_monolithic_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
+PUBLIC_RELEASE_GATED_PROXY,public_release_gate_proxy,False,False,True,,384,0,release gating layer only; sealed withheld_runtime engine construction not exercised

@@ -1,0 +1,48 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_gpu_h100_measured.v2.artifact_manifest",
+  "files": [
+    {
+      "path": "ACCURACY_COST_ENERGY_PARETO_V2_GPU_H100_STATUS.json",
+      "byte_length": 5153,
+      "sha256": "sha256:2287a3357d4b0e8e5ba66c25bfe45392056887f96cd5c213e0132ed533c8d18a"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 557,
+      "sha256": "sha256:0640737b9cc4438c050cccb278a7774522fee837989dd5396f89b378775facec"
+    },
+    {
+      "path": "gpu_dimension_vs_energy_var99.svg",
+      "byte_length": 56339,
+      "sha256": "sha256:805e9d3eb3955556df106b6ae91d3f9d811750169a37db6df96ecbe44ebd7518"
+    },
+    {
+      "path": "gpu_error_vs_time_var99.svg",
+      "byte_length": 55966,
+      "sha256": "sha256:f8df23e0efbfaa1a39add9a922bed8f073c3d3d38b4fd3b37b2735985e443d50"
+    },
+    {
+      "path": "gpu_internal_frontier.csv",
+      "byte_length": 53974,
+      "sha256": "sha256:3153aa5e002484de5cd0afdd499deacf197db27abc941c2b6d62340d07f835b9"
+    },
+    {
+      "path": "hardware_probe.json",
+      "byte_length": 1085,
+      "sha256": "sha256:beb1576892249ad6ba864f46c5fd182371580358e5f54d5d445c48244436b203"
+    },
+    {
+      "path": "measured_results_gpu_h100.csv",
+      "byte_length": 4877570,
+      "sha256": "sha256:2a3a70432305dbc81bb92338cbcdb64be5a198cd5ffb6edcfcaaebe046b69bf9"
+    },
+    {
+      "path": "telemetry_gap_report.json",
+      "byte_length": 659,
+      "sha256": "sha256:af515472f119dc08b72cbb59d30882564675112abe6f462d37c9ca5576eb7593"
+    }
+  ],
+  "generated_at_utc": "2026-08-18T12:45:00Z"
+}

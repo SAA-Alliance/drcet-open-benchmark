@@ -1,0 +1,5 @@
+{
+  "interpretation": "Conservative theorem-domain release policy; it does not assert that the exact finite-dimensional boundary_control is mathematically absent outside this certified domain.",
+  "policy_id": "drcet4c_boundary_domain_release_v1",
+  "rule": "if Re(boundary_parameter) <= omega_contract then SAFE_FAIL_CLOSED_OUTSIDE_CERTIFIED_BOUNDARY_DOMAIN before release"
+}

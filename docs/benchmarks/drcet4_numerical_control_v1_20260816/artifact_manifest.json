@@ -1,0 +1,228 @@
+{
+  "artifact_id": "DRCET4_NUMERICAL_CONTROL_V1",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.artifact_manifest.v1",
+  "files": [
+    {
+      "path": "DRCET4_NUMERICAL_CONTROL_STATUS.json",
+      "byte_length": 42056,
+      "sha256": "sha256:5896e98d48dd0660bfcecb6866210d9840cc49f482d11ed115532ff9ae1607a5"
+    },
+    {
+      "path": "DRCET4_PROTOCOL_V1.md",
+      "byte_length": 4719,
+      "sha256": "sha256:a5045abe3339392ce9e87ef887a6e94323c41663473344e8899d96bc59e49e0d"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 4144,
+      "sha256": "sha256:706392cf15c98e9dfb4e337e9b47e1c0f0134cc6854b46828936f7be6c4e2443"
+    },
+    {
+      "path": "a1_control_sanity.csv",
+      "byte_length": 883,
+      "sha256": "sha256:d61e9b1cce22e42826ca35f5f501a2882606a10a2b9af1d78b8def91a8ab034c"
+    },
+    {
+      "path": "a6_boundary_metric_summary.csv",
+      "byte_length": 611,
+      "sha256": "sha256:fd653214bfbc8011419406fc79f5e15bc55899a86c83f96b190c3dba17eee67f"
+    },
+    {
+      "path": "a6_metric_equivalence_slope_consistency.csv",
+      "byte_length": 854,
+      "sha256": "sha256:751afffa03f30034c5697a76e678ff184dada43ccb78075e480cbeb666453149"
+    },
+    {
+      "path": "a6_metric_readback_vs_step_count.svg",
+      "byte_length": 88800,
+      "sha256": "sha256:e230a151354c41e38517c4a5674005fa49faa2cfe7df8ed531dcab527a897c24"
+    },
+    {
+      "path": "a6_metric_slope_bootstrap_summary.csv",
+      "byte_length": 1934,
+      "sha256": "sha256:c191644f7f65dbf7bba5f25d8e04681cbad30f59876cb16f8f0b3b433e1e6f41"
+    },
+    {
+      "path": "a6_metric_slope_summary.csv",
+      "byte_length": 1548,
+      "sha256": "sha256:af7af8696f33489a42cd696d64a21328051d61bc3c0317e2fc7c82a13ce53137"
+    },
+    {
+      "path": "a6_metric_step_summary.csv",
+      "byte_length": 7277,
+      "sha256": "sha256:725318b336071fe454469d14bf150c6f45607dbae8cfe36649e9f411cb82719e"
+    },
+    {
+      "path": "a6_release_gate_metric_gate_summary.csv",
+      "byte_length": 608,
+      "sha256": "sha256:7db63c388c9dc46c0ae3300694114133d375b130116a0e0e2a3051461854e767"
+    },
+    {
+      "path": "a6_solver_pairing_summary.csv",
+      "byte_length": 1244,
+      "sha256": "sha256:de7c0601e5865399c03e6bd82bce14fad6fdc157a565a5f8fa47fd8ef2ac5f91"
+    },
+    {
+      "path": "acceptance_rules.json",
+      "byte_length": 452,
+      "sha256": "sha256:fbeafed80677a89b25a7431c22811a603581c81035c498e547093f5e46f90bba"
+    },
+    {
+      "path": "bound_utilization_summary.csv",
+      "byte_length": 1339,
+      "sha256": "sha256:ee9aabfc4d534526dc485535cf5f0584627d33f37a8a10b25faf74f84aec38b7"
+    },
+    {
+      "path": "bounded_control_contract_stability_summary.csv",
+      "byte_length": 1349,
+      "sha256": "sha256:8404e789f188afab10101de20c19c22c69540694254f0647f9ea50d15f50c261"
+    },
+    {
+      "path": "bounded_control_convergence_results.csv",
+      "byte_length": 21063,
+      "sha256": "sha256:6f8afd068d3ee67e2d816403298aa9f82cd0779fee8bbd64906403d8666df692"
+    },
+    {
+      "path": "bounded_control_convergence_summary.csv",
+      "byte_length": 2140,
+      "sha256": "sha256:25d479126b4ce862c65b0bd587be42778dbd98ea276c14f60d88e7f7e4a69240"
+    },
+    {
+      "path": "bounded_control_fixture_contract.csv",
+      "byte_length": 2237,
+      "sha256": "sha256:ba981338d1e780af1b640efafe267fb92438e38b15361fb1e8d91268058991ff"
+    },
+    {
+      "path": "bounded_control_loglog_convergence.svg",
+      "byte_length": 81346,
+      "sha256": "sha256:03c72f43f57fb0224ffef24de92fb8d3859714aea30fad44be1c756d7c08519d"
+    },
+    {
+      "path": "bounded_control_sealed_replay_input.json",
+      "byte_length": 45280,
+      "sha256": "sha256:4601e372c91496d70247ca6d815f666ad631aa20b63f483c44334bb839da6c49"
+    },
+    {
+      "path": "bounded_control_sealed_replay_output.json",
+      "byte_length": 17857,
+      "sha256": "sha256:fe4179940ad64e2a3bccf41b808ad72ac6389a211cb7ca1eb8b17a62c8f67c1b"
+    },
+    {
+      "path": "bounded_control_sealed_replay_probe.json",
+      "byte_length": 2362,
+      "sha256": "sha256:44eb3a37e7d5e1a9655bb9b9493193eb5ecc2ad546fc889b5c44a0709be060fd"
+    },
+    {
+      "path": "convergence_order_summary.csv",
+      "byte_length": 35441,
+      "sha256": "sha256:288be0b2fa5d0ae5e2c521890cb1a19087cef275cdfce96cfe1ea70a1a634f8d"
+    },
+    {
+      "path": "external_blind_replay_receipt.json",
+      "byte_length": 311,
+      "sha256": "sha256:772dab4f32404fb445b8d8c393d148520730bbf27d668c363caaf710f6add102"
+    },
+    {
+      "path": "external_blind_replay_request.json",
+      "byte_length": 1307,
+      "sha256": "sha256:ad00cb96f8f58774542d7ad5037af35ada6ce6334f2e55b77b6daf8539a7c52a"
+    },
+    {
+      "path": "fixture_contract.csv",
+      "byte_length": 7600,
+      "sha256": "sha256:98fa903c14691b9719cef0fc33a3cda4a0369d40006924832dd5b5af2396f869"
+    },
+    {
+      "path": "hypotheses.json",
+      "byte_length": 513,
+      "sha256": "sha256:8fd971c2bbc24eb5ed7cbeef153f026a088bb35d25e9c82b5bfd57d1be0f7669"
+    },
+    {
+      "path": "invariant_results.csv",
+      "byte_length": 14729,
+      "sha256": "sha256:be7f9ed6776226b4aa1fbc798afc88da590eb37bd4427d265d931a66d5aa4c55"
+    },
+    {
+      "path": "loglog_convergence_closed_form.svg",
+      "byte_length": 55045,
+      "sha256": "sha256:040fe173bfac4a7e0daa160762f240126a03653177e244d237cee4a2205aa080"
+    },
+    {
+      "path": "method_admissibility_summary.csv",
+      "byte_length": 1151,
+      "sha256": "sha256:5f47527e4ba8cb6d5f5430c4b278450491828279cef53dd5ad818ea49918f75a"
+    },
+    {
+      "path": "metric_equivalence_class_summary.csv",
+      "byte_length": 973,
+      "sha256": "sha256:ff03a3aea213a54239110628de3c90e8085928809f28bb4a356956b122b1a71d"
+    },
+    {
+      "path": "metric_equivalence_diagnostics.csv",
+      "byte_length": 273798,
+      "sha256": "sha256:8ae0162ed22674913d4d61278d86614bb547d1a773734cc3c7b0467faac809a6"
+    },
+    {
+      "path": "pressure_lane_summary.csv",
+      "byte_length": 519,
+      "sha256": "sha256:31f4ae2adbda16a4dc6234225634ad2be6fb88951bc007ce99da21023dc497c9"
+    },
+    {
+      "path": "reference_policy.json",
+      "byte_length": 230,
+      "sha256": "sha256:a26496d2d38c15aa3d8033aea341e788a75c12666f043a940a911961ccbf69bd"
+    },
+    {
+      "path": "release_gate_confusion_matrix.csv",
+      "byte_length": 366,
+      "sha256": "sha256:09002161b13a4d71e4cd5754238e83a51a57f636052e9a02a0efdcdc1643f8cb"
+    },
+    {
+      "path": "release_gate_overhead_summary.csv",
+      "byte_length": 1014,
+      "sha256": "sha256:73fde7d6e9dee1fe2c8f3d05dcb9d8b1a8f0823ade8b0cabec9ff4b1df8bc630"
+    },
+    {
+      "path": "sealed_replay_closed_form_input.json",
+      "byte_length": 587320,
+      "sha256": "sha256:fd74dadad105245f0cbd92c5a9808bac6439d2698eda382f4e3a40598ce376c2"
+    },
+    {
+      "path": "sealed_replay_closed_form_output.json",
+      "byte_length": 45841,
+      "sha256": "sha256:6fd8f2ba9f572ce905bd07713b6962415baa5b586079ffdf6a16d8b4c5b403ae"
+    },
+    {
+      "path": "sealed_replay_closed_form_probe.json",
+      "byte_length": 3984,
+      "sha256": "sha256:e0e635cbaf0ea1752d90da7585526dd4b67c50a5017c75492200783fc3c178e7"
+    },
+    {
+      "path": "solver_resolution_results.csv",
+      "byte_length": 1260224,
+      "sha256": "sha256:2986a4494a6bc59c0dafa558b8486c92d47b1437d7bdfd54629a86a848fb32a6"
+    },
+    {
+      "path": "stress_pressure_vs_bound_utilization.svg",
+      "byte_length": 105201,
+      "sha256": "sha256:221bbec6035be52deb73e4fcd87fbdcbccf6d5c7a69de66cc4b925e75eff7678"
+    },
+    {
+      "path": "withheld_runtime_bounded_control_probe.json",
+      "byte_length": 521,
+      "sha256": "sha256:ab740e5150e2c75cd55bcf2854fd9586baca93f9faecca1d5e94ce05981a3a1b"
+    },
+    {
+      "path": "withheld_runtime_bounded_control_probe_input.json",
+      "byte_length": 4932,
+      "sha256": "sha256:03c11d92c47f529228835c5ff74fb29c2a50398270e4a3aa55ed9a0a6f1d3aa7"
+    },
+    {
+      "path": "withheld_runtime_bounded_control_probe_output.json",
+      "byte_length": 363,
+      "sha256": "sha256:5d490e8d11051adc41a0b48768935f11ca97f70a062e9a509fb63fc9ae37e798"
+    }
+  ],
+  "generated_at_utc": "2026-08-18T12:45:00Z"
+}

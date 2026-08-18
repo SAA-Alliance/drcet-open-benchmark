@@ -1,0 +1,4 @@
+equivalence_class,methods,diagnostic_rows,max_relative_equivalence_residual,max_basisvalue_abs_delta,status,e_boundary_parameter_method_ranking_allowed,interpretation
+PAIR_1_METHOD_EQUIVALENCE_CLASS,"METHOD_A_1,METHOD_B_1",384,1.4050119618243462e-13,1.2360967448777619e-13,PASS,False,"Methods in this class are metricly indistinguishable by construction; e_boundary_parameter is a release_gate, not a method ranking statistic."
+PAIR_2_METHOD_EQUIVALENCE_CLASS,"METHOD_A_2,METHOD_B_2",384,1.0910917291134551e-13,1.2279066652354231e-13,PASS,False,"Methods in this class are metricly indistinguishable by construction; e_boundary_parameter is a release_gate, not a method ranking statistic."
+METHOD_C_ADMISSIBILITY_LIMIT_CLASS,METHOD_C,0,,,NOT_COMPARABLE_TO_METHOD_A_METHOD_B_EQUIVALENCE_CLASS,False,"method C is outside the method A/method B metric equivalence class, but has a inadmissible public-safe method condition and is not admissible on irreversible public_systems."

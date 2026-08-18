@@ -1,0 +1,5 @@
+release_gate_status,count,released,interpretation
+PASS_DETERMINISTIC,314,True,released inside declared cap
+PASS_RECOMPRESSED,36,True,step recompressed before release
+SAFE_FAIL_CLOSED,30,False,not released; challenge/block release_gate used
+SAFE_FAIL_CLOSED_METRIC_READBACK,4,False,not released; A6 boundary-metric release criterion failed after recompression ladder

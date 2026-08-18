@@ -1,0 +1,63 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_gpu_reconciliation.v2.artifact_manifest",
+  "files": [
+    {
+      "path": "ACCURACY_COST_ENERGY_PARETO_V2_CPU_GPU_RECONCILIATION_STATUS.json",
+      "byte_length": 29924,
+      "sha256": "sha256:1cf092c626664a587847b2ef72c1c838ac0ab6d564c489dcf4311d563040a751"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 720,
+      "sha256": "sha256:88c6bbc415b80bda78038df3ecbf0cd5d18551ad2a8532a67944b47975d07a3d"
+    },
+    {
+      "path": "cpu_gpu_reconciliation_by_dimension.csv",
+      "byte_length": 330,
+      "sha256": "sha256:30702150b71d01bd7fead6bb21d65357183e95dbb82fdf83923e0c0bb57696f5"
+    },
+    {
+      "path": "cpu_gpu_reconciliation_by_method.csv",
+      "byte_length": 324,
+      "sha256": "sha256:ddc6e50b699ed5e4e5063d65068a5be62bbf2374e36e1a68952ec8466a21d18f"
+    },
+    {
+      "path": "cpu_gpu_unit_matched_common_rows.csv",
+      "byte_length": 10166398,
+      "sha256": "sha256:5582825ed1e616d7e90b6c7330c655860e8cb8e82fa210eec989b1ded16779cf"
+    },
+    {
+      "path": "cpu_gpu_unit_matched_iso_accuracy_by_dimension.csv",
+      "byte_length": 1116,
+      "sha256": "sha256:c1db10dcd6965f9940cebefa05643a56925c74616640c0cf77b48e9124def688"
+    },
+    {
+      "path": "cpu_gpu_unit_matched_iso_accuracy_by_method.csv",
+      "byte_length": 1116,
+      "sha256": "sha256:d3fcea77ecb381031cc84e98b99f5aa229a5e8f9e0ab58caec0fd9db3ca3cd49"
+    },
+    {
+      "path": "cpu_h100_unit_matched_iso_speedup_by_dimension.svg",
+      "byte_length": 1431,
+      "sha256": "sha256:123a5521a04ff71ea8f9cb62d2701acc4c3fdb1db18c8e4314d140f5a0ca54e1"
+    },
+    {
+      "path": "cpu_h100_wall_speedup_by_dimension.svg",
+      "byte_length": 640,
+      "sha256": "sha256:607a611fa7d35ff29911940e1dc9ec8734eb26a0efe6919fe530ba4175de9100"
+    },
+    {
+      "path": "invalidated_prior_speedups_by_dimension.csv",
+      "byte_length": 873,
+      "sha256": "sha256:bea2c12d472970a7709409304d89352b0ff4737b76ff8515da41fcdc2842f6ac"
+    },
+    {
+      "path": "invalidated_prior_speedups_by_method.csv",
+      "byte_length": 775,
+      "sha256": "sha256:0b9c58d715f40565f33e7ce16e0b998ecbab5ca1949a270a335a5e06292b753a"
+    }
+  ],
+  "generated_at_utc": "2026-08-18T12:45:00Z"
+}

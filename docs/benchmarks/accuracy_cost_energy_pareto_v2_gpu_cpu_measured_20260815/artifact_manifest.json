@@ -1,0 +1,58 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_measured.v2.artifact_manifest",
+  "files": [
+    {
+      "path": "ACCURACY_COST_ENERGY_PARETO_V2_STATUS.json",
+      "byte_length": 17777,
+      "sha256": "sha256:49e98c7ab4e5d5ca196a02bb991c25e3e444689fb7eea90717f4ce49d598a6d2"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 2809,
+      "sha256": "sha256:1d5c713c0daf41818bcc394c5dc256e542789793c436dafab710bb70aee42c2f"
+    },
+    {
+      "path": "crossover_preregistration_hypothesis.json",
+      "byte_length": 1982,
+      "sha256": "sha256:d2ba9180c8b712e0d5ffc72c165e52c95634548045d465c079782a0b10469ebb"
+    },
+    {
+      "path": "hardware_probe.json",
+      "byte_length": 493,
+      "sha256": "sha256:ebc544ecd44d535244068c8f996b046690eb8d62ed62c236b52938943fdd8022"
+    },
+    {
+      "path": "measured_results.csv",
+      "byte_length": 269,
+      "sha256": "sha256:a8877e773ddaa592ce698a6fb4a7eb0a079a3ce5db2d6d38552dccceaa7e5f31"
+    },
+    {
+      "path": "method_contract.json",
+      "byte_length": 1904,
+      "sha256": "sha256:78a4463ab29fd2a16d4c6462f6b45e8dafbb1f76c96267bb0563ccfce19d50bd"
+    },
+    {
+      "path": "node_requirements.json",
+      "byte_length": 1581,
+      "sha256": "sha256:08f88d79b16d3b8aef99f26ce2184c80daf03da1605076b7c8c03f379fd541c7"
+    },
+    {
+      "path": "reference_oracle_contract.json",
+      "byte_length": 5245,
+      "sha256": "sha256:da87bfd2f4291a4c1495826a881a53f39b91eef9a20267671863bef73ca94e86"
+    },
+    {
+      "path": "target_contract.csv",
+      "byte_length": 65598,
+      "sha256": "sha256:e44e969ea5c0791c4837ecde30e8821f184c28040c7104dcc53e32bbfe2bacd7"
+    },
+    {
+      "path": "target_contract.json",
+      "byte_length": 133434,
+      "sha256": "sha256:ee0aecaa469cfa01292f5e2fee6d99096f8860b3b3ba55d6ec4aa5ed2bdabe2e"
+    }
+  ],
+  "generated_at_utc": "2026-08-18T12:45:00Z"
+}

@@ -1,9 +1,0 @@
-family,solver,row_count,expected_row_count,applicable_rows,status,interpretation
-A6_near_critical,LIE_AB,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
-A6_near_critical,LIE_BA,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
-A6_near_critical,STRANG_ABA,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
-A6_near_critical,STRANG_BAB,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
-A6_near_critical,YOSHIDA4,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
-A6_near_critical,DOP853,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
-A6_near_critical,BDF,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
-A6_near_critical,ARIN22_ROUTED_PROXY,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.

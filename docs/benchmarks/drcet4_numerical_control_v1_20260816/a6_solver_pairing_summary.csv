@@ -1,0 +1,9 @@
+family,solver,row_count,expected_row_count,applicable_rows,status,interpretation
+A6_boundary_fixture,METHOD_A_1,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
+A6_boundary_fixture,METHOD_A_2,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
+A6_boundary_fixture,METHOD_B_1,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
+A6_boundary_fixture,METHOD_B_2,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
+A6_boundary_fixture,METHOD_C,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
+A6_boundary_fixture,DOP853,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
+A6_boundary_fixture,BDF,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.
+A6_boundary_fixture,PUBLIC_RELEASE_GATED_PROXY,64,64,64,PASS_PAIRED_A6_ROWS,A6 row-count pairing check; ratios across methods are withheld if row_count differs.

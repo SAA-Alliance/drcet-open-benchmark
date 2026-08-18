@@ -1,0 +1,28 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817",
+  "generated_at_utc": "2026-08-17T18:32:45Z",
+  "measured": [
+    "gpu_wall_time_fixed_iteration",
+    "gpu_peak_memory_mib"
+  ],
+  "partial": [],
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_gpu_h100_fixed_iter.v2.telemetry_gap_report",
+  "withheld": [
+    {
+      "field": "gpu_energy_joules",
+      "reason": "WITHHELD_UNLESS_NVML_SAMPLE_COUNT_GE_20_FIXED_ITERATION"
+    },
+    {
+      "field": "cloud_dollars",
+      "reason": "WITHHELD_CLOUD_RATE_NOT_BOUND"
+    },
+    {
+      "field": "cpu_energy_joules",
+      "reason": "CPU_PACK_WITHHELD_RAPL_NOT_AVAILABLE"
+    },
+    {
+      "field": "public_crossover_claim",
+      "reason": "INTERNAL_REFERENCE_ONLY_AND_CPU_ENERGY_MISSING"
+    }
+  ]
+}

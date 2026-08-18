@@ -1,0 +1,1147 @@
+{
+  "export_boundary": "public_safe_whitelist_no_production_no_client_data_no_internal_construction_names",
+  "file_count": 228,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "byte_length": 533,
+      "sha256": "sha256:a6af04781220b3bb2437c86747d14fd7625b4f6882f06171757c64c847c5d06e"
+    },
+    {
+      "path": ".gitignore",
+      "byte_length": 57,
+      "sha256": "sha256:89df31fc807c5076abe64e6856a53542a241e61b4f4766eeb03014a50784f1be"
+    },
+    {
+      "path": "CITATION.cff",
+      "byte_length": 296,
+      "sha256": "sha256:8d4a68783a2a5469237376498ec4002f2cba271beaa23e2ed6901b4408b22a67"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "byte_length": 391,
+      "sha256": "sha256:26b5051efa1f42eda3426d153ef346040dbb887d74070bbf860cac14ca26ef29"
+    },
+    {
+      "path": "DRCET_PUBLIC_SERIES_INDEX_V1.json",
+      "byte_length": 3642,
+      "sha256": "sha256:6e022a200aff17c6c8b5d34b7c51b928411e7e85a21802b9ba63fb18abfdd243"
+    },
+    {
+      "path": "LICENSE",
+      "byte_length": 651,
+      "sha256": "sha256:19d3a34ffee23512369f85e9ac0e24c75e3a7f77a369f7b9a0be0bc62819495f"
+    },
+    {
+      "path": "Makefile",
+      "byte_length": 252,
+      "sha256": "sha256:9140190cab21c68016102190c1d3846a2709fe6d0b95c8e7b609a820b00f65c9"
+    },
+    {
+      "path": "NOTICE",
+      "byte_length": 254,
+      "sha256": "sha256:296fd72e52ca4580a15ea78737654ec513b06ce0523c8b41889de11c0a738996"
+    },
+    {
+      "path": "PUBLIC_DISCLOSURE_BOUNDARY.md",
+      "byte_length": 825,
+      "sha256": "sha256:f2cb7720bca78f3e94263de6e52c0dbc6e697425065f90a93e74588e07232cbe"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 2834,
+      "sha256": "sha256:ac12edb0dcf4c7ad26e626e0fbe2522f2ccf83321fe720cfb4c2753548eb7fc7"
+    },
+    {
+      "path": "SECURITY.md",
+      "byte_length": 282,
+      "sha256": "sha256:66cf8ae5ff7df61b199d2820417ed95a71c55fe28914e13f6502e6eba51d9e34"
+    },
+    {
+      "path": "docs/CLAIM_BOUNDARY.md",
+      "byte_length": 516,
+      "sha256": "sha256:b30c4202b8e32f7bb22a67ef655a5e036e5574f12c2232ba83b90e1947a936bf"
+    },
+    {
+      "path": "docs/DRCET-1.md",
+      "byte_length": 489,
+      "sha256": "sha256:8456edf11021514f6c29fd95727b05ce9445f19b7930b4cb95e02eac601d5680"
+    },
+    {
+      "path": "docs/DRCET-2.md",
+      "byte_length": 490,
+      "sha256": "sha256:7e5a7f543c3591cfffc53742e96ae6f62065e5a0bd2abdc1d856d8744855bbff"
+    },
+    {
+      "path": "docs/DRCET-3.md",
+      "byte_length": 441,
+      "sha256": "sha256:07c13238259103094155e448d173bde615b0facd2b681071a6d4952489517920"
+    },
+    {
+      "path": "docs/DRCET-4.md",
+      "byte_length": 928,
+      "sha256": "sha256:2258b2094fdb255bd448f039ca3960f73d2539e38aa063915821ea161759c414"
+    },
+    {
+      "path": "docs/DRCET4_GITHUB_DISCLOSURE_BOUNDARY.md",
+      "byte_length": 536,
+      "sha256": "sha256:bc4f126769128483a701bd567038c1fdfa93aa3290ca8d366bf96ef049cce3a2"
+    },
+    {
+      "path": "docs/PROTOCOL.md",
+      "byte_length": 1282,
+      "sha256": "sha256:af88438493445d86f16322df4d21a7eed95914672f374dcc129356f00e5c7dea"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cloud_cost_profile_20260817/CLOUD_COST_PROFILE_STATUS.json",
+      "byte_length": 1645,
+      "sha256": "sha256:769b7fbce4636c182b89e6fe46e72a5b40cd700d3320b1c9f018590a11f72de4"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cloud_cost_profile_20260817/README.md",
+      "byte_length": 403,
+      "sha256": "sha256:79768ea31fbee6e1a17a42d0da4f42b7713ea1808a522765ba74bdb835b6916b"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cloud_cost_profile_20260817/artifact_manifest.json",
+      "byte_length": 706,
+      "sha256": "sha256:3d2f227a0a179e361dc71f8cd598be91dcf89addc2194930c5bf9c61b99500e4"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/ACCURACY_COST_ENERGY_PARETO_V2_CPU_CONTABO_FIXED_ITER_STATUS.json",
+      "byte_length": 5605,
+      "sha256": "sha256:db05a6d20ca182da5f198fbf7492e8765403a5ba32aa7f2151dbcb9de638309f"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/README.md",
+      "byte_length": 427,
+      "sha256": "sha256:e6e833d9a077373eb37e9db5c204bd093451eba7c8d276f3a15a594ed38530e3"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/artifact_manifest.json",
+      "byte_length": 1634,
+      "sha256": "sha256:bf412a839c09c62ac2da3f0e25bf50d00c821e2ef23cda1cfabbef1497d9a23e"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/cpu_fixed_iter_internal_frontier.csv",
+      "byte_length": 52482,
+      "sha256": "sha256:d87a6dbff9aa2ce20d84153cfb8e9888752af010cdd853e136ba48cae4e28635"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/hardware_probe.json",
+      "byte_length": 2691,
+      "sha256": "sha256:2452c19069c05aa1d903634a5f1aaa402a7868e7f52a75e9f98391109f78debb"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/measured_results_cpu_fixed_iter.csv",
+      "byte_length": 12563223,
+      "sha256": "sha256:b52c20b158a5b910cb9c14448a89319a8bfa03176ceb556dbc382609d4c1f810"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/reference_results_cpu.csv",
+      "byte_length": 51131,
+      "sha256": "sha256:7cb6b28048e2e354be8b99eab536cd4e20c4d26de2311f0577f8b9c15dffea60"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter_20260817/telemetry_gap_report.json",
+      "byte_length": 706,
+      "sha256": "sha256:62b3e8764eac22898e0e7b710a14a29ec3801db0f4e79fedba94af1bd4633292"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817/ACCURACY_COST_ENERGY_PARETO_V2_CPU_CONTABO_STATUS.json",
+      "byte_length": 4802,
+      "sha256": "sha256:c567f1e55b9298cdd561f140ef2ece84daf814dac3a03ea23652fcada249beab"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817/README.md",
+      "byte_length": 833,
+      "sha256": "sha256:587963a4639d1a0a2be506388f09a2824c3392b0afebfd508ab138fbb6e2d3fe"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817/artifact_manifest.json",
+      "byte_length": 1955,
+      "sha256": "sha256:cd5006eefcc84961530b8244838bcdbbdf3bbcd7a30714cabe35c87aa83c1b46"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817/cpu_dimension_vs_compute_var99.svg",
+      "byte_length": 56342,
+      "sha256": "sha256:4a9f6bd475ba04a4fbafb0455c9c838b00df096f74a21035dd95936f7a546e01"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817/cpu_error_vs_time_var99.svg",
+      "byte_length": 56174,
+      "sha256": "sha256:d1a1487e0d3ee10a6723d2b865ed83331c5cbb888aaedaa945f04290a7cca4c0"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817/cpu_internal_frontier.csv",
+      "byte_length": 66777,
+      "sha256": "sha256:34a6d290a4a4c349705b962f53c0c2db8b9fffbeb2720842fc6f80b9bb9cfd72"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817/hardware_probe.json",
+      "byte_length": 2691,
+      "sha256": "sha256:64c0b66d76456f8d7f44452065f5d128c28f985fd4c3cc17fc833a234bf45735"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817/measured_results_cpu.csv",
+      "byte_length": 4998108,
+      "sha256": "sha256:35eb272e73a24c79c61ba4445b0ca98b9b231ca4226950acc6bdbe1be7089f26"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817/reference_results_cpu.csv",
+      "byte_length": 51452,
+      "sha256": "sha256:98d8e77321f7ab56f1bbee5ffb4bd6bbd707e323fa194f45dcdc4bb4d40ced47"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817/telemetry_gap_report.json",
+      "byte_length": 811,
+      "sha256": "sha256:291dfcddb37cad37c1d1aad5be3e4f2932ec49d7d04f6171edd4eb0653d3e787"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_windowed_20260817/ACCURACY_COST_ENERGY_PARETO_V2_CPU_CONTABO_WINDOWED_STATUS.json",
+      "byte_length": 5258,
+      "sha256": "sha256:e36d8d91d12d5f4c265e2fa1629f80837013f9baa21c12e4e52160a0329a2775"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_windowed_20260817/README.md",
+      "byte_length": 581,
+      "sha256": "sha256:94b6182ae6443c730afed1b20c858a4bb5c238fc1d47ef7b946a6e4a3f5d41ed"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_windowed_20260817/artifact_manifest.json",
+      "byte_length": 1623,
+      "sha256": "sha256:61fd0c9f09fea436ce02d76ba7bbab74368fde9af53e385f12ec9a120b11732f"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_windowed_20260817/cpu_windowed_internal_frontier.csv",
+      "byte_length": 52864,
+      "sha256": "sha256:8cd1f055a3b0fd06ad502225585b56e6dcfda0453e09c68a9f2bf752c4acdd29"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_windowed_20260817/hardware_probe.json",
+      "byte_length": 2691,
+      "sha256": "sha256:feb94d81d7d092c510a316d413f6e75bf2787943b03e71a3493d2a49db2e0fdc"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_windowed_20260817/measured_results_cpu_windowed.csv",
+      "byte_length": 4755884,
+      "sha256": "sha256:33bd4f3d5d10b1688bf0e69b663183a994aaaef496cd10572f62d476f138a910"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_windowed_20260817/reference_results_cpu.csv",
+      "byte_length": 51131,
+      "sha256": "sha256:7cb6b28048e2e354be8b99eab536cd4e20c4d26de2311f0577f8b9c15dffea60"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_contabo_windowed_20260817/telemetry_gap_report.json",
+      "byte_length": 668,
+      "sha256": "sha256:d91b6bcfa671094e88bda48cd11e3cea1d56d908b9c64dcb908a04dc8477bfac"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/ACCURACY_COST_ENERGY_PARETO_V2_CPU_GPU_RECONCILIATION_STATUS.json",
+      "byte_length": 29924,
+      "sha256": "sha256:1cf092c626664a587847b2ef72c1c838ac0ab6d564c489dcf4311d563040a751"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/README.md",
+      "byte_length": 720,
+      "sha256": "sha256:88c6bbc415b80bda78038df3ecbf0cd5d18551ad2a8532a67944b47975d07a3d"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/artifact_manifest.json",
+      "byte_length": 2460,
+      "sha256": "sha256:cb516974e089321a9a729fd1bcfdcfd22feabe895152d460ded71e8a86b660bf"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_gpu_reconciliation_by_dimension.csv",
+      "byte_length": 330,
+      "sha256": "sha256:30702150b71d01bd7fead6bb21d65357183e95dbb82fdf83923e0c0bb57696f5"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_gpu_reconciliation_by_method.csv",
+      "byte_length": 324,
+      "sha256": "sha256:ddc6e50b699ed5e4e5063d65068a5be62bbf2374e36e1a68952ec8466a21d18f"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_gpu_unit_matched_common_rows.csv",
+      "byte_length": 10166398,
+      "sha256": "sha256:5582825ed1e616d7e90b6c7330c655860e8cb8e82fa210eec989b1ded16779cf"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_gpu_unit_matched_iso_accuracy_by_dimension.csv",
+      "byte_length": 1116,
+      "sha256": "sha256:c1db10dcd6965f9940cebefa05643a56925c74616640c0cf77b48e9124def688"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_gpu_unit_matched_iso_accuracy_by_method.csv",
+      "byte_length": 1116,
+      "sha256": "sha256:d3fcea77ecb381031cc84e98b99f5aa229a5e8f9e0ab58caec0fd9db3ca3cd49"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_h100_unit_matched_iso_speedup_by_dimension.svg",
+      "byte_length": 1431,
+      "sha256": "sha256:123a5521a04ff71ea8f9cb62d2701acc4c3fdb1db18c8e4314d140f5a0ca54e1"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/cpu_h100_wall_speedup_by_dimension.svg",
+      "byte_length": 640,
+      "sha256": "sha256:607a611fa7d35ff29911940e1dc9ec8734eb26a0efe6919fe530ba4175de9100"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/invalidated_prior_speedups_by_dimension.csv",
+      "byte_length": 873,
+      "sha256": "sha256:bea2c12d472970a7709409304d89352b0ff4737b76ff8515da41fcdc2842f6ac"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817/invalidated_prior_speedups_by_method.csv",
+      "byte_length": 775,
+      "sha256": "sha256:0b9c58d715f40565f33e7ce16e0b998ecbab5ca1949a270a335a5e06292b753a"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/ACCURACY_COST_ENERGY_PARETO_V2_STATUS.json",
+      "byte_length": 17777,
+      "sha256": "sha256:49e98c7ab4e5d5ca196a02bb991c25e3e444689fb7eea90717f4ce49d598a6d2"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/README.md",
+      "byte_length": 2809,
+      "sha256": "sha256:1d5c713c0daf41818bcc394c5dc256e542789793c436dafab710bb70aee42c2f"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/artifact_manifest.json",
+      "byte_length": 2084,
+      "sha256": "sha256:48aaf602f8747ea6c5b47409970fc2f35811f7bdb9e5849909c122710c9c7928"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/crossover_preregistration_hypothesis.json",
+      "byte_length": 1982,
+      "sha256": "sha256:d2ba9180c8b712e0d5ffc72c165e52c95634548045d465c079782a0b10469ebb"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/hardware_probe.json",
+      "byte_length": 493,
+      "sha256": "sha256:ebc544ecd44d535244068c8f996b046690eb8d62ed62c236b52938943fdd8022"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/measured_results.csv",
+      "byte_length": 269,
+      "sha256": "sha256:a8877e773ddaa592ce698a6fb4a7eb0a079a3ce5db2d6d38552dccceaa7e5f31"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/method_contract.json",
+      "byte_length": 1904,
+      "sha256": "sha256:78a4463ab29fd2a16d4c6462f6b45e8dafbb1f76c96267bb0563ccfce19d50bd"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/node_requirements.json",
+      "byte_length": 1581,
+      "sha256": "sha256:08f88d79b16d3b8aef99f26ce2184c80daf03da1605076b7c8c03f379fd541c7"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/reference_oracle_contract.json",
+      "byte_length": 5245,
+      "sha256": "sha256:da87bfd2f4291a4c1495826a881a53f39b91eef9a20267671863bef73ca94e86"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/target_contract.csv",
+      "byte_length": 65598,
+      "sha256": "sha256:e44e969ea5c0791c4837ecde30e8821f184c28040c7104dcc53e32bbfe2bacd7"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815/target_contract.json",
+      "byte_length": 133434,
+      "sha256": "sha256:ee0aecaa469cfa01292f5e2fee6d99096f8860b3b3ba55d6ec4aa5ed2bdabe2e"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/ACCURACY_COST_ENERGY_PARETO_V2_GPU_H100_ENERGY_LONG_WINDOW_STATUS.json",
+      "byte_length": 36072,
+      "sha256": "sha256:f9fdee21a5319f9f39edc13b836d4d340b9248c3efa9bfc19439744b55a25f6a"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/README.md",
+      "byte_length": 1323,
+      "sha256": "sha256:07a235aa1478f29181e98609bd9c4c0346b0a85e9f36f71cffdbc511a015e1f7"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/artifact_manifest.json",
+      "byte_length": 1868,
+      "sha256": "sha256:4273684019f0004900622b6583a5014670b9f96d3b01872c4660c19fb86e240f"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/gpu_h100_long_window_energy_by_dimension.csv",
+      "byte_length": 1554,
+      "sha256": "sha256:4369375d3cdbfb8e1ceb90a92183ca07b8b1b1256e2f9032c1a58fc1d4de4bf7"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/gpu_h100_long_window_energy_by_dimension.svg",
+      "byte_length": 1440,
+      "sha256": "sha256:33d2788b5b41e2c61d18f0f33cad5986e493e36814b3986275c71b3b5f4073b0"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/gpu_h100_long_window_energy_by_method.csv",
+      "byte_length": 1043,
+      "sha256": "sha256:bf6f4bb2dd3c3b370ddcfd4bd4a7b97f44cf1ecff36950297b6d6656f38fcfe2"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/gpu_h100_long_window_energy_results.csv",
+      "byte_length": 1229230,
+      "sha256": "sha256:a26177e12aa09e952c2e39e3b7c8e5d74c1b500e931e8c1c6c697e1642264538"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/hardware_probe.json",
+      "byte_length": 1407,
+      "sha256": "sha256:2b60e3e4c83e8256595958d7a8c9a5f9a5941c8770f4d3bdea1fd2875261c7df"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window_20260817/telemetry_gap_report.json",
+      "byte_length": 779,
+      "sha256": "sha256:9f51640412c0d1b28e24014efd74fcc97991cf99b8a6499d36d13816d6fea3b1"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/ACCURACY_COST_ENERGY_PARETO_V2_GPU_H100_FIXED_ITER_STATUS.json",
+      "byte_length": 6929,
+      "sha256": "sha256:6fb4e35c777c42622d5d1315d7a51d7dd02a5b8ee6561bb8d82d108373e5d424"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/README.md",
+      "byte_length": 429,
+      "sha256": "sha256:1272044054ccbb5d7b3224d1c96f454030b112b1f3bdf86bab675dde0dadf62f"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/artifact_manifest.json",
+      "byte_length": 1456,
+      "sha256": "sha256:5ae56000e5af91a4042da4fec524b527a31f7f2ad872fde1ab3400b1fae73ee6"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/gpu_fixed_iter_internal_frontier.csv",
+      "byte_length": 47362,
+      "sha256": "sha256:3e3983bf1bbe886128007ad561b9febc4e1c04acb1be9570d6c21a9a31b36e1a"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/hardware_probe.json",
+      "byte_length": 1085,
+      "sha256": "sha256:706e1821f33e7c18c11db346a1f25b88cbfaee93ae4e04272e7c355a45b39a1b"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/measured_results_gpu_h100_fixed_iter.csv",
+      "byte_length": 13716446,
+      "sha256": "sha256:e4d7b5e0d8b73dc7d66082ca8876f3c0cce47b0a101ebb1f04bf58e085a10f9c"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817/telemetry_gap_report.json",
+      "byte_length": 789,
+      "sha256": "sha256:b758912ef0beef103dc4beff29e8d2ff8ff300a29b0f5ff17461466051b5381f"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817/ACCURACY_COST_ENERGY_PARETO_V2_GPU_H100_STATUS.json",
+      "byte_length": 5153,
+      "sha256": "sha256:2287a3357d4b0e8e5ba66c25bfe45392056887f96cd5c213e0132ed533c8d18a"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817/README.md",
+      "byte_length": 557,
+      "sha256": "sha256:0640737b9cc4438c050cccb278a7774522fee837989dd5396f89b378775facec"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817/artifact_manifest.json",
+      "byte_length": 1776,
+      "sha256": "sha256:093860612e4136a997959dc9e47fbccf6a4b486b91426dc0ff620ceeebfad332"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817/gpu_dimension_vs_energy_var99.svg",
+      "byte_length": 56339,
+      "sha256": "sha256:805e9d3eb3955556df106b6ae91d3f9d811750169a37db6df96ecbe44ebd7518"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817/gpu_error_vs_time_var99.svg",
+      "byte_length": 55966,
+      "sha256": "sha256:f8df23e0efbfaa1a39add9a922bed8f073c3d3d38b4fd3b37b2735985e443d50"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817/gpu_internal_frontier.csv",
+      "byte_length": 53974,
+      "sha256": "sha256:3153aa5e002484de5cd0afdd499deacf197db27abc941c2b6d62340d07f835b9"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817/hardware_probe.json",
+      "byte_length": 1085,
+      "sha256": "sha256:beb1576892249ad6ba864f46c5fd182371580358e5f54d5d445c48244436b203"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817/measured_results_gpu_h100.csv",
+      "byte_length": 4877570,
+      "sha256": "sha256:2a3a70432305dbc81bb92338cbcdb64be5a198cd5ffb6edcfcaaebe046b69bf9"
+    },
+    {
+      "path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_gpu_h100_measured_20260817/telemetry_gap_report.json",
+      "byte_length": 659,
+      "sha256": "sha256:af515472f119dc08b72cbb59d30882564675112abe6f462d37c9ca5576eb7593"
+    },
+    {
+      "path": "docs/benchmarks/deep_tail_rare_event_challenge_v1_20260815/DEEP_TAIL_RARE_EVENT_CHALLENGE_RESULT_V1.json",
+      "byte_length": 439786,
+      "sha256": "sha256:61c91cb4097eca27a7c96f21906c864d7ffe7a02beaeb02a43bfadc0a53b3e09"
+    },
+    {
+      "path": "docs/benchmarks/deep_tail_rare_event_challenge_v1_20260815/README.md",
+      "byte_length": 415,
+      "sha256": "sha256:4e3394ffebc1558fadb8378686abfd87fc526698b0783a341a51b8485af1e858"
+    },
+    {
+      "path": "docs/benchmarks/deep_tail_rare_event_challenge_v1_20260815/artifact_manifest.json",
+      "byte_length": 1031,
+      "sha256": "sha256:ed27bb022eeac07f4365fc6b0e81819c352065500097a0375424803ce35db1dd"
+    },
+    {
+      "path": "docs/benchmarks/deep_tail_rare_event_challenge_v1_20260815/deep_tail_rare_event_rows.csv",
+      "byte_length": 30688,
+      "sha256": "sha256:187e5ddf3766cda31a6fb26ce9cbb628879bd380369130eacb19e149ff6ba01c"
+    },
+    {
+      "path": "docs/benchmarks/deep_tail_rare_event_challenge_v1_20260815/deep_tail_rare_event_summary.json",
+      "byte_length": 2929,
+      "sha256": "sha256:496c18ea6dd0c3759fa06f01502a12517de0334c36283f5bebacb79fced30ec7"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/DRCET4_NUMERICAL_CONTROL_STATUS.json",
+      "byte_length": 42056,
+      "sha256": "sha256:5896e98d48dd0660bfcecb6866210d9840cc49f482d11ed115532ff9ae1607a5"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/DRCET4_PROTOCOL_V1.md",
+      "byte_length": 4719,
+      "sha256": "sha256:a5045abe3339392ce9e87ef887a6e94323c41663473344e8899d96bc59e49e0d"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/README.md",
+      "byte_length": 4144,
+      "sha256": "sha256:706392cf15c98e9dfb4e337e9b47e1c0f0134cc6854b46828936f7be6c4e2443"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/a1_control_sanity.csv",
+      "byte_length": 883,
+      "sha256": "sha256:d61e9b1cce22e42826ca35f5f501a2882606a10a2b9af1d78b8def91a8ab034c"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/a6_boundary_metric_summary.csv",
+      "byte_length": 611,
+      "sha256": "sha256:fd653214bfbc8011419406fc79f5e15bc55899a86c83f96b190c3dba17eee67f"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/a6_metric_equivalence_slope_consistency.csv",
+      "byte_length": 854,
+      "sha256": "sha256:751afffa03f30034c5697a76e678ff184dada43ccb78075e480cbeb666453149"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/a6_metric_readback_vs_step_count.svg",
+      "byte_length": 88800,
+      "sha256": "sha256:e230a151354c41e38517c4a5674005fa49faa2cfe7df8ed531dcab527a897c24"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/a6_metric_slope_bootstrap_summary.csv",
+      "byte_length": 1934,
+      "sha256": "sha256:c191644f7f65dbf7bba5f25d8e04681cbad30f59876cb16f8f0b3b433e1e6f41"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/a6_metric_slope_summary.csv",
+      "byte_length": 1548,
+      "sha256": "sha256:af7af8696f33489a42cd696d64a21328051d61bc3c0317e2fc7c82a13ce53137"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/a6_metric_step_summary.csv",
+      "byte_length": 7277,
+      "sha256": "sha256:725318b336071fe454469d14bf150c6f45607dbae8cfe36649e9f411cb82719e"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/a6_release_gate_metric_gate_summary.csv",
+      "byte_length": 608,
+      "sha256": "sha256:7db63c388c9dc46c0ae3300694114133d375b130116a0e0e2a3051461854e767"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/a6_solver_pairing_summary.csv",
+      "byte_length": 1244,
+      "sha256": "sha256:de7c0601e5865399c03e6bd82bce14fad6fdc157a565a5f8fa47fd8ef2ac5f91"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/acceptance_rules.json",
+      "byte_length": 452,
+      "sha256": "sha256:fbeafed80677a89b25a7431c22811a603581c81035c498e547093f5e46f90bba"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/artifact_manifest.json",
+      "byte_length": 8250,
+      "sha256": "sha256:cffd8d60d4ff41a7967a5007507794951dcb0c1648f8d9dcb97372cd85fff0d1"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/bound_utilization_summary.csv",
+      "byte_length": 1339,
+      "sha256": "sha256:ee9aabfc4d534526dc485535cf5f0584627d33f37a8a10b25faf74f84aec38b7"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/bounded_control_contract_stability_summary.csv",
+      "byte_length": 1349,
+      "sha256": "sha256:8404e789f188afab10101de20c19c22c69540694254f0647f9ea50d15f50c261"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/bounded_control_convergence_results.csv",
+      "byte_length": 21063,
+      "sha256": "sha256:6f8afd068d3ee67e2d816403298aa9f82cd0779fee8bbd64906403d8666df692"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/bounded_control_convergence_summary.csv",
+      "byte_length": 2140,
+      "sha256": "sha256:25d479126b4ce862c65b0bd587be42778dbd98ea276c14f60d88e7f7e4a69240"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/bounded_control_fixture_contract.csv",
+      "byte_length": 2237,
+      "sha256": "sha256:ba981338d1e780af1b640efafe267fb92438e38b15361fb1e8d91268058991ff"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/bounded_control_loglog_convergence.svg",
+      "byte_length": 81346,
+      "sha256": "sha256:03c72f43f57fb0224ffef24de92fb8d3859714aea30fad44be1c756d7c08519d"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/bounded_control_sealed_replay_input.json",
+      "byte_length": 45280,
+      "sha256": "sha256:4601e372c91496d70247ca6d815f666ad631aa20b63f483c44334bb839da6c49"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/bounded_control_sealed_replay_output.json",
+      "byte_length": 17857,
+      "sha256": "sha256:fe4179940ad64e2a3bccf41b808ad72ac6389a211cb7ca1eb8b17a62c8f67c1b"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/bounded_control_sealed_replay_probe.json",
+      "byte_length": 2362,
+      "sha256": "sha256:44eb3a37e7d5e1a9655bb9b9493193eb5ecc2ad546fc889b5c44a0709be060fd"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/convergence_order_summary.csv",
+      "byte_length": 35441,
+      "sha256": "sha256:288be0b2fa5d0ae5e2c521890cb1a19087cef275cdfce96cfe1ea70a1a634f8d"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/external_blind_replay_receipt.json",
+      "byte_length": 311,
+      "sha256": "sha256:772dab4f32404fb445b8d8c393d148520730bbf27d668c363caaf710f6add102"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/external_blind_replay_request.json",
+      "byte_length": 1307,
+      "sha256": "sha256:ad00cb96f8f58774542d7ad5037af35ada6ce6334f2e55b77b6daf8539a7c52a"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/fixture_contract.csv",
+      "byte_length": 7600,
+      "sha256": "sha256:98fa903c14691b9719cef0fc33a3cda4a0369d40006924832dd5b5af2396f869"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/hypotheses.json",
+      "byte_length": 513,
+      "sha256": "sha256:8fd971c2bbc24eb5ed7cbeef153f026a088bb35d25e9c82b5bfd57d1be0f7669"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/invariant_results.csv",
+      "byte_length": 14729,
+      "sha256": "sha256:be7f9ed6776226b4aa1fbc798afc88da590eb37bd4427d265d931a66d5aa4c55"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/loglog_convergence_closed_form.svg",
+      "byte_length": 55045,
+      "sha256": "sha256:040fe173bfac4a7e0daa160762f240126a03653177e244d237cee4a2205aa080"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/method_admissibility_summary.csv",
+      "byte_length": 1151,
+      "sha256": "sha256:5f47527e4ba8cb6d5f5430c4b278450491828279cef53dd5ad818ea49918f75a"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/metric_equivalence_class_summary.csv",
+      "byte_length": 973,
+      "sha256": "sha256:ff03a3aea213a54239110628de3c90e8085928809f28bb4a356956b122b1a71d"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/metric_equivalence_diagnostics.csv",
+      "byte_length": 273798,
+      "sha256": "sha256:8ae0162ed22674913d4d61278d86614bb547d1a773734cc3c7b0467faac809a6"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/pressure_lane_summary.csv",
+      "byte_length": 519,
+      "sha256": "sha256:31f4ae2adbda16a4dc6234225634ad2be6fb88951bc007ce99da21023dc497c9"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/reference_policy.json",
+      "byte_length": 230,
+      "sha256": "sha256:a26496d2d38c15aa3d8033aea341e788a75c12666f043a940a911961ccbf69bd"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/release_gate_confusion_matrix.csv",
+      "byte_length": 366,
+      "sha256": "sha256:09002161b13a4d71e4cd5754238e83a51a57f636052e9a02a0efdcdc1643f8cb"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/release_gate_overhead_summary.csv",
+      "byte_length": 1014,
+      "sha256": "sha256:73fde7d6e9dee1fe2c8f3d05dcb9d8b1a8f0823ade8b0cabec9ff4b1df8bc630"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/sealed_replay_closed_form_input.json",
+      "byte_length": 587320,
+      "sha256": "sha256:fd74dadad105245f0cbd92c5a9808bac6439d2698eda382f4e3a40598ce376c2"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/sealed_replay_closed_form_output.json",
+      "byte_length": 45841,
+      "sha256": "sha256:6fd8f2ba9f572ce905bd07713b6962415baa5b586079ffdf6a16d8b4c5b403ae"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/sealed_replay_closed_form_probe.json",
+      "byte_length": 3984,
+      "sha256": "sha256:e0e635cbaf0ea1752d90da7585526dd4b67c50a5017c75492200783fc3c178e7"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/solver_resolution_results.csv",
+      "byte_length": 1260224,
+      "sha256": "sha256:2986a4494a6bc59c0dafa558b8486c92d47b1437d7bdfd54629a86a848fb32a6"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/stress_pressure_vs_bound_utilization.svg",
+      "byte_length": 105201,
+      "sha256": "sha256:221bbec6035be52deb73e4fcd87fbdcbccf6d5c7a69de66cc4b925e75eff7678"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/withheld_runtime_bounded_control_probe.json",
+      "byte_length": 521,
+      "sha256": "sha256:ab740e5150e2c75cd55bcf2854fd9586baca93f9faecca1d5e94ce05981a3a1b"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/withheld_runtime_bounded_control_probe_input.json",
+      "byte_length": 4932,
+      "sha256": "sha256:03c11d92c47f529228835c5ff74fb29c2a50398270e4a3aa55ed9a0a6f1d3aa7"
+    },
+    {
+      "path": "docs/benchmarks/drcet4_numerical_control_v1_20260816/withheld_runtime_bounded_control_probe_output.json",
+      "byte_length": 363,
+      "sha256": "sha256:5d490e8d11051adc41a0b48768935f11ca97f70a062e9a509fb63fc9ae37e798"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/DRCET4C_BOUNDARY_CONTROL_STATUS.json",
+      "byte_length": 16314,
+      "sha256": "sha256:ebad027b040f29c5d9f33d2f6f392cab2484021d7205a8a07227c260a9872c7b"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/README.md",
+      "byte_length": 3245,
+      "sha256": "sha256:db83b469700a0843f97faa134c508c25c8929cbd30f0e389e5d79866f085ebc5"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/artifact_manifest.json",
+      "byte_length": 3448,
+      "sha256": "sha256:accd979f9d714b3f460e9ae4d16093ae84ae173520254246749d690d3d6b75fe"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/boundary_control_boundary_gate_sweep.svg",
+      "byte_length": 38729,
+      "sha256": "sha256:7ecaa6551ef3916efc3b2f28b823ff764245a0dfb243e1f91e62f28ad8ba58f4"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/boundary_control_boundary_sweep_results.csv",
+      "byte_length": 188981,
+      "sha256": "sha256:f6dec3fd6f052214ef4a0f48792891203979dcb622629433bdfcff749fd8e13d"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/boundary_control_contact_product_summary.csv",
+      "byte_length": 694,
+      "sha256": "sha256:a54db73dfb1a461d3049cf2548b83e1760c6b15b3a3b6caec7e87ce1c090dc3b"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/boundary_control_convergence_summary.csv",
+      "byte_length": 4865,
+      "sha256": "sha256:73257294c29c4336dd7291ea3c567bccec6b0e3b8928e57326fd5e41c08450d2"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/boundary_control_fixture_contract.csv",
+      "byte_length": 2859,
+      "sha256": "sha256:2af3ffa76f86f83cb3ef845ba0f252a286d0f508b46c7bbce92dcf88a6efc192"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/boundary_control_loglog_convergence.svg",
+      "byte_length": 103603,
+      "sha256": "sha256:ddc2652bd0b822df2f245fdc7fd61ba8e0ed1e1f3c7d72ae5638339611c987b6"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/boundary_control_sealed_replay_input.json",
+      "byte_length": 726167,
+      "sha256": "sha256:a8ace980df6779b8a13b460153fe040154d941d5ed1059089f45fa1ba0fb7794"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/boundary_control_sealed_replay_output.json",
+      "byte_length": 120722,
+      "sha256": "sha256:0cc93303d340e9f559131caaab5dacb8002c3c423dcbf27745ebb3c70117588d"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/boundary_domain_policy.json",
+      "byte_length": 377,
+      "sha256": "sha256:3ded9fc5a9474a6d194032f61c296ef6bfa6c8dd9fc1ab156af61cc3bcd7f97e"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/contract_function_policy.json",
+      "byte_length": 436,
+      "sha256": "sha256:27a6f51e74a30ea4d6d2fadac67b31be54b1ba08b28da4fd978dda5a9532c1e0"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/external_blind_replay_receipt.json",
+      "byte_length": 312,
+      "sha256": "sha256:b573655bbfaf27b73e995d5f9e90ece2f1601702660e8cac312a4676e8291e4a"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/external_blind_replay_request.json",
+      "byte_length": 1381,
+      "sha256": "sha256:6d95f722f3b9ac9f0679bff9f089d796fce7430d3de177415424cca1016c6822"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/withheld_runtime_boundary_control_probe.json",
+      "byte_length": 521,
+      "sha256": "sha256:2f0aa8c0b5a2f761171d3c22825e5fba7a44e050b4dd6c9dee313de7dcfa33d6"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/withheld_runtime_boundary_control_probe_input.json",
+      "byte_length": 5819,
+      "sha256": "sha256:535d87d0880f132ef4516c70c44cbcb07151a3a2cc425d72e3ae621e626cda48"
+    },
+    {
+      "path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816/withheld_runtime_boundary_control_probe_output.json",
+      "byte_length": 347,
+      "sha256": "sha256:da339767d34e21015e2b5ba82a8c7535d4b9cebe021324741780bc9dab72b4db"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/DRCET4D_PUBLIC_CONTROL_REFINEMENT_STATUS.json",
+      "byte_length": 3268,
+      "sha256": "sha256:0b039ed2e45c54c5b0ae7cf5cfe95c55e4fec00636bdffcd6db1fac2aec77b4c"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/README.md",
+      "byte_length": 1161,
+      "sha256": "sha256:9bdf0028c50afae97bb2f56e55381f53bed5ed6ac224a9310974dfb8d571a389"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/artifact_manifest.json",
+      "byte_length": 2141,
+      "sha256": "sha256:4aa7ea39e4fea3b686db6ad850b622755f24c62a1df642d2887ff0ce502fcbcc"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/control_refinement_loglog_error.svg",
+      "byte_length": 59394,
+      "sha256": "sha256:41eed1dc8f21527c37b5f02e2fecfca7f4049b5ed9573cca516c6a5a1b11ac1d"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/external_blind_replay_receipt.json",
+      "byte_length": 312,
+      "sha256": "sha256:4e110f5e62b4f7fe3d1bf059cd4e44fc73cda46c0c2d7e72e8428e08cf1a6da6"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/external_blind_replay_request.json",
+      "byte_length": 1033,
+      "sha256": "sha256:f6a8ad559679a740f96c800b796a6395fffa8efa21b78a91e14535933f8c8c9e"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/public_control_fixture_contract.csv",
+      "byte_length": 1647,
+      "sha256": "sha256:5c156afbc49da2b4711bf6e115095f26f6d576698d22e0942883242fe7af1e23"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/public_control_order_summary.csv",
+      "byte_length": 567,
+      "sha256": "sha256:f93ab54b0b93f6b4a7aea14707642fd8ca9727ab0657f3e42e9decf1851919c2"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/public_control_refinement_results.csv",
+      "byte_length": 7464,
+      "sha256": "sha256:fe58fd80262173ef0bd8dfe5c2a64bdc7e83bc55b652a7b57ed8057601bdddef"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/withheld_runtime_control_refinement_probe_input.json",
+      "byte_length": 3398,
+      "sha256": "sha256:8126ebeb4744542b986f8e77bb31cc43f4998bc8136b0d8c0b51680a35828a3a"
+    },
+    {
+      "path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816/withheld_runtime_control_refinement_probe_output.json",
+      "byte_length": 347,
+      "sha256": "sha256:c85b453f4fc6eefe8b7634d407f18e320de3f7327646e4637386f5d9da55ecd0"
+    },
+    {
+      "path": "docs/benchmarks/error_certificate_reliability_v1_20260815/ERROR_CERTIFICATE_RELIABILITY_RESULT_V1.json",
+      "byte_length": 11673,
+      "sha256": "sha256:9444e647d9c8a14c9e472724a7a49385a75082b3b9c7268152740cdf36197996"
+    },
+    {
+      "path": "docs/benchmarks/error_certificate_reliability_v1_20260815/README.md",
+      "byte_length": 605,
+      "sha256": "sha256:32c89095d5e6fa1b0698ce5f6c51ef377b07d5c5ba5466afd494922845b224b2"
+    },
+    {
+      "path": "docs/benchmarks/error_certificate_reliability_v1_20260815/artifact_manifest.json",
+      "byte_length": 873,
+      "sha256": "sha256:22b5e8548f397fb9a8bbc705c6cc76ec6ac95f1a095467ae1059f9bb99c7de76"
+    },
+    {
+      "path": "docs/benchmarks/error_certificate_reliability_v1_20260815/error_certificate_reliability_runs.csv",
+      "byte_length": 2274,
+      "sha256": "sha256:e0336a4ce8979d282943f65e7f02d9f7d01a88bc6116dd9f4a542cb455aadf24"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/EXPOSURE_WEIGHTED_NETWORK_CONTAGION_BENCHMARK_V1_SUMMARY.json",
+      "byte_length": 8780,
+      "sha256": "sha256:221b3388e5159e332bc0cda4847882b6184c3c1dd93e2171cebc41bd391895e9"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/README.md",
+      "byte_length": 1617,
+      "sha256": "sha256:5f4f9e96b02af0fe90f5706a2ccce78cfdd6f882e0190c28f3f3319c9c3d0938"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/artifact_manifest.json",
+      "byte_length": 2702,
+      "sha256": "sha256:cd7aa994981a3ca7bca7032f99c96ce38485748b3b13ceff7ea1f963a6dd2fc7"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/cascade_error_vs_perturbation.svg",
+      "byte_length": 2342,
+      "sha256": "sha256:14502f11152fa9057f76bc73257ba0af97260fad1a9e3ea3cc893e66d84a7b3f"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/critical_node_answer_key.csv",
+      "byte_length": 1226,
+      "sha256": "sha256:a60bf146a7a71b5675c8740279a3e5c9ca66de9b44c1adcd8ee3feaea5d07311"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/external_reference_anchor_status.json",
+      "byte_length": 542,
+      "sha256": "sha256:3944f2b3620feb8302b175a723d86bba69d18eadf45cd9cda0b2c0d6183ed2d2"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/graph_sufficiency_verdicts.csv",
+      "byte_length": 17711,
+      "sha256": "sha256:4b14d1c573ecea7b1ff5eec1287ccc4100713014ecd2512263dea145a171911d"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/perturbation_results.csv",
+      "byte_length": 16408,
+      "sha256": "sha256:841c23feca492dd69dff2a90c63998c3aa05c13669cdc887bd9b69f14fa1ced8"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/public_exposure_network_readiness.csv",
+      "byte_length": 1440,
+      "sha256": "sha256:fab2bfaa4a47c4d0008f66b51ae52d930861b4c490d7cff59e555beb862ed89c"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/synthetic_family_distribution_stability.csv",
+      "byte_length": 99632,
+      "sha256": "sha256:0fe4a7b68fb85760ddcafbcfbc9c427dc7bbe87a010f54997703115dbd27b5a6"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/synthetic_gold_sets.csv",
+      "byte_length": 2805,
+      "sha256": "sha256:b6e10d3ec72ccab1a088acb899da20140d99d1c11eb9b826aaed66596b8606bb"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/synthetic_gold_sets.json",
+      "byte_length": 4324,
+      "sha256": "sha256:e82af59447ca975d710646588acb8c78dfe07c2d3b5ff6e05a2f7abd4a2f7290"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/top5_recall_vs_perturbation.svg",
+      "byte_length": 2322,
+      "sha256": "sha256:beaa52a710a95d1209d2a0117015644cb81a8e6db412f7981fb3b710ecf014bf"
+    },
+    {
+      "path": "docs/benchmarks/exposure_weighted_network_contagion_benchmark_v1_20260815/uncertainty_inflation_vs_perturbation.svg",
+      "byte_length": 2354,
+      "sha256": "sha256:bb7c9831653c2c0a545e11db9c4d4e3803fc1ef4ba570c57d977a1764b9fb4a4"
+    },
+    {
+      "path": "docs/results/DRCET_2_3_10M_CPU_20260714.md",
+      "byte_length": 3782,
+      "sha256": "sha256:6035c0093ca9dd6a1bae1298386aa2161e4bcfe3abe65e5d789126c4ed744b79"
+    },
+    {
+      "path": "drcet_validator/__init__.py",
+      "byte_length": 61,
+      "sha256": "sha256:4db73f307e603a603379d3776a15c8e68f04cbfd818aeda54994c30b9d537b4b"
+    },
+    {
+      "path": "drcet_validator/__pycache__/__init__.cpython-314.pyc",
+      "byte_length": 239,
+      "sha256": "sha256:9bcd47244068524169ddf3fc10cef3ec0861bc9d43b14b3cfb379f009f1f401e"
+    },
+    {
+      "path": "drcet_validator/__pycache__/validate.cpython-314.pyc",
+      "byte_length": 9377,
+      "sha256": "sha256:2dcd3ff52feebdccd72169d1a62e6c5093c16c7299b47050ddbe86be7ae61284"
+    },
+    {
+      "path": "drcet_validator/validate.py",
+      "byte_length": 5541,
+      "sha256": "sha256:09e62f634886252e58d3e8278347308a93ce09fdeab03e3b31182cb1bd63ba51"
+    },
+    {
+      "path": "examples/synthetic_pass/drcet_submission.json",
+      "byte_length": 1330,
+      "sha256": "sha256:1aae4b480efd975861a03e7384320c8125c17aea47ee8a9f0b13daaf31607339"
+    },
+    {
+      "path": "examples/synthetic_withheld/drcet_submission.json",
+      "byte_length": 1150,
+      "sha256": "sha256:c131ffe12a9b54031d2feaec6ab7fa8c2562eca457d661350840cc630dcc9598"
+    },
+    {
+      "path": "pyproject.toml",
+      "byte_length": 360,
+      "sha256": "sha256:140aeeac9e1fbeec2b68c8a2bc69c675dd795eb2a35c3441d41d05367671cc76"
+    },
+    {
+      "path": "schemas/drcet_result_v1.schema.json",
+      "byte_length": 640,
+      "sha256": "sha256:c3c7c13a7fe8f8b3337a060b812348a44b3aae206ddf269a6e80caca433f7a62"
+    },
+    {
+      "path": "schemas/drcet_submission_v1.schema.json",
+      "byte_length": 2224,
+      "sha256": "sha256:072fa80aaafbc61af506c218880f896116494df08d951e3fed6c86b135b84f4f"
+    },
+    {
+      "path": "scripts/__pycache__/apply_accuracy_cost_energy_pareto_v2_gpu_energy_gate.cpython-314.pyc",
+      "byte_length": 17378,
+      "sha256": "sha256:0b2423aba0fa32c931e19726f72b5442cbaa56ab600bf6fa1b2d8f25b911207e"
+    },
+    {
+      "path": "scripts/__pycache__/check_accuracy_cost_energy_pareto_v2_cloud_cost_profile.cpython-314.pyc",
+      "byte_length": 4679,
+      "sha256": "sha256:913c0f5e70b35ff4e6cfac11308e0ab8b5b6dc38f70b58f6782689fa3854b8bd"
+    },
+    {
+      "path": "scripts/__pycache__/check_accuracy_cost_energy_pareto_v2_cpu_contabo.cpython-314.pyc",
+      "byte_length": 8961,
+      "sha256": "sha256:bc019fdd16abb33ffb97f476bb6f2da0fe594c5815457125cd24ca293f4bb564"
+    },
+    {
+      "path": "scripts/__pycache__/check_accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter.cpython-314.pyc",
+      "byte_length": 7224,
+      "sha256": "sha256:06704bd0d293f44e3b39e0e76099f4c64c8287c3cbb4099227fe55584d244744"
+    },
+    {
+      "path": "scripts/__pycache__/check_accuracy_cost_energy_pareto_v2_cpu_contabo_windowed.cpython-314.pyc",
+      "byte_length": 7998,
+      "sha256": "sha256:4a1cc74f1650849a9d2ddddb69aafa119d76e46ba5abce0676abd5e08b995d95"
+    },
+    {
+      "path": "scripts/__pycache__/check_accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation.cpython-314.pyc",
+      "byte_length": 19708,
+      "sha256": "sha256:e3854d13ebab89fd721023f97788eeeca1d6121f4b88f343fa39dbf8ac59da4d"
+    },
+    {
+      "path": "scripts/__pycache__/check_accuracy_cost_energy_pareto_v2_gpu_h100.cpython-314.pyc",
+      "byte_length": 6842,
+      "sha256": "sha256:8996a868a39abd57907c2d13aeab0aaa45b41438af51eb2d20a321e04a7fecd2"
+    },
+    {
+      "path": "scripts/__pycache__/check_accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window.cpython-314.pyc",
+      "byte_length": 19587,
+      "sha256": "sha256:bb9280f0610956d7393eedc76b7fa591e2f41ff1293d0b43877b1ed95410e8ac"
+    },
+    {
+      "path": "scripts/__pycache__/check_accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter.cpython-314.pyc",
+      "byte_length": 9635,
+      "sha256": "sha256:e9fe3c0e1df67fb8e233487cc9bb9055fd437880dd9e640a335ac856816f85b8"
+    },
+    {
+      "path": "scripts/__pycache__/check_drcet4_numerical_control_v1.cpython-314.pyc",
+      "byte_length": 58581,
+      "sha256": "sha256:907b1fc71fb779d429adebe19c7cb468aefaa16db29c2cc150d07271b5b520e4"
+    },
+    {
+      "path": "scripts/__pycache__/check_drcet4c_boundary_control_v1.cpython-314.pyc",
+      "byte_length": 29352,
+      "sha256": "sha256:f671a7586f950e060b5258f0e92ab64c90a5b60ee1def2687d726461b179ccdc"
+    },
+    {
+      "path": "scripts/__pycache__/check_drcet4d_public_control_refinement_v1.cpython-314.pyc",
+      "byte_length": 12685,
+      "sha256": "sha256:6e66a417cfc059b43cf1995cf006ef38b8c43ee3dea1513e5e47b9644b4c04e7"
+    },
+    {
+      "path": "scripts/apply_accuracy_cost_energy_pareto_v2_gpu_energy_gate.py",
+      "byte_length": 11099,
+      "sha256": "sha256:fa228947fe6d71feabb2ccd305b130fd8ddbcda161396be23ab3c1ef3be16c65"
+    },
+    {
+      "path": "scripts/check_accuracy_cost_energy_pareto_v2_cloud_cost_profile.py",
+      "byte_length": 2443,
+      "sha256": "sha256:cb28674354d8c1c9c3a8014d6bcc5635725f282a1fb31a448bff5490be067f5a"
+    },
+    {
+      "path": "scripts/check_accuracy_cost_energy_pareto_v2_cpu_contabo.py",
+      "byte_length": 5119,
+      "sha256": "sha256:2b89da259f0461733284f203008e04350bffe0eaeec3a891306e98a010da4e39"
+    },
+    {
+      "path": "scripts/check_accuracy_cost_energy_pareto_v2_cpu_contabo_fixed_iter.py",
+      "byte_length": 4099,
+      "sha256": "sha256:3e97c25f1d79fdf4b716f3e5ec5b6fc839954f7a0f0333cd8e5e726519f98496"
+    },
+    {
+      "path": "scripts/check_accuracy_cost_energy_pareto_v2_cpu_contabo_windowed.py",
+      "byte_length": 4494,
+      "sha256": "sha256:15217ba1db4b63a48e11fd4f8642670f3193c9c8c8559a3a9ff5480cef2738d5"
+    },
+    {
+      "path": "scripts/check_accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation.py",
+      "byte_length": 14403,
+      "sha256": "sha256:a1c92c20eb1ddd28bca503106474df694cc3335cdf3a127429a764cb2eda883e"
+    },
+    {
+      "path": "scripts/check_accuracy_cost_energy_pareto_v2_gpu_h100.py",
+      "byte_length": 3757,
+      "sha256": "sha256:5c21c911409ef0aff42da9556630cdd84c88edc722cf67314adc43091a87efbd"
+    },
+    {
+      "path": "scripts/check_accuracy_cost_energy_pareto_v2_gpu_h100_energy_long_window.py",
+      "byte_length": 12798,
+      "sha256": "sha256:27b06f21abdbbb7051bc6cd481c8f7161a913f7f36b1e60cec283dabd3017f3a"
+    },
+    {
+      "path": "scripts/check_accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter.py",
+      "byte_length": 5941,
+      "sha256": "sha256:79e590658782c07a72df197d5c45a16eb915f7286449ddc69610227f750793fc"
+    },
+    {
+      "path": "scripts/check_drcet4_numerical_control_v1.py",
+      "byte_length": 42639,
+      "sha256": "sha256:65da4260cdb26a65f20481104ba755ba1e756fe63ab6f6c7cf05c52643db1f2c"
+    },
+    {
+      "path": "scripts/check_drcet4c_boundary_control_v1.py",
+      "byte_length": 19950,
+      "sha256": "sha256:50194cd9d4f6e8b37f7ac51b393d187bb0d0dcd8caf2c99a37d5aa87e18f4624"
+    },
+    {
+      "path": "scripts/check_drcet4d_public_control_refinement_v1.py",
+      "byte_length": 7526,
+      "sha256": "sha256:c9135d76b3a7656b05a9afc8074b42567dfc00a4ca8c5a4968058397ecaad06b"
+    },
+    {
+      "path": "tests/__pycache__/test_validator.cpython-314.pyc",
+      "byte_length": 3977,
+      "sha256": "sha256:94ee145417d7c24b8e7ea908365a6133656cfa9fb648cdf472e5002d401bd01a"
+    },
+    {
+      "path": "tests/test_validator.py",
+      "byte_length": 1584,
+      "sha256": "sha256:2cb92b3787940ca8c44f02ed40f3622017b2f42189ac8f36b075729dc6ef68e2"
+    }
+  ],
+  "generated_at_utc": "2026-08-18T12:45:00Z"
+}

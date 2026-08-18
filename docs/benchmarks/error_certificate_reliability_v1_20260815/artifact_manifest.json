@@ -1,0 +1,23 @@
+{
+  "artifact_id": "ERROR_CERTIFICATE_RELIABILITY_PACK_V1",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.risk_analyzer.error_certificate_reliability_pack_manifest.v1",
+  "files": [
+    {
+      "path": "ERROR_CERTIFICATE_RELIABILITY_RESULT_V1.json",
+      "byte_length": 11673,
+      "sha256": "sha256:9444e647d9c8a14c9e472724a7a49385a75082b3b9c7268152740cdf36197996"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 605,
+      "sha256": "sha256:32c89095d5e6fa1b0698ce5f6c51ef377b07d5c5ba5466afd494922845b224b2"
+    },
+    {
+      "path": "error_certificate_reliability_runs.csv",
+      "byte_length": 2274,
+      "sha256": "sha256:e0336a4ce8979d282943f65e7f02d9f7d01a88bc6116dd9f4a542cb455aadf24"
+    }
+  ],
+  "generated_at_utc": "2026-08-18T12:45:00Z"
+}

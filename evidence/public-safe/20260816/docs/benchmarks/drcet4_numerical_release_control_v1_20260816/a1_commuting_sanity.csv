@@ -1,9 +1,0 @@
-solver,rows,max_terminal_abs_error,median_terminal_abs_error,sanity_interpretation
-LIE_AB,32,4.739295420949508e-14,2.6729566581113887e-15,rounding_floor_split_identity
-LIE_BA,32,4.739295420949508e-14,2.6729566581113887e-15,rounding_floor_split_identity
-STRANG_ABA,32,7.460190940183326e-14,6.407891184313789e-15,rounding_floor_split_identity
-STRANG_BAB,32,9.497603623146409e-14,4.150804707928682e-15,rounding_floor_split_identity
-YOSHIDA4,32,2.425342250778975e-13,1.0850375510519103e-14,rounding_floor_split_identity
-DOP853,32,1.0240793336920191e-11,7.303127632207936e-16,adaptive_monolithic_comparator_not_split_identity
-BDF,32,3.1656711989445025e-09,5.017637908887976e-10,adaptive_monolithic_comparator_not_split_identity
-ARIN22_ROUTED_PROXY,32,7.460190940183326e-14,6.407891184313789e-15,rounding_floor_split_identity

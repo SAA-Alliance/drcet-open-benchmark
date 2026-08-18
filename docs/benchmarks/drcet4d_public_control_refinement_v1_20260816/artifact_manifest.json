@@ -1,0 +1,58 @@
+{
+  "artifact_id": "DRCET4D_PUBLIC_CONTROL_REFINEMENT_V1",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.artifact_manifest.v1",
+  "files": [
+    {
+      "path": "DRCET4D_PUBLIC_CONTROL_REFINEMENT_STATUS.json",
+      "byte_length": 3268,
+      "sha256": "sha256:0b039ed2e45c54c5b0ae7cf5cfe95c55e4fec00636bdffcd6db1fac2aec77b4c"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 1161,
+      "sha256": "sha256:9bdf0028c50afae97bb2f56e55381f53bed5ed6ac224a9310974dfb8d571a389"
+    },
+    {
+      "path": "control_refinement_loglog_error.svg",
+      "byte_length": 59394,
+      "sha256": "sha256:41eed1dc8f21527c37b5f02e2fecfca7f4049b5ed9573cca516c6a5a1b11ac1d"
+    },
+    {
+      "path": "external_blind_replay_receipt.json",
+      "byte_length": 312,
+      "sha256": "sha256:4e110f5e62b4f7fe3d1bf059cd4e44fc73cda46c0c2d7e72e8428e08cf1a6da6"
+    },
+    {
+      "path": "external_blind_replay_request.json",
+      "byte_length": 1033,
+      "sha256": "sha256:f6a8ad559679a740f96c800b796a6395fffa8efa21b78a91e14535933f8c8c9e"
+    },
+    {
+      "path": "public_control_fixture_contract.csv",
+      "byte_length": 1647,
+      "sha256": "sha256:5c156afbc49da2b4711bf6e115095f26f6d576698d22e0942883242fe7af1e23"
+    },
+    {
+      "path": "public_control_order_summary.csv",
+      "byte_length": 567,
+      "sha256": "sha256:f93ab54b0b93f6b4a7aea14707642fd8ca9727ab0657f3e42e9decf1851919c2"
+    },
+    {
+      "path": "public_control_refinement_results.csv",
+      "byte_length": 7464,
+      "sha256": "sha256:fe58fd80262173ef0bd8dfe5c2a64bdc7e83bc55b652a7b57ed8057601bdddef"
+    },
+    {
+      "path": "withheld_runtime_control_refinement_probe_input.json",
+      "byte_length": 3398,
+      "sha256": "sha256:8126ebeb4744542b986f8e77bb31cc43f4998bc8136b0d8c0b51680a35828a3a"
+    },
+    {
+      "path": "withheld_runtime_control_refinement_probe_output.json",
+      "byte_length": 347,
+      "sha256": "sha256:c85b453f4fc6eefe8b7634d407f18e320de3f7327646e4637386f5d9da55ecd0"
+    }
+  ],
+  "generated_at_utc": "2026-08-18T12:45:00Z"
+}

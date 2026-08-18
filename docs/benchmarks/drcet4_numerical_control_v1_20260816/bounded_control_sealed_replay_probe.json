@@ -1,0 +1,47 @@
+{
+  "blockers": [],
+  "case_count": 48,
+  "claim_boundary": "review-only DRCET-4B protected-withheld_runtime probe; PASS requires actual docker/no-egress execution; no withheld_runtime approval claim",
+  "command_template_sha256": "sha256:96978b6134c333f9f847446583a9f359a312ac860f7e4f100e725e196dfb22bf",
+  "coverage_fraction": 1.0,
+  "covered_fixture_count": 6,
+  "generated_at_utc": "2026-08-16T11:03:00Z",
+  "input_byte_length": 45211,
+  "input_sha256": "sha256:4601e372c91496d70247ca6d815f666ad631aa20b63f483c44334bb839da6c49",
+  "lane_id": "DRCET4B_BOUNDED_CONTROL_CONVERGENCE_LANE",
+  "max_abs_delta_row": {
+    "case_id": "RC-B6-SOVBANK-01",
+    "delta": 5.695444116327053e-14,
+    "delta_to_tolerance_ratio": 3.136609315537808e-06,
+    "delta_tolerance": 1.815796467897215e-08,
+    "row_delta_tolerance_policy_id": "drcet4b_bounded_control_withheld_runtime_delta_tolerance_predeclared_v1",
+    "step_count": 1024
+  },
+  "max_abs_delta_vs_python_bounded_control_lane": 5.695444116327053e-14,
+  "max_delta_to_tolerance_ratio": 8.870363126562163e-06,
+  "max_delta_to_tolerance_ratio_row": {
+    "case_id": "RC-B6-SOVBANK-01",
+    "delta": 1.021405182655144e-14,
+    "delta_to_tolerance_ratio": 8.870363126562163e-06,
+    "delta_tolerance": 1.1514806869592094e-09,
+    "row_delta_tolerance_policy_id": "drcet4b_bounded_control_withheld_runtime_delta_tolerance_predeclared_v1",
+    "step_count": 64
+  },
+  "network_mode": "none",
+  "non_claims": [
+    "not withheld_runtime approval",
+    "not external certification",
+    "not Decision Grade authority",
+    "not solver superiority claim"
+  ],
+  "output_byte_length": 17796,
+  "output_sha256": "sha256:fe4179940ad64e2a3bccf41b808ad72ac6389a211cb7ca1eb8b17a62c8f67c1b",
+  "probe_id": "drcet4b_control_bounded_control_withheld_runtime_probe_v1",
+  "schema_id": "saa.benchmark.drcet4.control_bounded_control_withheld_runtime_probe_receipt.v1",
+  "status": "PASS_REVIEW_ONLY_NO_EGRESS_WITHHELD_RUNTIME_BOUNDED_CONTROL_LANE",
+  "stderr_tail": "",
+  "stdout_tail": "{\"status\":\"PASS_REVIEW_ONLY_NO_EGRESS_WITHHELD_RUNTIME_BOUNDED_CONTROL_LANE\",\"cases\":48,\"input_sha256\":\"sha256:b7d4a5a865ebad17ab6741be72e873d588cbf6da062c8031b71a037a1fb69826\",\"output\":\"/io/bounded_control_sealed_replay_output.json\"}\n",
+  "total_fixture_count": 6,
+  "wall_ms": 182.588667,
+  "withheld_runtime_runtime": "docker"
+}

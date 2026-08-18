@@ -1,46 +1,23 @@
-# DRCET-4: Composition, contract-product Foundation, and Continuum Refinement
+# DRCET-4 Public-Safe Numerical Control Evidence
 
-DRCET-4 is a public-safe numerical-method evidence lane. It is a governed
-benchmark gate, not a production ARIN22 superiority claim.
+DRCET-4 is exported here as a public-safe evidence gate, not as a disclosure of internal implementation details or implementation-specific mathematical construction.
 
-## Current Evidence Pack
+## Public Lanes
 
-The current public-safe export is stored at:
-
-`evidence/public-safe/20260816/`
-
-Primary index:
-
-`evidence/public-safe/20260816/DRCET_PUBLIC_SERIES_INDEX_V1.json`
-
-## Included Public-Safe Lanes
-
-| Lane | Scope | Current boundary |
+| Lane | Public Label | Boundary |
 | --- | --- | --- |
-| DRCET-4A | Linear exact composition and route/governor evidence | Public routing/foundation evidence only. |
-| DRCET-4B | foundation bounded-linear convergence lane | Review-only foundation lane; production ARIN22 pending. |
-| DRCET-4C | boundary release gate bounded contract surrogate | Review-only half-plane release gate; production ARIN22 pending. |
-| DRCET-4D | Continuum spatial-refinement surrogate | Public-safe unbounded/continuum surrogate; protected production factors withheld. |
+| DRCET-4A/4B | Numerical-control evidence | Summary counters and release discipline only. |
+| DRCET-4C | Boundary_control evidence | Summary counters and fail-closed discipline only. |
+| DRCET-4D | Public_control refinement | Summary counters only. |
 
-## Readback Highlights
+## Withheld From Open Repo
 
-- DRCET-4A/4B status: `PROTOCOL_FULL_LINEAR_EXACT_CONTAINER_AND_FOUNDATION_LANE_VALIDATED_PRODUCTION_ARIN22_PENDING`
-- DRCET-4C status: `VALIDATED_PASS_WITH_QUADRATURE_WATCH_BOUNDARY_RELEASE_BOUNDARY_TRANSFORM_LANE_PRODUCTION_ARIN22_PENDING`
-- DRCET-4D status: `VALIDATED_PASS_PUBLIC_SAFE_CONTINUUM_SPATIAL_REFINEMENT_LANE_PRODUCTION_ARIN22_PENDING`
-- External blind replay: `PENDING_EXTERNAL_BLIND_REPLAY`
-- Production ARIN22 protected container: `PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED`
+- production source or build context
+- protected factors
+- construction names
+- theorem-specific implementation labels
+- detailed private data-room interpretations
 
-## Allowed Wording
+## Public Claim
 
-Foundation and governed routing are validated on public-safe synthetic lanes.
-The production ARIN22 kernel remains pending until a protected production
-container is attached and replayed under the same lane contracts.
-
-## Not Allowed
-
-- No production ARIN22 kernel benchmark claim.
-- No external certification claim.
-- No regulatory approval claim.
-- No hidden production operator factors.
-- No client data or commercial production datasets.
-
+Public-safe synthetic lanes validate release discipline and evidence gating. Internal implementation details and implementation-specific mathematical surfaces remain withheld.

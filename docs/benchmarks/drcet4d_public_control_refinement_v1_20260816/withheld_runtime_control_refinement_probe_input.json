@@ -1,0 +1,72 @@
+{
+  "claim_boundary": "withheld_runtime sealed replay runtime hook; PASS requires real no-egress execution and output schema readback",
+  "expected_output_schema_id": "saa.benchmark.drcet4d.withheld_runtime runtime_output.v1",
+  "fixtures": [
+    {
+      "case_id": "D4D-PUBLIC-CASE1-01",
+      "public_control_basisvalue_boundary_parameter_k": -1.5004406601634037,
+      "declared_spatial_order": 2,
+      "description": "Low-mode public_control lane with analytic public_control basisfunction reference.",
+      "diffusion_a": 0.15,
+      "domain_D_L": "H^2(0,1) intersect H_0^1(0,1); discretized on public uniform interior grids",
+      "family": "D1_public_control_low_case",
+      "horizon_T": 0.5,
+      "mode_k": 1,
+      "contract_surface": "L=a*d2/dx2-c on (0,1), closed-form boundary, public basis-case surrogate",
+      "control_c": 0.02,
+      "public_system_reference": "PUBLIC_SAFE_CLOSED_FORM_REFERENCE"
+    },
+    {
+      "case_id": "D4D-HEAT-MODE3-01",
+      "public_control_basisvalue_boundary_parameter_k": -4.451321980490211,
+      "declared_spatial_order": 2,
+      "description": "Mid-mode public_control lane; higher spatial frequency increases finite-difference pressure.",
+      "diffusion_a": 0.05,
+      "domain_D_L": "H^2(0,1) intersect H_0^1(0,1); discretized on public uniform interior grids",
+      "family": "D2_public_control_public_control_mid_mode",
+      "horizon_T": 0.25,
+      "mode_k": 3,
+      "contract_surface": "L=a*d2/dx2-c on (0,1), closed-form boundary, public basis-case surrogate",
+      "control_c": 0.01,
+      "public_system_reference": "PUBLIC_SAFE_CLOSED_FORM_REFERENCE"
+    },
+    {
+      "case_id": "D4D-REACT-MODE2-01",
+      "public_control_basisvalue_boundary_parameter_k": -3.278273408348595,
+      "declared_spatial_order": 2,
+      "description": "Reaction-diffusion surrogate with an unbounded Laplacian contract and bounded control term.",
+      "diffusion_a": 0.08,
+      "domain_D_L": "H^2(0,1) intersect H_0^1(0,1); discretized on public uniform interior grids",
+      "family": "D3_control_diffusion",
+      "horizon_T": 0.75,
+      "mode_k": 2,
+      "contract_surface": "L=a*d2/dx2-c on (0,1), closed-form boundary, public basis-case surrogate",
+      "control_c": 0.12,
+      "public_system_reference": "PUBLIC_SAFE_CLOSED_FORM_REFERENCE"
+    },
+    {
+      "case_id": "D4D-STIFF-MODE4-01",
+      "public_control_basisvalue_boundary_parameter_k": -31.632734083485946,
+      "declared_spatial_order": 2,
+      "description": "Higher-mode spatial-pressure lane; validates refinement trend without protected commercial factors.",
+      "diffusion_a": 0.2,
+      "domain_D_L": "H^2(0,1) intersect H_0^1(0,1); discretized on public uniform interior grids",
+      "family": "D4_stiff_spatial_pressure",
+      "horizon_T": 0.1,
+      "mode_k": 4,
+      "contract_surface": "L=a*d2/dx2-c on (0,1), closed-form boundary, public basis-case surrogate",
+      "control_c": 0.05,
+      "public_system_reference": "PUBLIC_SAFE_CLOSED_FORM_REFERENCE"
+    }
+  ],
+  "generated_at_utc": "2026-08-16T11:06:04Z",
+  "lane_id": "DRCET4D_PUBLIC_CONTROL_REFINEMENT_LANE",
+  "run_id": "drcet4d_withheld_runtime_control_refinement_probe_v1",
+  "runtime_requirements": [
+    "docker run",
+    "--network none",
+    "no production source disclosure",
+    "hash-bound output"
+  ],
+  "schema_id": "saa.benchmark.drcet4d.withheld_runtime runtime_input.v1"
+}

@@ -1,71 +1,39 @@
-# DRCET Open Benchmark Protocol
+# DRCET Open Benchmark
 
-DRCET is an open protocol for **Deterministic Risk Calculation Equivalence Tests**: a way to publish, validate, and compare deterministic risk engines against reference or challenger evidence without hiding the claim boundary.
+Public-safe benchmark evidence package for the DRCET series.
 
-This repository contains the public protocol surface only:
+This repository intentionally publishes synthetic/review-only artifacts only. It does not publish production source, runtime build contexts, credentials, client data, private data-room URLs, hidden adversarial corpora, internal mathematical construction names, protected factors, or commercial production datasets.
 
-- protocol documents for DRCET-1, DRCET-2, and DRCET-3;
-- machine-readable JSON schemas;
-- a dependency-light validator;
-- synthetic fixtures for PASS and WITHHELD paths;
-- CI checks that prove the fixtures and validator run cleanly.
+## Current Public-Safe Status
 
-## What DRCET Covers
+| Lane | Status | Boundary |
+| --- | --- | --- |
+| DRCET-1 tail metrics | PUBLISHED_METHOD_ATTACHED | Method citation/status only in this export. |
+| DRCET-2 path functionals | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
+| DRCET-3 attribution/stress | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
+| DRCET-10 Accuracy-Cost-Energy Pareto V2 | CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED | Fixed-iteration CPU/H100 telemetry attached; speedup/crossover claim locked. |
+| DRCET-4A/4B numerical-control evidence | VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY | Public summary only; internal construction names and implementation details withheld. |
+| DRCET-4C boundary_control evidence | VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY | Public summary only; internal construction names and implementation details withheld. |
+| DRCET-4D public_control refinement | VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY | Public summary only; internal construction names and implementation details withheld. |
 
-| Track | Scope | Publication state in this repo |
-|---|---|---|
-| DRCET-1 | Tail metrics equivalence: VaR / ES / CVaR across horizons and confidence levels | Protocol surface |
-| DRCET-2 | Path-functional equivalence: terminal loss, max drawdown, time underwater, recovery horizon, jump count | Draft protocol surface |
-| DRCET-3 | Attribution/stress equivalence: factor/stress attribution, contribution concentration, replay/stochastic attribution consistency | Draft protocol surface |
-| DRCET-4 | Numerical release control, contract-product foundation, boundary_transform and continuum spatial-refinement evidence | Public-safe synthetic evidence pack |
+## Key Readbacks
 
-## What This Repo Is Not
+- DRCET-10 Pareto V2 status SHA: `sha256:69081cb4badd4b0cedb2e42969f90cb7d865a67b649b7e0be4ece13885ff2316`
+- DRCET-10 common rows / iso rows: `19200 / 8781`
+- DRCET-10 amortization matched: `true`
+- DRCET-10 GPU energy source: `H100_LONG_WINDOW_ENERGY_PACK`
+- DRCET-10 GPU energy gate: `PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY`
+- DRCET-10 H100 power-limit readback: `PASS_NVML_POWER_LIMIT_READBACK`
+- DRCET-10 cloud-cost profile: `PARTIAL_H100_RATE_BOUND_CPU_RATE_WITHHELD_DOLLAR_FRONTIER_LOCKED`
+- DRCET-10 speedup/crossover claim allowed: `false / false`
+- DRCET-4 public status: `VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY`
+- DRCET-4C public status: `VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY`
+- DRCET-4D public status: `VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY`
+- Runtime replay status: `WITHHELD_FROM_OPEN_REPO`
+- External blind replay status: `PENDING_EXTERNAL_BLIND_REPLAY`
 
-This repository is **not** external certification, not investment advice, not a production model approval, not a claim that any submitted engine is decision-grade, and not a replacement for independent model-risk review.
+## Public Wording
 
-The included examples are synthetic fixtures. They are designed to validate the protocol and tooling, not to prove performance of any private engine.
+Public-safe synthetic lanes validate release discipline and evidence gating. Internal implementation details, construction names, protected factors, and implementation-specific mathematical surfaces are intentionally withheld from this open repository.
 
-## Quick Start
-
-```bash
-python3 -m drcet_validator.validate examples/synthetic_pass/drcet_submission.json
-python3 -m drcet_validator.validate examples/synthetic_withheld/drcet_submission.json
-python3 -m unittest discover -s tests -v
-```
-
-Expected result: both fixture submissions validate. The WITHHELD fixture proves that suppressed metrics do not serialize numeric values.
-
-## Results Summaries
-
-Review-only internal replay evidence is summarized separately from the protocol surface:
-
-- [DRCET-2 / DRCET-3 10M CPU Results Summary](docs/results/DRCET_2_3_10M_CPU_20260714.md)
-- [DRCET-4 Public-Safe Evidence Pack](docs/DRCET-4.md) - current export: `evidence/public-safe/20260816/`
-
-These summaries are not external certification and are not production model approval. They are included to show how DRCET evidence should disclose scope, hashes, limits, and non-claims.
-
-## Claim Boundary
-
-A DRCET packet must make its boundary explicit:
-
-- `claim_boundary` tells readers what the packet may and may not be used for.
-- `non_claims` prevents marketing language from silently becoming a model-risk claim.
-- `evidence_tier` separates synthetic fixtures, internal evidence, independent reproduction, and external certification.
-- `metric.status = WITHHELD` forbids `value` serialization.
-
-See [docs/CLAIM_BOUNDARY.md](docs/CLAIM_BOUNDARY.md).
-
-## Repository Layout
-
-```text
-docs/                       Human-readable protocol docs
-schemas/                    JSON schemas for submissions and results
-drcet_validator/            Python validator, stdlib only
-examples/                   Synthetic protocol fixtures
-tests/                      Unit tests for validator behavior
-.github/workflows/ci.yml    GitHub Actions validation
-```
-
-## License
-
-Apache-2.0. See [LICENSE](LICENSE).
+See `PUBLIC_DISCLOSURE_BOUNDARY.md` before reusing any claim.

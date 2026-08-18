@@ -1,0 +1,28 @@
+{
+  "artifact_id": "deep_tail_rare_event_challenge_v1_20260815",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.drcet.deep_tail_rare_event_manifest.v1",
+  "files": [
+    {
+      "path": "DEEP_TAIL_RARE_EVENT_CHALLENGE_RESULT_V1.json",
+      "byte_length": 439786,
+      "sha256": "sha256:61c91cb4097eca27a7c96f21906c864d7ffe7a02beaeb02a43bfadc0a53b3e09"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 415,
+      "sha256": "sha256:4e3394ffebc1558fadb8378686abfd87fc526698b0783a341a51b8485af1e858"
+    },
+    {
+      "path": "deep_tail_rare_event_rows.csv",
+      "byte_length": 30688,
+      "sha256": "sha256:187e5ddf3766cda31a6fb26ce9cbb628879bd380369130eacb19e149ff6ba01c"
+    },
+    {
+      "path": "deep_tail_rare_event_summary.json",
+      "byte_length": 2929,
+      "sha256": "sha256:496c18ea6dd0c3759fa06f01502a12517de0334c36283f5bebacb79fced30ec7"
+    }
+  ],
+  "generated_at_utc": "2026-08-18T12:45:00Z"
+}

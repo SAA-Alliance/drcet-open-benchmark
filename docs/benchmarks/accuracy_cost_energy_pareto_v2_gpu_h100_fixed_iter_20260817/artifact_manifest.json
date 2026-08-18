@@ -1,0 +1,38 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_h100_fixed_iter_20260817",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_gpu_h100_fixed_iter.v2.artifact_manifest",
+  "files": [
+    {
+      "path": "ACCURACY_COST_ENERGY_PARETO_V2_GPU_H100_FIXED_ITER_STATUS.json",
+      "byte_length": 6929,
+      "sha256": "sha256:6fb4e35c777c42622d5d1315d7a51d7dd02a5b8ee6561bb8d82d108373e5d424"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 429,
+      "sha256": "sha256:1272044054ccbb5d7b3224d1c96f454030b112b1f3bdf86bab675dde0dadf62f"
+    },
+    {
+      "path": "gpu_fixed_iter_internal_frontier.csv",
+      "byte_length": 47362,
+      "sha256": "sha256:3e3983bf1bbe886128007ad561b9febc4e1c04acb1be9570d6c21a9a31b36e1a"
+    },
+    {
+      "path": "hardware_probe.json",
+      "byte_length": 1085,
+      "sha256": "sha256:706e1821f33e7c18c11db346a1f25b88cbfaee93ae4e04272e7c355a45b39a1b"
+    },
+    {
+      "path": "measured_results_gpu_h100_fixed_iter.csv",
+      "byte_length": 13716446,
+      "sha256": "sha256:e4d7b5e0d8b73dc7d66082ca8876f3c0cce47b0a101ebb1f04bf58e085a10f9c"
+    },
+    {
+      "path": "telemetry_gap_report.json",
+      "byte_length": 789,
+      "sha256": "sha256:b758912ef0beef103dc4beff29e8d2ff8ff300a29b0f5ff17461466051b5381f"
+    }
+  ],
+  "generated_at_utc": "2026-08-18T12:45:00Z"
+}

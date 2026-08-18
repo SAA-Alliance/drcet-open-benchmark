@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='860' height='260' viewBox='0 0 860 260'>
+<rect width='100%' height='100%' fill='#fbf8ef'/>
+<text x='46' y='58' font-family='Georgia,serif' font-size='22' fill='#1d262d'>Superseded CPU/H100 speedup chart</text>
+<text x='46' y='104' font-family='Arial' font-size='15' fill='#8a2d3b'>WITHHELD: prior chart mixed CPU single-shot wall_ms with H100 windowed wall_ms_per_iter.</text>
+<text x='46' y='136' font-family='Arial' font-size='13' fill='#4d5963'>Use cpu_gpu_unit_matched_iso_accuracy_by_dimension.csv for review-only diagnostics. Public speedup/crossover claim remains locked.</text>
+</svg>

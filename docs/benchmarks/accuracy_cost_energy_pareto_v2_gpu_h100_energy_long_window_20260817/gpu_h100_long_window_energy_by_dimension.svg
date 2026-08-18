@@ -1,0 +1,14 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='880' height='500' viewBox='0 0 880 500'>
+<rect width='100%' height='100%' fill='#fbf8ef'/>
+<text x='86' y='34' font-family='Georgia,serif' font-size='22' fill='#1d262d'>H100 long-window energy by dimension</text>
+<line x1='86' y1='418' x2='840' y2='418' stroke='#1d262d'/>
+<line x1='86' y1='58' x2='86' y2='418' stroke='#1d262d'/>
+<polyline fill='none' stroke='#b45309' stroke-width='3' points='86.00,246.88 211.67,240.09 421.11,219.73 840.00,112.92'/>
+<circle cx='86.00' cy='246.88' r='5' fill='#b45309'/><text x='94.00' y='238.88' font-family='Arial' font-size='12'>0.0555 J</text>
+<circle cx='211.67' cy='240.09' r='5' fill='#b45309'/><text x='219.67' y='232.09' font-family='Arial' font-size='12'>0.0577 J</text>
+<circle cx='421.11' cy='219.73' r='5' fill='#b45309'/><text x='429.11' y='211.73' font-family='Arial' font-size='12'>0.0643 J</text>
+<circle cx='840.00' cy='112.92' r='5' fill='#b45309'/><text x='848.00' y='104.92' font-family='Arial' font-size='12'>0.0990 J</text>
+<text x='440.0' y='472' text-anchor='middle' font-family='Arial' font-size='13'>dimension</text>
+<text transform='translate(26 250.0) rotate(-90)' text-anchor='middle' font-family='Arial' font-size='13'>median NVML joules / workload iter</text>
+<text x='86' y='456' font-family='Arial' font-size='11' fill='#5b6065'>Review-only: H100 energy only; CPU energy/cloud-dollar/crossover remain locked.</text>
+</svg>

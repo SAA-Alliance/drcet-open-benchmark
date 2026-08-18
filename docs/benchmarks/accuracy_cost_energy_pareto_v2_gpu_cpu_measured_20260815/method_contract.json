@@ -1,0 +1,55 @@
+{
+  "methods": [
+    {
+      "class": "CPU NumPy sampling baseline",
+      "closed_form_allowed": false,
+      "device_class": "CPU",
+      "method_id": "cpu_numpy_monte_carlo",
+      "status": "RUNNER_IMPLEMENTED_REQUIRES_MEASURED_RUN"
+    },
+    {
+      "class": "GPU CuPy sampling baseline",
+      "closed_form_allowed": false,
+      "device_class": "NVIDIA_GPU",
+      "method_id": "gpu_cupy_monte_carlo",
+      "status": "RUNNER_IMPLEMENTED_WHEN_CUPY_NVML_AVAILABLE"
+    },
+    {
+      "class": "CPU randomized low-discrepancy proxy",
+      "closed_form_allowed": false,
+      "device_class": "CPU",
+      "method_id": "cpu_numpy_randomized_qmc_proxy",
+      "status": "RUNNER_STUB_REQUIRES_REVIEW_BEFORE_CLAIM"
+    },
+    {
+      "class": "GPU randomized low-discrepancy proxy",
+      "closed_form_allowed": false,
+      "device_class": "NVIDIA_GPU",
+      "method_id": "gpu_cupy_randomized_qmc_proxy",
+      "status": "RUNNER_STUB_REQUIRES_REVIEW_BEFORE_CLAIM"
+    },
+    {
+      "claim_boundary": "candidate lane only until binary hash, version, and telemetry attach",
+      "class": "withheld_runtime GPU tail engine candidate",
+      "closed_form_allowed": false,
+      "device_class": "NVIDIA_GPU",
+      "method_id": "withheld_runtime_gpu_tail_engine_candidate",
+      "status": "CONTRACT_SLOT_REQUIRES_PRODUCTION_OR_CANDIDATE_BINARY"
+    },
+    {
+      "class": "ORE/QuantLib reference lane",
+      "closed_form_allowed": false,
+      "device_class": "CPU",
+      "method_id": "ore_quantlib",
+      "status": "WITHHELD_ENGINE_NOT_AVAILABLE_ON_NODE"
+    },
+    {
+      "class": "PDE / finite-difference lane",
+      "closed_form_allowed": false,
+      "device_class": "CPU_OR_GPU",
+      "method_id": "pde_fd",
+      "status": "APPLICABLE_ONLY_TO_SUPPORTED_PDE_TARGETS_NOT_RUN_IN_CONTRACT_BUILD"
+    }
+  ],
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_measured.v2.method_contract"
+}

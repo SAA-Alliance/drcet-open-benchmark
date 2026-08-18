@@ -1,0 +1,377 @@
+{
+  "artifact_files": [
+    {
+      "byte_length": 2809,
+      "path": "README.md",
+      "sha256": "sha256:0532a919173eb8bb596bee8957bf796a64383e9e70f4d9dd00780b21101fb367"
+    },
+    {
+      "byte_length": 1982,
+      "path": "crossover_preregistration_hypothesis.json",
+      "sha256": "sha256:d2ba9180c8b712e0d5ffc72c165e52c95634548045d465c079782a0b10469ebb"
+    },
+    {
+      "byte_length": 493,
+      "path": "hardware_probe.json",
+      "sha256": "sha256:ebc544ecd44d535244068c8f996b046690eb8d62ed62c236b52938943fdd8022"
+    },
+    {
+      "byte_length": 269,
+      "path": "measured_results.csv",
+      "sha256": "sha256:a8877e773ddaa592ce698a6fb4a7eb0a079a3ce5db2d6d38552dccceaa7e5f31"
+    },
+    {
+      "byte_length": 1884,
+      "path": "method_contract.json",
+      "sha256": "sha256:4d02a2e76b7b4b8c561c0f06cc5e2eb31f9b30945527963dff8b4a57965ae4de"
+    },
+    {
+      "byte_length": 1581,
+      "path": "node_requirements.json",
+      "sha256": "sha256:17b384902a924657a09f287d95a0094a8469e39058f7c17ba4d452b8bd86b439"
+    },
+    {
+      "byte_length": 5240,
+      "path": "reference_oracle_contract.json",
+      "sha256": "sha256:ef885ffccea724b2c59e9bcaad279e6376819e200ee08bbd387d3318cd2c7694"
+    },
+    {
+      "byte_length": 65598,
+      "path": "target_contract.csv",
+      "sha256": "sha256:e44e969ea5c0791c4837ecde30e8821f184c28040c7104dcc53e32bbfe2bacd7"
+    },
+    {
+      "byte_length": 133434,
+      "path": "target_contract.json",
+      "sha256": "sha256:ee0aecaa469cfa01292f5e2fee6d99096f8860b3b3ba55d6ec4aa5ed2bdabe2e"
+    }
+  ],
+  "artifact_id": "accuracy_cost_energy_pareto_v2_gpu_cpu_measured_20260815",
+  "blockers": [
+    "gpu_nvml_telemetry_missing",
+    "gpu_cupy_runner_missing",
+    "cpu_rapl_energy_missing"
+  ],
+  "claim_boundary": "No public Pareto/crossover claim until measured CPU/GPU telemetry, same error envelope, and independent reference gates pass.",
+  "frontier_acceptance_gate": {
+    "closed_form_targets_excluded": true,
+    "cpu_and_gpu_rows_required": true,
+    "crossover_claim_allowed": false,
+    "independent_reference_required": true,
+    "measured_energy_required": true,
+    "preregistered_crossover_hypothesis_required": true,
+    "reason": "No measured CPU/GPU result rows, reference oracle, or pre-registered crossover hypothesis are attached in this contract build.",
+    "reference_uncertainty_in_envelope": true,
+    "same_error_envelope": true
+  },
+  "generated_at_utc": "2026-08-15T21:33:58Z",
+  "hardware_probe_status": {
+    "cupy": "WITHHELD_CUPY_NOT_AVAILABLE",
+    "nvml_available": false,
+    "rapl": "WITHHELD_RAPL_NOT_AVAILABLE"
+  },
+  "measurement_requirements": {
+    "cloud_cost": "cloud SKU and dated billing-rate profile required; dollars remain published-rate x measured device-seconds, not a directly measured physical quantity.",
+    "cpu_energy": "RAPL or equivalent measured package energy required; cloud VMs often do not expose powercap/MSR, so CPU energy may require bare-metal.",
+    "frequency_control": "record CPU governor/frequency and GPU clocks where available.",
+    "gpu_energy": "NVML measured power/energy required; integrate power over a multi-iteration measurement window, not a single short engine.",
+    "memory": "peak CPU RSS and GPU memory high-water mark required.",
+    "repeats": "N>=3 fresh-process correctness repeats plus >=10 telemetry windows per method/target/budget for energy dispersion."
+  },
+  "method_inventory": [
+    {
+      "class": "CPU NumPy sampling baseline",
+      "closed_form_allowed": false,
+      "device_class": "CPU",
+      "method_id": "cpu_numpy_monte_carlo",
+      "status": "RUNNER_IMPLEMENTED_REQUIRES_MEASURED_RUN"
+    },
+    {
+      "class": "GPU CuPy sampling baseline",
+      "closed_form_allowed": false,
+      "device_class": "NVIDIA_GPU",
+      "method_id": "gpu_cupy_monte_carlo",
+      "status": "RUNNER_IMPLEMENTED_WHEN_CUPY_NVML_AVAILABLE"
+    },
+    {
+      "class": "CPU randomized low-discrepancy proxy",
+      "closed_form_allowed": false,
+      "device_class": "CPU",
+      "method_id": "cpu_numpy_randomized_qmc_proxy",
+      "status": "RUNNER_STUB_REQUIRES_REVIEW_BEFORE_CLAIM"
+    },
+    {
+      "class": "GPU randomized low-discrepancy proxy",
+      "closed_form_allowed": false,
+      "device_class": "NVIDIA_GPU",
+      "method_id": "gpu_cupy_randomized_qmc_proxy",
+      "status": "RUNNER_STUB_REQUIRES_REVIEW_BEFORE_CLAIM"
+    },
+    {
+      "claim_boundary": "candidate lane only until binary hash, version, and telemetry attach",
+      "class": "withheld_runtime GPU tail engine candidate",
+      "closed_form_allowed": false,
+      "device_class": "NVIDIA_GPU",
+      "method_id": "withheld_runtime_gpu_tail_engine_candidate",
+      "status": "CONTRACT_SLOT_REQUIRES_PRODUCTION_OR_CANDIDATE_BINARY"
+    },
+    {
+      "class": "ORE/QuantLib reference lane",
+      "closed_form_allowed": false,
+      "device_class": "CPU",
+      "method_id": "ore_quantlib",
+      "status": "WITHHELD_ENGINE_NOT_AVAILABLE_ON_NODE"
+    },
+    {
+      "class": "PDE / finite-difference lane",
+      "closed_form_allowed": false,
+      "device_class": "CPU_OR_GPU",
+      "method_id": "pde_fd",
+      "status": "APPLICABLE_ONLY_TO_SUPPORTED_PDE_TARGETS_NOT_RUN_IN_CONTRACT_BUILD"
+    }
+  ],
+  "must_not_claim": [
+    "Do not claim NVIDIA-grade Pareto frontier from V1 analytic diagnostic.",
+    "Do not rank energy or cost from wall time multiplied by constants.",
+    "Do not compare closed-form analytic answers against sampling workloads as a performance win.",
+    "Do not claim CPU/GPU crossover before both CPU and GPU measured telemetry rows exist.",
+    "Do not claim method accuracy against a stochastic reference unless reference CI is included in the acceptance envelope.",
+    "Do not describe the crossover after the fact without a pre-registered hypothesis hash.",
+    "Do not claim withheld_runtime performance from a review-only/candidate runner."
+  ],
+  "node_requirements": {
+    "cloud_cost": {
+      "dollars_formula": "published_rate_per_second * measured_device_seconds",
+      "published_on_demand_rate_date_required": true,
+      "region_required": true,
+      "sku_required": true
+    },
+    "cpu": {
+      "bare_metal_preferred": true,
+      "core_pinning_required": true,
+      "frequency_control_required": true,
+      "numa_policy_record_required": true,
+      "rapl_or_equivalent_required": true,
+      "required_paths_or_permissions": [
+        "/sys/class/powercap/intel-rapl*/energy_uj or platform-equivalent package-energy counter"
+      ],
+      "vm_warning": "ordinary cloud VMs often do not expose RAPL/MSR; CPU energy may require *.metal or provider telemetry API"
+    },
+    "gpu": {
+      "application_clocks_or_clock_policy_record_required": true,
+      "cupy_or_cuda_runner_required": true,
+      "driver_cuda_versions_record_required": true,
+      "ecc_state_record_required": true,
+      "h100_or_a100_class_preferred": true,
+      "nvidia_gpu_required": true,
+      "nvidia_smi_query_required": true,
+      "nvml_required": true,
+      "persistence_mode_record_required": true
+    },
+    "measurement": {
+      "idle_baseline_required": true,
+      "engine_only_secondary": true,
+      "latency_scope": "end_to_end_including_transfer_for_headline",
+      "minimum_correctness_repeats": 3,
+      "minimum_energy_windows": 10,
+      "short_engine_policy": "repeat workload inside timed telemetry window; record iterations_per_window"
+    },
+    "node_class": "bare_metal_or_telemetry_equivalent_cpu_plus_nvidia_gpu",
+    "schema_id": "saa.drcet.accuracy_cost_energy_pareto_measured.v2.node_requirements"
+  },
+  "node_requirements_path": "node_requirements.json",
+  "node_requirements_sha256": "sha256:17b384902a924657a09f287d95a0094a8469e39058f7c17ba4d452b8bd86b439",
+  "preregistration_policy": {
+    "hypothesis_hash_required": true,
+    "hypothesis_id": "pareto_v2_crossover_hypothesis_20260815",
+    "hypothesis_path": "crossover_preregistration_hypothesis.json",
+    "hypothesis_sha256": "sha256:d2ba9180c8b712e0d5ffc72c165e52c95634548045d465c079782a0b10469ebb",
+    "minimum_content": [
+      "predicted_cpu_budget_limit_by_dimension",
+      "predicted_gpu_crossover_dimension",
+      "target_budget_classes",
+      "allowed_update_rule_before_run"
+    ],
+    "reason": "Crossover must not be described only after seeing the measured result.",
+    "registered_at_utc": "2026-08-15T21:31:30Z",
+    "status": "REQUIRED_BEFORE_MEASURED_RUN"
+  },
+  "reference_oracle_policy": {
+    "acceptance_equation": "|method_estimate - reference_estimate| <= predeclared_tolerance + reference_ci_half_width",
+    "allowed_reference_families": [
+      "massive_independent_mc_with_confidence_interval",
+      "randomized_qmc_with_replication_interval",
+      "importance_sampling_with_effective_sample_size_and_interval",
+      "semi_analytic_or_pde_reference_where_independently_available"
+    ],
+    "closed_form_reference": "NOT_APPLICABLE_BY_DESIGN_FOR_V2_TARGETS",
+    "external_anchor_status": "No third-party implementation currently covers all V2 regimes; per-regime reference anchors must be named before measured run.",
+    "method_vs_method_warning": "If the reference is another stochastic method, its own uncertainty is part of the envelope; raw absolute difference alone is invalid.",
+    "minimum_reference_content": [
+      "reference_method_id",
+      "reference_engine_count",
+      "reference_estimate",
+      "reference_ci_half_width",
+      "reference_confidence_level",
+      "path_count_or_solver_resolution",
+      "seed_or_determinism_hash",
+      "reference_artifact_sha256"
+    ],
+    "reference_disagreement_policy": "REFERENCE_DISAGREEMENT_INCONCLUSIVE; no method receives PASS when reference engines disagree beyond declared tolerance.",
+    "reference_oracle_by_regime": {
+      "default_mixture_common_factor": {
+        "ci_method": "effective-sample-size CI plus independent-shard crosscheck",
+        "crosscheck_reference_method_id": "ref_default_mixture_massive_mc_v1",
+        "external_anchor_status": "NO_FULL_THIRD_PARTY_REFERENCE_ATTACHED",
+        "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
+        "minimum_path_or_resolution": "importance-sampling ESS >=1M tail-effective samples plus independent MC crosscheck before public claim",
+        "primary_reference_method_id": "ref_default_mixture_importance_sampling_v1"
+      },
+      "discontinuous_liquidity_loss": {
+        "ci_method": "scenario-stratum CI; discontinuity boundary rows reported separately",
+        "crosscheck_reference_method_id": "ref_liquidity_discontinuity_stress_grid_v1",
+        "external_anchor_status": "NO_FULL_THIRD_PARTY_REFERENCE_ATTACHED",
+        "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
+        "minimum_path_or_resolution": "stress-grid resolution hash plus >=50M scenario samples before public claim",
+        "primary_reference_method_id": "ref_liquidity_jump_scenario_mc_v1"
+      },
+      "hawkes_clustered_jumps": {
+        "ci_method": "independent event-shard CI with cluster-size diagnostics",
+        "crosscheck_reference_method_id": "ref_hawkes_branching_representation_mc_v1",
+        "external_anchor_status": "NO_FULL_THIRD_PARTY_REFERENCE_ATTACHED",
+        "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
+        "minimum_path_or_resolution": ">=100M event-path equivalents or convergence-certified branching simulation before public claim",
+        "primary_reference_method_id": "ref_hawkes_clustered_event_simulation_v1"
+      },
+      "merton_jump_diffusion": {
+        "ci_method": "Poisson-stratum CI plus residual sampling CI",
+        "crosscheck_reference_method_id": "ref_merton_jump_poisson_conditioned_qmc_v1",
+        "external_anchor_status": "PARTIAL_SEMI_ANALYTIC_ANCHOR_WHEN_JUMP_COUNT_CONDITIONING_APPMETHOD_AS",
+        "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
+        "minimum_path_or_resolution": "condition on jump counts plus >=50M residual samples before public claim",
+        "primary_reference_method_id": "ref_merton_jump_conditioned_mc_v1"
+      },
+      "near_singular_correlation": {
+        "ci_method": "rank-stratified CI plus condition-number stability report",
+        "crosscheck_reference_method_id": "ref_near_singular_pivoted_cholesky_mc_v1",
+        "external_anchor_status": "PARTIAL_LINEAR_ALGEBRA_ANCHOR_ONLY; tail estimator still stochastic",
+        "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
+        "minimum_path_or_resolution": "condition-number ladder with >=50M equivalent paths per accepted rank before public claim",
+        "primary_reference_method_id": "ref_near_singular_factor_qmc_v1"
+      },
+      "regime_switching_volatility": {
+        "ci_method": "state-stratified independent-shard CI",
+        "crosscheck_reference_method_id": "ref_regime_switching_qmc_replication_v1",
+        "external_anchor_status": "PARTIAL_FORWARD_FILTER_ANCHOR_WHEN_STATE_SPACE_IS_SMALL",
+        "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
+        "minimum_path_or_resolution": ">=100M state-path equivalents with transition-matrix determinism hash before public claim",
+        "primary_reference_method_id": "ref_regime_switching_forward_filter_mc_v1"
+      },
+      "skewed_t_mixture": {
+        "ci_method": "component-stratified independent-shard CI",
+        "crosscheck_reference_method_id": "ref_skewed_t_mixture_importance_sampling_v1",
+        "external_anchor_status": "NO_FULL_THIRD_PARTY_REFERENCE_ATTACHED",
+        "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
+        "minimum_path_or_resolution": ">=100M equivalent paths with mixture-component stratification before public claim",
+        "primary_reference_method_id": "ref_skewed_t_mixture_massive_mc_v1"
+      },
+      "t_copula_heavy_tail": {
+        "ci_method": "independent-shard percentile/normal CI; report reference_ci_half_width",
+        "crosscheck_reference_method_id": "ref_t_copula_randomized_qmc_replication_v1",
+        "external_anchor_status": "NO_FULL_THIRD_PARTY_REFERENCE_ATTACHED",
+        "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
+        "minimum_path_or_resolution": ">=100M equivalent paths across independent shards before public claim",
+        "primary_reference_method_id": "ref_t_copula_stratified_massive_mc_v1"
+      }
+    },
+    "reference_oracle_contract_path": "reference_oracle_contract.json",
+    "reference_oracle_contract_sha256": "sha256:ef885ffccea724b2c59e9bcaad279e6376819e200ee08bbd387d3318cd2c7694",
+    "reference_uncertainty_required": true,
+    "single_reference_without_ci": "FORBIDDEN_FOR_PUBLIC_CLAIM",
+    "status": "REQUIRED_BEFORE_MEASURED_RUN"
+  },
+  "replaces_or_continues_v1": false,
+  "required_confidence_levels": [
+    0.99,
+    0.995,
+    0.999,
+    0.9995,
+    0.9999
+  ],
+  "required_dimensions": [
+    100,
+    250,
+    500,
+    1000
+  ],
+  "required_plots_after_measured_run": [
+    "dimension_tail_depth_to_min_device_seconds.svg",
+    "error_vs_measured_joules.svg",
+    "error_vs_cloud_dollars.svg",
+    "error_vs_peak_ram_and_gpu_memory.svg",
+    "tail_level_vs_compute.svg",
+    "dimension_vs_compute.svg",
+    "coupling_strength_vs_compute.svg",
+    "cpu_gpu_crossover_map.svg"
+  ],
+  "required_regimes": [
+    "t_copula_heavy_tail",
+    "skewed_t_mixture",
+    "merton_jump_diffusion",
+    "hawkes_clustered_jumps",
+    "regime_switching_volatility",
+    "default_mixture_common_factor",
+    "discontinuous_liquidity_loss",
+    "near_singular_correlation"
+  ],
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_measured.v2",
+  "status": "BLOCKED_MEASURED_TELEMETRY_REQUIRED",
+  "target_count": 320,
+  "target_count_components": {
+    "confidence_levels": 5,
+    "dimensions": 4,
+    "metrics": 2,
+    "metrics_list": [
+      "VaR",
+      "ES"
+    ],
+    "product": 320,
+    "regimes": 8
+  },
+  "target_count_formula": "4 dimensions x 5 confidence levels x 8 regimes x 2 metrics = 320 target rows",
+  "telemetry_protocol": {
+    "cpu_energy": {
+      "preferred": "RAPL/package energy on bare-metal or equivalent platform energy counter",
+      "vm_without_powercap_status": "WITHHELD_CPU_ENERGY_COUNTER_NOT_EXPOSED"
+    },
+    "cpu_state": [
+      "governor",
+      "frequency_policy",
+      "core_pinning",
+      "numa_policy"
+    ],
+    "energy_accounting_policy": {
+      "headline": "total_energy_for_infrastructure_capacity; incremental_energy_secondary",
+      "idle_baseline_required": true,
+      "publish_incremental_energy_over_idle": true,
+      "publish_total_energy": true
+    },
+    "gpu_energy": {
+      "minimum_windows": 10,
+      "preferred": "NVML power integration with sampling timestamps",
+      "short_engine_policy": "repeat workload inside a measured window long enough for NVML sampling resolution; record iterations_per_window"
+    },
+    "gpu_state": [
+      "persistence_mode",
+      "application_clocks_or_clock_policy",
+      "ecc_state",
+      "driver_version",
+      "cuda_version"
+    ],
+    "latency_scope": {
+      "headline": "end_to_end_device_workload_including_host_to_device_and_device_to_host_when_applicable",
+      "engine_only": "reported separately, never substituted for end-to-end workload latency"
+    }
+  },
+  "v1_relationship": "V2 is a separate measured CPU/GPU benchmark. V1 analytic-tail diagnostic remains review-only and must not be used as NVIDIA-grade evidence."
+}

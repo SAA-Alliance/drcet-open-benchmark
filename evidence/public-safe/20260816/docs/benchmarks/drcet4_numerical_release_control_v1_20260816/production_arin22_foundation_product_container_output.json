@@ -1,7 +1,0 @@
-{
-  "case_count": 0,
-  "input_sha256": "sha256:f49bf5a7eaecf3d814aa148d6def85520a27b7558175887affd624305ef4a572",
-  "reason": "DRCET4B_PRODUCTION_ARIN22_CONTAINER_CMD/--production-arin22-foundation-container-command not provided",
-  "schema_id": "saa.benchmark.drcet4b.production_arin22_container_output.v1",
-  "status": "NOT_EXECUTED"
-}

@@ -1,0 +1,32 @@
+{
+  "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817",
+  "generated_at_utc": "2026-08-17T14:28:34Z",
+  "measured": [
+    "cpu_wall_time",
+    "cpu_process_time",
+    "cpu_peak_rss_mb"
+  ],
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_contabo_measured.v2.telemetry_gap_report",
+  "withheld": [
+    {
+      "field": "cpu_energy_joules",
+      "reason": "WITHHELD_RAPL_NOT_AVAILABLE"
+    },
+    {
+      "field": "cloud_dollars",
+      "reason": "WITHHELD_CLOUD_RATE_NOT_BOUND"
+    },
+    {
+      "field": "gpu_energy_joules",
+      "reason": "PENDING_GPU_NODE"
+    },
+    {
+      "field": "gpu_peak_memory_mb",
+      "reason": "PENDING_GPU_NODE"
+    },
+    {
+      "field": "cpu_gpu_crossover",
+      "reason": "PENDING_GPU_NODE_AND_INDEPENDENT_REFERENCE_GATE"
+    }
+  ]
+}
