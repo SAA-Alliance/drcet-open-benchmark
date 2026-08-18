@@ -122,7 +122,7 @@
     "No public CPU/GPU speedup claim from the CPU fixed-iteration pack alone.",
     "No measured CPU joules claim when RAPL is unavailable.",
     "No cloud-dollar claim without dated SKU rate.",
-    "No production ARIN22 performance claim; this pack measures CPU sampling baselines only."
+    "No withheld_runtime performance claim; this pack measures CPU sampling baselines only."
   ],
   "outside_internal_envelope_rows": 7473,
   "predeclared_tolerance_fraction": 0.05,

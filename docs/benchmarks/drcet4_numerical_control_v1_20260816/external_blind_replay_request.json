@@ -1,0 +1,34 @@
+{
+  "blind_replay_scope": "protocol + fixture contracts only; result CSVs/status JSON are excluded from replay input bundle",
+  "claim_boundary": "external replay package excludes answer-key result rows and sealed withheld_runtime material",
+  "expected_output_schema_id": "saa.benchmark.drcet4.external_blind_replay_response.v1",
+  "generated_at_utc": "2026-08-16T11:03:00Z",
+  "input_artifacts": [
+    {
+      "byte_length": 4421,
+      "path": "DRCET4_PROTOCOL_V1.md",
+      "sha256": "sha256:bfd0c5c21eec60e51075c21e04e05180c2752bdaf2d7f93ab009b4099e304e0e"
+    },
+    {
+      "byte_length": 7499,
+      "path": "fixture_contract.csv",
+      "sha256": "sha256:990b824a090fc48671ea8445cebb51dc74c894fe9acb463dd8cf358e1f4c0736"
+    },
+    {
+      "byte_length": 1878,
+      "path": "bounded_control_fixture_contract.csv",
+      "sha256": "sha256:9909d4b4d977b4ab250dfe102c390d643ffdde80441bfac8564f51b2dc858cc7"
+    }
+  ],
+  "request_id": "drcet4_external_blind_replay_request_v1",
+  "required_response_fields": [
+    "replayer_id",
+    "input_artifact_sha256",
+    "solver_resolution_rows",
+    "release_gate_status_counts",
+    "a6_metric_gate_rows",
+    "drcet4b_certificate_rows",
+    "no_access_to_answer_key_attestation"
+  ],
+  "schema_id": "saa.benchmark.drcet4.external_blind_replay_request.v1"
+}

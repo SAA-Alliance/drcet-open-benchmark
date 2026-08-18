@@ -30,10 +30,10 @@
     },
     {
       "claim_boundary": "candidate lane only until binary hash, version, and telemetry attach",
-      "class": "ARIN22 GPU tail kernel candidate",
+      "class": "withheld_runtime GPU tail engine candidate",
       "closed_form_allowed": false,
       "device_class": "NVIDIA_GPU",
-      "method_id": "arin22_gpu_tail_kernel_candidate",
+      "method_id": "withheld_runtime_gpu_tail_engine_candidate",
       "status": "CONTRACT_SLOT_REQUIRES_PRODUCTION_OR_CANDIDATE_BINARY"
     },
     {

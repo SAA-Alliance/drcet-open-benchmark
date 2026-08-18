@@ -1,0 +1,7 @@
+{
+  "case_count": 0,
+  "input_sha256": "sha256:03c11d92c47f529228835c5ff74fb29c2a50398270e4a3aa55ed9a0a6f1d3aa7",
+  "reason": "DRCET4B_WITHHELD_RUNTIME_WITHHELD_RUNTIME_CMD/--production-withheld_runtime-bounded_control-withheld_runtime-command not provided",
+  "schema_id": "saa.benchmark.drcet4b.withheld_runtime runtime_output.v1",
+  "status": "NOT_EXECUTED"
+}

@@ -31,9 +31,9 @@ The named per-regime reference plan is in `reference_oracle_contract.json`. A re
 ## Telemetry protocol
 
 - CPU energy: RAPL or equivalent package-energy counter. Cloud VMs may need bare-metal to expose this.
-- GPU energy: NVML power integration over multi-iteration windows; short kernels cannot be scored from a single sample.
+- GPU energy: NVML power integration over multi-iteration windows; short engines cannot be scored from a single sample.
 - Energy accounting: publish both total energy and incremental energy over idle; headline uses total infrastructure energy.
-- Latency scope: headline is end-to-end workload including host/device transfer where applicable; kernel-only is secondary.
+- Latency scope: headline is end-to-end workload including host/device transfer where applicable; engine-only is secondary.
 - Repeats: N>=3 fresh-process correctness repeats and >=10 telemetry windows for energy dispersion.
 - Cloud dollars: published dated SKU rate x measured device-seconds, not directly measured dollars.
 

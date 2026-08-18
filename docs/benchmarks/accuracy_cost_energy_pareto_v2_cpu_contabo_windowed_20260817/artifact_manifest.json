@@ -1,42 +1,43 @@
 {
   "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_contabo_windowed_20260817",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_contabo_windowed.v2.artifact_manifest",
   "files": [
     {
-      "byte_length": 5259,
       "path": "ACCURACY_COST_ENERGY_PARETO_V2_CPU_CONTABO_WINDOWED_STATUS.json",
-      "sha256": "sha256:4d6cde95deff8ba1ee3c189bd5e75c93ba73d457dea72eff8f94dc0abefc1dd3"
+      "byte_length": 5258,
+      "sha256": "sha256:e36d8d91d12d5f4c265e2fa1629f80837013f9baa21c12e4e52160a0329a2775"
     },
     {
-      "byte_length": 581,
       "path": "README.md",
+      "byte_length": 581,
       "sha256": "sha256:94b6182ae6443c730afed1b20c858a4bb5c238fc1d47ef7b946a6e4a3f5d41ed"
     },
     {
-      "byte_length": 52864,
       "path": "cpu_windowed_internal_frontier.csv",
+      "byte_length": 52864,
       "sha256": "sha256:8cd1f055a3b0fd06ad502225585b56e6dcfda0453e09c68a9f2bf752c4acdd29"
     },
     {
-      "byte_length": 2691,
       "path": "hardware_probe.json",
+      "byte_length": 2691,
       "sha256": "sha256:feb94d81d7d092c510a316d413f6e75bf2787943b03e71a3493d2a49db2e0fdc"
     },
     {
-      "byte_length": 4755884,
       "path": "measured_results_cpu_windowed.csv",
+      "byte_length": 4755884,
       "sha256": "sha256:33bd4f3d5d10b1688bf0e69b663183a994aaaef496cd10572f62d476f138a910"
     },
     {
-      "byte_length": 51131,
       "path": "reference_results_cpu.csv",
+      "byte_length": 51131,
       "sha256": "sha256:7cb6b28048e2e354be8b99eab536cd4e20c4d26de2311f0577f8b9c15dffea60"
     },
     {
-      "byte_length": 668,
       "path": "telemetry_gap_report.json",
+      "byte_length": 668,
       "sha256": "sha256:d91b6bcfa671094e88bda48cd11e3cea1d56d908b9c64dcb908a04dc8477bfac"
     }
   ],
-  "generated_at_utc": "2026-08-17T15:33:53Z",
-  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_contabo_windowed.v2.artifact_manifest"
+  "generated_at_utc": "2026-08-18T12:45:00Z"
 }

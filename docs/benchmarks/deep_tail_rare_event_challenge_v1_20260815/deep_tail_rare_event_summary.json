@@ -37,14 +37,14 @@
     "No PASS where references disagree"
   ],
   "pareto_surface_fields": [
-    "kernel_abs_error_vs_consensus_mid",
+    "engine_abs_error_vs_consensus_mid",
     "consensus_interval",
     "wall_ms",
     "energy_wh_estimate",
     "cost_usd_estimate",
     "memory_mb_estimate",
     "stability_over_seeds",
-    "routing_status"
+    "release gating_status"
   ],
   "reference_engines": [
     "analytic_closed_form where available",
@@ -62,16 +62,16 @@
       0.9999
     ],
     "insufficient_reference_status": "REFERENCE_INSUFFICIENT_INCONCLUSIVE",
-    "pass_rule": "kernel value must fall inside the non-empty overlap of at least two usable reference-method uncertainty intervals",
+    "pass_rule": "engine value must fall inside the non-empty overlap of at least two usable reference-method uncertainty intervals",
     "reference_disagreement_status": "REFERENCE_DISAGREEMENT_INCONCLUSIVE",
     "usable_reference_statuses": [
       "PASS",
       "WATCH_SHAPE_NEAR_INFINITE_MEAN"
     ]
   },
-  "routing_counts": {
+  "release gating_counts": {
     "DEEP_TAIL_CONSENSUS_PASS_REVIEW_ONLY": 72,
-    "FAIL_CLOSED_KERNEL_OUTSIDE_REFERENCE_CONSENSUS": 75,
+    "FAIL_CLOSED_ENGINE_OUTSIDE_REFERENCE_CONSENSUS": 75,
     "FAIL_CLOSED_REFERENCE_DISAGREEMENT": 9,
     "FAIL_CLOSED_REFERENCE_INSUFFICIENT": 4
   },
@@ -80,7 +80,7 @@
     "cpu_cost_per_hour_assumed": 0.25,
     "cpu_power_watts_assumed": 65.0,
     "evt_threshold": 0.95,
-    "kernel_paths": 16384,
+    "engine_paths": 16384,
     "mc_reference_paths": 65536,
     "randomized_qmc_paths_per_scramble": 32768,
     "randomized_qmc_scrambles": 3,

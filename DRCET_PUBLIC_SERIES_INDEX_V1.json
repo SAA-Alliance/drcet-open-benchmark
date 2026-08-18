@@ -1,43 +1,32 @@
 {
-  "disclosure_boundary": "public_safe_synthetic_and_review_only_evidence_no_production_kernel_no_client_data",
-  "generated_at_utc": "2026-08-17T21:15:08Z",
+  "disclosure_boundary": "public_safe_synthetic_review_only_no_production_no_client_data_no_internal_construction_names",
+  "generated_at_utc": "2026-08-18T12:45:00Z",
   "must_not_claim": [
-    "production ARIN22 kernel benchmarked",
+    "production benchmarked",
     "external certification",
     "regulatory approval",
     "client-data validation",
-    "hidden production factors disclosed"
+    "hidden production factors disclosed",
+    "internal construction names disclosed"
   ],
   "schema_id": "saa.benchmark.drcet.open_public_series_index.v1",
   "series": {
     "drcet10_accuracy_cost_energy_pareto_v2": {
-      "accuracy_invariant_status": "PASS_FIXED_ITERATION_REPRODUCES_SINGLE_SHOT_ACCURACY_ON_COMMON_BUDGETS",
       "amortization_matched": true,
       "artifact_path": "docs/benchmarks/accuracy_cost_energy_pareto_v2_cpu_gpu_reconciliation_20260817",
-      "boundary": "review-only fixed-iteration CPU/H100 timing telemetry; H100 long-window joules may be attached, but no public speedup, crossover, cloud-cost, perf-per-watt or production ARIN22 claim",
+      "boundary": "review-only CPU/H100 timing and telemetry; no public speedup, crossover, cloud-cost, perf-per-watt, or production-engine claim",
       "cloud_cost_profile_status": "PARTIAL_H100_RATE_BOUND_CPU_RATE_WITHHELD_DOLLAR_FRONTIER_LOCKED",
       "common_rows": 19200,
       "crossover_claim_allowed": false,
-      "fixed_iterations_cpu": 16,
-      "fixed_iterations_h100": 16,
-      "gpu_energy_accepted_rows": 19200,
-      "gpu_energy_join_contract": "ATTACHED_WORKLOAD_LEVEL_LONG_WINDOW_ENERGY",
       "gpu_energy_quality_gate": "PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY",
       "gpu_energy_source": "H100_LONG_WINDOW_ENERGY_PACK",
-      "gpu_energy_withheld_rows": 0,
       "h100_all_methods_d1000_mean_power_watts": 114.19077083333332,
       "h100_all_methods_d1000_peak_power_pct_of_configured_limit": 77.54857142857144,
       "h100_all_methods_d1000_peak_power_watts": 271.42,
-      "h100_all_methods_overall_p95_peak_power_pct_of_configured_limit": 55.507142857142846,
-      "h100_all_methods_overall_p95_peak_power_watts": 194.27499999999998,
       "h100_configured_power_limit_watts": 350.0,
       "h100_default_power_limit_watts": 310.0,
-      "h100_device_saturated": false,
-      "h100_low_duty_cycle_finding": "window mean power is materially below peak power; host/orchestration/launch/transfer wait dominates the measured window",
-      "h100_low_duty_cycle_proxy_mean_over_peak_power": 0.42071612568467065,
       "h100_max_power_limit_watts": 350.0,
       "h100_power_limit_readback_status": "PASS_NVML_POWER_LIMIT_READBACK",
-      "h100_power_limit_source": "NVML_READBACK_POWER_LIMIT_NOT_DATASHEET",
       "iso_accuracy_common_rows": 8781,
       "speedup_claim_allowed": false,
       "status": "CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED",
@@ -58,33 +47,23 @@
       "public_export_mode": "withheld_from_open_repo",
       "status": "INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD"
     },
-    "drcet4_operator_splitting": {
-      "artifact_path": "docs/benchmarks/drcet4_operator_splitting_convergence_v1_20260816",
-      "drcet4b_status": "VALIDATED_PASS_REVIEW_ONLY_REMIZOV_CHERNOFF_CONVERGENCE_LANE",
+    "drcet4_numerical_control": {
+      "artifact_path": "docs/benchmarks/drcet4_numerical_control_v1_20260816",
+      "boundary": "summary counters only; construction names and internal implementation details withheld",
       "external_blind_replay": "PENDING_EXTERNAL_BLIND_REPLAY",
-      "production_arin22_status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED",
-      "status": "PROTOCOL_FULL_LINEAR_EXACT_CONTAINER_AND_REMIZOV_CHERNOFF_LANE_VALIDATED_PRODUCTION_ARIN22_PENDING",
-      "status_sha256": "sha256:298a49ff8071e54c90f52ca49d45b153f446644ee4a71fc92675a3e4f82e421d"
+      "status": "VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY"
     },
-    "drcet4c_chernoff_remizov_resolvent": {
-      "artifact_path": "docs/benchmarks/drcet4c_chernoff_remizov_resolvent_v1_20260816",
+    "drcet4c_boundary_control": {
+      "artifact_path": "docs/benchmarks/drcet4c_boundary_control_v1_20260816",
+      "boundary": "summary counters only; construction names and internal implementation details withheld",
       "external_blind_replay": "PENDING_EXTERNAL_BLIND_REPLAY",
-      "fail_closed_nonconvergent_rows": 25,
-      "production_arin22_status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED",
-      "released_rows": 155,
-      "resolvent_order_release_gate_status": "PASS_NONCONVERGENT_ROWS_FAIL_CLOSED",
-      "silent_release_nonconvergent_count": 0,
-      "status": "VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING",
-      "status_sha256": "sha256:61d7266d4625cef0aa21bc270b1a58c382c4b820c346e30fa44d72b0b447182f"
+      "status": "VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY"
     },
-    "drcet4d_continuum_spatial_refinement": {
-      "artifact_path": "docs/benchmarks/drcet4d_continuum_spatial_refinement_v1_20260816",
+    "drcet4d_public_control_refinement": {
+      "artifact_path": "docs/benchmarks/drcet4d_public_control_refinement_v1_20260816",
+      "boundary": "summary counters only; construction names and internal implementation details withheld",
       "external_blind_replay": "PENDING_EXTERNAL_BLIND_REPLAY",
-      "max_bound_utilization_E_over_B": 0.39999116019618314,
-      "observed_spatial_order_median": 2.0007826398221917,
-      "production_arin22_status": "PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED",
-      "status": "VALIDATED_PASS_PUBLIC_SAFE_CONTINUUM_SPATIAL_REFINEMENT_LANE_PRODUCTION_ARIN22_PENDING",
-      "status_sha256": "sha256:82f6b92871ad59bc2ec5bec803869068ac2fb49ee578f728c423505dcfd01af6"
+      "status": "VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY"
     }
   }
 }

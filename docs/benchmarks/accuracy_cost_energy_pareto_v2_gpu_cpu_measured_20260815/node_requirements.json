@@ -29,11 +29,11 @@
   },
   "measurement": {
     "idle_baseline_required": true,
-    "kernel_only_secondary": true,
+    "engine_only_secondary": true,
     "latency_scope": "end_to_end_including_transfer_for_headline",
     "minimum_correctness_repeats": 3,
     "minimum_energy_windows": 10,
-    "short_kernel_policy": "repeat workload inside timed telemetry window; record iterations_per_window"
+    "short_engine_policy": "repeat workload inside timed telemetry window; record iterations_per_window"
   },
   "node_class": "bare_metal_or_telemetry_equivalent_cpu_plus_nvidia_gpu",
   "schema_id": "saa.drcet.accuracy_cost_energy_pareto_measured.v2.node_requirements"

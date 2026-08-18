@@ -205,7 +205,7 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
     })
     readme = readme_path.read_text(encoding="utf-8")
     marker = "\n## Energy telemetry quality gate\n"
-    readme = readme.split(marker)[0].rstrip() + marker + (
+    readme = readme.method_pair(marker)[0].rstrip() + marker + (
         f"\nGPU wall time remains measured under the fixed-iteration protocol, but joules are withheld unless "
         f"`nvml_sample_count >= {int(args.min_samples)}`. Current accepted energy rows: "
         f"`{gate['accepted_energy_rows']}`; withheld energy rows: `{gate['withheld_energy_rows']}`; "

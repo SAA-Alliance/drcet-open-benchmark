@@ -1,0 +1,708 @@
+{
+  "case_count": 48,
+  "cases": [
+    {
+      "case_id": "RC-B1-DIAG-DISS-01",
+      "dimension": 4,
+      "family": "B1_diagonal_dissipative",
+      "result_vector": [
+        0.9510801844041319,
+        0.5834883221438357,
+        -0.16239541290305243,
+        0.16285025007173723
+      ],
+      "runtime_ms": 0.001334,
+      "status": "PASS",
+      "step_count": 8
+    },
+    {
+      "case_id": "RC-B1-DIAG-DISS-01",
+      "dimension": 4,
+      "family": "B1_diagonal_dissipative",
+      "result_vector": [
+        0.9511549574306342,
+        0.5840929765859613,
+        -0.16334262835403898,
+        0.16700996855101907
+      ],
+      "runtime_ms": 0.0015,
+      "status": "PASS",
+      "step_count": 16
+    },
+    {
+      "case_id": "RC-B1-DIAG-DISS-01",
+      "dimension": 4,
+      "family": "B1_diagonal_dissipative",
+      "result_vector": [
+        0.951192229077515,
+        0.5843921098842614,
+        -0.16380559211802012,
+        0.1690123019686166
+      ],
+      "runtime_ms": 0.002666,
+      "status": "PASS",
+      "step_count": 32
+    },
+    {
+      "case_id": "RC-B1-DIAG-DISS-01",
+      "dimension": 4,
+      "family": "B1_diagonal_dissipative",
+      "result_vector": [
+        0.9512108363005605,
+        0.5845408892617324,
+        -0.16403449379608534,
+        0.16999508673350563
+      ],
+      "runtime_ms": 0.004667,
+      "status": "PASS",
+      "step_count": 64
+    },
+    {
+      "case_id": "RC-B1-DIAG-DISS-01",
+      "dimension": 4,
+      "family": "B1_diagonal_dissipative",
+      "result_vector": [
+        0.9512201327764398,
+        0.5846150835109957,
+        -0.16414830932464403,
+        0.17048200088897705
+      ],
+      "runtime_ms": 0.009167,
+      "status": "PASS",
+      "step_count": 128
+    },
+    {
+      "case_id": "RC-B1-DIAG-DISS-01",
+      "dimension": 4,
+      "family": "B1_diagonal_dissipative",
+      "result_vector": [
+        0.9512247792322562,
+        0.584652131946677,
+        -0.16420505945737462,
+        0.17072435262019467
+      ],
+      "runtime_ms": 0.017708,
+      "status": "PASS",
+      "step_count": 256
+    },
+    {
+      "case_id": "RC-B1-DIAG-DISS-01",
+      "dimension": 4,
+      "family": "B1_diagonal_dissipative",
+      "result_vector": [
+        0.9512271020148703,
+        0.584670644013559,
+        -0.16423339526403705,
+        0.1708452538984518
+      ],
+      "runtime_ms": 0.043625,
+      "status": "PASS",
+      "step_count": 512
+    },
+    {
+      "case_id": "RC-B1-DIAG-DISS-01",
+      "dimension": 4,
+      "family": "B1_diagonal_dissipative",
+      "result_vector": [
+        0.9512282632949364,
+        0.5846798970119448,
+        -0.16424755337089844,
+        0.1709056361077476
+      ],
+      "runtime_ms": 0.069584,
+      "status": "PASS",
+      "step_count": 1024
+    },
+    {
+      "case_id": "RC-B2-NONNORMAL-01",
+      "dimension": 4,
+      "family": "B2_nonnormal_stable",
+      "result_vector": [
+        0.6420625162485477,
+        0.043768973959471984,
+        0.3230901486480756,
+        0.11546972952707305
+      ],
+      "runtime_ms": 0.000875,
+      "status": "PASS",
+      "step_count": 8
+    },
+    {
+      "case_id": "RC-B2-NONNORMAL-01",
+      "dimension": 4,
+      "family": "B2_nonnormal_stable",
+      "result_vector": [
+        0.6442823907231154,
+        0.04113889523995446,
+        0.32478182913651493,
+        0.11880444475054076
+      ],
+      "runtime_ms": 0.001417,
+      "status": "PASS",
+      "step_count": 16
+    },
+    {
+      "case_id": "RC-B2-NONNORMAL-01",
+      "dimension": 4,
+      "family": "B2_nonnormal_stable",
+      "result_vector": [
+        0.6453501555080049,
+        0.03986403747734404,
+        0.32561719722462684,
+        0.12040773788903741
+      ],
+      "runtime_ms": 0.005375,
+      "status": "PASS",
+      "step_count": 32
+    },
+    {
+      "case_id": "RC-B2-NONNORMAL-01",
+      "dimension": 4,
+      "family": "B2_nonnormal_stable",
+      "result_vector": [
+        0.645873985980452,
+        0.039236303163881575,
+        0.326032180723869,
+        0.12119422096069185
+      ],
+      "runtime_ms": 0.004875,
+      "status": "PASS",
+      "step_count": 64
+    },
+    {
+      "case_id": "RC-B2-NONNORMAL-01",
+      "dimension": 4,
+      "family": "B2_nonnormal_stable",
+      "result_vector": [
+        0.6461334467371137,
+        0.03892481717074236,
+        0.3262389889852398,
+        0.12158377142594727
+      ],
+      "runtime_ms": 0.008917,
+      "status": "PASS",
+      "step_count": 128
+    },
+    {
+      "case_id": "RC-B2-NONNORMAL-01",
+      "dimension": 4,
+      "family": "B2_nonnormal_stable",
+      "result_vector": [
+        0.6462625706348438,
+        0.038769664240410534,
+        0.32634222130954726,
+        0.1217776359730553
+      ],
+      "runtime_ms": 0.017625,
+      "status": "PASS",
+      "step_count": 256
+    },
+    {
+      "case_id": "RC-B2-NONNORMAL-01",
+      "dimension": 4,
+      "family": "B2_nonnormal_stable",
+      "result_vector": [
+        0.6463269818453724,
+        0.03869223464400986,
+        0.32639379440981353,
+        0.1218743420617791
+      ],
+      "runtime_ms": 0.034959,
+      "status": "PASS",
+      "step_count": 512
+    },
+    {
+      "case_id": "RC-B2-NONNORMAL-01",
+      "dimension": 4,
+      "family": "B2_nonnormal_stable",
+      "result_vector": [
+        0.64635914987559,
+        0.038653556482358235,
+        0.3264195701810978,
+        0.12192263874429274
+      ],
+      "runtime_ms": 0.071042,
+      "status": "PASS",
+      "step_count": 1024
+    },
+    {
+      "case_id": "RC-B3-METZLER-01",
+      "dimension": 5,
+      "family": "B3_metzler_positivity",
+      "result_vector": [
+        0.7450689754804379,
+        0.8690824899923012,
+        0.33553629840755234,
+        0.5248299049124459,
+        0.7495289652044976
+      ],
+      "runtime_ms": 0.001833,
+      "status": "PASS",
+      "step_count": 8
+    },
+    {
+      "case_id": "RC-B3-METZLER-01",
+      "dimension": 5,
+      "family": "B3_metzler_positivity",
+      "result_vector": [
+        0.7451102897020425,
+        0.8691555555496314,
+        0.33542857641244966,
+        0.5248005662358731,
+        0.7495739315663337
+      ],
+      "runtime_ms": 0.002167,
+      "status": "PASS",
+      "step_count": 16
+    },
+    {
+      "case_id": "RC-B3-METZLER-01",
+      "dimension": 5,
+      "family": "B3_metzler_positivity",
+      "result_vector": [
+        0.7451308150501177,
+        0.8691918717920866,
+        0.33537506124389727,
+        0.5247859779639095,
+        0.7495962635798186
+      ],
+      "runtime_ms": 0.003709,
+      "status": "PASS",
+      "step_count": 32
+    },
+    {
+      "case_id": "RC-B3-METZLER-01",
+      "dimension": 5,
+      "family": "B3_metzler_positivity",
+      "result_vector": [
+        0.7451410450578052,
+        0.8692099762014864,
+        0.3353483893841741,
+        0.5247787039486869,
+        0.7496073921336017
+      ],
+      "runtime_ms": 0.014167,
+      "status": "PASS",
+      "step_count": 64
+    },
+    {
+      "case_id": "RC-B3-METZLER-01",
+      "dimension": 5,
+      "family": "B3_metzler_positivity",
+      "result_vector": [
+        0.7451461519290269,
+        0.8692190150305314,
+        0.33533507479475466,
+        0.52477507195319,
+        0.7496129470891838
+      ],
+      "runtime_ms": 0.013792,
+      "status": "PASS",
+      "step_count": 128
+    },
+    {
+      "case_id": "RC-B3-METZLER-01",
+      "dimension": 5,
+      "family": "B3_metzler_positivity",
+      "result_vector": [
+        0.7451487033357216,
+        0.8692235311076532,
+        0.335328422823875,
+        0.5247732572062183,
+        0.7496157222418562
+      ],
+      "runtime_ms": 0.027292,
+      "status": "PASS",
+      "step_count": 256
+    },
+    {
+      "case_id": "RC-B3-METZLER-01",
+      "dimension": 5,
+      "family": "B3_metzler_positivity",
+      "result_vector": [
+        0.7451499785323384,
+        0.8692257883126746,
+        0.33532509816797507,
+        0.5247723501451316,
+        0.7496171092375633
+      ],
+      "runtime_ms": 0.054917,
+      "status": "PASS",
+      "step_count": 512
+    },
+    {
+      "case_id": "RC-B3-METZLER-01",
+      "dimension": 5,
+      "family": "B3_metzler_positivity",
+      "result_vector": [
+        0.7451506160040463,
+        0.8692269167069518,
+        0.33532343617224303,
+        0.5247718966926591,
+        0.7496178025903009
+      ],
+      "runtime_ms": 0.153,
+      "status": "PASS",
+      "step_count": 1024
+    },
+    {
+      "case_id": "RC-B4-VAR-ODE-01",
+      "dimension": 6,
+      "family": "B4_variable_coefficient_ode_proxy",
+      "result_vector": [
+        0.19245266591341348,
+        0.34827131882835693,
+        0.5007001397342254,
+        0.6514426208695572,
+        0.7951987088324743,
+        0.8271233385280431
+      ],
+      "runtime_ms": 0.002541,
+      "status": "PASS",
+      "step_count": 8
+    },
+    {
+      "case_id": "RC-B4-VAR-ODE-01",
+      "dimension": 6,
+      "family": "B4_variable_coefficient_ode_proxy",
+      "result_vector": [
+        0.1924642825767951,
+        0.34827672232892576,
+        0.5007176304920223,
+        0.6514471438070629,
+        0.7949855134595167,
+        0.8283606185509127
+      ],
+      "runtime_ms": 0.003166,
+      "status": "PASS",
+      "step_count": 16
+    },
+    {
+      "case_id": "RC-B4-VAR-ODE-01",
+      "dimension": 6,
+      "family": "B4_variable_coefficient_ode_proxy",
+      "result_vector": [
+        0.19247005337309075,
+        0.34827945239670016,
+        0.5007262805896185,
+        0.6514490351794232,
+        0.7948838705660611,
+        0.8289684582858521
+      ],
+      "runtime_ms": 0.005333,
+      "status": "PASS",
+      "step_count": 32
+    },
+    {
+      "case_id": "RC-B4-VAR-ODE-01",
+      "dimension": 6,
+      "family": "B4_variable_coefficient_ode_proxy",
+      "result_vector": [
+        0.19247292951334263,
+        0.34828082423863627,
+        0.500730581918013,
+        0.6514498973903644,
+        0.7948342426856417,
+        0.8292697479693385
+      ],
+      "runtime_ms": 0.013458,
+      "status": "PASS",
+      "step_count": 64
+    },
+    {
+      "case_id": "RC-B4-VAR-ODE-01",
+      "dimension": 6,
+      "family": "B4_variable_coefficient_ode_proxy",
+      "result_vector": [
+        0.1924743652843856,
+        0.34828151182852835,
+        0.5007327266708133,
+        0.6514503086933466,
+        0.7948097217108012,
+        0.8294197437214955
+      ],
+      "runtime_ms": 0.01975,
+      "status": "PASS",
+      "step_count": 128
+    },
+    {
+      "case_id": "RC-B4-VAR-ODE-01",
+      "dimension": 6,
+      "family": "B4_variable_coefficient_ode_proxy",
+      "result_vector": [
+        0.19247508259704316,
+        0.348281856036627,
+        0.500733797572044,
+        0.6514505095236666,
+        0.7947975337993597,
+        0.8294945803654081
+      ],
+      "runtime_ms": 0.039,
+      "status": "PASS",
+      "step_count": 256
+    },
+    {
+      "case_id": "RC-B4-VAR-ODE-01",
+      "dimension": 6,
+      "family": "B4_variable_coefficient_ode_proxy",
+      "result_vector": [
+        0.19247544111039042,
+        0.3482820282434536,
+        0.500734332654244,
+        0.6514506087494975,
+        0.7947914579052757,
+        0.8295319585083021
+      ],
+      "runtime_ms": 0.078958,
+      "status": "PASS",
+      "step_count": 512
+    },
+    {
+      "case_id": "RC-B4-VAR-ODE-01",
+      "dimension": 6,
+      "family": "B4_variable_coefficient_ode_proxy",
+      "result_vector": [
+        0.19247562033134732,
+        0.34828211437247947,
+        0.5007346001032725,
+        0.6514506580670095,
+        0.7947884244633773,
+        0.829550637551058
+      ],
+      "runtime_ms": 0.158,
+      "status": "PASS",
+      "step_count": 1024
+    },
+    {
+      "case_id": "RC-B5-LIQUIDITY-01",
+      "dimension": 3,
+      "family": "B5_liquidity_price_feedback",
+      "result_vector": [
+        0.8317841879207042,
+        0.3885830149243962,
+        -0.15268495491546652
+      ],
+      "runtime_ms": 0.001167,
+      "status": "PASS",
+      "step_count": 8
+    },
+    {
+      "case_id": "RC-B5-LIQUIDITY-01",
+      "dimension": 3,
+      "family": "B5_liquidity_price_feedback",
+      "result_vector": [
+        0.8321880723276157,
+        0.38787053010963346,
+        -0.1527964182849589
+      ],
+      "runtime_ms": 0.000917,
+      "status": "PASS",
+      "step_count": 16
+    },
+    {
+      "case_id": "RC-B5-LIQUIDITY-01",
+      "dimension": 3,
+      "family": "B5_liquidity_price_feedback",
+      "result_vector": [
+        0.83239223317866,
+        0.38751910817024915,
+        -0.15285312625592137
+      ],
+      "runtime_ms": 0.001458,
+      "status": "PASS",
+      "step_count": 32
+    },
+    {
+      "case_id": "RC-B5-LIQUIDITY-01",
+      "dimension": 3,
+      "family": "B5_liquidity_price_feedback",
+      "result_vector": [
+        0.8324948466341325,
+        0.387344591858383,
+        -0.15288171548382806
+      ],
+      "runtime_ms": 0.002708,
+      "status": "PASS",
+      "step_count": 64
+    },
+    {
+      "case_id": "RC-B5-LIQUIDITY-01",
+      "dimension": 3,
+      "family": "B5_liquidity_price_feedback",
+      "result_vector": [
+        0.8325462839645922,
+        0.387257631049859,
+        -0.15289606782537415
+      ],
+      "runtime_ms": 0.007083,
+      "status": "PASS",
+      "step_count": 128
+    },
+    {
+      "case_id": "RC-B5-LIQUIDITY-01",
+      "dimension": 3,
+      "family": "B5_liquidity_price_feedback",
+      "result_vector": [
+        0.8325720349516953,
+        0.3872142248172621,
+        -0.15290325829394746
+      ],
+      "runtime_ms": 0.01,
+      "status": "PASS",
+      "step_count": 256
+    },
+    {
+      "case_id": "RC-B5-LIQUIDITY-01",
+      "dimension": 3,
+      "family": "B5_liquidity_price_feedback",
+      "result_vector": [
+        0.8325849184848169,
+        0.3871925402231875,
+        -0.1529068570860013
+      ],
+      "runtime_ms": 0.0205,
+      "status": "PASS",
+      "step_count": 512
+    },
+    {
+      "case_id": "RC-B5-LIQUIDITY-01",
+      "dimension": 3,
+      "family": "B5_liquidity_price_feedback",
+      "result_vector": [
+        0.832591362256166,
+        0.38718170255414636,
+        -0.15290865736938858
+      ],
+      "runtime_ms": 0.039958,
+      "status": "PASS",
+      "step_count": 1024
+    },
+    {
+      "case_id": "RC-B6-SOVBANK-01",
+      "dimension": 5,
+      "family": "B6_sovereign_banking_feedback",
+      "result_vector": [
+        -0.5662631578206907,
+        -0.08382997517796348,
+        1.7996346206543608,
+        -0.17351126027300487,
+        -0.16551016429435625
+      ],
+      "runtime_ms": 0.001625,
+      "status": "PASS",
+      "step_count": 8
+    },
+    {
+      "case_id": "RC-B6-SOVBANK-01",
+      "dimension": 5,
+      "family": "B6_sovereign_banking_feedback",
+      "result_vector": [
+        -0.5673230291255463,
+        -0.0835741624552346,
+        1.8027929555935378,
+        -0.1761680983518647,
+        -0.16262255689613958
+      ],
+      "runtime_ms": 0.002333,
+      "status": "PASS",
+      "step_count": 16
+    },
+    {
+      "case_id": "RC-B6-SOVBANK-01",
+      "dimension": 5,
+      "family": "B6_sovereign_banking_feedback",
+      "result_vector": [
+        -0.5678389611094541,
+        -0.08344226707604663,
+        1.8043422547078605,
+        -0.1774605669221417,
+        -0.16121036171078656
+      ],
+      "runtime_ms": 0.00375,
+      "status": "PASS",
+      "step_count": 32
+    },
+    {
+      "case_id": "RC-B6-SOVBANK-01",
+      "dimension": 5,
+      "family": "B6_sovereign_banking_feedback",
+      "result_vector": [
+        -0.5680935631631591,
+        -0.08337540064744257,
+        1.8051096395023902,
+        -0.17809814935503795,
+        -0.16051192666205494
+      ],
+      "runtime_ms": 0.007042,
+      "status": "PASS",
+      "step_count": 64
+    },
+    {
+      "case_id": "RC-B6-SOVBANK-01",
+      "dimension": 5,
+      "family": "B6_sovereign_banking_feedback",
+      "result_vector": [
+        -0.5682200395318052,
+        -0.08334174699984792,
+        1.805491540159368,
+        -0.1784148177188093,
+        -0.16016459593559798
+      ],
+      "runtime_ms": 0.013917,
+      "status": "PASS",
+      "step_count": 128
+    },
+    {
+      "case_id": "RC-B6-SOVBANK-01",
+      "dimension": 5,
+      "family": "B6_sovereign_banking_feedback",
+      "result_vector": [
+        -0.5682830735451343,
+        -0.0833248661909191,
+        1.8056820455585925,
+        -0.17857262609076,
+        -0.1599913987335109
+      ],
+      "runtime_ms": 0.027334,
+      "status": "PASS",
+      "step_count": 256
+    },
+    {
+      "case_id": "RC-B6-SOVBANK-01",
+      "dimension": 5,
+      "family": "B6_sovereign_banking_feedback",
+      "result_vector": [
+        -0.568314539755394,
+        -0.08331641242854783,
+        1.805777187398447,
+        -0.17865139943040212,
+        -0.15990491673451807
+      ],
+      "runtime_ms": 0.061458,
+      "status": "PASS",
+      "step_count": 512
+    },
+    {
+      "case_id": "RC-B6-SOVBANK-01",
+      "dimension": 5,
+      "family": "B6_sovereign_banking_feedback",
+      "result_vector": [
+        -0.5683302601920255,
+        -0.0833121822250626,
+        1.8058247306498634,
+        -0.17869075346399976,
+        -0.15986170483101056
+      ],
+      "runtime_ms": 0.108167,
+      "status": "PASS",
+      "step_count": 1024
+    }
+  ],
+  "claim_boundary": "review-only protected/no-egress withheld_runtime probe for DRCET-4B control-bounded control lane; independent Go G(T/n)^n path; not withheld_runtime approval, not external certification, not Decision Grade authority",
+  "generated_at_utc": "2026-08-16T11:03:00Z",
+  "input_sha256": "sha256:4601e372c91496d70247ca6d815f666ad631aa20b63f483c44334bb839da6c49",
+  "run_id": "drcet4b_control_bounded_control_withheld_runtime_probe_v1",
+  "runner_id": "drcet4b_control_bounded_control_withheld_runtime_review_only_v1",
+  "schema_id": "saa.benchmark.drcet4.control_bounded_control_withheld_runtime_output.v1",
+  "status": "PASS_REVIEW_ONLY_NO_EGRESS_WITHHELD_RUNTIME_BOUNDED_CONTROL_LANE"
+}

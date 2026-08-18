@@ -102,7 +102,7 @@
     "No NVIDIA-grade CPU/GPU crossover claim from this CPU-only pack.",
     "No measured CPU joules claim when RAPL is unavailable.",
     "No cloud-dollar claim without dated Contabo SKU rate.",
-    "No production ARIN22 performance claim; this pack measures CPU sampling baselines only.",
+    "No withheld_runtime performance claim; this pack measures CPU sampling baselines only.",
     "No public accuracy ranking against internal CPU reference as if it were external truth."
   ],
   "outside_internal_envelope_rows": 3276,

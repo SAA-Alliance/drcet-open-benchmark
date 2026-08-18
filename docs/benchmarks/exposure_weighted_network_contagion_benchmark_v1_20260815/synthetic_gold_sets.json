@@ -6,9 +6,9 @@
     "clearing_residual_max": 0.0,
     "critical_nodes_top5": "[\"B1\", \"B4\", \"B2\", \"B3\", \"B5\"]",
     "edge_count": 7,
-    "evaluated_kernel": "fixed_point_iteration",
-    "evaluated_kernel_matches_reference": true,
-    "evaluated_kernel_max_abs_delta_vs_reference": 0.0,
+    "evaluated_engine": "fixed_point_iteration",
+    "evaluated_engine_matches_reference": true,
+    "evaluated_engine_max_abs_delta_vs_reference": 0.0,
     "exact_clearing_vector": "{\"B1\": 45.0, \"B2\": 44.0, \"B3\": 34.0, \"B4\": 44.0, \"B5\": 14.0}",
     "family": "bank_interbank_chain",
     "intervention_outcome": "{\"budget\": 18, \"cascade_size_after\": 0, \"cascade_size_before\": 1, \"intervened_node\": \"B1\", \"intervention_effect\": \"REDUCES_LOSS\", \"seed_node\": \"B1\", \"total_unpaid_after\": 0.0, \"total_unpaid_before\": 8.559999999999995}",
@@ -20,8 +20,8 @@
     "reference_method": "enumerative_default_set_linear_solver",
     "reference_status": "SYNTHETIC_GOLD_REFERENCE_SOLVED_INDEPENDENT_CODE_PATH",
     "reference_valid_candidate_count": 1,
-    "spectral_radius": 3.1965141127668284,
-    "spectral_threshold_side": "ABOVE_ONE"
+    "metric_radius": 3.1965141127668284,
+    "metric_threshold_side": "ABOVE_ONE"
   },
   {
     "baseline_cascade_size": 0,
@@ -30,9 +30,9 @@
     "clearing_residual_max": 0.0,
     "critical_nodes_top5": "[\"B_A\", \"B_B\", \"B_C\", \"CB\", \"F_1\"]",
     "edge_count": 36,
-    "evaluated_kernel": "fixed_point_iteration",
-    "evaluated_kernel_matches_reference": true,
-    "evaluated_kernel_max_abs_delta_vs_reference": 0.0,
+    "evaluated_engine": "fixed_point_iteration",
+    "evaluated_engine_matches_reference": true,
+    "evaluated_engine_max_abs_delta_vs_reference": 0.0,
     "exact_clearing_vector": "{\"B_A\": 64.0, \"B_B\": 71.0, \"B_C\": 59.0, \"CB\": 80.0, \"F_1\": 17.0, \"F_2\": 15.0, \"S_X\": 33.0, \"S_Y\": 32.0}",
     "family": "bank_sovereign_core_periphery",
     "intervention_outcome": "{\"budget\": 26, \"cascade_size_after\": 0, \"cascade_size_before\": 0, \"intervened_node\": \"B_A\", \"intervention_effect\": \"NO_IMPROVEMENT\", \"seed_node\": \"B_A\", \"total_unpaid_after\": 0.0, \"total_unpaid_before\": 0.0}",
@@ -44,8 +44,8 @@
     "reference_method": "enumerative_default_set_linear_solver",
     "reference_status": "SYNTHETIC_GOLD_REFERENCE_SOLVED_INDEPENDENT_CODE_PATH",
     "reference_valid_candidate_count": 1,
-    "spectral_radius": 2.6997706081275084,
-    "spectral_threshold_side": "ABOVE_ONE"
+    "metric_radius": 2.6997706081275084,
+    "metric_threshold_side": "ABOVE_ONE"
   },
   {
     "baseline_cascade_size": 0,
@@ -54,9 +54,9 @@
     "clearing_residual_max": 0.0,
     "critical_nodes_top5": "[\"AM1\", \"AM2\", \"AM3\", \"BANK_X\", \"BANK_Y\"]",
     "edge_count": 50,
-    "evaluated_kernel": "fixed_point_iteration",
-    "evaluated_kernel_matches_reference": true,
-    "evaluated_kernel_max_abs_delta_vs_reference": 0.0,
+    "evaluated_engine": "fixed_point_iteration",
+    "evaluated_engine_matches_reference": true,
+    "evaluated_engine_max_abs_delta_vs_reference": 0.0,
     "exact_clearing_vector": "{\"AM1\": 40.0, \"AM2\": 39.0, \"AM3\": 36.0, \"BANK_X\": 59.0, \"BANK_Y\": 60.0, \"CCP\": 24.0, \"ETF_A\": 33.0, \"ETF_B\": 32.0, \"INS_R\": 29.0, \"REIN_Z\": 24.0}",
     "family": "overlapping_portfolio_obligation_proxy",
     "intervention_outcome": "{\"budget\": 22, \"cascade_size_after\": 0, \"cascade_size_before\": 1, \"intervened_node\": \"AM1\", \"intervention_effect\": \"REDUCES_LOSS\", \"seed_node\": \"AM1\", \"total_unpaid_after\": 0.0, \"total_unpaid_before\": 2.0}",
@@ -68,7 +68,7 @@
     "reference_method": "enumerative_default_set_linear_solver",
     "reference_status": "SYNTHETIC_GOLD_REFERENCE_SOLVED_INDEPENDENT_CODE_PATH",
     "reference_valid_candidate_count": 1,
-    "spectral_radius": 2.609096176175651,
-    "spectral_threshold_side": "ABOVE_ONE"
+    "metric_radius": 2.609096176175651,
+    "metric_threshold_side": "ABOVE_ONE"
   }
 ]

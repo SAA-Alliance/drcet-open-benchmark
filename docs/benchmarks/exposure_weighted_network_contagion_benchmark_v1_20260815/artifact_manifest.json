@@ -1,72 +1,73 @@
 {
   "artifact_id": "EXPOSURE_WEIGHTED_NETWORK_CONTAGION_BENCHMARK_V1",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.benchmark.exposure_weighted_network_contagion.v1.artifact_manifest",
   "files": [
     {
-      "byte_length": 8798,
       "path": "EXPOSURE_WEIGHTED_NETWORK_CONTAGION_BENCHMARK_V1_SUMMARY.json",
-      "sha256": "sha256:651c05b163a854fece823de6c37bfb349c256a95640abe4494b186c98e0722f9"
+      "byte_length": 8780,
+      "sha256": "sha256:221b3388e5159e332bc0cda4847882b6184c3c1dd93e2171cebc41bd391895e9"
     },
     {
-      "byte_length": 1617,
       "path": "README.md",
-      "sha256": "sha256:df05af0e52934deea43870b2edf6606b5a4bbdb7334d2680348a26b79a6b0947"
+      "byte_length": 1617,
+      "sha256": "sha256:5f4f9e96b02af0fe90f5706a2ccce78cfdd6f882e0190c28f3f3319c9c3d0938"
     },
     {
-      "byte_length": 2342,
       "path": "cascade_error_vs_perturbation.svg",
+      "byte_length": 2342,
       "sha256": "sha256:14502f11152fa9057f76bc73257ba0af97260fad1a9e3ea3cc893e66d84a7b3f"
     },
     {
-      "byte_length": 1226,
       "path": "critical_node_answer_key.csv",
+      "byte_length": 1226,
       "sha256": "sha256:a60bf146a7a71b5675c8740279a3e5c9ca66de9b44c1adcd8ee3feaea5d07311"
     },
     {
-      "byte_length": 542,
       "path": "external_reference_anchor_status.json",
+      "byte_length": 542,
       "sha256": "sha256:3944f2b3620feb8302b175a723d86bba69d18eadf45cd9cda0b2c0d6183ed2d2"
     },
     {
-      "byte_length": 17774,
       "path": "graph_sufficiency_verdicts.csv",
-      "sha256": "sha256:6b346ed1fb6642bdd238965b2e7f015da2ff5146b709f20e2b17c3fc674784a1"
+      "byte_length": 17711,
+      "sha256": "sha256:4b14d1c573ecea7b1ff5eec1287ccc4100713014ecd2512263dea145a171911d"
     },
     {
-      "byte_length": 16473,
       "path": "perturbation_results.csv",
-      "sha256": "sha256:e70208107e13ce4dae909060549857380fb61ac7b50d5e0d0a3fb7887944f600"
+      "byte_length": 16408,
+      "sha256": "sha256:841c23feca492dd69dff2a90c63998c3aa05c13669cdc887bd9b69f14fa1ced8"
     },
     {
-      "byte_length": 1440,
       "path": "public_exposure_network_readiness.csv",
+      "byte_length": 1440,
       "sha256": "sha256:fab2bfaa4a47c4d0008f66b51ae52d930861b4c490d7cff59e555beb862ed89c"
     },
     {
-      "byte_length": 99997,
       "path": "synthetic_family_distribution_stability.csv",
-      "sha256": "sha256:d69fe2f51175fe182f75c3ea7aa345a49b36a2d9c24b5e18e95401609ae770aa"
+      "byte_length": 99632,
+      "sha256": "sha256:0fe4a7b68fb85760ddcafbcfbc9c427dc7bbe87a010f54997703115dbd27b5a6"
     },
     {
-      "byte_length": 2813,
       "path": "synthetic_gold_sets.csv",
-      "sha256": "sha256:30fdb589e9288e4f11aef79f4896bb229e30398a3b2f7d0f56de48d7ff9bde88"
+      "byte_length": 2805,
+      "sha256": "sha256:b6e10d3ec72ccab1a088acb899da20140d99d1c11eb9b826aaed66596b8606bb"
     },
     {
-      "byte_length": 4336,
       "path": "synthetic_gold_sets.json",
-      "sha256": "sha256:fd02f27d98a79f425d85bd64ebd42e6b2b9cf85622f1fb38f6b8fe4344908bfd"
+      "byte_length": 4324,
+      "sha256": "sha256:e82af59447ca975d710646588acb8c78dfe07c2d3b5ff6e05a2f7abd4a2f7290"
     },
     {
-      "byte_length": 2322,
       "path": "top5_recall_vs_perturbation.svg",
+      "byte_length": 2322,
       "sha256": "sha256:beaa52a710a95d1209d2a0117015644cb81a8e6db412f7981fb3b710ecf014bf"
     },
     {
-      "byte_length": 2354,
       "path": "uncertainty_inflation_vs_perturbation.svg",
+      "byte_length": 2354,
       "sha256": "sha256:bb7c9831653c2c0a545e11db9c4d4e3803fc1ef4ba570c57d977a1764b9fb4a4"
     }
   ],
-  "generated_at_utc": "2026-08-15T21:59:07Z",
-  "schema_id": "saa.benchmark.exposure_weighted_network_contagion.v1.artifact_manifest"
+  "generated_at_utc": "2026-08-18T12:45:00Z"
 }

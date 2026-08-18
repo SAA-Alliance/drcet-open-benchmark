@@ -20,7 +20,7 @@
   "h100_gpu_rate": {
     "hardware": "NVIDIA H100 PCIe 80GB, 24 vCPU, 240GB RAM, 1TB SSD",
     "hourly_usd": 3.96,
-    "instance_name": "arin22",
+    "instance_name": "withheld_runtime",
     "provider": "Brev/NVIDIA via Scaleway",
     "rate_status": "BOUND_USER_PROVIDED_BREV_UI_READBACK",
     "source": "user-provided Brev/NVIDIA UI readback in Codex thread, 2026-08-17"

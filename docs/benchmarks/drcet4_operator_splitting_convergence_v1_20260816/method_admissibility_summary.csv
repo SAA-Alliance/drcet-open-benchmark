@@ -1,9 +1,0 @@
-solver,layer_tested,kernel_construction_exercised,negative_substep_present,admissible_on_irreversible,yoshida4_negative_substep_coefficient_w0,total_rows,not_applicable_negative_substeps_on_positivity_lane,interpretation
-LIE_AB,public_split_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
-LIE_BA,public_split_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
-STRANG_ABA,public_split_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
-STRANG_BAB,public_split_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
-YOSHIDA4,public_split_comparator,True,True,False,-1.7024143839193153,384,64,negative substep obstruction on irreversible/positivity-preserving lanes
-DOP853,adaptive_monolithic_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
-BDF,adaptive_monolithic_comparator,True,False,True,,384,0,admissible comparator for irreversible lane
-ARIN22_ROUTED_PROXY,routing_governor_proxy,False,False,True,,384,0,routing layer only; protected ARIN22 kernel construction not exercised

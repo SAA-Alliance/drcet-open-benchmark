@@ -6,7 +6,7 @@
       "ci_method": "effective-sample-size CI plus independent-shard crosscheck",
       "crosscheck_reference_method_id": "ref_default_mixture_massive_mc_v1",
       "external_anchor_status": "NO_FULL_THIRD_PARTY_REFERENCE_ATTACHED",
-      "independence_rule": "reference generator cannot share code path with evaluated production/candidate kernel",
+      "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
       "minimum_path_or_resolution": "importance-sampling ESS >=1M tail-effective samples plus independent MC crosscheck before public claim",
       "primary_reference_method_id": "ref_default_mixture_importance_sampling_v1"
     },
@@ -14,7 +14,7 @@
       "ci_method": "scenario-stratum CI; discontinuity boundary rows reported separately",
       "crosscheck_reference_method_id": "ref_liquidity_discontinuity_stress_grid_v1",
       "external_anchor_status": "NO_FULL_THIRD_PARTY_REFERENCE_ATTACHED",
-      "independence_rule": "reference generator cannot share code path with evaluated production/candidate kernel",
+      "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
       "minimum_path_or_resolution": "stress-grid resolution hash plus >=50M scenario samples before public claim",
       "primary_reference_method_id": "ref_liquidity_jump_scenario_mc_v1"
     },
@@ -22,15 +22,15 @@
       "ci_method": "independent event-shard CI with cluster-size diagnostics",
       "crosscheck_reference_method_id": "ref_hawkes_branching_representation_mc_v1",
       "external_anchor_status": "NO_FULL_THIRD_PARTY_REFERENCE_ATTACHED",
-      "independence_rule": "reference generator cannot share code path with evaluated production/candidate kernel",
+      "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
       "minimum_path_or_resolution": ">=100M event-path equivalents or convergence-certified branching simulation before public claim",
       "primary_reference_method_id": "ref_hawkes_clustered_event_simulation_v1"
     },
     "merton_jump_diffusion": {
       "ci_method": "Poisson-stratum CI plus residual sampling CI",
       "crosscheck_reference_method_id": "ref_merton_jump_poisson_conditioned_qmc_v1",
-      "external_anchor_status": "PARTIAL_SEMI_ANALYTIC_ANCHOR_WHEN_JUMP_COUNT_CONDITIONING_APPLIES",
-      "independence_rule": "reference generator cannot share code path with evaluated production/candidate kernel",
+      "external_anchor_status": "PARTIAL_SEMI_ANALYTIC_ANCHOR_WHEN_JUMP_COUNT_CONDITIONING_APPMETHOD_AS",
+      "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
       "minimum_path_or_resolution": "condition on jump counts plus >=50M residual samples before public claim",
       "primary_reference_method_id": "ref_merton_jump_conditioned_mc_v1"
     },
@@ -38,7 +38,7 @@
       "ci_method": "rank-stratified CI plus condition-number stability report",
       "crosscheck_reference_method_id": "ref_near_singular_pivoted_cholesky_mc_v1",
       "external_anchor_status": "PARTIAL_LINEAR_ALGEBRA_ANCHOR_ONLY; tail estimator still stochastic",
-      "independence_rule": "reference generator cannot share code path with evaluated production/candidate kernel",
+      "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
       "minimum_path_or_resolution": "condition-number ladder with >=50M equivalent paths per accepted rank before public claim",
       "primary_reference_method_id": "ref_near_singular_factor_qmc_v1"
     },
@@ -46,7 +46,7 @@
       "ci_method": "state-stratified independent-shard CI",
       "crosscheck_reference_method_id": "ref_regime_switching_qmc_replication_v1",
       "external_anchor_status": "PARTIAL_FORWARD_FILTER_ANCHOR_WHEN_STATE_SPACE_IS_SMALL",
-      "independence_rule": "reference generator cannot share code path with evaluated production/candidate kernel",
+      "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
       "minimum_path_or_resolution": ">=100M state-path equivalents with transition-matrix determinism hash before public claim",
       "primary_reference_method_id": "ref_regime_switching_forward_filter_mc_v1"
     },
@@ -54,7 +54,7 @@
       "ci_method": "component-stratified independent-shard CI",
       "crosscheck_reference_method_id": "ref_skewed_t_mixture_importance_sampling_v1",
       "external_anchor_status": "NO_FULL_THIRD_PARTY_REFERENCE_ATTACHED",
-      "independence_rule": "reference generator cannot share code path with evaluated production/candidate kernel",
+      "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
       "minimum_path_or_resolution": ">=100M equivalent paths with mixture-component stratification before public claim",
       "primary_reference_method_id": "ref_skewed_t_mixture_massive_mc_v1"
     },
@@ -62,7 +62,7 @@
       "ci_method": "independent-shard percentile/normal CI; report reference_ci_half_width",
       "crosscheck_reference_method_id": "ref_t_copula_randomized_qmc_replication_v1",
       "external_anchor_status": "NO_FULL_THIRD_PARTY_REFERENCE_ATTACHED",
-      "independence_rule": "reference generator cannot share code path with evaluated production/candidate kernel",
+      "independence_rule": "reference generator cannot share code path with evaluated production/candidate engine",
       "minimum_path_or_resolution": ">=100M equivalent paths across independent shards before public claim",
       "primary_reference_method_id": "ref_t_copula_stratified_massive_mc_v1"
     }

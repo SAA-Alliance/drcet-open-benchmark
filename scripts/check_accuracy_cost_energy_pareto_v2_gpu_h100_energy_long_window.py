@@ -184,7 +184,7 @@ def main() -> int:
     if float(saturation.get("all_methods_max_dimension_peak_power_watts") or 0.0) <= 0.0:
         fail("H100 peak power must be published")
     if float(saturation.get("all_methods_max_dimension_peak_power_pct_of_configured_limit") or 0.0) < 70.0:
-        fail("H100 peak-power percentage should expose kernel burst load")
+        fail("H100 peak-power percentage should expose engine burst load")
     if float(saturation.get("all_methods_overall_p95_peak_power_watts") or 0.0) <= 0.0:
         fail("H100 p95 peak-power statistic must be published")
     if not saturation.get("duty_cycle_proxy_definition"):

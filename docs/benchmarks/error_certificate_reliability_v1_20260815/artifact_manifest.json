@@ -1,23 +1,23 @@
 {
   "artifact_id": "ERROR_CERTIFICATE_RELIABILITY_PACK_V1",
-  "claim_boundary": "Review-only RA/Fabric evidence producer. ARIN verifies the block and remains the authority gate.",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.risk_analyzer.error_certificate_reliability_pack_manifest.v1",
   "files": [
     {
-      "bytes": 11596,
       "path": "ERROR_CERTIFICATE_RELIABILITY_RESULT_V1.json",
-      "sha256": "8e7c603d0834bdfd26dc2ad7a222a0611f1721fdad26af74a1677c3f6e5f25c8"
+      "byte_length": 11673,
+      "sha256": "sha256:9444e647d9c8a14c9e472724a7a49385a75082b3b9c7268152740cdf36197996"
     },
     {
-      "bytes": 2267,
-      "path": "error_certificate_reliability_runs.csv",
-      "sha256": "f1d2dad0e8ed8b17bd56aef5fcea8be61f076e7b7b31f1b12ff956978f624a3e"
-    },
-    {
-      "bytes": 605,
       "path": "README.md",
-      "sha256": "e604eaaed1d07bd9dc94c94884480a65ffcfa5e5d78dbcd1a3e7f9161dab6ae3"
+      "byte_length": 605,
+      "sha256": "sha256:32c89095d5e6fa1b0698ce5f6c51ef377b07d5c5ba5466afd494922845b224b2"
+    },
+    {
+      "path": "error_certificate_reliability_runs.csv",
+      "byte_length": 2274,
+      "sha256": "sha256:e0336a4ce8979d282943f65e7f02d9f7d01a88bc6116dd9f4a542cb455aadf24"
     }
   ],
-  "generated_at_utc": "2026-08-15T20:10:00Z",
-  "schema_id": "saa.risk_analyzer.error_certificate_reliability_pack_manifest.v1"
+  "generated_at_utc": "2026-08-18T12:45:00Z"
 }

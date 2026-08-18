@@ -1,52 +1,53 @@
 {
   "artifact_id": "accuracy_cost_energy_pareto_v2_cpu_contabo_measured_20260817",
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_contabo_measured.v2.artifact_manifest",
   "files": [
     {
-      "byte_length": 4803,
       "path": "ACCURACY_COST_ENERGY_PARETO_V2_CPU_CONTABO_STATUS.json",
-      "sha256": "sha256:e4800132a5d298723643c8942d043606196126a1bc3c0bec074115c0d506c387"
+      "byte_length": 4802,
+      "sha256": "sha256:c567f1e55b9298cdd561f140ef2ece84daf814dac3a03ea23652fcada249beab"
     },
     {
-      "byte_length": 833,
       "path": "README.md",
+      "byte_length": 833,
       "sha256": "sha256:587963a4639d1a0a2be506388f09a2824c3392b0afebfd508ab138fbb6e2d3fe"
     },
     {
-      "byte_length": 56342,
       "path": "cpu_dimension_vs_compute_var99.svg",
+      "byte_length": 56342,
       "sha256": "sha256:4a9f6bd475ba04a4fbafb0455c9c838b00df096f74a21035dd95936f7a546e01"
     },
     {
-      "byte_length": 56174,
       "path": "cpu_error_vs_time_var99.svg",
+      "byte_length": 56174,
       "sha256": "sha256:d1a1487e0d3ee10a6723d2b865ed83331c5cbb888aaedaa945f04290a7cca4c0"
     },
     {
-      "byte_length": 66777,
       "path": "cpu_internal_frontier.csv",
+      "byte_length": 66777,
       "sha256": "sha256:34a6d290a4a4c349705b962f53c0c2db8b9fffbeb2720842fc6f80b9bb9cfd72"
     },
     {
-      "byte_length": 2691,
       "path": "hardware_probe.json",
+      "byte_length": 2691,
       "sha256": "sha256:64c0b66d76456f8d7f44452065f5d128c28f985fd4c3cc17fc833a234bf45735"
     },
     {
-      "byte_length": 4998108,
       "path": "measured_results_cpu.csv",
+      "byte_length": 4998108,
       "sha256": "sha256:35eb272e73a24c79c61ba4445b0ca98b9b231ca4226950acc6bdbe1be7089f26"
     },
     {
-      "byte_length": 51452,
       "path": "reference_results_cpu.csv",
+      "byte_length": 51452,
       "sha256": "sha256:98d8e77321f7ab56f1bbee5ffb4bd6bbd707e323fa194f45dcdc4bb4d40ced47"
     },
     {
-      "byte_length": 811,
       "path": "telemetry_gap_report.json",
+      "byte_length": 811,
       "sha256": "sha256:291dfcddb37cad37c1d1aad5be3e4f2932ec49d7d04f6171edd4eb0653d3e787"
     }
   ],
-  "generated_at_utc": "2026-08-17T14:28:34Z",
-  "schema_id": "saa.drcet.accuracy_cost_energy_pareto_cpu_contabo_measured.v2.artifact_manifest"
+  "generated_at_utc": "2026-08-18T12:45:00Z"
 }

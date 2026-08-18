@@ -4,4 +4,4 @@ This pack replaces fixed-window amortization for CPU/GPU timing reconciliation. 
 
 Fixed iterations: `16`; warmup iterations excluded: `2`.
 
-Public claim boundary: no public Pareto frontier, crossover, cloud-dollar or production ARIN22 claim from this pack alone.
+Public claim boundary: no public Pareto frontier, crossover, cloud-dollar or withheld_runtime claim from this pack alone.

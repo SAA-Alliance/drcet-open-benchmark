@@ -333,7 +333,7 @@
     "gpu_energy_release_quality_sufficient": true,
     "gpu_energy_workload_rows_present": true,
     "independent_or_multi_engine_reference_attached": false,
-    "reason": "H100 long-window NVML energy is attached for workloads and checked for multi-method cell comparability, but public Pareto/crossover remains locked by CPU RAPL absence, incomplete cloud-cost profile, internal reference tier, non-saturation, and no production ARIN22 lane.",
+    "reason": "H100 long-window NVML energy is attached for workloads and checked for multi-method cell comparability, but public Pareto/crossover remains locked by CPU RAPL absence, incomplete cloud-cost profile, internal reference tier, non-saturation, and no withheld_runtime lane.",
     "speedup_claim_allowed": false
   },
   "generated_at_utc": "2026-08-17T19:41:04Z",
@@ -597,7 +597,7 @@
     },
     "power_limit_source": "NVML_READBACK_POWER_LIMIT_NOT_DATASHEET",
     "power_limit_watts": 350.0,
-    "reason": "Low duty cycle: long-window mean power remains far below the configured NVML power limit, while peak power reaches a high fraction of the limit. The device is not weak during kernels; host wait, launch overhead, transfer/orchestration, or insufficient batching dominate the window. No H100 saturation or crossover extrapolation claim is allowed.",
+    "reason": "Low duty cycle: long-window mean power remains far below the configured NVML power limit, while peak power reaches a high fraction of the limit. The device is not weak during engines; host wait, launch overhead, transfer/orchestration, or insufficient batching dominate the window. No H100 saturation or crossover extrapolation claim is allowed.",
     "status": "GPU_POWER_UNDERSATURATED_REVIEW_ONLY"
   },
   "hardware_probe_status": {
@@ -628,7 +628,7 @@
     "No CPU/GPU perf-per-watt comparison until CPU joules are measured or formally withheld with a non-comparative H100-only claim.",
     "No H100 joules comparison when energy_comparability_gate is not PASS_MULTI_METHOD_CELL_COVERAGE.",
     "No cloud-dollar frontier until H100 and CPU hourly rates are both bound to dated provider/user readback.",
-    "No production ARIN22 performance claim; this measures H100 sampling baselines.",
+    "No withheld_runtime performance claim; this measures H100 sampling baselines.",
     "Do not derive average power by dividing joules_per_iter across timing and energy lanes; use gpu_power_draw_w_mean from the same long-window energy rows.",
     "Do not include gpu_randomized_qmc_cpu_sobol in device-compute cross-method energy aggregates; it is disclosed as host/transfer-heavy."
   ],

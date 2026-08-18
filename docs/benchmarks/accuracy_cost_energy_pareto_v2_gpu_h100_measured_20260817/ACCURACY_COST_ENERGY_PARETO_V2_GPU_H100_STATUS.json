@@ -105,7 +105,7 @@
     "No public CPU/GPU Pareto frontier until CPU and GPU rows are reconciled under an external or multi-engine reference gate.",
     "No measured CPU joules claim because Contabo CPU RAPL was unavailable.",
     "No cloud-dollar claim without dated SKU rate for both Contabo CPU and H100 node.",
-    "No production ARIN22 performance claim; this pack measures GPU sampling baselines only."
+    "No withheld_runtime performance claim; this pack measures GPU sampling baselines only."
   ],
   "outside_internal_envelope_rows": 3488,
   "predeclared_tolerance_fraction": 0.05,

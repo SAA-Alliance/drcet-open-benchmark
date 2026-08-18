@@ -327,7 +327,7 @@
     "power_limit_source": "NVML_READBACK_POWER_LIMIT_NOT_DATASHEET",
     "power_limit_watts": 350.0,
     "primary_saturation_basis": "H100_LONG_WINDOW_ENERGY_LANE_POWER_AND_ENERGY_WINDOW_WALL",
-    "reason": "Low duty cycle: long-window mean power remains far below the configured NVML power limit, while peak power reaches a high fraction of the limit. The device is not weak during kernels; host wait, launch overhead, transfer/orchestration, or insufficient batching dominate the window. No H100 saturation or crossover extrapolation claim is allowed.",
+    "reason": "Low duty cycle: long-window mean power remains far below the configured NVML power limit, while peak power reaches a high fraction of the limit. The device is not weak during engines; host wait, launch overhead, transfer/orchestration, or insufficient batching dominate the window. No H100 saturation or crossover extrapolation claim is allowed.",
     "status": "GPU_POWER_UNDERSATURATED_REVIEW_ONLY"
   },
   "frontier_acceptance_gate": {
@@ -348,8 +348,8 @@
     "iso_accuracy_filter_applied": true,
     "path_budget_count": 5,
     "path_budget_sweep_complete": true,
-    "production_arin22_lane_attached": false,
-    "reason": "CPU and H100 timing units and amortization are comparable, the path-budget sweep has at least five levels, and H100 long-window NVML energy has release-quality multi-method cell coverage. Public Pareto/crossover remains locked by CPU RAPL absence, incomplete cloud cost profile, internal reference, H100 non-saturation, and no production ARIN22 lane.",
+    "withheld_runtime_lane_attached": false,
+    "reason": "CPU and H100 timing units and amortization are comparable, the path-budget sweep has at least five levels, and H100 long-window NVML energy has release-quality multi-method cell coverage. Public Pareto/crossover remains locked by CPU RAPL absence, incomplete cloud cost profile, internal reference, H100 non-saturation, and no withheld_runtime lane.",
     "speedup_claim_allowed": false,
     "unit_matched_timing_available": true
   },
@@ -448,13 +448,13 @@
   },
   "must_not_claim": [
     "Do not cite the superseded mixed-unit CPU/H100 speedup numbers.",
-    "No public CPU/GPU Pareto frontier until CPU energy, full dated cloud cost, external/multi-engine reference, saturation evidence, and production ARIN22 lane are attached.",
+    "No public CPU/GPU Pareto frontier until CPU energy, full dated cloud cost, external/multi-engine reference, saturation evidence, and withheld_runtime lane are attached.",
     "No GPU joules or perf-per-watt claim from the fixed-iteration timing lane; H100 joules must come from the separate long-window energy lane.",
     "Do not derive average power by dividing long-window joules_per_iter by fixed-iteration timing wall_ms_per_iter; use gpu_power_draw_w_mean from the same energy lane.",
     "Do not include gpu_randomized_qmc_cpu_sobol in device-compute cross-method energy aggregates; it is disclosed as host/transfer-heavy.",
     "No public NVIDIA-grade crossover claim until external/multi-engine reference gate and saturation evidence are attached.",
     "No extrapolation from 100-1000 dimension H100 rows while device_saturated=false.",
-    "No production ARIN22 performance claim; these are sampling baselines, not production kernel measurements."
+    "No withheld_runtime performance claim; these are sampling baselines, not withheld_runtime measurements."
   ],
   "path_budget_sweep_contract": {
     "minimum_path_budget_levels_required": 5,

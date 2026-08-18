@@ -1,0 +1,3 @@
+family,rows,released_rows,safe_fail_closed,median_r_all,p95_r_all,max_r_all,fraction_r_gt_0_90_all,interpretation
+A2_rotation_shear,64,45,19,0.4129661807573981,20.906397742127492,31.664195862859994,0.328125,"pressure lane: stress/invariant pressure creates real fail-closed rows, unlike A1 rounding-floor control"
+A5_positivity_preserving,64,53,11,0.4192652523609624,5.976955635903699,18.441232481077137,0.21875,"pressure lane: stress/invariant pressure creates real fail-closed rows, unlike A1 rounding-floor control"

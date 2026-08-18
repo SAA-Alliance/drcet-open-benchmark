@@ -2,10 +2,7 @@
 
 Public-safe benchmark evidence package for the DRCET series.
 
-This repository intentionally publishes synthetic/review-only artifacts only.
-It does not publish production ARIN22 kernel source, protected container build
-contexts, credentials, client data, private data-room URLs, hidden adversarial
-corpora or commercial production datasets.
+This repository intentionally publishes synthetic/review-only artifacts only. It does not publish production source, runtime build contexts, credentials, client data, private data-room URLs, hidden adversarial corpora, internal mathematical construction names, protected factors, or commercial production datasets.
 
 ## Current Public-Safe Status
 
@@ -15,38 +12,28 @@ corpora or commercial production datasets.
 | DRCET-2 path functionals | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
 | DRCET-3 attribution/stress | INTERNAL_10M_EVIDENCE_UNPUBLISHED_METHOD | Not exported; internal evidence remains outside the open repo. |
 | DRCET-10 Accuracy-Cost-Energy Pareto V2 | CPU_H100_FIXED_ITERATION_5_BUDGET_GPU_LONG_WINDOW_ENERGY_REVIEW_ONLY_DEVICE_UNSATURATED | Fixed-iteration CPU/H100 telemetry attached; speedup/crossover claim locked. |
-| DRCET-4 operator splitting + 4B Chernoff convergence | PROTOCOL_FULL_LINEAR_EXACT_CONTAINER_AND_REMIZOV_CHERNOFF_LANE_VALIDATED_PRODUCTION_ARIN22_PENDING | Foundation/routing validated; production ARIN22 pending. |
-| DRCET-4C Chernoff-Remizov resolvent | VALIDATED_PASS_WITH_ORDER_FLOOR_GATE_AND_QUADRATURE_WATCH_CHERNOFF_REMIZOV_RESOLVENT_LANE_PRODUCTION_ARIN22_PENDING | Bounded contract-surrogate; production ARIN22 pending. |
-| DRCET-4D continuum spatial refinement | VALIDATED_PASS_PUBLIC_SAFE_CONTINUUM_SPATIAL_REFINEMENT_LANE_PRODUCTION_ARIN22_PENDING | Public-safe unbounded/continuum surrogate; production ARIN22 pending. |
+| DRCET-4A/4B numerical-control evidence | VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY | Public summary only; internal construction names and implementation details withheld. |
+| DRCET-4C boundary_control evidence | VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY | Public summary only; internal construction names and implementation details withheld. |
+| DRCET-4D public_control refinement | VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY | Public summary only; internal construction names and implementation details withheld. |
 
 ## Key Readbacks
 
-- DRCET-4 status SHA: `sha256:298a49ff8071e54c90f52ca49d45b153f446644ee4a71fc92675a3e4f82e421d`
 - DRCET-10 Pareto V2 status SHA: `sha256:69081cb4badd4b0cedb2e42969f90cb7d865a67b649b7e0be4ece13885ff2316`
-- DRCET-10 common rows / iso rows: `19200` / `8781`
-- DRCET-10 amortization matched: `True`
+- DRCET-10 common rows / iso rows: `19200 / 8781`
+- DRCET-10 amortization matched: `true`
 - DRCET-10 GPU energy source: `H100_LONG_WINDOW_ENERGY_PACK`
 - DRCET-10 GPU energy gate: `PASS_NVML_LONG_WINDOW_SAMPLE_COUNT_RELEASE_QUALITY`
-- DRCET-10 H100 power limit readback: `PASS_NVML_POWER_LIMIT_READBACK`; configured/default/max W `350.0` / `310.0` / `350.0`
-- DRCET-10 low-duty-cycle readback: mean D=1000 `114.19077083333332` W, peak `271.42` W (`77.54857142857144`% of configured limit), overall p95 peak `194.27499999999998` W
+- DRCET-10 H100 power-limit readback: `PASS_NVML_POWER_LIMIT_READBACK`
 - DRCET-10 cloud-cost profile: `PARTIAL_H100_RATE_BOUND_CPU_RATE_WITHHELD_DOLLAR_FRONTIER_LOCKED`
-- DRCET-10 speedup/crossover claim allowed: `False` / `False`
-- DRCET-4B status: `VALIDATED_PASS_REVIEW_ONLY_REMIZOV_CHERNOFF_CONVERGENCE_LANE`
-- DRCET-4C status SHA: `sha256:61d7266d4625cef0aa21bc270b1a58c382c4b820c346e30fa44d72b0b447182f`
-- DRCET-4C released rows: `155`
-- DRCET-4C non-convergent fail-closed rows: `25`
-- DRCET-4C silent non-convergent releases: `0`
-- DRCET-4C order-floor gate: `PASS_NONCONVERGENT_ROWS_FAIL_CLOSED`
-- DRCET-4D status SHA: `sha256:82f6b92871ad59bc2ec5bec803869068ac2fb49ee578f728c423505dcfd01af6`
-- DRCET-4D observed spatial order median: `2.0007826398221917`
-- DRCET-4D max E/B: `0.39999116019618314`
-- Production ARIN22 container status: `PRODUCTION_ARIN22_CONTAINER_NOT_ATTACHED`
+- DRCET-10 speedup/crossover claim allowed: `false / false`
+- DRCET-4 public status: `VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY`
+- DRCET-4C public status: `VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY`
+- DRCET-4D public status: `VALIDATED_REVIEW_ONLY_PUBLIC_SAFE_SUMMARY`
+- Runtime replay status: `WITHHELD_FROM_OPEN_REPO`
 - External blind replay status: `PENDING_EXTERNAL_BLIND_REPLAY`
 
 ## Public Wording
 
-Foundation and governed routing are validated on public-safe synthetic lanes.
-The production ARIN22 kernel remains pending until a protected production
-container is attached and replayed under the same lane contracts.
+Public-safe synthetic lanes validate release discipline and evidence gating. Internal implementation details, construction names, protected factors, and implementation-specific mathematical surfaces are intentionally withheld from this open repository.
 
 See `PUBLIC_DISCLOSURE_BOUNDARY.md` before reusing any claim.

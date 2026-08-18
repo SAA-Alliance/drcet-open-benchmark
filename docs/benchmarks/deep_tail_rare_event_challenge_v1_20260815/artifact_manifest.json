@@ -1,33 +1,28 @@
 {
   "artifact_id": "deep_tail_rare_event_challenge_v1_20260815",
-  "artifacts": [
+  "claim_boundary": "public_safe_summary_or_synthetic_evidence_no_withheld_runtime_no_client_data_no_internal_construction_names",
+  "schema_id": "saa.drcet.deep_tail_rare_event_manifest.v1",
+  "files": [
     {
-      "byte_length": 438652,
-      "media_type": "application/json",
       "path": "DEEP_TAIL_RARE_EVENT_CHALLENGE_RESULT_V1.json",
-      "sha256": "sha256:f47a933c4321489f6e017fbd93ee18b556f26f428a92b5379255d2a7fb318833"
+      "byte_length": 439786,
+      "sha256": "sha256:61c91cb4097eca27a7c96f21906c864d7ffe7a02beaeb02a43bfadc0a53b3e09"
     },
     {
-      "byte_length": 2915,
-      "media_type": "application/json",
-      "path": "deep_tail_rare_event_summary.json",
-      "sha256": "sha256:cf792b6775e6b742c4e2c96e4d009877e75200fbd23f36d214c5582290413afe"
-    },
-    {
-      "byte_length": 30842,
-      "media_type": "text/csv",
-      "path": "deep_tail_rare_event_rows.csv",
-      "sha256": "sha256:a6344f419df7cde3ab2e21a0c414f4df5e586742dc30720066261a204bf0a5c5"
-    },
-    {
-      "byte_length": 415,
-      "media_type": "text/markdown",
       "path": "README.md",
-      "sha256": "sha256:695c9fd81e0feab269f4c1d55b91b84e2d9d21e2a648599803752616e4547c0c"
+      "byte_length": 415,
+      "sha256": "sha256:4e3394ffebc1558fadb8378686abfd87fc526698b0783a341a51b8485af1e858"
+    },
+    {
+      "path": "deep_tail_rare_event_rows.csv",
+      "byte_length": 30688,
+      "sha256": "sha256:187e5ddf3766cda31a6fb26ce9cbb628879bd380369130eacb19e149ff6ba01c"
+    },
+    {
+      "path": "deep_tail_rare_event_summary.json",
+      "byte_length": 2929,
+      "sha256": "sha256:496c18ea6dd0c3759fa06f01502a12517de0334c36283f5bebacb79fced30ec7"
     }
   ],
-  "claim_boundary": "Internal review-only pathological deep-tail challenge. Not external DRCET certification, not production model validation, not execution authorization.",
-  "generated_at_utc": "2026-08-15T20:40:46Z",
-  "manifest_sha256": "sha256:f0c86bf79fd58002ca969bd1c114ae4f5896834fba5a093505dead8bd5f2a029",
-  "schema_id": "saa.drcet.deep_tail_rare_event_manifest.v1"
+  "generated_at_utc": "2026-08-18T12:45:00Z"
 }
